@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Live Healty",
+            "heading": "Live Healthy",
             "heading_size": "h0"
           }
         },
@@ -147,6 +147,7 @@
     },
     "featured_collection": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Featured products",
         "heading_size": "h2",
@@ -201,6 +202,7 @@
         "product",
         "collection-1"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Multimedia collage",
         "heading_size": "h2",
@@ -224,6 +226,36 @@
         "color_scheme": "scheme-1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "402e23c4-1717-4373-a1f4-9aedb0b406b4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Empowering you to live healty.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Along with our medical advisory team, I've spent the last 30 years of my life researching how diet and lifestyle affect our physiology. I've come to realize that we have more control over our health than we may think. The keys are to focus on the fundamentals and to address the root causes of health challenges (not just the symptoms). The data is clear and our mission is simple: to share our knowledge with you through our products and content. Our whole team is here to support you on your health journey. Here is our phone number (610) 801-1503. Call us day or night, if we’re up, we’ll answer.<br\/><\/p><p>Chris Conway, Founder<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-heading-1",
+        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multicolumn": {
@@ -278,6 +310,207 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7": {
+      "type": "multirow",
+      "blocks": {
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-1": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-1",
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2",
+        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3"
+      ],
+      "disabled": true,
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I find the Nutrition Facts?",
+            "icon": "none",
+            "row_content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy#NutritionFacts\"><span style=\"text-decoration:underline\">CLICK HERE<\/span><\/a> to see Happy Being® iced tea Nutrition Facts.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What is your return policy?",
+            "icon": "none",
+            "row_content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How often should I drink this?",
+            "icon": "none",
+            "row_content": "<p>To maximize the benefits, we recommend drinking one per day.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-4": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What does the Happy Being® iced tea taste like?",
+            "icon": "none",
+            "row_content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
+            "page": ""
+          }
+        },
+        "118fa1ab-c882-4336-91cd-283af2607044": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there any sugar?",
+            "icon": "none",
+            "row_content": "<p>Happy Being® iced teas have a total  of 3 grams of naturally-occurring sugar per serving.  <br\/><\/p>",
+            "page": ""
+          }
+        },
+        "8ad6fea0-7ca7-4ff1-80b5-feb3dc970d6c": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How many calories?",
+            "icon": "none",
+            "row_content": "<p>Happy Being® iced teas have 40 calories per serving.<\/p>",
+            "page": ""
+          }
+        },
+        "d30de1c0-59a3-4c75-a030-dc6825bcab80": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "When should I drink?",
+            "icon": "none",
+            "row_content": "<p>We recommend drinking Happy Being® iced tea in the afternoon as a pick-me-up treat, though it’s also a great morning coffee replacement and evening wine alternative.  <br\/><\/p>",
+            "page": ""
+          }
+        },
+        "fbc1fcbf-d38a-4e60-8e35-a96370e4ab2f": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Is there caffeine?",
+            "icon": "none",
+            "row_content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
+            "page": ""
+          }
+        },
+        "e730d71c-32ca-4179-97b9-c6d34bcab50e": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "none",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "a248f8ac-ebcd-4113-9a87-38ab5b589d7c": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "546e343d-9acf-415c-b2c1-316525a8a545": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "3cac26af-45f5-409f-99aa-6832cb3d96d3": {
+          "type": "collapsible_row",
+          "disabled": true,
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-1",
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-2",
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-3",
+        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-4",
+        "118fa1ab-c882-4336-91cd-283af2607044",
+        "8ad6fea0-7ca7-4ff1-80b5-feb3dc970d6c",
+        "d30de1c0-59a3-4c75-a030-dc6825bcab80",
+        "fbc1fcbf-d38a-4e60-8e35-a96370e4ab2f",
+        "e730d71c-32ca-4179-97b9-c6d34bcab50e",
+        "a248f8ac-ebcd-4113-9a87-38ab5b589d7c",
+        "546e343d-9acf-415c-b2c1-316525a8a545",
+        "3cac26af-45f5-409f-99aa-6832cb3d96d3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -288,6 +521,9 @@
     "featured_collection",
     "collage",
     "video",
-    "multicolumn"
+    "402e23c4-1717-4373-a1f4-9aedb0b406b4",
+    "multicolumn",
+    "4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7",
+    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7"
   ]
 }
