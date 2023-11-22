@@ -35,7 +35,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/mh-home-banner.jpg",
+        "image": "shopify:\/\/shop_images\/1.01-1440x1074-Happy_Being-JTD-154730.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "desktop_content_position": "bottom-center",
@@ -45,7 +45,110 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
-        "show_text_below": false
+        "show_text_below": true
+      }
+    },
+    "c23ade3d-e60e-4247-9350-df78c371f87a": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Inflammation's worst nightmare.<\/strong>",
+            "text": "<p>Iced white tea packed with Turmeric, Elderberry, Vitamin D3, and polyphenols like EGCG (from green tea) and Pterostilbene (from blueberries) for a delicious and healthy refreshment that fights inflammation at the source.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>How it tastes<\/strong><\/p><p>Light, crisp, refreshing<\/p><p><\/p><p><strong>What it's for<\/strong><\/p><ul><li>Inflammation<\/li><li>Immune function<\/li><li>Gut health <\/li><\/ul>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-1",
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2",
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4c452083-00ec-4473-a77f-563546ff5b17": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inflammation's worst nightmare.",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Iced white tea packed with Turmeric, Elderberry, Vitamin D3, and polyphenols like EGCG (from green tea) and Pterostilbene (from blueberries) for a delicious and healthy refreshment that fights inflammation at the source.",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-heading-1",
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-text-1",
+        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-buttons-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1d0a4c80-6430-49be-835c-886760fbe4cf": {
@@ -515,6 +618,8 @@
   },
   "order": [
     "image_banner",
+    "c23ade3d-e60e-4247-9350-df78c371f87a",
+    "4c452083-00ec-4473-a77f-563546ff5b17",
     "1d0a4c80-6430-49be-835c-886760fbe4cf",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",
     "rich_text",
