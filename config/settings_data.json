@@ -191,7 +191,7 @@
           "background_gradient": "",
           "text": "#FFFFFF",
           "button": "#F94C43",
-          "button_label": "",
+          "button_label": "#8DBEFE",
           "secondary_button_label": "",
           "shadow": "#6A6A6A"
         }
@@ -255,6 +255,17 @@
             "button_label": "#334FB4",
             "secondary_button_label": "#FFFFFF",
             "shadow": "#121212"
+          }
+        },
+        "hb-old-homepage-banner": {
+          "settings": {
+            "background": "#1C1B1B",
+            "background_gradient": "",
+            "text": "#FFFFFF",
+            "button": "#F94C43",
+            "button_label": "#8DBEFE",
+            "secondary_button_label": "",
+            "shadow": "#6A6A6A"
           }
         }
       },
