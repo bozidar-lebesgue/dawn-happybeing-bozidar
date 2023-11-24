@@ -162,19 +162,16 @@
             </div>
             {%- when 'five-star-rating' -%}
               <div>
-                <div style="display: flex; align-items: flex-start;">
-                {%- for num in (1..5) -%}
-                  <div style="margin-right: 6px;">
-                    {%- liquid render 'icon-star' -%}
-                  </div>
-                {%- endfor -%}
+                <div class="five-star-container">
+                  {%- for num in (1..5) -%}
+                    <div style="margin-right: 6px;">
+                      {%- liquid render 'icon-star' -%}
+                    </div>
+                  {%- endfor -%}
                 </div>
-                <h2
-                  class="{{ block.settings.heading_size }}"
-                  {{ block.shopify_attributes }}
-                >
+                <div class="five-star-text">
                   {{ block.settings.heading }}
-                </h2>
+                </div>
               </div>
         {%- endcase -%}
       {%- endfor -%}
