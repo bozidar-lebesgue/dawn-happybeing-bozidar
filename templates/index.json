@@ -6,7 +6,6 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "color_scheme": "scheme-1",
             "heading": "Live Healthy",
             "heading_size": "h0"
           }
@@ -14,7 +13,6 @@
         "text": {
           "type": "text",
           "settings": {
-            "color_scheme": "scheme-1",
             "text": "A new kind of delicious tasting, polyphenol enriched iced-tea.",
             "text_style": "body"
           }
@@ -22,7 +20,6 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "color_scheme": "scheme-1",
             "button_label_1": "Shop Now",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
@@ -34,7 +31,6 @@
         "five-star-rating": {
           "type": "five-star-rating",
           "settings": {
-            "color_scheme": "scheme-1",
             "heading": "Over 7,000 Happy Customers",
             "heading_size": "h3"
           }
@@ -47,7 +43,7 @@
         "five-star-rating"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.01-1440x1074-Happy_Being-JTD-154730.jpg",
+        "image": "shopify:\/\/shop_images\/Blueberry_in_cans-2.png",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
