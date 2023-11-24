@@ -27,23 +27,31 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "five-star-rating": {
+          "type": "five-star-rating",
+          "settings": {
+            "heading": "Over 7,000 Happy Customers",
+            "heading_size": "h3"
+          }
         }
       },
       "block_order": [
         "heading",
         "text",
-        "button"
+        "button",
+        "five-star-rating"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/1.01-1440x1074-Happy_Being-JTD-154730.jpg",
-        "image_overlay_opacity": 40,
+        "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "middle-left",
         "show_text_box": false,
-        "desktop_content_alignment": "middle-left",
-        "color_scheme": "scheme-2",
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "middle-left",
+        "mobile_content_alignment": "center",
         "stack_images_on_mobile": false,
         "show_text_below": true
       }

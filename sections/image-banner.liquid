@@ -160,6 +160,22 @@
                 </a>
               {%- endif -%}
             </div>
+            {%- when 'five-star-rating' -%}
+              <div>
+                <div style="display: flex; align-items: flex-start;">
+                {%- for num in (1..5) -%}
+                  <div style="margin-right: 6px;">
+                    {%- liquid render 'icon-star' -%}
+                  </div>
+                {%- endfor -%}
+                </div>
+                <h2
+                  class="{{ block.settings.heading_size }}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.heading }}
+                </h2>
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -371,6 +387,39 @@
           "type": "inline_richtext",
           "id": "heading",
           "default": "Image banner",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "five-star-rating",
+      "name": "Five star rating",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Heading text",
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
