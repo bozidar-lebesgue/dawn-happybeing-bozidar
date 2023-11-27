@@ -4,6 +4,12 @@
   flex-direction: column;
 }
 
+.gradient-container {
+  position: absolute;
+  top: 0;
+  width: 50%;
+}
+
 .banner__box {
   text-align: center;
 }
@@ -445,10 +451,6 @@
 
 .icon-star {
   fill: black;
-}
-
-.five-star-text {
-  
 }
 
 @media screen and (max-width: 749px) {

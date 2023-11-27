@@ -1,4 +1,4 @@
-{{ 'section-image-banner-hb.css' | asset_url | stylesheet_tag }}
+{{ 'section-homepage-top-hb.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -31,7 +31,7 @@
 
 {%- liquid
   assign full_width = '100vw'
-  assign widths = '375, 550, 640, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+  assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
 
   if section.settings.image_behavior == 'ambient'
     assign half_width = '60vw'
@@ -55,6 +55,16 @@
   id="Banner-{{ section.id }}"
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
+  {%- if section.settings.gradient_1 != blank -%}
+    <div class="gradient-container" style="left: 0">
+      
+    </div>
+  {%- endif -%}
+  {%- if section.settings.gradient_2 != blank -%}
+    <div class="gradient-container" style="right: 0">
+      
+    </div>
+  {%- endif -%}  
   {%- if section.settings.image != blank -%}
     <div class="banner__media media{% if section.settings.image == blank and section.settings.image_2 == blank %} placeholder{% endif %}{% if section.settings.image_2 != blank %} banner__media-half{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {%- liquid
@@ -172,24 +182,6 @@
                 <div class="five-star-text">
                   {{ block.settings.heading }}
                 </div>
-              </div>
-            {%- when 'image' -%}
-              <div class="banner__media media {% if block.settings.image_behavior != 'none' %} animate--{{ block.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-                {%- liquid
-                  assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
-                  assign sizes = full_width
-                -%}
-                {{
-                  section.settings.image
-                  | image_url: width: 3840
-                  | image_tag:
-                    width: section.settings.image.width,
-                    height: image_height,
-                    class: image_class,
-                    sizes: sizes,
-                    widths: widths,
-                    fetchpriority: fetch_priority
-                }}
               </div>
         {%- endcase -%}
       {%- endfor -%}
@@ -393,18 +385,6 @@
     }
   ],
   "blocks": [
-    {
-      "type": "image",
-      "name": "t:sections.image-banner.settings.image.label",
-      "limit": 1,
-      "settings": [
-        {
-          "type": "image_picker",
-          "id": "image",
-          "label": "t:sections.image-banner.settings.image.label"
-        }
-      ]
-    },
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
