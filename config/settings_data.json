@@ -187,13 +187,13 @@
       },
       "hb-old-homepage-banner": {
         "settings": {
-          "background": "#1C1B1B",
-          "background_gradient": "",
-          "text": "#FFFFFF",
-          "button": "#F94C43",
-          "button_label": "#8DBEFE",
+          "background": "#1c1b1b",
+          "background_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+          "text": "#ffffff",
+          "button": "#f94c43",
+          "button_label": "#8dbefe",
           "secondary_button_label": "",
-          "shadow": "#6A6A6A"
+          "shadow": "#6a6a6a"
         }
       }
     }
