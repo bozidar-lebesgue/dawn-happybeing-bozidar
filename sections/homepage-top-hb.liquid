@@ -27,6 +27,17 @@
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
+  
+  {%- if section.settings.gradient_1 != blank -%}
+    .gradient-section-1 {
+      background: {{ section.settings.gradient_1 }};
+    }
+  {%- endif -%}
+  {%- if section.settings.gradient_2 != blank -%}
+    .gradient-section-2 {
+      background: {{ section.settings.gradient_2 }};
+    }
+  {%- endif -%}  
 {%- endstyle -%}
 
 {%- liquid
@@ -56,13 +67,11 @@
   class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.gradient_1 != blank -%}
-    <div class="gradient-container" style="left: 0">
-      
+    <div class="gradient-container gradient-section-1" style="left: 0">
     </div>
   {%- endif -%}
   {%- if section.settings.gradient_2 != blank -%}
-    <div class="gradient-container" style="right: 0">
-      
+    <div class="gradient-container gradient-section-2" style="right: 0">
     </div>
   {%- endif -%}  
   {%- if section.settings.image != blank -%}
@@ -183,6 +192,23 @@
                   {{ block.settings.heading }}
                 </div>
               </div>
+            {%- when 'image' -%}
+              <div class="{% if block.settings.image_behavior != 'none' %} animate--{{ block.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+                {%- liquid
+                  assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                  assign sizes = full_width
+                -%}
+                {{
+                  block.settings.image
+                  | image_url: width: 3840
+                  | image_tag:
+                    width: section.settings.image.width,
+                    height: image_height,
+                    sizes: sizes,
+                    widths: widths,
+                    fetchpriority: fetch_priority
+                }}
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>
@@ -198,6 +224,18 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "color_background",
+      "id": "gradient_1",
+      "label": "Top left gradient",
+      "info": "Top left gradient"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient_2",
+      "label": "Top right gradient",
+      "info": "Top right gradient"
+    },
     {
       "type": "image_picker",
       "id": "image",
@@ -385,6 +423,17 @@
     }
   ],
   "blocks": [
+    {
+      "type": "image",
+      "name": "t:sections.collage.blocks.image.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "t:sections.collage.blocks.image.settings.image.label"
+        }
+      ]
+    },
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
