@@ -7,7 +7,8 @@
 .gradient-container {
   position: absolute;
   top: 0;
-  width: 50%;
+  width: 50vw;
+  height: min(50vw, 60rem);
 }
 
 .banner__box {
@@ -446,7 +447,6 @@
 
 .five-star-container {
   display: flex;
-  align-items: flex-start;
 }
 
 .icon-star {
