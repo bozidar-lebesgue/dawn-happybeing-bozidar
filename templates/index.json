@@ -3,18 +3,19 @@
     "image_banner": {
       "type": "homepage-top-hb",
       "blocks": {
-        "heading1": {
+        "heading": {
           "type": "heading",
           "settings": {
             "heading": "Live Healthy.",
-            "heading_size": 80
+            "heading_size": 10
           }
         },
         "text": {
           "type": "text",
           "settings": {
             "text": "A new kind of delicious tasting, polyphenol enriched iced-tea.",
-            "text_style": "body"
+            "text_style": "body",
+            "text_size": 4
           }
         },
         "button": {
@@ -41,22 +42,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png"
           }
-        },
-        "heading2": {
-          "type": "heading",
-          "settings": {
-            "heading": "What Happy Being® does for you",
-            "heading_size": 72
-          }
         }
       },
       "block_order": [
-        "heading1",
+        "heading",
         "text",
         "five-star-rating",
         "button",
-        "ba6b8365-95f0-4058-be48-1abcd665d991",
-        "heading2"
+        "ba6b8365-95f0-4058-be48-1abcd665d991"
       ],
       "settings": {
         "gradient_1": "",

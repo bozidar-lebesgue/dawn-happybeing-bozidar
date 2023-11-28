@@ -70,14 +70,14 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext" style="font-size: {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext" style="font-size: {{ block.settings.heading_size }}rem"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
             </h2>
           {%- when 'text' -%}
-            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }}>
-              <p>{{ block.settings.text }}</p>
+            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} style="font-size: {{ block.settings.text_size }}rem">
+              {{ block.settings.text }}
             </div>
           {%- when 'buttons' -%}
             <div
@@ -362,10 +362,10 @@
           "type": "range",
           "id": "heading_size",
           "min": 0,
-          "max": 100,
-          "step": 1,
-          "default": 72,
-          "unit": "px",
+          "max": 20,
+          "step": 0.2,
+          "default": 10,
+          "unit": "rem",
           "label": "Font size"
         }
       ]
@@ -419,6 +419,16 @@
           "id": "text",
           "default": "Give customers details about the banner image(s) or content on the template.",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
+        },
+        {
+          "type": "range",
+          "id": "text_size",
+          "min": 0,
+          "max": 20,
+          "step": 0.2,
+          "default": 4,
+          "unit": "rem",
+          "label": "Font size"
         },
         {
           "type": "select",
