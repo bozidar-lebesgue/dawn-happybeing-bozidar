@@ -1,5 +1,11 @@
 .multicolumn .title {
   margin: 0;
+  font-weight: 600;
+}
+
+.title--center {
+  margin: 0 auto;
+  text-align: center;
 }
 
 .multicolumn.no-heading .title {
