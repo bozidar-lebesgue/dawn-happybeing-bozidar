@@ -108,36 +108,42 @@
               {%- endif -%}
             </div>
             {%- when 'five-star-rating' -%}
-              <div>
-                <div class="five-star-container">
-                  {%- for num in (1..5) -%}
-                    <div style="margin-right: 6px;">
-                      {%- liquid render 'icon-star' -%}
-                    </div>
-                  {%- endfor -%}
-                  <div>
-                    {{ block.settings.rating }}
+              <div class="five-star-container banner__content banner__content--{{ section.settings.desktop_content_position }}">
+                {%- for num in (1..5) -%}
+                  <div style="margin-right: 6px;">
+                    {%- liquid render 'icon-star' -%}
                   </div>
-                  <div>
-                    {{ block.settings.heading }}
-                  </div>
+                {%- endfor -%}
+                <div>
+                  {{ block.settings.rating }}
+                </div>
+                <div>
+                  {{ block.settings.heading }}
                 </div>
               </div>
             {%- when 'image' -%}
               <div class="{% if block.settings.image_behavior != 'none' %} animate--{{ block.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
                 {%- liquid
+                  assign image_width = block.settings.image.width
                   assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
                   assign sizes = full_width
                 -%}
+                <div>
+                  {{ section.image_width }}
+                </div>
+                <div>
+                  {{ block.image_width }}
+                </div>
                 {{
                   block.settings.image
-                  | image_url: width: 3840
-                  | image_tag:
+                  | image_url: width: 3840 
+                  | image_tag: 
                     width: block.settings.image.width,
                     height: section.image_height,
                     sizes: sizes,
                     widths: widths,
-                    fetchpriority: fetch_priority
+                    fetchpriority: fetch_priority,
+                    preload: true
                 }}
               </div>
         {%- endcase -%}

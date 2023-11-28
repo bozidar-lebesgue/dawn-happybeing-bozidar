@@ -8,7 +8,15 @@
   position: absolute;
   top: 0;
   width: 50vw;
-  height: min(50vw, 60rem);
+  height: min(50vw, 600px);
+}
+
+.five-star-container {
+  display: flex;
+}
+
+.icon-star {
+  fill: black;
 }
 
 .banner__box {
@@ -443,14 +451,6 @@
   gap: 1rem;
   max-width: 45rem;
   word-break: break-word;
-}
-
-.five-star-container {
-  display: flex;
-}
-
-.icon-star {
-  fill: black;
 }
 
 @media screen and (max-width: 749px) {
