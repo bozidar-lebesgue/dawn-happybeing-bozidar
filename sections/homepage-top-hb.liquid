@@ -37,7 +37,9 @@
     .gradient-section-2 {
       background: {{ section.settings.gradient_2 }};
     }
-  {%- endif -%}  
+  {%- endif -%}
+
+
 {%- endstyle -%}
 
 {%- liquid
@@ -68,7 +70,7 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
+              class="banner__heading inline-richtext" style="font-size: {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
@@ -124,16 +126,16 @@
             {%- when 'image' -%}
               <div class="{% if block.settings.image_behavior != 'none' %} animate--{{ block.settings.image_behavior }}{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
                 {%- liquid
-                  assign image_width = block.settings.image.width
-                  assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                  assign image_width = '100%'
+                  assign image_height =  '100%'
                   assign sizes = full_width
                 -%}
                 {{
                   block.settings.image
                   | image_url: width: 660 
                   | image_tag: 
-                    width: block.settings.image.width,
-                    height: section.image_height,
+                    width: image_width,
+                    height: image_height,
                     sizes: sizes,
                     widths: widths,
                     fetchpriority: fetch_priority,
@@ -348,7 +350,7 @@
     {
       "type": "heading",
       "name": "t:sections.image-banner.blocks.heading.name",
-      "limit": 1,
+      "limit": 2,
       "settings": [
         {
           "type": "inline_richtext",
@@ -357,24 +359,14 @@
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
-          "type": "select",
+          "type": "range",
           "id": "heading_size",
-          "options": [
-            {
-              "value": "h2",
-              "label": "t:sections.all.heading_size.options__1.label"
-            },
-            {
-              "value": "h1",
-              "label": "t:sections.all.heading_size.options__2.label"
-            },
-            {
-              "value": "h0",
-              "label": "t:sections.all.heading_size.options__3.label"
-            }
-          ],
-          "default": "h1",
-          "label": "t:sections.all.heading_size.label"
+          "min": 0,
+          "max": 100,
+          "step": 1,
+          "default": 72,
+          "unit": "px",
+          "label": "Font size"
         }
       ]
     },

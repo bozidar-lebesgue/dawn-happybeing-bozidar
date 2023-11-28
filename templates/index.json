@@ -3,11 +3,11 @@
     "image_banner": {
       "type": "homepage-top-hb",
       "blocks": {
-        "heading": {
+        "heading1": {
           "type": "heading",
           "settings": {
             "heading": "Live Healthy.",
-            "heading_size": "h2"
+            "heading_size": 80
           }
         },
         "text": {
@@ -41,17 +41,25 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png"
           }
+        },
+        "heading2": {
+          "type": "heading",
+          "settings": {
+            "heading": "What Happy Being® does for you",
+            "heading_size": 72
+          }
         }
       },
       "block_order": [
-        "heading",
+        "heading1",
         "text",
         "five-star-rating",
         "button",
-        "ba6b8365-95f0-4058-be48-1abcd665d991"
+        "ba6b8365-95f0-4058-be48-1abcd665d991",
+        "heading2"
       ],
       "settings": {
-        "gradient_1": "linear-gradient(180deg, rgba(212, 249, 240, 1), rgba(212, 222, 255, 1) 100%, rgba(212, 222, 255, 1) 100%)",
+        "gradient_1": "",
         "gradient_2": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
         "image_height": "medium",
         "desktop_content_position": "middle",
