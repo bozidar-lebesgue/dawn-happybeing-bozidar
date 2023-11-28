@@ -29,7 +29,7 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Shop Now →",
             "button_link_1": "shopify:\/\/collections\/all",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -148,7 +148,7 @@
         "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-buttons-1": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop Now",
+            "button_label_1": "Shop Now →",
             "button_link_1": "",
             "button_style_secondary_1": true,
             "button_label_2": "",
