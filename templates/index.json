@@ -6,8 +6,8 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Live Healthy",
-            "heading_size": "h0"
+            "heading": "Live Healthy.",
+            "heading_size": "h2"
           }
         },
         "text": {
@@ -31,8 +31,8 @@
         "five-star-rating": {
           "type": "five-star-rating",
           "settings": {
-            "rating": "5.0",
-            "heading": "Over 7,000 Happy Customers",
+            "rating": "4.9",
+            "heading": "7,000+ Happy Customers",
             "heading_size": "h3"
           }
         },
@@ -46,8 +46,8 @@
       "block_order": [
         "heading",
         "text",
-        "button",
         "five-star-rating",
+        "button",
         "ba6b8365-95f0-4058-be48-1abcd665d991"
       ],
       "settings": {

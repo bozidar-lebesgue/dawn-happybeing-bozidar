@@ -108,7 +108,7 @@
               {%- endif -%}
             </div>
             {%- when 'five-star-rating' -%}
-              <div class="five-star-container banner__content banner__content--{{ section.settings.desktop_content_position }}">
+              <div class="five-star-container banner_content banner__content--{{ section.settings.desktop_content_position }}">
                 {%- for num in (1..5) -%}
                   <div style="margin-right: 6px;">
                     {%- liquid render 'icon-star' -%}
@@ -117,7 +117,7 @@
                 <div>
                   {{ block.settings.rating }}
                 </div>
-                <div>
+                <div class="five-star__desc">
                   {{ block.settings.heading }}
                 </div>
               </div>
@@ -128,15 +128,9 @@
                   assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
                   assign sizes = full_width
                 -%}
-                <div>
-                  {{ section.image_width }}
-                </div>
-                <div>
-                  {{ block.image_width }}
-                </div>
                 {{
                   block.settings.image
-                  | image_url: width: 3840 
+                  | image_url: width: 660 
                   | image_tag: 
                     width: block.settings.image.width,
                     height: section.image_height,
