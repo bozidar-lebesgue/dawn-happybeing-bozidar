@@ -53,7 +53,7 @@
       ],
       "settings": {
         "gradient_1": "",
-        "gradient_2": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
+        "gradient_2": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
         "image_height": "medium",
         "desktop_content_position": "middle",
         "show_text_box": false,
