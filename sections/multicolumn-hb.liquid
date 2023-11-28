@@ -13,6 +13,28 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .title {
+    font-size: {{ section.settings.title_font_size }}rem;
+    margin-bottom: {{ section.settings.title_margin_bottom }}px;
+  }
+
+  .subtitle {
+    font-size: {{ section.settings.subtitle_font_size }}rem;
+    font-family: {{ section.settings.subtitle_font_family }};
+    margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
+  }
+
+  .column__title {
+    font-size: {{ section.settings.column_title_font_size }}rem;
+    margin-top: {{ section.settings.column_margin_top }}px;
+    margin-bottom: {{ section.settings.column_margin_bottom }}px;
+  }
+
+  .column__content {
+    font-size: {{ section.settings.column_content_font_size }}rem;
+  }
+
 {%- endstyle -%}
 
 {%- liquid
@@ -34,6 +56,9 @@
       <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin">
         <h2 class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
+        </h2>
+        <h2 class="subtitle">
+          {{ section.settings.subtitle }}
         </h2>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
           <a href="{{ section.settings.button_link }}" class="link underlined-link large-up-hide">
@@ -131,10 +156,10 @@
                   </div>                
                 {%- endif -%}
                 {%- if block.settings.title != blank -%}
-                  <h3 class="inline-richtext">{{ block.settings.title }}</h3>
+                  <h3 class="inline-richtext column__title">{{ block.settings.title }}</h3>
                 {%- endif -%}
                 {%- if block.settings.text != blank -%}
-                  <div class="rte">{{ block.settings.text }}</div>
+                  <div class="rte column__content">{{ block.settings.text }}</div>
                 {%- endif -%}
                 {%- if block.settings.link_label != blank -%}
                   <a
@@ -213,6 +238,72 @@
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "range",
+      "id": "title_font_size",
+      "min": 0,
+      "unit": "rem",
+      "max": 20,
+      "step": 0.2,
+      "default": 1.5,
+      "label": "Title font size"
+    },
+    {
+      "type": "range",
+      "id": "title_margin_bottom",
+      "min": 0,
+      "unit": "px",
+      "max": 100,
+      "step": 1,
+      "default": 10,
+      "label": "Title margin bottom"
+    },
+    {
+      "type": "font_picker",
+      "id": "subtitle_font_family",
+      "default": "assistant_n4",
+      "label": "Subtitle font family"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_font_size",
+      "min": 0,
+      "unit": "rem",
+      "max": 20,
+      "step": 0.2,
+      "default": 1.5,
+      "label": "Subtitle font size"
+    },
+    {
+      "type": "range",
+      "id": "subtitle_margin_bottom",
+      "min": 0,
+      "unit": "px",
+      "max": 100,
+      "step": 1,
+      "default": 10,
+      "label": "Subtitle margin bottom"
+    },
+    {
+      "type": "range",
+      "id": "column_title_font_size",
+      "min": 0,
+      "unit": "rem",
+      "max": 20,
+      "step": 0.2,
+      "default": 1.5,
+      "label": "Column title font size"
+    },
+    {
+      "type": "range",
+      "id": "column_content_font_size",
+      "min": 0,
+      "unit": "rem",
+      "max": 20,
+      "step": 0.2,
+      "default": 1,
+      "label": "Column title font size"
     },
     {
       "type": "select",
