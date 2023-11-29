@@ -247,7 +247,7 @@
       }
     },
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e": {
-      "type": "slideshow",
+      "type": "review-slideshow-hb",
       "blocks": {
         "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
           "type": "slide",
@@ -262,7 +262,7 @@
             "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -291,7 +291,8 @@
       "settings": {
         "layout": "full_bleed",
         "slide_height": "medium",
-        "slider_visual": "counter",
+        "slider_visual": "car",
+        "gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
