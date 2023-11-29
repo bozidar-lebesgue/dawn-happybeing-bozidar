@@ -103,20 +103,22 @@
       ],
       "settings": {
         "title": "What Happy Being® does for you",
-        "title_margin_bottom": 0,
-        "title_font_size": 7,
         "subtitle": "Research-backed, doctor-recommended.",
-        "title_alignment": "center",
-        "subtitle_margin_bottom": 20,
+        "title_font_size": 7,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 5,
-        "column_title_margin_top": 30,
-        "column_title_margin_bottom": 30,
+        "subtitle_margin_bottom": 20,
         "column_title_font_size": 2.4,
+        "column_title_margin_bottom": 30,
+        "column_title_margin_top": 30,
         "column_content_font_size": 1.8,
+        "heading_size": "h1",
         "image_width": "full",
         "enumerate": "yes",
         "image_ratio": "adapt",
         "columns_desktop": 3,
+        "title_alignment": "center",
         "column_alignment": "center",
         "background_style": "none",
         "button_label": "",
@@ -242,6 +244,59 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "rich_text": {
@@ -648,6 +703,7 @@
     "4c452083-00ec-4473-a77f-563546ff5b17",
     "1d0a4c80-6430-49be-835c-886760fbe4cf",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",
+    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
     "rich_text",
     "featured_collection",
     "collage",
