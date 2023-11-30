@@ -317,8 +317,8 @@
       ],
       "settings": {
         "title": "",
+        "image": "shopify:\/\/shop_images\/Iysine.png",
         "heading_size": "h1",
-        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -326,11 +326,11 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-4",
+        "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "rich_text": {
