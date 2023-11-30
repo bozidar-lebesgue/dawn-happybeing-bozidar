@@ -180,59 +180,6 @@
         "show_text_below": true
       }
     },
-    "1d0a4c80-6430-49be-835c-886760fbe4cf": {
-      "type": "multicolumn",
-      "blocks": {
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>You get a world class drink, formulated by world class MDs.<\/strong>",
-            "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland MD focused their combined 100+ years of clinical experience towards helping create Happy Being®.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>You get science-backed benefits.<\/strong>",
-            "text": "<p>We put the most healthful, research-backed nutrients into each serving at doctor-recommended doses and in the most bioavailable forms possible forscience-backed results.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>You get an iced-tea that's so delicious, you'd drink it just for the taste.<\/strong>",
-            "text": "<p>The world’s healthiest drinks can’t do you any good if you don’t drink them every day, so we make sure you’ll love the way it tastes each and every time.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3"
-      ],
-      "settings": {
-        "title": "What Happy Being® gives you",
-        "heading_size": "h1",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69": {
       "type": "video",
       "disabled": true,
@@ -330,6 +277,59 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "1d0a4c80-6430-49be-835c-886760fbe4cf": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>You get a world class drink, formulated by world class MDs.<\/strong>",
+            "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland MD focused their combined 100+ years of clinical experience towards helping create Happy Being®.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>You get science-backed benefits.<\/strong>",
+            "text": "<p>We put the most healthful, research-backed nutrients into each serving at doctor-recommended doses and in the most bioavailable forms possible forscience-backed results.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>You get an iced-tea that's so delicious, you'd drink it just for the taste.<\/strong>",
+            "text": "<p>The world’s healthiest drinks can’t do you any good if you don’t drink them every day, so we make sure you’ll love the way it tastes each and every time.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1",
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2",
+        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3"
+      ],
+      "settings": {
+        "title": "What Happy Being® gives you",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "rich_text": {
@@ -737,10 +737,10 @@
     "image_banner",
     "c23ade3d-e60e-4247-9350-df78c371f87a",
     "4c452083-00ec-4473-a77f-563546ff5b17",
-    "1d0a4c80-6430-49be-835c-886760fbe4cf",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
     "153683af-8722-4fab-9f64-7d7b27e25f7b",
+    "1d0a4c80-6430-49be-835c-886760fbe4cf",
     "rich_text",
     "featured_collection",
     "collage",
