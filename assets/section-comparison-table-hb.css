@@ -1,0 +1,20 @@
+
+.comparison-table__row--1 {
+  background-color: #E8F1FF;
+}
+
+.comparison-table__row--0 {
+  background-color: #FFFFFFB2;
+}
+
+
+.comparison-table__row option {
+  width: 40%;
+  text-align: center;
+}
+
+.comparison-table__row .checkmarks {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}

@@ -1,0 +1,132 @@
+{{ 'section-comparison-table-hb.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+{%- endstyle -%}
+
+{%- liquid
+-%}
+
+<div
+  id="ComparisonTable-{{ section.id }}"
+  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}"
+>
+  {%- for block in setion.blocks -%}
+    <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
+      <div class="comparison-table option">
+        {{ block.settings.first_description }}
+      </div>
+
+      <div class="checkmarks">
+        {% if block.settings.first_check %}
+          {% render 'icon-caret' %}
+        {% else %}
+          {% render 'icon-caret' %}
+        {% endif %}
+
+        {% if block.settings.second_check %}
+          {% render 'icon-caret' %}
+        {% else %}
+          {% render 'icon-caret' %}
+        {% endif %}
+      </div>
+      
+      <div class="comparison-table option">
+        {{ block.settings.second_description }}
+      </div>
+    </div>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Comparison table HB",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_title",
+      "default": "First title",
+      "label": "First title"
+    },
+    {
+      "type": "text",
+      "id": "second_title",
+      "default": "Second title",
+      "label": "Second title"
+    },
+    {
+      "type": "range",
+      "id": "corner_radius",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "corner radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 0,
+      "max": 40,
+      "step": 0.5,
+      "unit": "px",
+      "label": "Border width",
+      "default": 0
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "padding",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Padding",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "column",
+      "name": "t:sections.multicolumn.blocks.column.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_description",
+          "label": "First description"
+        },
+        {
+          "type": "checkbox",
+          "id": "first_check",
+          "default": true,
+          "label": "First checkbox"
+        },
+        {
+          "type": "text",
+          "id": "second_description",
+          "label": "Second description"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_check",
+          "default": false,
+          "label": "Second checkbox"
+        }
+      ]
+    }
+  ],
+  "presets": []
+}
+{% endschema %}
