@@ -1,6 +1,6 @@
 {
   "sections": {
-    "image_banner": {
+    "homepage_top_hb": {
       "type": "homepage-top-hb",
       "blocks": {
         "heading": {
@@ -338,52 +338,43 @@
       }
     },
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe": {
-      "type": "homepage-top-hb",
+      "type": "comparison-table-hb",
       "blocks": {
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-heading-1": {
-          "type": "heading",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
+          "type": "row",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": 10
+            "first_description": "The more you drink the better you feel",
+            "second_description": "Effects wear off over time"
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-text-1": {
-          "type": "text",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
+          "type": "row",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_size": 4,
-            "text_style": "body"
+            "first_description": "Doctor approved & formulated",
+            "second_description": "“Influencer approved”"
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-buttons-1": {
-          "type": "buttons",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
+          "type": "row",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "first_description": "Polyphenol extracts",
+            "second_description": "Juice, and maybe some probiotics"
           }
         }
       },
       "block_order": [
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-heading-1",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-text-1",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-buttons-1"
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3"
       ],
       "settings": {
-        "gradient_1": "",
-        "gradient_2": "",
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "first_title": "happy being®",
+        "second_title": "Pressed juices",
+        "corner_radius": 24,
+        "padding": 32,
+        "heading_size": 24,
+        "border_width": 1,
+        "color_scheme": "scheme-3"
       }
     },
     "rich_text": {
@@ -793,7 +784,7 @@
     }
   },
   "order": [
-    "image_banner",
+    "homepage_top_hb",
     "c23ade3d-e60e-4247-9350-df78c371f87a",
     "4c452083-00ec-4473-a77f-563546ff5b17",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",

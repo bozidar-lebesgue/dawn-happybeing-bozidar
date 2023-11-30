@@ -1,42 +1,62 @@
 {{ 'section-comparison-table-hb.css' | asset_url | stylesheet_tag }}
-{{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
-{%- style -%}
-{%- endstyle -%}
-
-{%- liquid
--%}
+{% style %}
+  #ComparisonTable-{{ section.id }} .comparison-table {
+    border-radius: {{ section.settings.corner_radius }}px;
+    border: {{ section.settings.border_width }}px solid black;
+    padding: {{ section.settings.padding }}px;
+    background-color: var(--color-foreground);
+  }
+  #ComparisonTable-{{ section.id }} .title {
+    font-size: {{ section.settings.heading_size }}px;
+  }
+{% endstyle %}
 
 <div
   id="ComparisonTable-{{ section.id }}"
-  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}"
+  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient"
 >
-  {%- for block in setion.blocks -%}
-    <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
-      <div class="comparison-table option">
-        {{ block.settings.first_description }}
-      </div>
+  <div class="page-width comparison-table-container">
+    <div class="comparison-table">
+      <div class="comparison-table__row">
+        <div class="title option">
+          {{ section.settings.first_title }}
+        </div>
 
-      <div class="checkmarks">
-        {% if block.settings.first_check %}
-          {% render 'icon-caret' %}
-        {% else %}
-          {% render 'icon-caret' %}
-        {% endif %}
+        <div class="checkmarks"></div>
 
-        {% if block.settings.second_check %}
-          {% render 'icon-caret' %}
-        {% else %}
-          {% render 'icon-caret' %}
-        {% endif %}
+        <div class="title option">
+          {{ section.settings.second_title }}
+        </div>
       </div>
-      
-      <div class="comparison-table option">
-        {{ block.settings.second_description }}
-      </div>
+      {%- for block in section.blocks -%}
+        <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
+          <div class="option--row option">
+            <div>{{ block.settings.first_description }}</div>
+            
+          </div>
+
+          <div class="checkmarks">
+            {% if block.settings.first_check %}
+              {% render 'icon-checkmark-circle' %}
+            {% else %}
+              {% render 'icon-cancel-circle' %}
+            {% endif %}
+
+            {% if block.settings.second_check %}
+              {% render 'icon-checkmark-circle' %}
+            {% else %}
+              {% render 'icon-cancel-circle' %}
+            {% endif %}
+          </div>
+          
+          <div class="option--row option">
+            {{ block.settings.second_description }}
+          </div>
+        </div>
+      {%- endfor -%}
     </div>
-  {%- endfor -%}
+  </div>
 </div>
 
 {% schema %}
@@ -59,6 +79,16 @@
       "id": "second_title",
       "default": "Second title",
       "label": "Second title"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "heading_size",
+      "default": 0
     },
     {
       "type": "range",
@@ -99,8 +129,8 @@
   ],
   "blocks": [
     {
-      "type": "column",
-      "name": "t:sections.multicolumn.blocks.column.name",
+      "type": "row",
+      "name": "Row",
       "settings": [
         {
           "type": "text",
@@ -127,6 +157,20 @@
       ]
     }
   ],
-  "presets": []
+  "presets": [
+    {
+      "name": "Presets",
+      "blocks": [
+        {
+          "type": "row"
+        },
+        {
+          "type": "row"
+        },
+        {
+          "type": "row"
+        }
+      ]
+    }]
 }
 {% endschema %}

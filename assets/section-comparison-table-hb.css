@@ -1,20 +1,55 @@
 
-.comparison-table__row--1 {
-  background-color: #E8F1FF;
+.comparison-table {
+  width: 80%;
+}
+
+.comparison-table-container {
+  display: flex;
+  justify-content: center;  
+}
+
+.comparison-table__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px;
+  width: 100%;
+  flex: 1;
 }
 
 .comparison-table__row--0 {
   background-color: #FFFFFFB2;
 }
 
+.title {
+  font-weight: 800;
+}
 
-.comparison-table__row option {
-  width: 40%;
+.option--row {
+  font-weight: 500;
+}
+
+.comparison-table__row--1 {
+  background-color: #E8F1FF;
+}
+
+.comparison-table__row .option {
+  width: 45%;
   text-align: center;
 }
 
 .comparison-table__row .checkmarks {
   display: flex;
   justify-content: space-between;
-  width: 20%;
+  align-items: center;
+  width: 10%;
+  height: 16px;
 }
+
+
+
+/* @media screen and (min-width: 750px) {
+  .comparison-table {
+    width: 50%;
+  }
+} */
