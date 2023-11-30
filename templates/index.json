@@ -372,7 +372,7 @@
         "second_title": "Pressed juices",
         "corner_radius": 24,
         "padding": 32,
-        "heading_size": 24,
+        "heading_size": 32,
         "border_width": 1,
         "color_scheme": "scheme-3"
       }
