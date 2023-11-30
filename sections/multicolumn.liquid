@@ -14,6 +14,11 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
+
+  .multicolumn-card {
+    border-radius: {{ section.settings.column_corner_radius }}px;
+    border: {{ section.settings.column_border_width }}px solid black;
+  }
 {%- endstyle -%}
 
 {%- liquid
@@ -223,6 +228,26 @@
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
+    },
+    {
+      "type": "range",
+      "id": "column_corner_radius",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "Column corner radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "column_border_width",
+      "min": 0,
+      "max": 40,
+      "step": 0.5,
+      "unit": "px",
+      "label": "Column border width",
+      "default": 0
     },
     {
       "type": "image_picker",

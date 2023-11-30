@@ -318,6 +318,8 @@
       "settings": {
         "title": "",
         "image": "shopify:\/\/shop_images\/Iysine.png",
+        "column_corner_radius": 24,
+        "column_border_width": 1,
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
