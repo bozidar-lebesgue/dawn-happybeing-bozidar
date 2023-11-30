@@ -166,15 +166,16 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
+        "image": "shopify:\/\/shop_images\/none-3.png",
+        "image_2": "shopify:\/\/shop_images\/4.01-2863x2589-Happy_Being-LCD-179259.png",
         "image_overlay_opacity": 0,
-        "image_height": "small",
-        "desktop_content_position": "middle-left",
+        "image_height": "large",
+        "desktop_content_position": "bottom-right",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
+        "mobile_content_alignment": "right",
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
@@ -234,6 +235,7 @@
     },
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Video",
         "heading_size": "h1",
@@ -253,10 +255,10 @@
           "type": "slide",
           "settings": {
             "review": "Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.",
-            "quote": "- Dr. William Kracht", 
-            "heading_size": "h1",
-            "box_align": "middle-center",
+            "quote": "- Dr. William Kracht",
+            "quote_font": "assistant_n4",
             "show_text_box": false,
+            "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -265,11 +267,11 @@
         "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "Best 2 ",
-            "quote": "- Doctor Mark Mark", 
-            "heading_size": "h1",
-            "box_align": "middle-center",
+            "review": "Best 2",
+            "quote": "- Doctor Mark Mark",
+            "quote_font": "assistant_n4",
             "show_text_box": false,
+            "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -282,14 +284,52 @@
       ],
       "settings": {
         "layout": "full_bleed",
+        "gradient": "linear-gradient(135.07deg, rgba(171, 191, 237, 1) 8.26%, rgba(251, 209, 242, 1) 95%)",
         "slide_height": "medium",
         "slider_visual": "car",
-        "gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "153683af-8722-4fab-9f64-7d7b27e25f7b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Harness plant’s most powerful nutrients, polyphenols",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1",
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "rich_text": {
@@ -313,6 +353,7 @@
         "heading",
         "text"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -393,6 +434,7 @@
     },
     "video": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -426,6 +468,7 @@
         "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-heading-1",
         "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-text-1"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -471,6 +514,7 @@
         "column2",
         "column3"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -527,7 +571,6 @@
         "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2",
         "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3"
       ],
-      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -697,6 +740,7 @@
     "1d0a4c80-6430-49be-835c-886760fbe4cf",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
+    "153683af-8722-4fab-9f64-7d7b27e25f7b",
     "rich_text",
     "featured_collection",
     "collage",
