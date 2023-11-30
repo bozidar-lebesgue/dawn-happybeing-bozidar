@@ -15,9 +15,11 @@
     }
   }
 
-  .multicolumn-card {
+  .section-{{ section.id }}-padding .multicolumn-card {
     border-radius: {{ section.settings.column_corner_radius }}px;
     border: {{ section.settings.column_border_width }}px solid black;
+    padding-top: {{ section.settings.column_padding_top }}px;
+    padding-bottom:  {{ section.settings.column_padding_bottom }}px;
   }
 {%- endstyle -%}
 
@@ -424,6 +426,26 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "column_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "column_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Column padding bottom",
       "default": 36
     }
   ],
