@@ -318,6 +318,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
@@ -325,7 +326,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
