@@ -1,6 +1,8 @@
 
 .comparison-table {
   width: 80%;
+  /* color: var(--color-foreground); */
+  color: black;
 }
 
 .comparison-table-container {
@@ -14,7 +16,13 @@
   align-items: center;
   padding: 16px;
   width: 100%;
-  flex: 1;
+}
+.comparison-table__head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 16px;
+  width: 100%;
 }
 
 .comparison-table__row--0 {
@@ -33,12 +41,12 @@
   background-color: #E8F1FF;
 }
 
-.comparison-table__row .option {
+.comparison-table .option {
   width: 45%;
   text-align: center;
 }
 
-.comparison-table__row .checkmarks {
+.comparison-table .checkmarks {
   display: flex;
   justify-content: space-between;
   align-items: center;
