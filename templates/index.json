@@ -571,6 +571,7 @@
         "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2",
         "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3"
       ],
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
