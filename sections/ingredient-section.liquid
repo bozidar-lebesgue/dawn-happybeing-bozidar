@@ -1,0 +1,197 @@
+{{ 'section-comparison-table-hb.css' | asset_url | stylesheet_tag }}
+
+{% style %}
+  #ComparisonTable-{{ section.id }} .comparison-table {
+    border-radius: {{ section.settings.corner_radius }}px;
+    border: {{ section.settings.border_width }}px solid #6688EC;
+    padding: {{ section.settings.inner_padding }}px;
+    background-color: var(--color-foreground);
+  }
+  #ComparisonTable-{{ section.id }} .comparison-table__title {
+    font-size: {{ section.settings.heading_size }}px;
+  }
+  #ComparisonTable-{{ section.id }} {
+    padding-top: {{ section.settings.outer_padding_top }}px;
+    padding-bottom: {{ section.settings.outer_padding_bottom }}px;
+  }
+{% endstyle %}
+
+<div
+  id="ComparisonTable-{{ section.id }}"
+  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient"
+>
+  <div class="page-width comparison-table-container">
+    <div class="comparison-table">
+      <div class="comparison-table__head">
+        <div class="comparison-table__title option">
+          {{ section.settings.first_title }}
+        </div>
+        <div class="comparison-table__title option">
+          {{ section.settings.second_title }}
+        </div>
+      </div>
+      {%- for block in section.blocks -%}
+        <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
+          <div class="option--row option">
+            <div>{{ block.settings.first_description }}</div>
+            
+          </div>
+
+          <div class="checkmarks">
+            {% if block.settings.first_check %}
+              {% render 'icon-checkmark-circle' %}
+            {% else %}
+              {% render 'icon-cancel-circle' %}
+            {% endif %}
+
+            {% if block.settings.second_check %}
+              {% render 'icon-checkmark-circle' %}
+            {% else %}
+              {% render 'icon-cancel-circle' %}
+            {% endif %}
+          </div>
+          
+          <div class="option--row option">
+            {{ block.settings.second_description }}
+          </div>
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Comparison table HB",
+  "class": "section",
+  "tag": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "first_title",
+      "default": "First title",
+      "label": "First title"
+    },
+    {
+      "type": "text",
+      "id": "second_title",
+      "default": "Second title",
+      "label": "Second title"
+    },
+    {
+      "type": "range",
+      "id": "heading_size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "heading_size",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "corner_radius",
+      "min": 0,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "label": "corner radius",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "border_width",
+      "min": 0,
+      "max": 40,
+      "step": 0.5,
+      "unit": "px",
+      "label": "Border width",
+      "default": 0
+    },
+    {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "scheme-1"
+    },
+    {
+      "type": "range",
+      "id": "inner_padding",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Inner padding",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "outer_padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Outer padding top",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "outer_padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Outer padding bottom",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "row",
+      "name": "Row",
+      "settings": [
+        {
+          "type": "text",
+          "id": "first_description",
+          "label": "First description"
+        },
+        {
+          "type": "checkbox",
+          "id": "first_check",
+          "default": true,
+          "label": "First checkbox"
+        },
+        {
+          "type": "text",
+          "id": "second_description",
+          "label": "Second description"
+        },
+        {
+          "type": "checkbox",
+          "id": "second_check",
+          "default": false,
+          "label": "Second checkbox"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Presets",
+      "blocks": [
+        {
+          "type": "row"
+        },
+        {
+          "type": "row"
+        },
+        {
+          "type": "row"
+        }
+      ]
+    }]
+}
+{% endschema %}
