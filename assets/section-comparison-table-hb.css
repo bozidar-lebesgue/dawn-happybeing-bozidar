@@ -19,7 +19,7 @@
 }
 .comparison-table__head {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding-bottom: 16px;
   width: 100%;
@@ -29,7 +29,7 @@
   background-color: #FFFFFFB2;
 }
 
-.title {
+.comparison-table__title {
   font-weight: 800;
 }
 

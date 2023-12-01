@@ -387,7 +387,9 @@
         "first_title": "happy being®",
         "second_title": "Pressed juices",
         "corner_radius": 24,
-        "padding": 32,
+        "inner_padding": 32,
+        "outer_padding_top": 32,
+        "outer_padding_bottom": 32,
         "heading_size": 32,
         "border_width": 1,
         "color_scheme": "scheme-3"
