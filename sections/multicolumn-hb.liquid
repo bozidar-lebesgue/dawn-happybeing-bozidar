@@ -14,24 +14,25 @@
     }
   }
 
-  .title {
+  .section-{{ section.id }} .title {
     font-size: {{ section.settings.title_font_size }}rem;
     margin-bottom: {{ section.settings.title_margin_bottom }}px;
+    margin-top: {{ section.settings.title_margin_top }}px;
   }
 
-  .subtitle {
+  .section-{{ section.id }} .subtitle {
     font-size: {{ section.settings.subtitle_font_size }}rem;
     font-family: {{ section.settings.subtitle_font_family }};
     margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
   }
 
-  .column__title {
+  .section-{{ section.id }} .column__title {
     font-size: {{ section.settings.column_title_font_size }}rem;
     margin-top: {{ section.settings.column_title_margin_top }}px;
     margin-bottom: {{ section.settings.column_title_margin_bottom }}px;
   }
 
-  .column__content {
+  .section-{{ section.id }} .column__content {
     font-size: {{ section.settings.column_content_font_size }}rem;
   }
 
@@ -47,13 +48,13 @@
 
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
-    class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="page-width section-{{ section.id }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin {% if section.settings.title_alignment == 'center' %} title--center{% endif %}">
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% endif %}">
         <div class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </div>
@@ -226,7 +227,7 @@
 
 {% schema %}
 {
-  "name": "t:sections.multicolumn.name",
+  "name": "Happy Being Multicolumn",
   "class": "section",
   "tag": "section",
   "disabled_on": {
@@ -254,6 +255,16 @@
       "step": 0.2,
       "default": 1.6,
       "label": "Title font size"
+    },
+    {
+      "type": "range",
+      "id": "title_margin_top",
+      "min": 0,
+      "unit": "px",
+      "max": 100,
+      "step": 1,
+      "default": 0,
+      "label": "Title margin top"
     },
     {
       "type": "range",

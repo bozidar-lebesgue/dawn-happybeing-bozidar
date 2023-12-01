@@ -865,6 +865,11 @@ summary::-webkit-details-marker {
   margin-top: 0;
 }
 
+
+.title-wrapper--no-bottom-margin {
+  margin-bottom: 0;
+}
+
 .title-wrapper--no-top-margin > .title {
   margin-top: 0;
 }

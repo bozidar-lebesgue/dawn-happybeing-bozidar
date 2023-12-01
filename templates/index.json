@@ -337,6 +337,39 @@
         "column_padding_bottom": 36
       }
     },
+    "comparison_table_title": {
+      "type": "multicolumn-hb",
+      "blocks": {},
+      "block_order": [],
+      "settings": {
+        "title": "How Happy Being® is different",
+        "subtitle": "Packed with polyphenols, not sugar.",
+        "title_font_size": 7,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 5,
+        "subtitle_margin_bottom": 0,
+        "column_title_font_size": 2.4,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 0,
+        "column_content_font_size": 1.8,
+        "heading_size": "h1",
+        "image_width": "full",
+        "enumerate": "yes",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 64,
+        "padding_bottom": 30
+      }
+    },
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe": {
       "type": "comparison-table-hb",
       "blocks": {
@@ -388,8 +421,8 @@
         "second_title": "Pressed juices",
         "corner_radius": 24,
         "inner_padding": 32,
-        "outer_padding_top": 32,
-        "outer_padding_bottom": 32,
+        "outer_padding_top": 0,
+        "outer_padding_bottom": 48,
         "heading_size": 32,
         "border_width": 1,
         "color_scheme": "scheme-3"
@@ -809,6 +842,7 @@
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
     "153683af-8722-4fab-9f64-7d7b27e25f7b",
     "1d0a4c80-6430-49be-835c-886760fbe4cf",
+    "comparison_table_title",
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe",
     "rich_text",
     "featured_collection",
