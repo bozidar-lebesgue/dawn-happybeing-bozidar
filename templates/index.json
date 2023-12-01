@@ -360,12 +360,28 @@
             "first_description": "Polyphenol extracts",
             "second_description": "Juice, and maybe some probiotics"
           }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
+          "type": "row",
+          "settings": {
+            "first_description": "3 grams of sugar",
+            "second_description": "20+ grams of sugar"
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
+          "type": "row",
+          "settings": {
+            "first_description": "Caffeine free, real energy",
+            "second_description": "Crash, jitters & burn out"
+          }
         }
       },
       "block_order": [
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3"
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
       ],
       "settings": {
         "first_title": "happy being®",
