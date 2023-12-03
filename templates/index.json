@@ -97,12 +97,23 @@
             "link": "",
             "icon": "none"
           }
+        },
+        "8ce521e1-9f9f-4e47-9755-bb443b1bb534": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
         }
       },
       "block_order": [
         "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-1",
         "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2",
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3"
+        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3",
+        "8ce521e1-9f9f-4e47-9755-bb443b1bb534"
       ],
       "settings": {
         "title": "What Happy Being® does for you",
@@ -192,16 +203,16 @@
       "settings": {
         "title": "All good, without the guilt.",
         "subtitle": "",
-        "title_font_size": 7,
+        "title_font_size": 4,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 5,
         "subtitle_margin_bottom": 0,
-        "column_title_font_size": 2.4,
+        "column_title_font_size": 1.6,
         "column_title_margin_bottom": 0,
         "column_title_margin_top": 0,
-        "column_content_font_size": 1.8,
+        "column_content_font_size": 0,
         "heading_size": "h1",
         "image_width": "full",
         "enumerate": "no",
