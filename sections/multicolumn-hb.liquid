@@ -12,6 +12,21 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+    {%- if section.settings.header_position_desktop == 'left' -%}
+      .section-{{ section.id }} {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .section-{{ section.id }} .title {
+        width: 340px;
+      }
+      
+      .section-{{ section.id }} .multicolumn-card__info {
+        padding: 0;
+      }
+    {%- endif -%}
   }
 
   .section-{{ section.id }} .title {
@@ -157,7 +172,22 @@
                   </div>                
                 {%- endif -%}
                 {%- if block.settings.icon != 'none' -%}
-                  {% render '{{ block.settings.icon }}' %}
+                  <div class="column-icon">
+                    {% comment %} {%- case block.settings.icon -%}
+                      {%- when 'dairy-free' -%}
+                        {% render 'icon-dairy-free' %}
+                      {%- when 'non-gmo' -%}
+                        {% render 'icon-non-gmo' %}
+                      {%- when 'vegan' -%}
+                        {% render 'icon-vegan' %}
+                      {%- when 'soy-free' -%}
+                        {% render 'icon-soy-free' %}
+                      {%- when 'no-added-sugar' -%}
+                        {% render 'icon-no-added-sugar' %}
+                      {%- when 'no-caffeine' -%}
+                        {% render 'icon-no-caffeine' %}
+                    {%- endcase -%} {% endcomment %}
+                  </div>
                 {%- endif -%}
                 {%- if block.settings.title != blank -%}
                   <div class="inline-richtext column__title">{{ block.settings.title }}</div>
@@ -343,7 +373,7 @@
       "max": 20,
       "step": 0.2,
       "default": 1,
-      "label": "Column title font size"
+      "label": "Column content font size"
     },
     {
       "type": "select",
@@ -448,7 +478,7 @@
         }
       ],
       "default": "left",
-      "label": "t:sections.multicolumn.settings.column_alignment.label"
+      "label": "Title alignement"
     },
     {
       "type": "select",
@@ -464,7 +494,7 @@
         }
       ],
       "default": "left",
-      "label": "t:sections.multicolumn.settings.column_alignment.label"
+      "label": "Column alignment"
     },
     {
       "type": "select",

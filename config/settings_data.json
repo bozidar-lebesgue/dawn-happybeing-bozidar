@@ -144,8 +144,8 @@
       "scheme-2": {
         "settings": {
           "background": "#000000",
-          "background_gradient": "",
-          "text": "#121212",
+          "background_gradient": "radial-gradient(85.63% 1632.09% at 8.75% 0%, #6586ED 0%, #D4C8E6 100%)",
+          "text": "#ffffff",
           "button": "#121212",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
