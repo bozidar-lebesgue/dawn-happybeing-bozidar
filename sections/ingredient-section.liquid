@@ -17,19 +17,17 @@
 {% endstyle %}
 
 <div
-  id="ComparisonTable-{{ section.id }}"
-  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient"
+  id="IngredientSection-{{ section.id }}"
+  class="ingedient-section color-{{ section.settings.color_scheme }} gradient"
 >
   <div class="page-width comparison-table-container">
-    <div class="comparison-table">
-      <div class="comparison-table__head">
-        <div class="comparison-table__title option">
-          {{ section.settings.first_title }}
-        </div>
-        <div class="comparison-table__title option">
-          {{ section.settings.second_title }}
-        </div>
-      </div>
+    <div class="ingredient-section">
+      <h2
+        class="inline-richtext {{ block.settings.heading_size }}"
+        {{ block.shopify_attributes }}
+      >
+        {{ block.settings.heading }}
+      </h2>
       {%- for block in section.blocks -%}
         <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
           <div class="option--row option">
@@ -62,7 +60,7 @@
 
 {% schema %}
 {
-  "name": "Comparison table HB",
+  "name": "Ingredient section HB",
   "class": "section",
   "tag": "section",
   "disabled_on": {
@@ -70,110 +68,86 @@
   },
   "settings": [
     {
-      "type": "text",
-      "id": "first_title",
-      "default": "First title",
-      "label": "First title"
+      "type": "inline_richtext",
+      "id": "heading",
+      "default": "Image banner",
+      "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
     },
     {
-      "type": "text",
-      "id": "second_title",
-      "default": "Second title",
-      "label": "Second title"
-    },
-    {
-      "type": "range",
+      "type": "select",
       "id": "heading_size",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "heading_size",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "corner_radius",
-      "min": 0,
-      "max": 40,
-      "step": 1,
-      "unit": "px",
-      "label": "corner radius",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "border_width",
-      "min": 0,
-      "max": 40,
-      "step": 0.5,
-      "unit": "px",
-      "label": "Border width",
-      "default": 0
-    },
-    {
-      "type": "color_scheme",
-      "id": "color_scheme",
-      "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
-    },
-    {
-      "type": "range",
-      "id": "inner_padding",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "Inner padding",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "outer_padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "Outer padding top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "outer_padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 1,
-      "unit": "px",
-      "label": "Outer padding bottom",
-      "default": 36
+      "options": [
+        {
+          "value": "h5",
+          "label": "h5"
+        },
+        {
+          "value": "h4",
+          "label": "h4"
+        },
+        {
+          "value": "h3",
+          "label": "h3"
+        },
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
     }
   ],
   "blocks": [
     {
-      "type": "row",
-      "name": "Row",
+      "type": "column",
+      "name": "Column",
       "settings": [
         {
           "type": "text",
-          "id": "first_description",
-          "label": "First description"
+          "id": "caption",
+          "default": "Caption",
+          "label": "Caption"
         },
         {
-          "type": "checkbox",
-          "id": "first_check",
-          "default": true,
-          "label": "First checkbox"
-        },
-        {
-          "type": "text",
-          "id": "second_description",
-          "label": "Second description"
-        },
-        {
-          "type": "checkbox",
-          "id": "second_check",
-          "default": false,
-          "label": "Second checkbox"
+          "type": "select",
+          "id": "icon",
+          "options": [
+            {
+              "value": "dairy_free",
+              "label": "Dairy free"
+            },
+            {
+              "value": "non_gmo",
+              "label": "Non gmo"
+            },
+            {
+              "value": "vegan",
+              "label": "Vegan"
+            },
+            {
+              "value": "soy_free",
+              "label": "Soy free"
+            },
+            {
+              "value": "no_added_sugar",
+              "label": "No added sugar"
+            },
+            {
+              "value": "no_caffeine",
+              "label": "No caffeine"
+            }
+          ],
+          "default": "non_gmo",
+          "label": "Icon"
         }
       ]
     }
@@ -183,13 +157,13 @@
       "name": "Presets",
       "blocks": [
         {
-          "type": "row"
+          "type": "column"
         },
         {
-          "type": "row"
+          "type": "column"
         },
         {
-          "type": "row"
+          "type": "column"
         }
       ]
     }]

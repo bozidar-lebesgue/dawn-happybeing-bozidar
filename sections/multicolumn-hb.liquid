@@ -156,6 +156,9 @@
                     {%- endif -%}
                   </div>                
                 {%- endif -%}
+                {%- if block.settings.icon != 'none' -%}
+                  {% render '{{ block.settings.icon }}' %}
+                {%- endif -%}
                 {%- if block.settings.title != blank -%}
                   <div class="inline-richtext column__title">{{ block.settings.title }}</div>
                 {%- endif -%}
@@ -527,6 +530,22 @@
       "content": "t:sections.all.padding.section_padding_heading"
     },
     {
+        "type": "select",
+        "id": "header_position_desktop",
+        "default": "top",
+        "label": "Header position desktop",
+        "options": [
+          {
+            "value": "top",
+            "label": "Top"
+          },
+          {
+            "value": "left",
+            "label": "Left"
+          }
+        ]
+    },
+    {
       "type": "range",
       "id": "padding_top",
       "min": 0,
@@ -578,6 +597,42 @@
           "type": "url",
           "id": "link",
           "label": "t:sections.multicolumn.blocks.column.settings.link.label"
+        },
+        {
+          "type": "select",
+          "id": "icon",
+          "options": [
+            {
+              "value": "dairy-free",
+              "label": "Dairy free"
+            },
+            {
+              "value": "non-gmo",
+              "label": "Non gmo"
+            },
+            {
+              "value": "vegan",
+              "label": "Vegan"
+            },
+            {
+              "value": "soy-free",
+              "label": "Soy free"
+            },
+            {
+              "value": "no-added-sugar",
+              "label": "No added sugar"
+            },
+            {
+              "value": "no-caffeine",
+              "label": "No caffeine"
+            },
+            {
+              "value": "none",
+              "label": "None"
+            }
+          ],
+          "default": "none",
+          "label": "Icon"
         }
       ]
     }
