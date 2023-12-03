@@ -74,7 +74,8 @@
             "title": "<strong>Fight inflammation<\/strong>",
             "text": "<p>Reduce chronic inflammation caused by oxidative stress & harmful free radicals that attack your cells.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2": {
@@ -83,7 +84,8 @@
             "title": "<strong>Nourish gut health<\/strong>",
             "text": "<p>Feed & fuel the good bacteria in your gut biome while decreasing inflammation in the GI tract.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3": {
@@ -92,7 +94,8 @@
             "title": "<strong>Strengthen immunity<\/strong>",
             "text": "<p>Reinforce your immune system by helping catalyze your body's responses to toxins and infections.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         }
       },
@@ -105,6 +108,7 @@
         "title": "What Happy Being® does for you",
         "subtitle": "Research-backed, doctor-recommended.",
         "title_font_size": 7,
+        "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 5,
@@ -126,92 +130,9 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "header_position_desktop": "top",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-
-    "ingredients_multicolumn": {
-      "type": "multicolumn-hb",
-      "blocks": {},
-      "block_order": [],
-      "settings": {
-        "title": "How Happy Being® is different",
-        "subtitle": "Packed with polyphenols, not sugar.",
-        "title_font_size": 7,
-        "title_margin_bottom": 0,
-        "subtitle_font_family": "assistant_n4",
-        "subtitle_font_size": 5,
-        "subtitle_margin_bottom": 0,
-        "column_title_font_size": 2.4,
-        "column_title_margin_bottom": 0,
-        "column_title_margin_top": 0,
-        "column_content_font_size": 1.8,
-        "heading_size": "h1",
-        "image_width": "full",
-        "enumerate": "yes",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "title_alignment": "center",
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
-        "padding_bottom": 30
-      }
-    },
-    "4c452083-00ec-4473-a77f-563546ff5b17": {
-      "type": "image-banner",
-      "blocks": {
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Inflammation's worst nightmare.",
-            "heading_size": "h1"
-          }
-        },
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "Iced white tea packed with Turmeric, Elderberry, Vitamin D3, and polyphenols like EGCG (from green tea) and Pterostilbene (from blueberries) for a delicious and healthy refreshment that fights inflammation at the source.",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now →",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-heading-1",
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-text-1",
-        "template--16149963669561__4c452083-00ec-4473-a77f-563546ff5b17-buttons-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify:\/\/shop_images\/none-3.png",
-        "image_2": "shopify:\/\/shop_images\/4.01-2863x2589-Happy_Being-LCD-179259.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "bottom-right",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "right",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69": {
@@ -227,6 +148,76 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "ingredients_multicolumn": {
+      "type": "multicolumn-hb",
+      "blocks": {
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613": {
+          "type": "column",
+          "settings": {
+            "title": "Dairy free",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "dairy-free"
+          }
+        },
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb": {
+          "type": "column",
+          "settings": {
+            "title": "Non gmo",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "non-gmo"
+          }
+        },
+        "f1913978-e779-4afb-b8aa-69c6a1587a26": {
+          "type": "column",
+          "settings": {
+            "title": "Vegan",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "vegan"
+          }
+        }
+      },
+      "block_order": [
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613",
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26"
+      ],
+      "settings": {
+        "title": "All good, without the guilt.",
+        "subtitle": "",
+        "title_font_size": 7,
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 5,
+        "subtitle_margin_bottom": 0,
+        "column_title_font_size": 2.4,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 0,
+        "column_content_font_size": 1.8,
+        "heading_size": "h1",
+        "image_width": "full",
+        "enumerate": "no",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "header_position_desktop": "left",
+        "padding_top": 64,
+        "padding_bottom": 30
       }
     },
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e": {
@@ -373,12 +364,11 @@
     },
     "comparison_table_title": {
       "type": "multicolumn-hb",
-      "blocks": {},
-      "block_order": [],
       "settings": {
         "title": "How Happy Being® is different",
         "subtitle": "Packed with polyphenols, not sugar.",
         "title_font_size": 7,
+        "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 5,
@@ -400,6 +390,7 @@
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "header_position_desktop": "top",
         "padding_top": 64,
         "padding_bottom": 30
       }
@@ -411,35 +402,45 @@
           "type": "row",
           "settings": {
             "first_description": "The more you drink the better you feel",
-            "second_description": "Effects wear off over time"
+            "first_check": true,
+            "second_description": "Effects wear off over time",
+            "second_check": false
           }
         },
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
           "type": "row",
           "settings": {
             "first_description": "Doctor approved & formulated",
-            "second_description": "“Influencer approved”"
+            "first_check": true,
+            "second_description": "“Influencer approved”",
+            "second_check": false
           }
         },
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
           "type": "row",
           "settings": {
             "first_description": "Polyphenol extracts",
-            "second_description": "Juice, and maybe some probiotics"
+            "first_check": true,
+            "second_description": "Juice, and maybe some probiotics",
+            "second_check": false
           }
         },
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
           "type": "row",
           "settings": {
             "first_description": "3 grams of sugar",
-            "second_description": "20+ grams of sugar"
+            "first_check": true,
+            "second_description": "20+ grams of sugar",
+            "second_check": false
           }
         },
         "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
           "type": "row",
           "settings": {
             "first_description": "Caffeine free, real energy",
-            "second_description": "Crash, jitters & burn out"
+            "first_check": true,
+            "second_description": "Crash, jitters & burn out",
+            "second_check": false
           }
         }
       },
@@ -453,13 +454,13 @@
       "settings": {
         "first_title": "happy being®",
         "second_title": "Pressed juices",
+        "heading_size": 32,
         "corner_radius": 24,
+        "border_width": 1,
+        "color_scheme": "scheme-3",
         "inner_padding": 32,
         "outer_padding_top": 0,
-        "outer_padding_bottom": 48,
-        "heading_size": 32,
-        "border_width": 1,
-        "color_scheme": "scheme-3"
+        "outer_padding_bottom": 48
       }
     },
     "rich_text": {
@@ -871,7 +872,6 @@
   "order": [
     "homepage_top_hb",
     "c23ade3d-e60e-4247-9350-df78c371f87a",
-    "4c452083-00ec-4473-a77f-563546ff5b17",
     "82e0fdc7-3b25-4c4d-99d0-713acafc9a69",
     "ingredients_multicolumn",
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
