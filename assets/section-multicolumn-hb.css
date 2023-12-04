@@ -13,6 +13,10 @@
   margin: auto;
 }
 
+.subtitle-hb {
+  color: rgb(var(--color-foreground));
+}
+
 .column__title {
   white-space: nowrap;
 }

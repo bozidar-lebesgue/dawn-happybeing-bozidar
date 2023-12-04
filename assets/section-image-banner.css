@@ -443,11 +443,6 @@
   word-break: break-word;
 }
 
-.five-star-container {
-  display: flex;
-  align-items: flex-start;
-}
-
 .icon-star {
   fill: black;
 }

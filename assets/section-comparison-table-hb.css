@@ -1,8 +1,7 @@
 
 .comparison-table {
   width: 100%;
-  /* color: var(--color-foreground); */
-  color: black;
+  color: rgb(var(--color-foreground));
 }
 
 .comparison-table-container {

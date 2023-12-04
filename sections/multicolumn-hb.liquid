@@ -49,10 +49,11 @@
     background-color: white;
   }
 
-  .section-{{ section.id }} .subtitle {
+  .section-{{ section.id }} .subtitle-hb {
     font-size: {{ section.settings.subtitle_font_size }}rem;
     font-family: {{ section.settings.subtitle_font_family }};
     margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
+    
   }
 
   .section-{{ section.id }} .column__title {
@@ -87,7 +88,7 @@
         <div class="title inline-richtext {{ section.settings.heading_size }}">
           {{ section.settings.title }}
         </div>
-        <div class="subtitle">
+        <div class="subtitle-hb inline-richtext">
           {{ section.settings.subtitle }}
         </div>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -211,7 +212,7 @@
                       <div class="inline-richtext column__title">{{ block.settings.title }}</div>
                     {%- endif -%}
                     {%- if block.settings.text != blank -%}
-                      <div class="rte column__content">{{ block.settings.text }}</div>
+                      <div class="rte column__content" >{{ block.settings.text }}</div>
                     {%- endif -%}
                     {%- if block.settings.link_label != blank -%}
                       <a
