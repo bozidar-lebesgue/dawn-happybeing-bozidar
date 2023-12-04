@@ -1,13 +1,33 @@
 
 .comparison-table {
-  width: 80%;
+  width: 100%;
   /* color: var(--color-foreground); */
   color: black;
 }
 
 .comparison-table-container {
   display: flex;
-  justify-content: center;  
+  flex-direction: column;
+  justify-content: center;
+  width:  min(85vw, 1000px);
+  align-items: center;
+}
+
+@media screen and (max-width: 750px) {
+  .comparison-table-container {
+    width: 100%;
+  }
+
+}
+
+.comparison-table__subheading {
+  text-align: center;
+  font-weight: 500;
+}
+
+.comparison-table__heading {
+  text-align: center;
+  font-weight: 600;
 }
 
 .comparison-table__row {

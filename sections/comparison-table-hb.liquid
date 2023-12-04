@@ -1,4 +1,7 @@
 {{ 'section-comparison-table-hb.css' | asset_url | stylesheet_tag }}
+{{ 'section-multicolumn-hb.css' | asset_url | stylesheet_tag }}
+{{ 'component-slider.css' | asset_url | stylesheet_tag }}
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {% style %}
   #ComparisonTable-{{ section.id }} .comparison-table {
@@ -14,14 +17,43 @@
     padding-top: {{ section.settings.outer_padding_top }}px;
     padding-bottom: {{ section.settings.outer_padding_bottom }}px;
   }
+  #ComparisonTable-{{ section.id }} .comparison-table {
+    background-color: rgb(var(--color-background));
+  }
 {% endstyle %}
 
 <div
   id="ComparisonTable-{{ section.id }}"
-  class="comparison-table-hb color-{{ section.settings.color_scheme }} gradient"
+  class="banner comparison-table-hb color-{{ section.settings.color_scheme }} gradient"
 >
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media media">
+      {%- liquid
+        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+        assign sizes = full_width
+        assign fetch_priority = 'auto'
+        assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
+      -%}
+      {{
+        section.settings.image
+        | image_url: width: 3840
+        | image_tag:
+          width: section.settings.image.width,
+          height: image_height,
+          sizes: sizes,
+          widths: widths,
+          fetchpriority: fetch_priority
+      }}
+    </div>
+  {%- endif -%}
   <div class="page-width comparison-table-container">
-    <div class="comparison-table">
+    <div class="comparison-table isolate">
+      {%- if section.settings.heading != blank -%}
+        <div class="comparison-table__heading h1">{{ section.settings.heading }}</div>
+      {%- endif -%}
+      {%- if section.settings.subheading != blank -%}
+        <div class="comparison-table__subheading">{{ section.settings.subheading }}</div>
+      {%- endif -%}
       <div class="comparison-table__head">
         <div class="comparison-table__title option">
           {{ section.settings.first_title }}
@@ -34,7 +66,6 @@
         <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
           <div class="option--row option">
             <div>{{ block.settings.first_description }}</div>
-            
           </div>
 
           <div class="checkmarks">
@@ -43,7 +74,7 @@
             {% else %}
               {% render 'icon-cancel-circle' %}
             {% endif %}
-
+            
             {% if block.settings.second_check %}
               {% render 'icon-checkmark-circle' %}
             {% else %}
@@ -69,6 +100,23 @@
     "groups": ["header", "footer"]
   },
   "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "Background t:sections.multicolumn.blocks.column.settings.image.label"
+      },
+    {
+      "type": "text",
+      "id": "heading",
+      "default": "Heading",
+      "label": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "subheading",
+      "default": "Subheading",
+      "label": "Subheading"
+    },
     {
       "type": "text",
       "id": "first_title",

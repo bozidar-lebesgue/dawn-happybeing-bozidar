@@ -8,13 +8,6 @@
   justify-content: center;
 }
 
-.column-icon {
-  border-radius: 100%;
-  width: 64px;
-  height: 64px;
-  background-color: white;
-}
-
 .center .column-icon {
   display: block;
   margin: auto;
@@ -70,6 +63,13 @@
   .multicolumn .button {
     margin-top: 4rem;
   }
+}
+
+.column--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .multicolumn-list {

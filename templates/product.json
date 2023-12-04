@@ -136,50 +136,50 @@
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Healthy inflammation, leading to less joint pain<\/p>",
+            "text": "<p><strong>Healthy inflammation, leading to less joint pain<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "icon": "soy-free"
+            "icon": "checkmark"
           }
         },
         "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-2": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Improves immunity so you get sick less often<\/p>",
+            "text": "<p><strong>Improves immunity so you get sick less often<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": "checkmark"
           }
         },
         "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-3": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Reduces bloating for happy, healthy stomachs<\/p>",
+            "text": "<p><strong>Reduces bloating for happy, healthy stomachs<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": "checkmark"
           }
         },
         "00aefd15-30b7-4e25-9d63-a30f54798991": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>90 day “happy” guarantee - 100% money back<\/p>",
+            "text": "<p><strong>90 day “happy” guarantee - 100% money back<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": "checkmark"
           }
         },
         "b49b8b0e-402b-4065-9c47-05a1f3d3666f": {
           "type": "column",
           "settings": {
             "title": "",
-            "text": "<p>Backed by 100+ years of clinical experience<\/p>",
+            "text": "<p><strong>Backed by 100+ years of clinical experience<\/strong><\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": "checkmark"
           }
         }
       },
@@ -203,6 +203,7 @@
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_content_font_size": 1,
+        "column_icon_location": "left",
         "heading_size": "h1",
         "image_width": "full",
         "enumerate": "no",
@@ -210,16 +211,16 @@
         "columns_desktop": 5,
         "title_alignment": "left",
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-4",
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_slider_buttons_mobile": true,
+        "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "image-with-text": {
@@ -323,6 +324,76 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2": {
+      "type": "comparison-table-hb",
+      "blocks": {
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
+          "type": "row",
+          "settings": {
+            "first_description": "The more you drink the better you feel",
+            "first_check": true,
+            "second_description": "Effects wear off over time",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
+          "type": "row",
+          "settings": {
+            "first_description": "Doctor approved & formulated",
+            "first_check": true,
+            "second_description": "“Influencer approved”",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
+          "type": "row",
+          "settings": {
+            "first_description": "Polyphenol extracts",
+            "first_check": true,
+            "second_description": "Juice, and maybe some probiotics",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
+          "type": "row",
+          "settings": {
+            "first_description": "3 grams of sugar",
+            "first_check": true,
+            "second_description": "20+ grams of sugar",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
+          "type": "row",
+          "settings": {
+            "first_description": "Caffeine free, real energy",
+            "first_check": true,
+            "second_description": "Crash, jitters & burn out",
+            "second_check": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Iysine.png",
+        "heading": "We like to do things differently",
+        "subheading": "Our founder, Chris, spent three decades helping clients transform their health with the power of polyphenols. When we started happy being we wanted to deliver the best results we could for our customers so we had to rethink everything.",
+        "second_title": "Pressed juices",
+        "heading_size": 32,
+        "corner_radius": 24,
+        "border_width": 0,
+        "color_scheme": "scheme-3",
+        "inner_padding": 32,
+        "outer_padding_top": 64,
+        "outer_padding_bottom": 64
+      }
     }
   },
   "order": [
@@ -330,6 +401,7 @@
     "378ee716-4745-4679-99ec-6abddb8180e8",
     "image-with-text",
     "multicolumn",
-    "related-products"
+    "related-products",
+    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2"
   ]
 }
