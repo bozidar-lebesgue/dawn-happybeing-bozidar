@@ -129,6 +129,99 @@
         "padding_bottom": 12
       }
     },
+    "378ee716-4745-4679-99ec-6abddb8180e8": {
+      "type": "multicolumn-hb",
+      "blocks": {
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Healthy inflammation, leading to less joint pain<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "soy-free"
+          }
+        },
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Improves immunity so you get sick less often<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Reduces bloating for happy, healthy stomachs<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "00aefd15-30b7-4e25-9d63-a30f54798991": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>90 day “happy” guarantee - 100% money back<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "b49b8b0e-402b-4065-9c47-05a1f3d3666f": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>Backed by 100+ years of clinical experience<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-1",
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-2",
+        "template--16149963833401__378ee716-4745-4679-99ec-6abddb8180e8-column-3",
+        "00aefd15-30b7-4e25-9d63-a30f54798991",
+        "b49b8b0e-402b-4065-9c47-05a1f3d3666f"
+      ],
+      "settings": {
+        "title": "",
+        "subtitle": "",
+        "title_font_size": 1.6,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 10,
+        "column_title_font_size": 1.6,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_content_font_size": 1,
+        "heading_size": "h1",
+        "image_width": "full",
+        "enumerate": "no",
+        "image_ratio": "adapt",
+        "columns_desktop": 5,
+        "title_alignment": "left",
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -234,6 +327,7 @@
   },
   "order": [
     "main",
+    "378ee716-4745-4679-99ec-6abddb8180e8",
     "image-with-text",
     "multicolumn",
     "related-products"
