@@ -70,13 +70,13 @@
 
           <div class="checkmarks">
             {% if block.settings.first_check %}
-              {% render 'icon-checkmark-circle' %}
+              {% render 'icon-checkmark-circle', color: 'rgb(var(--color-button))' %}
             {% else %}
               {% render 'icon-cancel-circle' %}
             {% endif %}
             
             {% if block.settings.second_check %}
-              {% render 'icon-checkmark-circle' %}
+              {% render 'icon-checkmark-circle', color: 'rgb(var(--color-button))' %}
             {% else %}
               {% render 'icon-cancel-circle' %}
             {% endif %}

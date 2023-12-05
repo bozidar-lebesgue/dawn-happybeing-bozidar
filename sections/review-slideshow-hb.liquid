@@ -107,13 +107,21 @@
                 </h2>
               {%- endif -%}
               {%- if block.settings.five_star != blank -%}
-                <h2 class="banner__text rte">
-                  {{ block.settings.review }}
-                </h2>
+                <div class="five-star__container">
+                  {%- for num in (1..5) -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                  {%- endfor -%}
+                </div>
               {%- endif -%}
               {%- if block.settings.quote != blank -%}
                 <div class="banner__text rte" {{ block.shopify_attributes }}>
                   <p>{{ block.settings.quote }}</p>
+                </div>
+              {%- endif -%}
+              {%- if block.settings.verified_buyer != blank -%}
+                <div class="verified-buyed__container">
+                  {%- liquid render 'icon-checkmark-circle', color: 'rgb(var(--color-button))' -%}
+                  Verified buyer
                 </div>
               {%- endif -%}
             </div>

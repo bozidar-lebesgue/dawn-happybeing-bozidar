@@ -113,7 +113,7 @@
               <div class="five-star-container banner_content banner__content--{{ section.settings.desktop_content_position }}">
                 {%- for num in (1..5) -%}
                   <div style="margin-right: 6px;">
-                    {%- liquid render 'icon-star' -%}
+                    {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
                   </div>
                 {%- endfor -%}
                 <div>

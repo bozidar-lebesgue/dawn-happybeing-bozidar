@@ -365,6 +365,31 @@ slider-component.slider-component-full-width {
 .slider-button:not([disabled]):hover {
   color: rgb(var(--color-foreground));
 }
+
+.verified-buyed__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(var(--color-text), 0.3)
+}
+
+.verified-buyed__container .icon-checkmark-circle {
+  margin-right: 10px;
+}
+
+.five-star__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.five-star__container .icon-star {
+  margin-right: 6px;
+}
+
+.five-star__container .icon-star:last-child{
+  margin-right: 0px;
+}
 /* 
 .slider-button .icon {
   height: 0.6rem;
