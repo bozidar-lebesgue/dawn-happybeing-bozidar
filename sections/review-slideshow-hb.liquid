@@ -81,9 +81,11 @@
   {%- for block in section.blocks -%}
     {%- if block.type == 'five-star-rating' -%}
       <div class="five-star__container {{ section.settings.desktop_content_position }}">
-        {%- for num in (1..5) -%}
-          {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-        {%- endfor -%}
+        {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+        {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+        {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+        {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+        {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
         <div>
           {{ block.settings.rating }}
         </div>
@@ -145,9 +147,11 @@
                 {%- endif -%}
                 {%- if block.settings.five_star != blank -%}
                   <div class="five-star__container">
-                    {%- for num in (1..5) -%}
-                      {%- liquid render 'icon-star', color: '#E2BF08' -%}
-                    {%- endfor -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
                   </div>
                 {%- endif -%}
                 {%- if block.settings.quote != blank -%}

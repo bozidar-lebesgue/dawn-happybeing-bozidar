@@ -36,10 +36,10 @@
   }
   
 
-  .section-{{ section.id }} .title {
-    font-size: {{ section.settings.title_font_size }}rem;
+  .section-{{ section.id }} .title-hb {
     margin-bottom: {{ section.settings.title_margin_bottom }}px;
     margin-top: {{ section.settings.title_margin_top }}px;
+    /* max-width: {{ section.settings.title_max_width }}px; */
   }
 
   .section-{{ section.id }} .column__icon {
@@ -52,10 +52,9 @@
   }
 
   .section-{{ section.id }} .subtitle-hb {
-    font-size: {{ section.settings.subtitle_font_size }}rem;
     font-family: {{ section.settings.subtitle_font_family }};
     margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
-    
+    text-align: center;    
   }
 
   .section-{{ section.id }} .column__title {
@@ -67,7 +66,6 @@
   .section-{{ section.id }} .column__content {
     font-size: {{ section.settings.column_content_font_size }}rem;
   }
-
 {%- endstyle -%}
 
 {%- liquid
@@ -86,11 +84,11 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% endif %}">
-        <div class="title inline-richtext {{ section.settings.heading_size }}">
+      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
+        <div class="title-hb inline-richtext {{ section.settings.title_heading_size }}">
           {{ section.settings.title }}
         </div>
-        <div class="subtitle-hb inline-richtext">
+        <div class="subtitle-hb inline-richtext {{ section.settings.subtitle_heading_size }}">
           {{ section.settings.subtitle }}
         </div>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -181,18 +179,18 @@
                   {%- if block.settings.icon != 'none' -%}
                     <div class="column__icon">
                       {%- case block.settings.icon -%}
-                        {% comment %} {%- when 'dairy-free' -%}
-                          {% render 'icon-dairy-free' %}
+                        {%- when 'dairy-free' -%}
+                          {% comment %} {% render 'icon-dairy-free' %} {% endcomment %}
                         {%- when 'non-gmo' -%}
-                          {% render 'icon-non-gmo' %}
+                          {% comment %} {% render 'icon-non-gmo' %} {% endcomment %}
                         {%- when 'vegan' -%}
-                          {% render 'icon-vegan' %}
+                          {% comment %} {% render 'icon-vegan' %} {% endcomment %}
                         {%- when 'soy-free' -%}
-                          {% render 'icon-soy-free' %}
+                          {% comment %} {% render 'icon-soy-free' %} {% endcomment %}
                         {%- when 'no-added-sugar' -%}
-                          {% render 'icon-no-added-sugar' %}
+                          {% comment %} {% render 'icon-no-added-sugar' %} {% endcomment %}
                         {%- when 'no-caffeine' -%}
-                          {% render 'icon-no-caffeine' %} {% endcomment %}
+                          {% comment %} {% render 'icon-no-caffeine' %} {% endcomment %}
                         {%- when 'checkmark' -%}
                           {% render 'icon-checkmark-circle-full', color='rgb(var(--color-button))' %}
                       {%- endcase -%} 
@@ -304,16 +302,6 @@
     },
     {
       "type": "range",
-      "id": "title_font_size",
-      "min": 0,
-      "unit": "rem",
-      "max": 20,
-      "step": 0.2,
-      "default": 1.6,
-      "label": "Title font size"
-    },
-    {
-      "type": "range",
       "id": "title_margin_top",
       "min": 0,
       "unit": "px",
@@ -415,6 +403,22 @@
       "label": "Column icon location"
     },
     {
+      "type": "select",
+      "id": "mobile_content_align",
+      "options": [
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "left",
+          "label": "Left"
+        }
+      ],
+      "default": "center",
+      "label": "Mobile content alignment"
+    },
+    {
       "type": "range",
       "id": "column_icon_size",
       "min": 0,
@@ -426,7 +430,7 @@
     },
     {
       "type": "select",
-      "id": "heading_size",
+      "id": "title_heading_size",
       "options": [
         {
           "value": "h2",
@@ -439,10 +443,38 @@
         {
           "value": "h0",
           "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hextra",
+          "label": "Extra large"
         }
       ],
       "default": "h1",
-      "label": "t:sections.all.heading_size.label"
+      "label": "Title t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "subtitle_heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hextra",
+          "label": "Extra large"
+        }
+      ],
+      "default": "h1",
+      "label": "Subtitle t:sections.all.heading_size.label"
     },
     {
       "type": "select",

@@ -32,7 +32,7 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
   
-  {%- if section.settings.gradient_1 != blank -%}
+  /* {%- if section.settings.gradient_1 != blank -%}
     #Banner-{{ section.id }} .gradient-section-1 {
       background: {{ section.settings.gradient_1 }};
     }
@@ -41,7 +41,7 @@
     #Banner-{{ section.id }} .gradient-section-2 {
       background: {{ section.settings.gradient_2 }};
     }
-  {%- endif -%}
+  {%- endif -%} */
 {%- endstyle -%}
 
 {%- liquid
@@ -56,14 +56,14 @@
 
 <div
   id="Banner-{{ section.id }}"
-  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} banner--stacked2 banner--{{ section.settings.image_height }}{% if section.settings.stack_images_on_mobile and section.settings.image != blank and section.settings.image_2 != blank %} banner--stacked{% endif %}{% if section.settings.image_height == 'adapt' and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
   {%- if section.settings.gradient_1 != blank -%}
-    <div class="gradient-container gradient-section-1" style="left: 0">
+    <div class="gradient-container gradient-section-1" style="left: 0; {%- if section.settings.gradient_1 != blank -%}background: {{ section.settings.gradient_1 }};{%- endif -%}">
     </div>
   {%- endif -%}
   {%- if section.settings.gradient_2 != blank -%}
-    <div class="gradient-container gradient-section-2" style="right: 0">
+    <div class="gradient-container gradient-section-2" style="right: 0; {%- if section.settings.gradient_2 != blank -%}background: {{ section.settings.gradient_2 }};{%- endif -%}">
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
@@ -113,11 +113,21 @@
             </div>
             {%- when 'five-star-rating' -%}
               <div class="five-star-container banner_content banner__content--{{ section.settings.desktop_content_position }}">
-                {%- for num in (1..5) -%}
-                  <div style="margin-right: 6px;">
-                    {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                  </div>
-                {%- endfor -%}
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
                 <div>
                   {{ block.settings.rating }}
                 </div>
