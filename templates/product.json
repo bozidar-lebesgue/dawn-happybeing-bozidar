@@ -311,6 +311,8 @@
         "gradient": "linear-gradient(135.07deg, rgba(171, 191, 237, 1) 8.26%, rgba(251, 209, 242, 1) 95%)",
         "slide_height": "medium",
         "slider_visual": "none",
+        "corner_radius": 24,
+        "border_width": 1,
         "auto_rotate": false,
         "change_slides_speed": 5,
         "image_behavior": "none",
