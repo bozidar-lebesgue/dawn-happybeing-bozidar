@@ -24,6 +24,10 @@
 {%- endif -%}
 
 {%- style -%}
+  #Banner-{{ section.id }} .banner__text-2 {
+    line-height: 18px;  
+  }
+
   #Banner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
@@ -38,8 +42,6 @@
       background: {{ section.settings.gradient_2 }};
     }
   {%- endif -%}
-
-
 {%- endstyle -%}
 
 {%- liquid
@@ -70,13 +72,13 @@
         {%- case block.type -%}
           {%- when 'heading' -%}
             <h2
-              class="banner__heading inline-richtext" style="font-size: {{ block.settings.heading_size }}rem"
+              class="banner__heading inline-richtext {{ block.settings.heading_size }}"
               {{ block.shopify_attributes }}
             >
               {{ block.settings.heading }}
             </h2>
           {%- when 'text' -%}
-            <div class="banner__text rte {{ block.settings.text_style }}" {{ block.shopify_attributes }} style="font-size: {{ block.settings.text_size }}rem">
+            <div class="banner__text rte {{ block.settings.text_style }} {{ block.settings.text_size }}">
               {{ block.settings.text }}
             </div>
           {%- when 'buttons' -%}
@@ -359,14 +361,28 @@
           "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
         },
         {
-          "type": "range",
+          "type": "select",
           "id": "heading_size",
-          "min": 0,
-          "max": 20,
-          "step": 0.2,
-          "default": 10,
-          "unit": "rem",
-          "label": "Font size"
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hextra",
+              "label": "Extra large"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
         }
       ]
     },
@@ -415,20 +431,30 @@
       "limit": 1,
       "settings": [
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "text",
-          "default": "Give customers details about the banner image(s) or content on the template.",
+          "default": "<p>Give customers details about the banner image(s) or content on the template.<\/p>",
           "label": "t:sections.image-banner.blocks.text.settings.text.label"
         },
         {
-          "type": "range",
+          "type": "select",
           "id": "text_size",
-          "min": 0,
-          "max": 20,
-          "step": 0.2,
-          "default": 4,
-          "unit": "rem",
-          "label": "Font size"
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "Text font size"
         },
         {
           "type": "select",

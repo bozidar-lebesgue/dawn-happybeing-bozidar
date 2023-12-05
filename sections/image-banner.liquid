@@ -160,6 +160,19 @@
                 </a>
               {%- endif -%}
             </div>
+            {%- when 'five-star-rating' -%}
+              <div>
+                <div class="five-star-container">
+                  {%- for num in (1..5) -%}
+                    <div style="margin-right: 6px;">
+                      {%- liquid render 'icon-star' -%}
+                    </div>
+                  {%- endfor -%}
+                </div>
+                <div class="five-star-text">
+                  {{ block.settings.heading }}
+                </div>
+              </div>
         {%- endcase -%}
       {%- endfor -%}
     </div>

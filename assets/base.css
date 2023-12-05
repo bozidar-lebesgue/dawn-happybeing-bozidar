@@ -269,6 +269,7 @@ h2,
 h3,
 h4,
 h5,
+.hextra,
 .h0,
 .h1,
 .h2,
@@ -290,6 +291,16 @@ h5,
 
 @media only screen and (min-width: 750px) {
   .hxl {
+    font-size: calc(var(--font-heading-scale) * 6.2rem);
+  }
+}
+
+.hextra {
+  font-size: calc(var(--font-heading-scale) * 4rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .hextra {
     font-size: calc(var(--font-heading-scale) * 6.2rem);
   }
 }

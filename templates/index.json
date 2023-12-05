@@ -7,15 +7,14 @@
           "type": "heading",
           "settings": {
             "heading": "Live Healthy.",
-            "heading_size": 10
+            "heading_size": "hextra"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "A new kind of delicious tasting, polyphenol enriched iced-tea.",
-            "text_size": 4,
-            "text_style": "body"
+            "text": "<h2>A new kind of delicious tasting, <br>polyphenol enriched iced-tea.<h2>",
+            "text_size": "h2"
           }
         },
         "five-star-rating": {
