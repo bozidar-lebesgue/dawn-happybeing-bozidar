@@ -268,7 +268,7 @@
             "show_text_box": false,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         },
@@ -281,7 +281,7 @@
             "show_text_box": false,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-5",
             "text_alignment_mobile": "center"
           }
         }
@@ -292,8 +292,8 @@
       ],
       "settings": {
         "layout": "full_bleed",
-        "gradient": "linear-gradient(135.07deg, rgba(171, 191, 237, 1) 8.26%, rgba(251, 209, 242, 1) 95%)",
         "slide_height": "medium",
+        "gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
         "slider_visual": "car",
         "auto_rotate": false,
         "change_slides_speed": 5,

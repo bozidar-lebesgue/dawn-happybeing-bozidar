@@ -177,9 +177,9 @@
       "scheme-5": {
         "settings": {
           "background": "#334fb4",
-          "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)"linear-gradient(242.63deg, #D4E3F9 32.95%, #D4F2F9 82.5%)",
-          "text": "#ffffff",
-          "button": "#ffffff",
+          "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
+          "text": "#000000",
+          "button": "#000000",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
@@ -199,7 +199,7 @@
       "hb-old-homepage-banner": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "",
+          "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
           "text": "#000000",
           "button": "#000000",
           "button_label": "#000000",

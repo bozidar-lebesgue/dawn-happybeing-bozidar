@@ -273,7 +273,7 @@
           "type": "slide",
           "settings": {
             "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
-            "quote": "<h3>Dr. William Kracht<\/h3>",
+            "quote": "<h3><strong>Dr. William Kracht<\/strong><\/h3>",
             "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
@@ -288,7 +288,7 @@
           "type": "slide",
           "settings": {
             "review": "<p>Manage inflammation and boost my immune system in a delicious drink that actually works with my body? Yes please! I’m a convert.<\/p>",
-            "quote": "<h3>Monica<\/h3>",
+            "quote": "<h3><strong>Monica<\/strong><\/h3>",
             "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
@@ -326,7 +326,7 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "scheme-5"
+        "color_scheme": "hb-old-homepage-banner"
       }
     },
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2": {

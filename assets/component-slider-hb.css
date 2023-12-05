@@ -370,7 +370,7 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(var(--color-text), 0.3)
+  color: rgba(var(--color-text), 0.3);
 }
 
 .verified-buyed__container .icon {
@@ -380,7 +380,7 @@ slider-component.slider-component-full-width {
 .five-star__container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .five-star__container .icon-star {
@@ -390,9 +390,9 @@ slider-component.slider-component-full-width {
 .five-star__container .icon-star:last-child{
   margin-right: 0px;
 }
-/* 
+
 .slider-button .icon {
-  height: 0.6rem;
+  height: 2rem;
 }
 
 .slider-button[disabled] .icon {
@@ -414,4 +414,4 @@ slider-component.slider-component-full-width {
 
 .slider-button--prev:not([disabled]):hover .icon {
   transform: rotate(90deg) scale(1.1);
-} */
+}

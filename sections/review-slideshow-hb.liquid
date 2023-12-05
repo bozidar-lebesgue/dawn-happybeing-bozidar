@@ -1,5 +1,6 @@
 {{ 'component-slider-hb.css' | asset_url | stylesheet_tag }}
 {{ 'component-review-slideshow-hb.css' | asset_url | stylesheet_tag }}
+{{ 'section-homepage-top-hb.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.slide_height == 'adapt_image' and section.blocks.first.settings.image != blank -%}
   {%- style -%}
@@ -26,22 +27,36 @@
 
 
 {%- style -%}
-  .section-{{ section.id }} .slider-button {
-    height: 100px;
-    width: 100px;
-    z-index: 5;
+  {%- if section.settings.gradient != blank -%}
+    .section-{{ section.id }} .slideshow--gradient {
+      background: {{ section.settings.gradient }};
+    }
+  {%- endif -%}
+
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }} .slider-button {
+      z-index: 5;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      top: 0;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }} .slider-button {
+      display: none;
+    }
   }
 
   .section-{{ section.id }} .slider-button--prev {
-    position: absolute;
-    top: 50%;
     left: 100px;
   }
 
 
   .section-{{ section.id }} .slider-button--next {
-    position: absolute;
-    top: 50%;
     right: 100px;
   }
 
@@ -57,7 +72,7 @@
 {%- endstyle -%}
 
 <slideshow-component
-  class="section-{{ section.id }} gradient color-{{ section.settings.color_scheme }} slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}"
+  class="section-{{ section.id }} color-{{ section.settings.color_scheme }} gradient  slider-mobile-gutter{% if section.settings.layout == 'grid' %} page-width{% endif %}{% if section.settings.show_text_below %} mobile-text-below{% endif %}{% if section.settings.gradient != blank %} slideshow--gradient{% endif %}"
   role="region"
   aria-roledescription="{{ 'sections.slideshow.carousel' | t }}"
   aria-label="{{ section.settings.accessibility_info | escape }}"
@@ -86,79 +101,82 @@
       </h2>
     {%- endif -%}
   {%- endfor -%}
-  <button
-    type="button"
-    class="slider-button slider-button--prev"
-    name="previous"
-    aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
-    aria-controls="Slider-{{ section.id }}"
+  <div>
+  <div style="position: relative">
+    <button
+      type="button"
+      class="slider-button slider-button--prev"
+      name="previous"
+      aria-label="{{ 'sections.slideshow.previous_slideshow' | t }}"
+      aria-controls="Slider-{{ section.id }}"
+      >
+      {%- liquid render 'icon-caret', width: 44, height: 44 -%}
+    </button>
+    <div
+      class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider color-{{ block.settings.color_scheme }} slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+      id="Slider-{{ section.id }}"
+      aria-live="polite"
+      aria-atomic="true"
+      data-autoplay="{{ section.settings.auto_rotate }}"
+      data-speed="{{ section.settings.change_slides_speed }}"
     >
-    {% render 'icon-caret' %}
-  </button>
-  <div
-    class="slideshow banner banner--{{ section.settings.slide_height }} grid grid--1-col slider slider--everywhere{% if section.settings.show_text_below %} banner--mobile-bottom{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
-    id="Slider-{{ section.id }}"
-    aria-live="polite"
-    aria-atomic="true"
-    data-autoplay="{{ section.settings.auto_rotate }}"
-    data-speed="{{ section.settings.change_slides_speed }}"
-  >
-    {%- for block in section.blocks -%}
-      {%- if block.type == 'slide' -%}
-        <style>
-          #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
-            opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
-          }
-        </style>
-        <div
-          class="slideshow__slide grid__item grid--1-col slider__slide"
-          id="Slide-{{ section.id }}-{{ forloop.index }}"
-          {{ block.shopify_attributes }}
-          role="group"
-          aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-          tabindex="-1"
-        >
-          <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
-            <div class="slide__content slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
-              {%- if block.settings.review != blank -%}
-                <h2 class="banner__text rte">
-                  {{ block.settings.review }}
-                </h2>
-              {%- endif -%}
-              {%- if block.settings.five_star != blank -%}
-                <div class="five-star__container">
-                  {%- for num in (1..5) -%}
-                    {%- liquid render 'icon-star', color: '#E2BF08' -%}
-                  {%- endfor -%}
-                </div>
-              {%- endif -%}
-              {%- if block.settings.quote != blank -%}
-                <div style="rte">
-                  <p>{{ block.settings.quote }}</p>
-                </div>
-              {%- endif -%}
-              {%- if block.settings.verified_buyer != blank -%}
-                <div class="verified-buyed__container">
-                  {%- liquid render 'icon-checkmark-circle-full', color: 'rgb(var(--color-button))' -%}
-                  Verified buyer
-                </div>
-              {%- endif -%}
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'slide' -%}
+          <style>
+            #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
+              opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+            }
+          </style>
+          <div
+            class="slideshow__slide grid__item grid--1-col slider__slide"
+            id="Slide-{{ section.id }}-{{ forloop.index }}"
+            {{ block.shopify_attributes }}
+            role="group"
+            aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+            aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+            tabindex="-1"
+          >
+            <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+              <div class="slide__content slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
+                {%- if block.settings.review != blank -%}
+                  <h2 class="banner__text rte">
+                    {{ block.settings.review }}
+                  </h2>
+                {%- endif -%}
+                {%- if block.settings.five_star != blank -%}
+                  <div class="five-star__container">
+                    {%- for num in (1..5) -%}
+                      {%- liquid render 'icon-star', color: '#E2BF08' -%}
+                    {%- endfor -%}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.quote != blank -%}
+                  <div style="rte">
+                    <p>{{ block.settings.quote }}</p>
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.verified_buyer != blank -%}
+                  <div class="verified-buyed__container">
+                    {%- liquid render 'icon-checkmark-circle-full', color: 'rgba(96, 111, 181, 1)' -%}
+                    Verified buyer
+                  </div>
+                {%- endif -%}
+              </div>
             </div>
           </div>
-        </div>
-      {%- endif -%}
-    {%- endfor -%}
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <button
+      type="button"
+      class="slider-button slider-button--next"
+      name="next"
+      aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
+      aria-controls="Slider-{{ section.id }}"
+    >
+      {%- liquid render 'icon-caret', height: 20, width: 20 -%}
+    </button>
   </div>
-  <button
-    type="button"
-    class="slider-button slider-button--next"
-    name="next"
-    aria-label="{{ 'sections.slideshow.next_slideshow' | t }}"
-    aria-controls="Slider-{{ section.id }}"
-  >
-    {% render 'icon-caret' %}
-  </button>
 </slideshow-component>
 
 {%- if request.design_mode -%}
@@ -189,6 +207,12 @@
       ],
       "default": "full_bleed",
       "label": "t:sections.slideshow.settings.layout.label"
+    },
+    {
+      "type": "color_background",
+      "id": "gradient",
+      "label": "Background gradient",
+      "info": "Background gradient"
     },
     {
       "type": "range",
@@ -316,6 +340,12 @@
       "default": "Slideshow about our brand"
     },
     {
+      "type": "color_scheme",
+      "id": "color_scheme",
+      "label": "t:sections.all.colors.label",
+      "default": "hb-old-homepage-banner"
+    },
+    {
       "type": "range",
       "id": "slide_inner_padding",
       "min": 0,
@@ -437,7 +467,7 @@
           "type": "color_scheme",
           "id": "color_scheme",
           "label": "t:sections.all.colors.label",
-          "default": "scheme-3"
+          "default": "hb-old-homepage-banner"
         },
         {
           "type": "select",

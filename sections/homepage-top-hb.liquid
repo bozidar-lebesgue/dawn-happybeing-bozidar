@@ -29,12 +29,12 @@
   }
   
   {%- if section.settings.gradient_1 != blank -%}
-    .gradient-section-1 {
+    #Banner-{{ section.id }} .gradient-section-1 {
       background: {{ section.settings.gradient_1 }};
     }
   {%- endif -%}
   {%- if section.settings.gradient_2 != blank -%}
-    .gradient-section-2 {
+    #Banner-{{ section.id }} .gradient-section-2 {
       background: {{ section.settings.gradient_2 }};
     }
   {%- endif -%}
