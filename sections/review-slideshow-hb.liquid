@@ -79,35 +79,42 @@
     data-speed="{{ section.settings.change_slides_speed }}"
   >
     {%- for block in section.blocks -%}
-      <style>
-        #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
-          opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
-        }
-      </style>
-      <div
-        class="slideshow__slide grid__item grid--1-col slider__slide"
-        id="Slide-{{ section.id }}-{{ forloop.index }}"
-        {{ block.shopify_attributes }}
-        role="group"
-        aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
-        aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
-        tabindex="-1"
-      >
-        <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
-          <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
-            {%- if block.settings.review != blank -%}
-              <h2 class="banner__text rte">
-                {{ block.settings.review }}
-              </h2>
-            {%- endif -%}
-            {%- if block.settings.quote != blank -%}
-              <div class="banner__text rte" {{ block.shopify_attributes }}>
-                <p>{{ block.settings.quote }}</p>
-              </div>
-            {%- endif -%}
+      {%- if block.type == 'slide' -%}
+        <style>
+          #Slide-{{ section.id }}-{{ forloop.index }} .banner__media::after {
+            opacity: {{ block.settings.image_overlay_opacity | divided_by: 100.0 }};
+          }
+        </style>
+        <div
+          class="slideshow__slide grid__item grid--1-col slider__slide"
+          id="Slide-{{ section.id }}-{{ forloop.index }}"
+          {{ block.shopify_attributes }}
+          role="group"
+          aria-roledescription="{{ 'sections.slideshow.slide' | t }}"
+          aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
+          tabindex="-1"
+        >
+          <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+            <div class="slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} gradient slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
+              {%- if block.settings.review != blank -%}
+                <h2 class="banner__text rte">
+                  {{ block.settings.review }}
+                </h2>
+              {%- endif -%}
+              {%- if block.settings.five_star != blank -%}
+                <h2 class="banner__text rte">
+                  {{ block.settings.review }}
+                </h2>
+              {%- endif -%}
+              {%- if block.settings.quote != blank -%}
+                <div class="banner__text rte" {{ block.shopify_attributes }}>
+                  <p>{{ block.settings.quote }}</p>
+                </div>
+              {%- endif -%}
+            </div>
           </div>
         </div>
-      </div>
+      {%- endif -%}
     {%- endfor -%}
   </div>
   <button
@@ -293,6 +300,18 @@
           "default": true
         },
         {
+          "type": "checkbox",
+          "id": "five_star",
+          "label": "Five star",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "verified_buyer",
+          "label": "Verifiyed buyer",
+          "default": false
+        },
+        {
           "type": "select",
           "id": "box_align",
           "options": [
@@ -382,6 +401,45 @@
           ],
           "default": "center",
           "label": "t:sections.slideshow.blocks.slide.settings.text_alignment_mobile.label"
+        }
+      ]
+    },
+    {
+      "type": "five-star-rating",
+      "name": "Five star rating",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "rating",
+          "default": "5.0",
+          "label": "Rating score"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Heading text",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
         }
       ]
     }

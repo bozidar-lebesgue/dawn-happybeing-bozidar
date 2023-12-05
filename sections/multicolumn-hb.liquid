@@ -46,7 +46,9 @@
     height: {{ section.settings.column_icon_size }}px;
     width: {{ section.settings.column_icon_size }}px;
     border-radius: 100%;
-    background-color: white;
+    {%- if section.settings.column_icon_location == 'left' -%}
+      margin-right: 15px;
+    {%- endif -%}
   }
 
   .section-{{ section.id }} .subtitle-hb {
@@ -178,8 +180,8 @@
                 <div class="{%- if section.settings.column_icon_location == 'left' -%}column-icon-layout--left{% else %}column--center{%- endif -%}">
                   {%- if block.settings.icon != 'none' -%}
                     <div class="column__icon">
-                      {% comment %} {%- case block.settings.icon -%}
-                        {%- when 'dairy-free' -%}
+                      {%- case block.settings.icon -%}
+                        {% comment %} {%- when 'dairy-free' -%}
                           {% render 'icon-dairy-free' %}
                         {%- when 'non-gmo' -%}
                           {% render 'icon-non-gmo' %}
@@ -190,10 +192,10 @@
                         {%- when 'no-added-sugar' -%}
                           {% render 'icon-no-added-sugar' %}
                         {%- when 'no-caffeine' -%}
-                          {% render 'icon-no-caffeine' %}
+                          {% render 'icon-no-caffeine' %} {% endcomment %}
                         {%- when 'checkmark' -%}
-                          {% render 'icon-checkmark' %}
-                      {%- endcase -%} {% endcomment %}
+                          {% render 'icon-checkmark-black' %}
+                      {%- endcase -%} 
                     </div>
                   {%- endif -%}
                   {%- if section.settings.enumerate == 'yes' -%}
