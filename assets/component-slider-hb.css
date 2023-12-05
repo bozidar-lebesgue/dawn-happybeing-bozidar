@@ -373,7 +373,7 @@ slider-component.slider-component-full-width {
   color: rgba(var(--color-text), 0.3)
 }
 
-.verified-buyed__container .icon-checkmark-circle {
+.verified-buyed__container .icon {
   margin-right: 10px;
 }
 
