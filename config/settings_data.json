@@ -187,9 +187,9 @@
       },
       "hb-old-homepage-banner": {
         "settings": {
-          "background": "#1c1b1b",
-          "background_gradient": "linear-gradient(57deg, rgba(249, 119, 255, 1) 8%, rgba(54, 212, 255, 1) 47%, rgba(43, 252, 135, 1) 83%)",
-          "text": "#ffffff",
+          "background": "#ffffff",
+          "background_gradient": "",
+          "text": "#000000",
           "button": "#f94c43",
           "button_label": "#8dbefe",
           "secondary_button_label": "",
