@@ -10,61 +10,63 @@
   - tab3_title: {String} 
   - tab3_content: {String}
   Usage:
-  {% render 'tabs' tab1_title: 'title', tab1_content: 'Tab content' %}
+  {% render 'tabs', tab1_title: 'title', tab1_content: 'Tab content' %}
 {% endcomment %}
 
-<tabs>
-  <ul class="custom--tabs page-width">
-    <li class="tab__list active">
-      <h6
-        class="custom-tab"
-        data-content-id="content--1--{{ settings.section_id }}"
-      >
-        {{ settings.tab1_title }}
-      </h6>
-    </li>
-    {%- if settings.tab2_title != blank -%}
+<custom-tabs>
+  <div class="custom-tabs__container">
+    <ul class="custom--tabs">
       <li class="tab__list">
         <h6
-          class="custom-tab"
-          data-content-id="content--2--{{ settings.section_id }}"
+          class="custom-tab active"
+          data-content-id="content--1--{{ section.id }}"
         >
-          {{ settings.tab2_title }}
+          {{ tab1_title }}
         </h6>
       </li>
-    {%- endif -%}
-    {%- if settings.tab3_title != blank -%}
-      <li class="tab__list">
-        <h6
-          class="custom-tab"
-          data-content-id="content--3--{{ settings.section_id }}"
-        >
-          {{ settings.tab3_title }}
-        </h6>
-      </li>
-    {%- endif -%}
-  </ul>
+      {%- if tab2_title != blank -%}
+        <li class="tab__list">
+          <h6
+            class="custom-tab"
+            data-content-id="content--2--{{ section.id }}"
+          >
+            {{ tab2_title }}
+          </h6>
+        </li>
+      {%- endif -%}
+      {%- if tab3_title != blank -%}
+        <li class="tab__list">
+          <h6
+            class="custom-tab"
+            data-content-id="content--3--{{ section.id }}"
+          >
+            {{ tab3_title }}
+          </h6>
+        </li>
+      {%- endif -%}
+    </ul>
 
-  <div
-    id="content--1--{{ section.id }}"
-    class="custom__tab-content active"
-  >
-    {{ settings.tab1_content }}
+    <div
+      id="content--1--{{ section.id }}"
+      class="custom__tab-content active"
+    >
+      {{ tab1_content }}
+    </div>
+    {%- if tab2_title != blank -%}
+      <div
+        id="content--2--{{ section.id }}"
+        class="custom__tab-content"
+      >
+        {{ tab2_content }}
+      </div>
+    {%- endif -%}
+    {%- if tab3_title != blank -%}
+      <div
+        id="content--3--{{ section.id }}"
+        class="custom__tab-content"
+      >
+        {{  tab3_content }}
+      </div>
+    {%- endif -%}
   </div>
-  {%- if settings.tab2_title != blank -%}
-    <div
-      id="content--2--{{ section.id }}"
-      class="custom__tab-content"
-    >
-      {{ settings.tab2_content }}
-    </div>
-  {%- endif -%}
-  {%- if settings.tab3_title != blank -%}
-    <div
-      id="content--3--{{ section.id }}"
-      class="custom__tab-content"
-    >
-      {{ settings.tab3_content }}
-    </div>
-  {%- endif -%}
-</tabs>
+</custom-tabs>

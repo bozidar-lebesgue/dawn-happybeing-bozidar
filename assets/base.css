@@ -3517,40 +3517,53 @@ details-disclosure > details {
 }
 
 
+/* CUSTOM TABS CSS */
+.custom-tabs__container {
+  max-width: 300px;
+}
 
 ul.custom--tabs {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  border-bottom: 2px solid grey;
+  padding: 0;
   list-style-type: none;
-  width: 1200px;
-  max-width: 100%;
-  display: flex !important;
-  flex-wrap: wrap !important;
 }
+
 .custom--tabs .tab__list {
-  background-color: #efefef;
   display: inline-block;
 }
+
 .custom__tab-content {
   display:none;
 }
+
 .custom__tab-content.active {
   display:block;
 }
+
+.tab__list {
+  color: black;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: -2px;
+}
+
 .tab__list h6.custom-tab {
   display:inline-block !important;
-  padding:10px 15px !important;
+  padding-bottom: 5px;
   cursor: pointer !important;
   margin: 0px !important;
 }
+
 .active-always {
   display: block !important;
 }
-.tab__list:first-child {
-  background-color: #dfdfdf;
-}
+
 .tab__list h6.custom-tab.active {
-    color:grey !important;
-    border-bottom:1px solid red !important;
-    background-color: #dfdfdf;
+  border-bottom: 2px solid black;
 }
 
 @media only screen and (max-width: 576px) {

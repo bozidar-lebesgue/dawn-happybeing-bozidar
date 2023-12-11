@@ -1295,33 +1295,65 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
-class Tabs extends HTMLElement {
+class CustomTabs extends HTMLElement {
   constructor() {
+    console.log('##blabla');
     super();
-    tabs = document.querySelectorAll('.custom-tab');
-    tabContents= document.querySelectorAll('.custom__tab-content');
+    this.tabs = this.querySelectorAll('.custom-tab');
+    this.tabContents = this.querySelectorAll('.custom__tab-content');
 
-    tabs.forEach(function(tab){
-      tab.addEventListener('click',function() {
-          contentId = this.dataset.contentId;
-          content = document.getElementById(contentId);
+    console.log('##', 'asd2', this.tabs.length);
 
-          tabContents.forEach(function(content){
-              content.classList.remove('active');
-          });
+    this.querySelectorAll('.custom-tab').forEach((tab) =>
+      tab.addEventListener('click', this.onButtonClick.bind(this))
+    );
 
-          tabs.forEach(function(tab){
-              tab.classList.remove('active');
-          });
+    
 
-          this.classList.add('active');
-          content.classList.add('active');
-      });
-    });
+    // tabs.forEach(function(tab) {
+    //   tab.addEventListener('click',function() {
+    //       console.log('asd')
+    //       tabContents.forEach(function(content){
+    //           content.classList.remove('active');
+    //       });
+
+    //       tabs.forEach(function(tab){
+    //           tab.classList.remove('active');
+    //       });
+
+    //       console.log(tab.classList)
+
+    //       this.classList.add('active');
+    //       // content.classList.add('active');
+    //   });
+    // });
   }
+
+  onButtonClick(event) {
+    event.preventDefault();
+
+    this.tabs.forEach(function(tab){
+        tab.classList.remove('active');
+    });
+    this.tabContents.forEach(function(content){
+        content.classList.remove('active');
+    });
+
+    event.target.classList.add('active');
+
+    let contentId = event.target.dataset.contentId;
+    document.getElementById(contentId).classList.add('active');
+    // content.classList.add('active');
+
+
+    // event.target.name === 'plus' ? this.input.stepUp() : this.input.stepDown();
+    // if (previousValue !== this.input.value) this.input.dispatchEvent(this.changeEvent);
+  }
+
+
 }
 
-customElements.define('tabs', Tabs);
+customElements.define('custom-tabs', CustomTabs);
 
 class ProductRecommendations extends HTMLElement {
   constructor() {
