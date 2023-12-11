@@ -3,7 +3,7 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
-  {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
+  {{ 'section-main-product-hb.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
   {{ 'component-slider-hb.css' | asset_url | stylesheet_tag }}
@@ -17,6 +17,11 @@
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
       padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+
+
+    .section-{{ section.id }}-padding .quantity__input {
+      display: none;
     }
 
     @media screen and (min-width: 750px) {
@@ -221,20 +226,45 @@
                 {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                 {% # theme-check-enable %}
                 <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
-                  {{ 'products.product.quantity.label' | t }}
                   <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
                     {%- render 'loading-spinner' -%}
                     <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
                   </span>
                 </label>
                 <div class="price-per-item__container">
-                  <quantity-input class="quantity" data-url="{{ product.url }}" data-section="{{ section.id }}">
-                    <button class="quantity__button no-js-hidden" name="minus" type="button">
-                      <span class="visually-hidden">
-                        {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
-                      </span>
-                      {% render 'icon-minus' %}
-                    </button>
+                  <quantity-input-hb class="quantity-hb" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <div class="quantity-options__container">
+                      <div
+                        class="quantity__option quantity--selected"
+                        data-quantity="1"
+                      >
+                        {{ 16 | times: 1 }} cans
+                        <div class="quantity-checkmark__bg"></div>
+                        <div class="quantity-checkmark">
+                          {%- render 'icon-checkmark-circle-full' -%}
+                        </div>
+                      </div>
+                      <div
+                        class="quantity__option"
+                        data-quantity="2"
+                      >
+                        {{ 16 | times: 2 }} cans
+                        <div class="quantity-checkmark__bg"></div>
+                        <div class="quantity-checkmark">
+                          {%- render 'icon-checkmark-circle-full' -%}
+                        </div>
+                      </div>
+                      <div
+                        class="quantity__option"
+                        data-quantity="3"
+                      >
+                        {{ 16 | times: 3 }} cans
+                        <div class="quantity-checkmark__bg"></div>
+                        <div class="quantity-checkmark">
+                          {%- render 'icon-checkmark-circle-full' -%}
+                        </div>
+                      </div>
+                    </div>
                     <input
                       class="quantity__input"
                       type="number"
@@ -251,13 +281,7 @@
                       value="{{ product.selected_or_first_available_variant.quantity_rule.min }}"
                       form="{{ product_form_id }}"
                     />
-                    <button class="quantity__button no-js-hidden" name="plus" type="button">
-                      <span class="visually-hidden">
-                        {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
-                      </span>
-                      {% render 'icon-plus' %}
-                    </button>
-                  </quantity-input>
+                  </quantity-input-hb>
                   {%- liquid
                     assign volume_pricing_array = product.selected_or_first_available_variant.quantity_price_breaks | sort: 'quantity' | reverse
                     assign current_qty_for_volume_pricing = cart_qty | plus: product.selected_or_first_available_variant.quantity_rule.min

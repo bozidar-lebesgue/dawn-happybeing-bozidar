@@ -1939,6 +1939,68 @@ input[type='checkbox'] {
   z-index: -1;
 }
 
+.quantity-options__container {
+  display: grid;
+  column-gap: 12px;  
+  grid-template-columns: auto auto auto;
+}
+
+.quantity__option {
+  position: relative;
+  cursor: pointer;
+  padding: 30px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  border: 2px solid #676986;
+}
+
+
+.quantity__option.quantity--selected {
+  background-color: #5b6bb2;
+  border: 2px solid black;
+  color: white;
+}
+
+.quantity-checkmark {
+  display: none;
+  position: absolute;
+  bottom: -10px; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.quantity--selected .quantity-checkmark {
+  display: block;
+
+}
+
+.quantity-checkmark__bg {
+  display: none;
+
+  position: absolute;
+  bottom: -10px; 
+  left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: white;
+}
+
+.quantity--selected .quantity-checkmark {
+  display: block;  
+}
+
+
 .quantity__input {
   color: currentColor;
   font-size: 1.6rem;
