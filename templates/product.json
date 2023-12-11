@@ -13,11 +13,11 @@
           "type": "tabs",
           "settings": {
             "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants th<p>",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that’ve been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn’t create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
             "tab2_title": "Ingredients",
-            "tab2_content": "",
+            "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
             "tab3_title": "How To Use",
-            "tab3_content": ""
+            "tab3_content": "<p>We recommend drinking in the morning as a<strong>coffee replacement<\/strong>, in the afternoon as a<strong>mid-day treat<\/strong>, or in the evening as a<strong>wine alternative<\/strong>.  <br\/><br\/>For best results, drink daily.<\/p>"
           }
         },
         "caption": {
@@ -104,8 +104,6 @@
         }
       },
       "block_order": [
-        "vendor",
-        "title",
         "large_text",
         "tabs",
         "caption",
@@ -200,7 +198,6 @@
       "settings": {
         "title": "",
         "subtitle": "",
-        "title_font_size": 1.6,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
@@ -211,8 +208,10 @@
         "column_title_margin_top": 10,
         "column_content_font_size": 1,
         "column_icon_location": "left",
+        "mobile_content_align": "center",
         "column_icon_size": 16,
-        "heading_size": "h1",
+        "title_heading_size": "h1",
+        "subtitle_heading_size": "h1",
         "image_width": "full",
         "enumerate": "no",
         "image_ratio": "adapt",
@@ -229,6 +228,112 @@
         "header_position_desktop": "top",
         "padding_top": 12,
         "padding_bottom": 12
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-1",
+        "image_ratio": "square",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e2": {
+      "type": "review-slideshow-hb",
+      "blocks": {
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Own your health<\/strong>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star": {
+          "type": "five-star-rating",
+          "settings": {
+            "rating": "4.9\/5 Stars",
+            "heading": "",
+            "heading_size": "h3"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>These teas are delicious! They provide energy and I have noticed less inflammation in my body in the last few days. I have used these in place of coffee for an energy boost and did not find myself craving caffeine. 10\/10 would order again!<\/p>",
+            "quote": "<h3><strong>Bobby<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "hb-old-homepage-banner",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
+            "quote": "<h3><strong>Dr. William Kracht<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "hb-old-homepage-banner",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>Manage inflammation and boost my immune system in a delicious drink that actually works with my body? Yes please! I’m a convert.<\/p>",
+            "quote": "<h3><strong>Monica<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "hb-old-homepage-banner",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "gradient": "",
+        "corner_radius": 24,
+        "border_width": 1,
+        "slide_height": "medium",
+        "slider_visual": "none",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "color_scheme": "hb-old-homepage-banner",
+        "slide_inner_padding": 64
       }
     },
     "153683af-8722-4fab-9f64-7d7b27e25f7b_product": {
@@ -267,6 +372,77 @@
         "mobile_content_alignment": "left",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2": {
+      "type": "comparison-table-hb",
+      "blocks": {
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
+          "type": "row",
+          "settings": {
+            "first_description": "The more you drink the better you feel",
+            "first_check": true,
+            "second_description": "Effects wear off over time",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
+          "type": "row",
+          "settings": {
+            "first_description": "Doctor approved & formulated",
+            "first_check": true,
+            "second_description": "“Influencer approved”",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
+          "type": "row",
+          "settings": {
+            "first_description": "Polyphenol extracts",
+            "first_check": true,
+            "second_description": "Juice, and maybe some probiotics",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
+          "type": "row",
+          "settings": {
+            "first_description": "3 grams of sugar",
+            "first_check": true,
+            "second_description": "20+ grams of sugar",
+            "second_check": false
+          }
+        },
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
+          "type": "row",
+          "settings": {
+            "first_description": "Caffeine free, real energy",
+            "first_check": true,
+            "second_description": "Crash, jitters & burn out",
+            "second_check": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
+        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Iysine.png",
+        "heading": "We like to do things differently",
+        "subheading": "Our founder, Chris, spent three decades helping clients transform their health with the power of polyphenols. When we started happy being we wanted to deliver the best results we could for our customers so we had to rethink everything.",
+        "first_title": "First title",
+        "second_title": "Pressed juices",
+        "heading_size": 32,
+        "corner_radius": 24,
+        "border_width": 0,
+        "color_scheme": "scheme-3",
+        "inner_padding": 32,
+        "outer_padding_top": 64,
+        "outer_padding_bottom": 64
       }
     },
     "ingredients_multicolumn_product": {
@@ -374,182 +550,6 @@
         "header_position_desktop": "left",
         "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "disabled": true,
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-1",
-        "image_ratio": "square",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
-      }
-    },
-    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e2": {
-      "type": "review-slideshow-hb",
-      "blocks": {
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star": {
-          "type": "five-star-rating",
-          "settings": {
-            "rating": "4.9\/5 Stars",
-            "heading": "",
-            "heading_size": "h3"
-          }
-        },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>These teas are delicious! They provide energy and I have noticed less inflammation in my body in the last few days. I have used these in place of coffee for an energy boost and did not find myself craving caffeine. 10\/10 would order again!<\/p>",
-            "quote": "<h3><strong>Bobby<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "hb-old-homepage-banner",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
-            "quote": "<h3><strong>Dr. William Kracht<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "hb-old-homepage-banner",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>Manage inflammation and boost my immune system in a delicious drink that actually works with my body? Yes please! I’m a convert.<\/p>",
-            "quote": "<h3><strong>Monica<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "hb-old-homepage-banner",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Own your health<\/strong>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "none",
-        "corner_radius": 24,
-        "border_width": 1,
-        "slide_inner_padding": 64,
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "hb-old-homepage-banner"
-      }
-    },
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2": {
-      "type": "comparison-table-hb",
-      "blocks": {
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
-          "type": "row",
-          "settings": {
-            "first_description": "The more you drink the better you feel",
-            "first_check": true,
-            "second_description": "Effects wear off over time",
-            "second_check": false
-          }
-        },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
-          "type": "row",
-          "settings": {
-            "first_description": "Doctor approved & formulated",
-            "first_check": true,
-            "second_description": "“Influencer approved”",
-            "second_check": false
-          }
-        },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
-          "type": "row",
-          "settings": {
-            "first_description": "Polyphenol extracts",
-            "first_check": true,
-            "second_description": "Juice, and maybe some probiotics",
-            "second_check": false
-          }
-        },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
-          "type": "row",
-          "settings": {
-            "first_description": "3 grams of sugar",
-            "first_check": true,
-            "second_description": "20+ grams of sugar",
-            "second_check": false
-          }
-        },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
-          "type": "row",
-          "settings": {
-            "first_description": "Caffeine free, real energy",
-            "first_check": true,
-            "second_description": "Crash, jitters & burn out",
-            "second_check": false
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Iysine.png",
-        "heading": "We like to do things differently",
-        "subheading": "Our founder, Chris, spent three decades helping clients transform their health with the power of polyphenols. When we started happy being we wanted to deliver the best results we could for our customers so we had to rethink everything.",
-        "first_title": "First title",
-        "second_title": "Pressed juices",
-        "heading_size": 32,
-        "corner_radius": 24,
-        "border_width": 0,
-        "color_scheme": "scheme-3",
-        "inner_padding": 32,
-        "outer_padding_top": 64,
-        "outer_padding_bottom": 64
       }
     }
   },
