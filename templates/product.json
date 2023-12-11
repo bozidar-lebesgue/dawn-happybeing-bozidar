@@ -3,10 +3,19 @@
     "main": {
       "type": "main-product-hb",
       "blocks": {
-        "large_text": {
-          "type": "large_text",
+        "five-star-rating-product": {
+          "type": "five-star-rating",
           "settings": {
-            "text": "Feel less pain & more energy in 30 days"
+            "rating": "4.9",
+            "heading": "7,000+ happy customers",
+            "heading_size": "h3"
+          }
+        },
+        "heading_product": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feel less pain & more energy in 30 days",
+            "heading_size": "h1"
           }
         },
         "tabs": {
@@ -57,7 +66,8 @@
         }
       },
       "block_order": [
-        "large_text",
+        "five-star-rating-product",
+        "heading_product",
         "tabs",
         "caption",
         "price",
@@ -68,7 +78,7 @@
       ],
       "settings": {
         "enable_sticky_info": true,
-        "color_scheme": "",
+        "color_scheme": "scheme-8",
         "media_size": "small",
         "constrain_to_viewport": true,
         "media_fit": "contain",

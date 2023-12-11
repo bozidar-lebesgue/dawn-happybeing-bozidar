@@ -30,6 +30,11 @@
         padding-bottom: {{ section.settings.padding_bottom }}px;
       }
     }
+
+    #ProductInfo-{{ section.id }} {
+      max-width: 440px;
+      padding: 0 24px;
+    }
   {%- endstyle -%}
 
   <script src="{{ 'product-info.js' | asset_url }}" defer="defer"></script>
@@ -91,10 +96,13 @@
               >
                 {{- block.settings.text -}}
               </p>
-            {%- when 'large_text' -%}
-              <div class="product__title" {{ block.shopify_attributes }}>
-                <h1>{{- block.settings.text -}}</h1>
-              </div>
+            {%- when 'heading' -%}
+              <h2
+                class="pdp__heading inline-richtext {{ block.settings.heading_size }}"
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.heading }}
+              </h2>
             {%- when 'title' -%}
               <div class="product__title" {{ block.shopify_attributes }}>
                 <h1>{{ product.title | escape }}</h1>
@@ -434,7 +442,30 @@
                 block: block,
                 share_link: share_url
               %}
-
+            {%- when 'five-star-rating' -%}
+              <div class="five-star-container" style="justify-content: flex-start">
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div style="margin-right: 6px;">
+                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                </div>
+                <div>
+                  {{ block.settings.rating }}
+                </div>
+                <div class="five-star__desc">
+                  {{ block.settings.heading }}
+                </div>
+              </div>
             {%- when 'variant_picker' -%}
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
@@ -742,14 +773,78 @@
       ]
     },
     {
-      "type": "large_text",
-      "name": "Large text",
+      "type": "heading",
+      "name": "t:sections.image-banner.blocks.heading.name",
+      "limit": 2,
       "settings": [
         {
           "type": "inline_richtext",
-          "id": "text",
-          "default": "Text block",
-          "label": "t:sections.main-product.blocks.text.settings.text.label"
+          "id": "heading",
+          "default": "Image banner",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            },
+            {
+              "value": "hextra",
+              "label": "Extra large"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "five-star-rating",
+      "name": "Five star rating",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "rating",
+          "default": "5.0",
+          "label": "Rating score"
+        },
+        {
+          "type": "inline_richtext",
+          "id": "heading",
+          "default": "Heading text",
+          "label": "t:sections.image-banner.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
         }
       ]
     },
