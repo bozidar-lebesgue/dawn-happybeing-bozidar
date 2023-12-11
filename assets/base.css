@@ -3515,3 +3515,60 @@ details-disclosure > details {
     --border-offset: 0px; /* Prevent the border from growing on buttons when this effect is on. */
   }
 }
+
+
+
+ul.custom--tabs {
+  list-style-type: none;
+  width: 1200px;
+  max-width: 100%;
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+.custom--tabs .tab__list {
+  background-color: #efefef;
+  display: inline-block;
+}
+.custom__tab-content {
+  display:none;
+}
+.custom__tab-content.active {
+  display:block;
+}
+.tab__list h6.custom-tab {
+  display:inline-block !important;
+  padding:10px 15px !important;
+  cursor: pointer !important;
+  margin: 0px !important;
+}
+.active-always {
+  display: block !important;
+}
+.tab__list:first-child {
+  background-color: #dfdfdf;
+}
+.tab__list h6.custom-tab.active {
+    color:grey !important;
+    border-bottom:1px solid red !important;
+    background-color: #dfdfdf;
+}
+
+@media only screen and (max-width: 576px) {
+  ul.custom--tabs {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .custom--tabs .tab__list .custom-tab {
+    margin: 0px !important;
+    width: 100%;
+    padding: 10px 15px !important;
+    border-bottom: none !important;
+  }
+  .tab__list h6.custom-tab {
+    padding: 0px !important;
+    margin: 10px 0px !important;
+  }
+  .custom__tab-content.active {
+    padding: 0 15px;
+  }
+}

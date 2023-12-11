@@ -3,16 +3,21 @@
     "main": {
       "type": "main-product-hb",
       "blocks": {
-        "vendor": {
-          "type": "text",
+        "large_text": {
+          "type": "large_text",
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text": "Feel less pain & more energy in 30 days"
           }
         },
-        "title": {
-          "type": "title",
+        "tabs": {
+          "type": "tabs",
           "settings": {
+            "tab1_title": "Tea with benefits",
+            "tab1_content": "Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants th",
+            "tab2_title": "Ingredients",
+            "tab2_content": "",
+            "tab3_title": "How To Use",
+            "tab3_content": ""
           }
         },
         "caption": {
@@ -101,6 +106,8 @@
       "block_order": [
         "vendor",
         "title",
+        "large_text",
+        "tabs",
         "caption",
         "price",
         "variant_picker",

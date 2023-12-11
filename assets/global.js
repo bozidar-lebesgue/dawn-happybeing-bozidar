@@ -1295,6 +1295,34 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
+class Tabs extends HTMLElement {
+  constructor() {
+    super();
+    tabs = document.querySelectorAll('.custom-tab');
+    tabContents= document.querySelectorAll('.custom__tab-content');
+
+    tabs.forEach(function(tab){
+      tab.addEventListener('click',function() {
+          contentId = this.dataset.contentId;
+          content = document.getElementById(contentId);
+
+          tabContents.forEach(function(content){
+              content.classList.remove('active');
+          });
+
+          tabs.forEach(function(tab){
+              tab.classList.remove('active');
+          });
+
+          this.classList.add('active');
+          content.classList.add('active');
+      });
+    });
+  }
+}
+
+customElements.define('tabs', Tabs);
+
 class ProductRecommendations extends HTMLElement {
   constructor() {
     super();
