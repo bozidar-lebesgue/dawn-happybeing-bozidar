@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-product-hb",
       "blocks": {
         "vendor": {
           "type": "text",
@@ -224,6 +224,151 @@
         "padding_bottom": 12
       }
     },
+    "153683af-8722-4fab-9f64-7d7b27e25f7b_product": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Harness plant’s most powerful nutrients, polyphenols",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1",
+        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ingredients_multicolumn_product": {
+      "type": "multicolumn-hb",
+      "blocks": {
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Dairy free<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "dairy-free"
+          }
+        },
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Non gmo<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "non-gmo"
+          }
+        },
+        "f1913978-e779-4afb-b8aa-69c6a1587a26": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Vegan<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "vegan"
+          }
+        },
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-soy-free": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Soy free<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "soy-free"
+          }
+        },
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-no-added-sugar": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>No added sugar<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "no-added-sugar"
+          }
+        },
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-no-caffeine": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>No caffeine<\/strong>",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "icon": "no-caffeine"
+          }
+        }
+      },
+      "block_order": [
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613",
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-soy-free",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-no-added-sugar",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-no-caffeine"
+      ],
+      "settings": {
+        "title": "<strong>All good, without\n the guilt.<\/strong>",
+        "subtitle": "",
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 0,
+        "column_title_font_size": 1.4,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 16,
+        "column_content_font_size": 0,
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 64,
+        "title_heading_size": "h1",
+        "subtitle_heading_size": "h0",
+        "image_width": "full",
+        "enumerate": "no",
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "title_alignment": "left",
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2.5",
+        "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": false,
+        "header_position_desktop": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "related-products": {
       "type": "related-products",
       "disabled": true,
@@ -406,6 +551,8 @@
     "378ee716-4745-4679-99ec-6abddb8180e8",
     "related-products",
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e2",
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2"
+    "153683af-8722-4fab-9f64-7d7b27e25f7b_product",
+    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2",
+    "ingredients_multicolumn_product"
   ]
 }
