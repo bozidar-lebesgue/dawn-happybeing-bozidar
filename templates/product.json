@@ -635,6 +635,111 @@
         "padding_top": 16,
         "padding_bottom": 16
       }
+    },
+    "qna": {
+      "type": "qna",
+      "blocks": {
+        "tab_1": {
+          "type": "tab_header",
+          "settings": {
+            "heading": "Product information",
+            "tab_number": 1
+          }
+        },
+        "tab_2": {
+          "type": "tab_header",
+          "settings": {
+            "heading": "Purchase and Policies",
+            "tab_number": 2
+          }
+        },
+        "tab_3": {
+          "type": "tab_header",
+          "settings": {
+            "heading": "Consumption Guidelines",
+            "tab_number": 3
+          }
+        },
+        "collapsible_tab1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 1,
+            "heading": "Where can I find the ingredients & supplement facts?",
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
+          }
+        },
+        "collapsible_tab2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 1,
+            "heading": "What is your return policy?",
+            "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>"
+          }
+        },
+        "collapsible_tab3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 2,
+            "heading": "How often should I drink this? ",
+            "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>"
+          }
+        },
+        "collapsible_tab4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "Where can I find the ingredients & supplement facts?",
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "tab1",
+        "tab2",
+        "tab3",
+        "collapsible_tab1",
+        "collapsible_tab2",
+        "collapsible_tab3",
+        "collapsible_tab4"
+      ],
+      "settings": {
+        "title": "<strong>All good, without\n the guilt.<\/strong>",
+        "subtitle": "",
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 0,
+        "column_title_font_size": 1.4,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 16,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 0,
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 64,
+        "title_heading_size": "h1",
+        "subtitle_heading_size": "h0",
+        "image_width": "full",
+        "enumerate": false,
+        "image_ratio": "adapt",
+        "columns_desktop": 6,
+        "title_alignment": "left",
+        "column_alignment": "center",
+        "column_content_text_align": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-2",
+        "columns_mobile": "2.5",
+        "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": false,
+        "header_position_desktop": "left",
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
     }
   },
   "order": [
@@ -645,6 +750,7 @@
     "153683af-8722-4fab-9f64-7d7b27e25f7b_product",
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2",
     "1d0a4c80-6430-49be-835c-886760fbe4cf2",
-    "ingredients_multicolumn_product"
+    "ingredients_multicolumn_product",
+    "qna"
   ]
 }
