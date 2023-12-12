@@ -370,7 +370,9 @@ slider-component.slider-component-full-width {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: rgba(var(--color-text), 0.3);
+  font-style: italic;
+  font-weight: 400;
+  color: #9CA3AF; /* rgba(var(--color-text), 0.3); */
 }
 
 .verified-buyed__container .icon {
