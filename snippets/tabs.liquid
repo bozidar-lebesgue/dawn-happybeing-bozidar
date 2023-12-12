@@ -17,31 +17,31 @@
   <div class="custom-tabs__container">
     <ul class="custom--tabs">
       <li class="tab__list">
-        <h6
+        <h4
           class="custom-tab active"
           data-content-id="content--1--{{ section.id }}"
         >
           {{ tab1_title }}
-        </h6>
+        </h4>
       </li>
       {%- if tab2_title != blank -%}
         <li class="tab__list">
-          <h6
+          <h4
             class="custom-tab"
             data-content-id="content--2--{{ section.id }}"
           >
             {{ tab2_title }}
-          </h6>
+          </h4>
         </li>
       {%- endif -%}
       {%- if tab3_title != blank -%}
         <li class="tab__list">
-          <h6
+          <h5
             class="custom-tab"
             data-content-id="content--3--{{ section.id }}"
           >
             {{ tab3_title }}
-          </h6>
+          </h5>
         </li>
       {%- endif -%}
     </ul>

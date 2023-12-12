@@ -1599,4 +1599,17 @@ a.product__text {
   }
 }
 
+.thumbnail-list__item--round  {
+  border-radius: 24px;
+}
 
+.thumbnail-list__item--white-bg  {
+  background-color: white;
+}
+
+.product__media--round {
+  border-radius: 24px;  
+}
+.product__media--white-bg {
+  background-color: white;
+}

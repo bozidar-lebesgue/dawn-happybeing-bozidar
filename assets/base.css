@@ -3592,6 +3592,7 @@ ul.custom--tabs {
   border-bottom: 2px solid #e5e7eb;
   padding: 0;
   list-style-type: none;
+  margin-top: 0;
 }
 
 .custom--tabs .tab__list {
@@ -3601,7 +3602,7 @@ ul.custom--tabs {
 .custom__tab-content {
   display: none;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 20px;
 
 }
 
@@ -3616,18 +3617,19 @@ ul.custom--tabs {
   margin-bottom: -2px;
 }
 
-.tab__list h6.custom-tab {
-  display:inline-block !important;
+.tab__list .custom-tab {
+  display: inline-block !important;
   padding-bottom: 5px;
   cursor: pointer !important;
   margin: 0px !important;
+  font-weight: 600;
 }
 
 .active-always {
   display: block !important;
 }
 
-.tab__list h6.custom-tab.active {
+.tab__list .custom-tab.active {
   border-bottom: 2px solid black;
 }
 
@@ -3642,7 +3644,7 @@ ul.custom--tabs {
     padding: 10px 15px !important;
     border-bottom: none !important;
   }
-  .tab__list h6.custom-tab {
+  .tab__list .custom-tab {
     padding: 0px !important;
     margin: 10px 0px !important;
   }
@@ -3658,6 +3660,7 @@ ul.custom--tabs {
 }
 
 .pdp__heading {
-  margin-bottom: 3rem;
+  margin: 0 0;
   font-weight: 600;
+  line-height: 4rem;
 }
