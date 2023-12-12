@@ -403,7 +403,6 @@
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/istockphoto-184920479-612x612.jpg",
             "title": "<strong>Ptero (berry polyphenol)<\/strong>",
             "subtitle": "<em>50mg (nutritionally equivalent to 962 cups of blueberries)<\/em>",
             "second_subtitle": "<em>Fights inflammation<\/em>",
@@ -485,7 +484,8 @@
         "column_subtitle_font_size": 1.2,
         "column_subtitle_margin_bottom": 10,
         "column_subtitle_margin_top": 0,
-        "column_content_font_size": 1,
+        "column_content_font_size": 1.1,
+        "column_content_text_align": "left",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,

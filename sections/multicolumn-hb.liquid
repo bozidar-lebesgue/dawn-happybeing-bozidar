@@ -71,6 +71,7 @@
 
   .section-{{ section.id }} .column__content {
     font-size: {{ section.settings.column_content_font_size }}rem;
+    text-align: {{ section.settings.column_content_text_align }};
   }
 {%- endstyle -%}
 
@@ -213,9 +214,12 @@
                       {%- endif -%}
                     </div>                
                   {%- endif -%}
-                  {%- if section.settings.icon_image != blank -%}
-                    <div class="icon-image">
-                    </div>                
+                  {%- if block.settings.icon_image != blank -%}
+                    {{
+                      block.settings.icon_image
+                      | image_url: width: 64, height: 64
+                      | image_tag: class: 'icon-image'
+                    }}          
                   {%- endif -%}
                   <div>
                     {%- if block.settings.title != blank -%}
@@ -602,6 +606,22 @@
     {
       "type": "select",
       "id": "column_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.multicolumn.settings.column_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.multicolumn.settings.column_alignment.options__2.label"
+        }
+      ],
+      "default": "left",
+      "label": "Column alignment"
+    },
+    {
+      "type": "select",
+      "id": "column_content_text_align",
       "options": [
         {
           "value": "left",
