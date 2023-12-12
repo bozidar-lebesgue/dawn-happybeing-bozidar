@@ -170,6 +170,7 @@
         "columns_desktop": 5,
         "title_alignment": "left",
         "column_alignment": "left",
+        "column_content_text_align": "left",
         "background_style": "",
         "button_label": "",
         "button_link": "",
@@ -435,6 +436,7 @@
             "text": "<p>As the main polyphenol in apples, EGCG zeroes in on one of the proteins that causes inflammation — tnf(alpha) — reducing the resources it needs to catalyze inflammation. Not only does EGCG help neutralize inflammation, but it's also is incredible for nourishing your gut microbiome because it acts like a prebiotic in the human body, feeding the good gut bacteria that helps keep your GI tract in balance.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/istockphoto-115684139-612x612.jpg",
             "icon": "none"
           }
         },
@@ -442,11 +444,12 @@
           "type": "column",
           "settings": {
             "title": "<strong>Elderberry<\/strong>",
-            "subtitle": "<i>1000mg (clinically studied serving)<\/i>",
-            "second_subtitle": "<i>Strengthens immunity<\/i>",
+            "subtitle": "<em>1000mg (clinically studied serving)<\/em>",
+            "second_subtitle": "<em>Strengthens immunity<\/em>",
             "text": "<p>It's all thanks to elderberry’s high polyphenol content. It’s especially rich in anthocyanins, an antioxidant which neutralizes free radicals and soothes inflammation in the intestine. Elderberry even has antiviral properties and helps to coordinate our immune system. Humans have enjoyed the benefits of elderberry since ancient times: proof that classics never go out of style.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Screen_Shot_2023-08-25_at_9.46.34_AM.png",
             "icon": "none"
           }
         },
@@ -454,11 +457,12 @@
           "type": "column",
           "settings": {
             "title": "<strong>Vitamin D3<\/strong>",
-            "subtitle": "<i>45% Daily Recommended Value<\/i>",
-            "second_subtitle": "<i>Strengthens immunity<\/i>",
+            "subtitle": "<em>45% Daily Recommended Value<\/em>",
+            "second_subtitle": "<em>Strengthens immunity<\/em>",
             "text": "<p>It’s easy to overlook the basics sometimes, the simple things that actually make a big difference. Vitamin D3 is one of those simple things. It doesn’t matter who you are or where you’re from, we all need D3, but most of us don’t get enough. It supports strong bones, yes, but it also supports healthy blood flow too. How? By galvanizing the good stuff (like antimicrobial peptides which protect our bodies from all sorts of things) and by hindering hurtful things (like inflammatory factors that restrict blood flow). 45% of your daily recommended value in each serving. Simply sip for more sunshine.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/istockphoto-91321783-612x612.jpg",
             "icon": "none"
           }
         }
@@ -484,8 +488,7 @@
         "column_subtitle_font_size": 1.2,
         "column_subtitle_margin_bottom": 10,
         "column_subtitle_margin_top": 0,
-        "column_content_font_size": 1.1,
-        "column_content_text_align": "left",
+        "column_content_font_size": 1,
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
@@ -497,6 +500,7 @@
         "columns_desktop": 3,
         "title_alignment": "left",
         "column_alignment": "center",
+        "column_content_text_align": "left",
         "background_style": "",
         "button_label": "",
         "button_link": "",
@@ -619,6 +623,7 @@
         "columns_desktop": 6,
         "title_alignment": "left",
         "column_alignment": "center",
+        "column_content_text_align": "left",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
