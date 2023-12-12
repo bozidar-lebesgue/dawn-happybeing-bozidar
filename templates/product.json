@@ -80,6 +80,8 @@
           "type": "column",
           "settings": {
             "title": "",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p><strong>Healthy inflammation, leading to less joint pain<\/strong><\/p>",
             "link_label": "",
             "link": "",
@@ -90,6 +92,8 @@
           "type": "column",
           "settings": {
             "title": "",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p><strong>Improves immunity so you get sick less often<\/strong><\/p>",
             "link_label": "",
             "link": "",
@@ -100,6 +104,8 @@
           "type": "column",
           "settings": {
             "title": "",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p><strong>Reduces bloating for happy, healthy stomachs<\/strong><\/p>",
             "link_label": "",
             "link": "",
@@ -110,6 +116,8 @@
           "type": "column",
           "settings": {
             "title": "",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p><strong>90 day “happy” guarantee - 100% money back<\/strong><\/p>",
             "link_label": "",
             "link": "",
@@ -120,6 +128,8 @@
           "type": "column",
           "settings": {
             "title": "",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p><strong>Backed by 100+ years of clinical experience<\/strong><\/p>",
             "link_label": "",
             "link": "",
@@ -145,6 +155,9 @@
         "column_title_font_size": 1.6,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
         "column_content_font_size": 1,
         "column_icon_location": "left",
         "mobile_content_align": "center",
@@ -152,7 +165,7 @@
         "title_heading_size": "h1",
         "subtitle_heading_size": "h1",
         "image_width": "full",
-        "enumerate": "no",
+        "enumerate": false,
         "image_ratio": "adapt",
         "columns_desktop": 5,
         "title_alignment": "left",
@@ -390,61 +403,64 @@
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-1": {
           "type": "column",
           "settings": {
-            "icon_image": "",
+            "image": "shopify:\/\/shop_images\/istockphoto-184920479-612x612.jpg",
             "title": "<strong>Ptero (berry polyphenol)<\/strong>",
-            "subtitle": "<i>50mg (nutritionally equivalent to 962 cups of blueberries)<\/i>",
-            "second_subtitle": "<i>Fights inflammation<\/i>",
+            "subtitle": "<em>50mg (nutritionally equivalent to 962 cups of blueberries)<\/em>",
+            "second_subtitle": "<em>Fights inflammation<\/em>",
             "text": "<p>You’re already familiar with its work because blueberries are full of this stuff. It's a super-antioxidant, which are naturally-occurring compounds that fight “free radicals.” Free radicals are the inflammation- causing chaos agents that attack the machinery of our cells. Antioxidants, and Ptero in particular, are an antidote to that inflammation. In fact, Ptero stops 50-80% of those signals by neutralizing the compound that is most responsible for the inflammation — called tnf(alpha) — and preventing dangerous feedback loops that can cause metabolic slow-downs and weight gain.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon_image": "shopify:\/\/shop_images\/istockphoto-184920479-612x612.jpg",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-2": {
           "type": "column",
           "settings": {
-            "icon_image": "",
             "title": "<strong>Tumeric<\/strong>",
-            "subtitle": "<i>250mg (liquid bioavailable form called Turmacin®)<\/i>",
-            "second_subtitle": "<i>Fights inflammation<\/i>",
+            "subtitle": "<em>250mg (liquid bioavailable form called Turmacin®)<\/em>",
+            "second_subtitle": "<em>Fights inflammation<\/em>",
             "text": "<p>If Turmacin (ter-mah-sin) was a newspaper headline it would read: Herbal Remedy Backed by Clinical Data. In case you’re unfamiliar with Turmacin, it's a liquid form of turmeric that's been clinically proven to promote healthy levels of inflammation. Turmacin lives up to the hype because its highly absorbable and consistently helps mitigate joint pain too. How does it work? Turmacin works by balancing proteins that play a central role in chronic inflammation (like NF-kB).<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon_image": "shopify:\/\/shop_images\/istockphoto-1256619136-612x612.jpg",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-3": {
           "type": "column",
           "settings": {
-            "icon_image": "",
             "title": "<strong>EGCG (apple polyphenol)<\/strong>",
-            "subtitle": "<i>35mg (nutritionally equivalent to 8 apples)<\/i>",
-            "second_subtitle": "<i>Nourishes gut health<\/i>",
+            "subtitle": "<em>35mg (nutritionally equivalent to 8 apples)<\/em>",
+            "second_subtitle": "<em>Nourishes gut health<\/em>",
             "text": "<p>As the main polyphenol in apples, EGCG zeroes in on one of the proteins that causes inflammation — tnf(alpha) — reducing the resources it needs to catalyze inflammation. Not only does EGCG help neutralize inflammation, but it's also is incredible for nourishing your gut microbiome because it acts like a prebiotic in the human body, feeding the good gut bacteria that helps keep your GI tract in balance.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-4": {
           "type": "column",
           "settings": {
-            "icon_image": "",
             "title": "<strong>Elderberry<\/strong>",
             "subtitle": "<i>1000mg (clinically studied serving)<\/i>",
             "second_subtitle": "<i>Strengthens immunity<\/i>",
             "text": "<p>It's all thanks to elderberry’s high polyphenol content. It’s especially rich in anthocyanins, an antioxidant which neutralizes free radicals and soothes inflammation in the intestine. Elderberry even has antiviral properties and helps to coordinate our immune system. Humans have enjoyed the benefits of elderberry since ancient times: proof that classics never go out of style.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-5": {
           "type": "column",
           "settings": {
-            "icon_image": "",
             "title": "<strong>Vitamin D3<\/strong>",
             "subtitle": "<i>45% Daily Recommended Value<\/i>",
             "second_subtitle": "<i>Strengthens immunity<\/i>",
             "text": "<p>It’s easy to overlook the basics sometimes, the simple things that actually make a big difference. Vitamin D3 is one of those simple things. It doesn’t matter who you are or where you’re from, we all need D3, but most of us don’t get enough. It supports strong bones, yes, but it also supports healthy blood flow too. How? By galvanizing the good stuff (like antimicrobial peptides which protect our bodies from all sorts of things) and by hindering hurtful things (like inflammatory factors that restrict blood flow). 45% of your daily recommended value in each serving. Simply sip for more sunshine.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         }
       },
@@ -457,13 +473,29 @@
       ],
       "settings": {
         "title": "",
-        "column_corner_radius": 24,
-        "column_border_width": 0,
-        "image": "",
-        "heading_size": "h1",
+        "subtitle": "Subtitle",
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 10,
+        "column_title_font_size": 1.6,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.2,
+        "column_subtitle_margin_bottom": 10,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h1",
+        "subtitle_heading_size": "h1",
         "image_width": "full",
+        "enumerate": false,
         "image_ratio": "adapt",
         "columns_desktop": 3,
+        "title_alignment": "left",
         "column_alignment": "center",
         "background_style": "",
         "button_label": "",
@@ -471,13 +503,10 @@
         "color_scheme": "scheme-8",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "enumerate": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 64,
-        "column_padding_top": 36,
-        "column_padding_bottom": 36,
-        "column_subtitle_font_size": 1.2,
-        "column_subtitle_margin_bottom": 10
+        "padding_bottom": 64
       }
     },
     "ingredients_multicolumn_product": {
@@ -487,6 +516,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>Dairy free<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -497,6 +528,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>Non gmo<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -507,6 +540,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>Vegan<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -517,6 +552,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>Soy free<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -527,6 +564,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>No added sugar<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -537,6 +576,8 @@
           "type": "column",
           "settings": {
             "title": "<strong>No caffeine<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
@@ -563,6 +604,9 @@
         "column_title_font_size": 1.4,
         "column_title_margin_bottom": 0,
         "column_title_margin_top": 16,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
         "column_content_font_size": 0,
         "column_icon_location": "top",
         "mobile_content_align": "center",
@@ -570,7 +614,7 @@
         "title_heading_size": "h1",
         "subtitle_heading_size": "h0",
         "image_width": "full",
-        "enumerate": "no",
+        "enumerate": false,
         "image_ratio": "adapt",
         "columns_desktop": 6,
         "title_alignment": "left",
