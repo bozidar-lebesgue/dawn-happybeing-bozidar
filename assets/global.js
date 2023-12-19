@@ -1278,7 +1278,14 @@ class CustomTabs extends HTMLElement {
       tab.addEventListener('click', this.onButtonClick.bind(this))
     );
 
-    this.querySelector('.custom-tab-title--1').classList.add('active');
+    let firstSelected = this.querySelector('.custom-tab-title--1');
+    firstSelected.classList.add('active');
+
+    let contentId = firstSelected.dataset.contentId;
+    let tabElems = document.getElementsByClassName(contentId);
+    for(let i = 0; i < tabElems.length; i++) {
+      tabElems[i].classList.add('active');
+    }
   }
 
   onButtonClick(event) {
@@ -1294,7 +1301,10 @@ class CustomTabs extends HTMLElement {
     event.target.classList.add('active');
 
     let contentId = event.target.dataset.contentId;
-    document.getElementById(contentId).classList.add('active');
+    let tabElems = document.getElementsByClassName(contentId);
+    for(let i = 0; i < tabElems.length; i++) {
+      tabElems[i].classList.add('active');
+    }
   }
 }
 

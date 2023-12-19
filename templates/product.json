@@ -671,7 +671,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>asd Where can I find the ingredients & supplement facts?<\/strong>",
+            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
             "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
             "page": ""
           }
@@ -715,7 +715,9 @@
         "collapsible_tab4"
       ],
       "settings": {
-        "color_scheme": "scheme-9"
+        "color_scheme": "scheme-9",
+        "include_all_tab": false,
+        "initialy_selected_tab": "1"
       }
     },
     "1702980395127de7fa": {

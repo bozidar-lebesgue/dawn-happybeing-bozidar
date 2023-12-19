@@ -71,8 +71,7 @@
         {%- for block in section.blocks -%}
           {%- if block.type == 'collapsible_tab' -%}
             <div
-              id="content--{{ block.settings.tab_number }}--{{ section.id }}"
-              class="custom__tab-content active"
+              class="custom__tab-content content--{{ block.settings.tab_number }}--{{ section.id }}"
             >
               <div class="product__accordion accordion-hb quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -113,6 +112,17 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-8"
+      },
+      {
+        "type": "checkbox",
+        "id": "include_all_tab",
+        "label": "Include all tab",
+        "default": false
+      },
+      {
+        "type": "text",
+        "id": "initialy_selected_tab",
+        "label": "Initialy selected tab"
       }
     ],
     "blocks": [
