@@ -285,7 +285,7 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "hb-old-homepage-banner",
+        "color_scheme": "scheme-1",
         "slide_inner_padding": 64
       }
     },
@@ -671,7 +671,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
+            "heading": "<strong>asd Where can I find the ingredients & supplement facts?<\/strong>",
             "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
             "page": ""
           }
@@ -715,26 +715,7 @@
         "collapsible_tab4"
       ],
       "settings": {
-      }
-    },
-    "1702980351f17240c9": {
-      "type": "apps",
-      "blocks": {
-        "64ec820c-7b86-4633-adfe-d358e41f4a26": {
-          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "show_heading": false,
-            "heading": "",
-            "badge_link": "",
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "64ec820c-7b86-4633-adfe-d358e41f4a26"
-      ],
-      "settings": {
-        "include_margins": true
+        "color_scheme": "scheme-9"
       }
     },
     "1702980395127de7fa": {
@@ -754,23 +735,6 @@
       "settings": {
         "include_margins": true
       }
-    },
-    "1702980419e686ef9c": {
-      "type": "apps",
-      "blocks": {
-        "674ac9b0-e516-40bf-8f3f-dcef9919ac08": {
-          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-badge\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
-          "settings": {
-            "horizontal_alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "674ac9b0-e516-40bf-8f3f-dcef9919ac08"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
@@ -783,8 +747,6 @@
     "1d0a4c80-6430-49be-835c-886760fbe4cf2",
     "ingredients_multicolumn_product",
     "qna",
-    "1702980351f17240c9",
-    "1702980395127de7fa",
-    "1702980419e686ef9c"
+    "1702980395127de7fa"
   ]
 }

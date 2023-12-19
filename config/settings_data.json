@@ -196,7 +196,7 @@
           "shadow": "#121212"
         }
       },
-      "hb-old-homepage-banner": {
+      "scheme-7": {
         "settings": {
           "background": "#ffffff",
           "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
@@ -214,8 +214,19 @@
           "text": "#000000",
           "button": "#000000",
           "button_label": "#fff",
-          "secondary_button_label": "",
+          "secondary_button_label": "#D9D9D9",
           "shadow": "#6a6a6a"
+        }
+      },
+      "scheme-9": {
+        "settings": {
+          "background": "#ffffff",
+          "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
+          "text": "#000000",
+          "button": "#000000",
+          "button_label": "#000000",
+          "secondary_button_label": "#606FB533",
+          "shadow": ""
         }
       }
     }
@@ -279,7 +290,7 @@
             "shadow": "#121212"
           }
         },
-        "hb-old-homepage-banner": {
+        "scheme-7": {
           "settings": {
             "background": "#1C1B1B",
             "background_gradient": "",

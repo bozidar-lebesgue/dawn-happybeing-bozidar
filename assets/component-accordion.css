@@ -22,7 +22,13 @@
 .accordion {
   margin-top: 2.5rem;
   margin-bottom: 0;
-  border-bottom: 2px solid rgba(var(--color-foreground), 0.08);
+  border-bottom: 1px solid rgb(var(--color-link));
+}
+
+.accordion-hb {
+  margin-top: 2.5rem;
+  margin-bottom: 0;
+  border-bottom: 1px solid rgb(var(--color-link));
 }
 
 .accordion__title {

@@ -15,14 +15,27 @@
 
 
 {%- style -%}
+  #Qna-{{ section.id }} {
+    padding: 64px 0;
+  }
+
   #Qna-{{ section.id }} .custom-tabs__container {
     width: 100%;    
   }
 
+  #Qna-{{ section.id }} .banner__heading {
+    text-align: center;
+  }
+
+  #Qna-{{ section.id }} .accordion-hb {
+    margin-top: 2.5rem;
+    border-bottom: 1px solid rgb(var(--color-link));
+  }
 {%- endstyle -%}
+
 <section
   id="Qna-{{ section.id }}"
-  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }} page-width"
+  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
   <div class="tabs-section__container">
@@ -30,12 +43,12 @@
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
-          <h2
+          <div
             class="banner__heading inline-richtext {{ block.settings.heading_size }}"
             {{ block.shopify_attributes }}
           >
             {{ block.settings.heading }}
-          </h2>
+          </div>
       {%- endcase -%}
     {%- endfor -%}
     <custom-tabs>
@@ -61,7 +74,7 @@
               id="content--{{ block.settings.tab_number }}--{{ section.id }}"
               class="custom__tab-content active"
             >
-              <div class="product__accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+              <div class="product__accordion accordion-hb quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
                   <summary>
                     <div class="summary__title">
@@ -94,7 +107,14 @@
     "disabled_on": {
       "groups": ["header", "footer"]
     },
-    "settings": [],
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-8"
+      }
+    ],
     "blocks": [
       {
         "type": "heading",

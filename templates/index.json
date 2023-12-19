@@ -149,6 +149,80 @@
         "padding_bottom": 36
       }
     },
+    "product-section": {
+      "type": "product-anywhere",
+      "blocks": {
+        "five-star-rating-product": {
+          "type": "five-star-rating",
+          "settings": {
+            "rating": "4.9",
+            "heading": "7,000+ happy customers",
+            "heading_size": "h3"
+          }
+        },
+        "heading_product": {
+          "type": "heading",
+          "settings": {
+            "heading": "Feel less pain & more energy in 30 days",
+            "heading_size": "h1"
+          }
+        },
+        "tabs": {
+          "type": "tabs",
+          "settings": {
+            "tab1_title": "Tea with benefits",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that’ve been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn’t create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
+            "tab2_title": "Ingredients",
+            "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
+            "tab3_title": "How To Use",
+            "tab3_content": "<p>We recommend drinking in the morning as a <strong>coffee replacement<\/strong>, in the afternoon as a <strong>mid-day treat<\/strong>, or in the evening as a <strong>wine alternative<\/strong>.  <br\/><br\/>For best results, drink daily.<\/p>"
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "subtitle"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "five-star-rating-product",
+        "heading_product",
+        "tabs",
+        "caption",
+        "quantity_selector",
+        "buy_buttons"
+      ],
+      "settings": {
+        "product_url": "healthy-peach-rose",
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-8",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
+    },
     "ingredients_multicolumn": {
       "type": "multicolumn-hb",
       "blocks": {
@@ -938,11 +1012,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "qna": {
+      "type": "qna",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ask us anything",
+            "heading_size": "h0"
+          }
+        },
+        "tab1": {
+          "type": "tab_header",
+          "settings": {
+            "tab_number": 1,
+            "title": "Product information"
+          }
+        },
+        "tab2": {
+          "type": "tab_header",
+          "settings": {
+            "tab_number": 2,
+            "title": "Purchase and Policies"
+          }
+        },
+        "tab3": {
+          "type": "tab_header",
+          "settings": {
+            "tab_number": 3,
+            "title": "Consumption Guidelines"
+          }
+        },
+        "collapsible_tab1": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 1,
+            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab2": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 1,
+            "heading": "<strong>What is your return policy?<\/strong>",
+            "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab3": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 2,
+            "heading": "<strong>How often should I drink this?<\/strong>",
+            "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab4": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "tab1",
+        "tab2",
+        "tab3",
+        "collapsible_tab1",
+        "collapsible_tab2",
+        "collapsible_tab3",
+        "collapsible_tab4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8"
+      }
     }
   },
   "order": [
     "homepage_top_hb",
     "c23ade3d-e60e-4247-9350-df78c371f87a",
+    "product-section",
     "ingredients_multicolumn",
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
     "153683af-8722-4fab-9f64-7d7b27e25f7b",
@@ -956,6 +1113,7 @@
     "402e23c4-1717-4373-a1f4-9aedb0b406b4",
     "multicolumn",
     "4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7",
-    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7"
+    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7",
+    "qna"
   ]
 }
