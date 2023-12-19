@@ -753,7 +753,7 @@
         "main-header-left": {
           "type": "main_header",
           "settings": {
-            "poistion": "left",
+            "position": "left",
             "heading_size": "h0",
             "text": "<b>Nutrition Facts<\/b>"
           }
@@ -761,16 +761,16 @@
         "main-header-right-1": {
           "type": "main_header",
           "settings": {
-            "poistion": "right",
-            "heading_size": "h1",
+            "position": "right",
+            "heading_size": "h2",
             "text": "1 Serving Per Container"
           }
         },
         "main-header-right-2": {
           "type": "main_header",
           "settings": {
-            "poistion": "right",
-            "heading_size": "h1",
+            "position": "right",
+            "heading_size": "h2",
             "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>"
           }
         }
@@ -781,7 +781,8 @@
         "main-header-right-2"
       ],
       "settings": {
-        "color_scheme": "scheme-8"
+        "color_scheme": "scheme-10",
+        "desktop_max_width": 1000
       }
     }
   },

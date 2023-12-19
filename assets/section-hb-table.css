@@ -2,20 +2,21 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 15px solid rgb(var(--color-secondary-button-text));
-  border-bottom: 15px solid rgb(var(--color-secondary-button-text));
+  border-top: 15px solid rgba(var(--color-secondary-button-text), 0.2);
+  border-bottom: 15px solid rgba(var(--color-secondary-button-text), 0.2);
 }
 
 .hb-table-main-header .hb-table-main-header--left {
   display: flex;
   flex-direction: column;
   justify-content: flex;
-  align-items: center;
+  align-items: left;
+  text-align: left;
 }
 
 .hb-table-main-header .hb-table-main-header--right {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  align-items: center;
+  align-items: right;
+  text-align: right;
 }

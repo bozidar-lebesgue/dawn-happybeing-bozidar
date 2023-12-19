@@ -1,6 +1,10 @@
 {{ 'section-hb-table.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
+  .section-{{ section.id }}-padding .table__container {
+    max-width: {{ section.settings.desktop_max_width }}px;
+    margin: 0 auto;
+  }
 {%- endstyle -%}
 
 <section
@@ -8,29 +12,28 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
-
-  <div class="hb-table-main-header">
-    <div class="hb-table-main-header--left">
-      {%- for block in section.blocks -%}
-        {%- if block.type == 'main_header' and block.settings.position == 'left' -%}
-          <div class="{{ block.settings.heading_size }}">
-            {{ block.settings.text }}
-          </div>
-        {%- endif -%}
-      {%- endfor -%}
+  <div class="table__container">
+    <div class="hb-table-main-header">
+      <div class="hb-table-main-header--left">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'main_header' and block.settings.position == 'left' -%}
+            <div class="{{ block.settings.heading_size }}">
+              {{ block.settings.text }}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+      <div class="hb-table-main-header--right">
+        {%- for block in section.blocks -%}
+          {%- if block.type == 'main_header' and block.settings.position == 'right' -%}
+            <div class="{{ block.settings.heading_size }}">
+              {{ block.settings.text }}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>  
     </div>
-    <div class="hb-table-main-header--right">
-      {%- for block in section.blocks -%}
-        {%- if block.type == 'main_header' and block.settings.position == 'right' -%}
-          <div class="{{ block.settings.heading_size }}">
-            {{ block.settings.text }}
-          </div>
-        {%- endif -%}
-      {%- endfor -%}
-    </div>  
   </div>
-
-
 </section>
 
 
@@ -48,6 +51,16 @@
         "id": "color_scheme",
         "label": "t:sections.all.colors.label",
         "default": "scheme-8"
+      },
+      {
+        "type": "range",
+        "id": "desktop_max_width",
+        "min": 500,
+        "max": 1200,
+        "step": 50,
+        "unit": "px",
+        "default": 1000,
+        "label": "Desktop maximum width"
       }
     ],
     "blocks": [
@@ -73,7 +86,6 @@
                 "label": "Right"
               }
             ],
-            "default": "right",
             "label": "Position"
           },
           {
