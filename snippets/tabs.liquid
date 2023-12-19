@@ -18,7 +18,7 @@
     <ul class="custom--tabs">
       <li class="tab__list">
         <h4
-          class="custom-tab active"
+          class="custom-tab custom-tab-title--1"
           data-content-id="content--1--{{ section.id }}"
         >
           {{ tab1_title }}
@@ -27,7 +27,7 @@
       {%- if tab2_title != blank -%}
         <li class="tab__list">
           <h4
-            class="custom-tab"
+            class="custom-tab custom-tab-title--1"
             data-content-id="content--2--{{ section.id }}"
           >
             {{ tab2_title }}
@@ -37,7 +37,7 @@
       {%- if tab3_title != blank -%}
         <li class="tab__list">
           <h4
-            class="custom-tab"
+            class="custom-tab custom-tab-title--1"
             data-content-id="content--3--{{ section.id }}"
           >
             {{ tab3_title }}
@@ -47,25 +47,22 @@
     </ul>
 
     <div
-      id="content--1--{{ section.id }}"
-      class="custom__tab-content active"
+      class="custom__tab-content content--1--{{ section.id }}"
     >
       {{ tab1_content }}
     </div>
     {%- if tab2_title != blank -%}
       <div
-        id="content--2--{{ section.id }}"
-        class="custom__tab-content"
+        class="custom__tab-content content--2--{{ section.id }}"
       >
         {{ tab2_content }}
       </div>
     {%- endif -%}
     {%- if tab3_title != blank -%}
       <div
-        id="content--3--{{ section.id }}"
-        class="custom__tab-content"
+        class="custom__tab-content content--3--{{ section.id }}"
       >
-        {{  tab3_content }}
+        {{ tab3_content }}
       </div>
     {%- endif -%}
   </div>
