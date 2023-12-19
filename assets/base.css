@@ -3587,7 +3587,6 @@ details-disclosure > details {
 ul.custom--tabs {
   display: flex;
   justify-content: space-between;
-  box-sizing: border-box;
   flex-wrap: wrap;
   border-bottom: 2px solid #e5e7eb;
   padding: 0;
@@ -3663,4 +3662,9 @@ ul.custom--tabs {
   margin: 0 0;
   font-weight: 600;
   line-height: 4rem;
+}
+
+.tabs-section__container {
+  max-width: 550px;
+  margin: 0 auto;
 }

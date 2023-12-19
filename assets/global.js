@@ -1277,6 +1277,8 @@ class CustomTabs extends HTMLElement {
     this.querySelectorAll('.custom-tab').forEach((tab) =>
       tab.addEventListener('click', this.onButtonClick.bind(this))
     );
+
+    this.querySelector('.custom-tab-title--1').classList.add('active');
   }
 
   onButtonClick(event) {

@@ -639,24 +639,31 @@
     "qna": {
       "type": "qna",
       "blocks": {
-        "tab_1": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading_size": "h0",
+            "heading": "Ask us anything"
+          }
+        },
+        "tab1": {
           "type": "tab_header",
           "settings": {
-            "heading": "Product information",
+            "title": "Product information",
             "tab_number": 1
           }
         },
-        "tab_2": {
+        "tab2": {
           "type": "tab_header",
           "settings": {
-            "heading": "Purchase and Policies",
+            "title": "Purchase and Policies",
             "tab_number": 2
           }
         },
-        "tab_3": {
+        "tab3": {
           "type": "tab_header",
           "settings": {
-            "heading": "Consumption Guidelines",
+            "title": "Consumption Guidelines",
             "tab_number": 3
           }
         },
@@ -664,7 +671,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "Where can I find the ingredients & supplement facts?",
+            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
             "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
           }
         },
@@ -672,7 +679,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "What is your return policy?",
+            "heading": "<strong>What is your return policy?<\/strong>",
             "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>"
           }
         },
@@ -680,7 +687,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 2,
-            "heading": "How often should I drink this? ",
+            "heading": "<strong>How often should I drink this?<\/strong>",
             "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>"
           }
         },
@@ -688,12 +695,13 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "Where can I find the ingredients & supplement facts?",
+            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
             "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
           }
         }
       },
       "block_order": [
+        "heading",
         "tab1",
         "tab2",
         "tab3",

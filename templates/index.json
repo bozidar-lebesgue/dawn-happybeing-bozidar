@@ -306,14 +306,14 @@
         "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Harness plant’s most powerful nutrients, polyphenols",
+            "heading": "<b>Harness plant’s most powerful nutrients, polyphenols<\/b>",
             "heading_size": "h1"
           }
         },
         "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
+            "text": "<p><b>Polyphenols<\/b> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
             "text_style": "body"
           }
         }
@@ -376,6 +376,7 @@
       ],
       "settings": {
         "title": "",
+        "subtitle": "",
         "column_corner_radius": 24,
         "column_border_width": 1,
         "image": "shopify:\/\/shop_images\/Iysine.png",
@@ -388,12 +389,32 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-3",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 64,
         "padding_bottom": 64,
         "column_padding_top": 36,
-        "column_padding_bottom": 36
+        "column_padding_bottom": 36,
+
+
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 96,
+        "column_title_font_size": 2.4,
+        "column_title_margin_bottom": 30,
+        "column_title_margin_top": 30,
+        "column_content_font_size": 1.8,
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "subtitle_heading_size": "h1",
+        "enumerate": false,
+        "title_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": false,
+        "header_position_desktop": "top",
+        "padding_top": 0
       }
     },
     "comparison_table_title": {
