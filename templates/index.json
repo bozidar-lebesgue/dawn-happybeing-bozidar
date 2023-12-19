@@ -317,6 +317,7 @@
         "title": "<strong>All good, without the guilt.<\/strong>",
         "subtitle": "",
         "title_margin_top": 0,
+        "title_max_width": 350,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,

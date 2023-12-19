@@ -525,6 +525,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Customer_Service.png",
             "icon": "dairy-free"
           }
         },
@@ -537,6 +538,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Non_GMO.png",
             "icon": "non-gmo"
           }
         },
@@ -549,6 +551,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Vegan_Icon_4a597625-04cb-401a-a41c-215a9a21abfe.png",
             "icon": "vegan"
           }
         },
@@ -561,6 +564,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Soy_free_icon_b7d0278b-f27d-4e56-a1e6-45dd86379bcb.png",
             "icon": "soy-free"
           }
         },
@@ -573,6 +577,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/0_sugar_icon_ee243450-45d5-4642-935b-b47c857fe86d.png",
             "icon": "no-added-sugar"
           }
         },
@@ -585,6 +590,7 @@
             "text": "",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/Caffeine_Free.png",
             "icon": "no-caffeine"
           }
         }
@@ -598,23 +604,24 @@
         "f1913978-e779-4afb-b8aa-69c6a1587a26-no-caffeine"
       ],
       "settings": {
-        "title": "<strong>All good, without\n the guilt.<\/strong>",
+        "title": "<strong>All good, without the guilt.<\/strong>",
         "subtitle": "",
         "title_margin_top": 0,
+        "title_max_width": 350,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 0,
         "column_title_font_size": 1.4,
         "column_title_margin_bottom": 0,
-        "column_title_margin_top": 16,
+        "column_title_margin_top": 15,
         "column_subtitle_font_size": 1.6,
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 0,
         "column_icon_location": "top",
         "mobile_content_align": "center",
-        "column_icon_size": 64,
+        "column_icon_size": 0,
         "title_heading_size": "h1",
         "subtitle_heading_size": "h0",
         "image_width": "full",

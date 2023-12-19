@@ -18,15 +18,26 @@
         display: flex;
         justify-content: space-between;
       }
-
-      .section-{{ section.id }} .title {
-        width: 340px;
-      }
       
       .section-{{ section.id }} .multicolumn-card__info {
         padding: 0;
       }
     {%- endif -%}
+
+    .section-{{ section.id }} .title-hb {
+      max-width: {{ section.settings.title_max_width }}px;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }} .title-hb {
+      max-width: {{ section.settings.title_max_width | times: 0.8 }}px;
+      text-align: center;
+    }
+    
+    .section-{{ section.id }} .title-wrapper-hb {
+      justify-content: center;
+    }    
   }
 
   .section-{{ section.id }} .column-icon-layout--left  {
@@ -39,7 +50,6 @@
   .section-{{ section.id }} .title-hb {
     margin-bottom: {{ section.settings.title_margin_bottom }}px;
     margin-top: {{ section.settings.title_margin_top }}px;
-    /* max-width: {{ section.settings.title_max_width }}px; */
   }
 
   .section-{{ section.id }} .column__icon {
@@ -91,7 +101,7 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
+      <div class="title-wrapper-hb title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
         <div class="title-hb inline-richtext {{ section.settings.title_heading_size }}">
           {{ section.settings.title }}
         </div>
@@ -324,6 +334,16 @@
     },
     {
       "type": "range",
+      "id": "title_max_width",
+      "min": 0,
+      "unit": "px",
+      "max": 1000,
+      "step": 10,
+      "default": 1000,
+      "label": "Title maximum width"
+    },
+    {
+      "type": "range",
       "id": "title_margin_top",
       "min": 0,
       "unit": "px",
@@ -396,7 +416,7 @@
       "max": 100,
       "step": 1,
       "default": 10,
-      "label": "Column title margin bottom"
+      "label": "Column title margin top"
     },
     {
       "type": "range",
