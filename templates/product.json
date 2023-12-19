@@ -672,7 +672,8 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
-            "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "page": ""
           }
         },
         "collapsible_tab2": {
@@ -680,7 +681,8 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>What is your return policy?<\/strong>",
-            "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>"
+            "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>",
+            "page": ""
           }
         },
         "collapsible_tab3": {
@@ -688,7 +690,8 @@
           "settings": {
             "tab_number": 2,
             "heading": "<strong>How often should I drink this?<\/strong>",
-            "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>"
+            "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>",
+            "page": ""
           }
         },
         "collapsible_tab4": {
@@ -696,7 +699,8 @@
           "settings": {
             "tab_number": 3,
             "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
-            "content": "<p>CLICK HERE to see nutrition facts.<\/p>"
+            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "page": ""
           }
         }
       },
@@ -712,6 +716,61 @@
       ],
       "settings": {
       }
+    },
+    "1702980351f17240c9": {
+      "type": "apps",
+      "blocks": {
+        "64ec820c-7b86-4633-adfe-d358e41f4a26": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-carousel\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "show_heading": false,
+            "heading": "",
+            "badge_link": "",
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "64ec820c-7b86-4633-adfe-d358e41f4a26"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1702980395127de7fa": {
+      "type": "apps",
+      "blocks": {
+        "40190b89-d099-4f44-ba65-7fad8edb545b": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "product": "{{product}}",
+            "widget_type": "reviews_widget"
+          }
+        }
+      },
+      "block_order": [
+        "40190b89-d099-4f44-ba65-7fad8edb545b"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1702980419e686ef9c": {
+      "type": "apps",
+      "blocks": {
+        "674ac9b0-e516-40bf-8f3f-dcef9919ac08": {
+          "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/reviews-badge\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+          "settings": {
+            "horizontal_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "674ac9b0-e516-40bf-8f3f-dcef9919ac08"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -723,6 +782,9 @@
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2",
     "1d0a4c80-6430-49be-835c-886760fbe4cf2",
     "ingredients_multicolumn_product",
-    "qna"
+    "qna",
+    "1702980351f17240c9",
+    "1702980395127de7fa",
+    "1702980419e686ef9c"
   ]
 }
