@@ -1,0 +1,160 @@
+{{ 'section-hb-table.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+{%- endstyle -%}
+
+<section
+  id="HBTable-{{ section.id }}"
+  class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
+  data-section="{{ section.id }}"
+>
+
+  <div class="hb-table-main-header">
+    <div class="hb-table-main-header--left">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'main_header' and block.settings.position == 'left' -%}
+          <div class="{{ block.settings.heading_size }}">
+            {{ block.settings.text }}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>
+    <div class="hb-table-main-header--right">
+      {%- for block in section.blocks -%}
+        {%- if block.type == 'main_header' and block.settings.position == 'right' -%}
+          <div class="{{ block.settings.heading_size }}">
+            {{ block.settings.text }}
+          </div>
+        {%- endif -%}
+      {%- endfor -%}
+    </div>  
+  </div>
+
+
+</section>
+
+
+{% schema %}
+  {
+    "name": "Hb table",
+    "tag": "section",
+    "class": "section",
+    "disabled_on": {
+      "groups": ["header", "footer"]
+    },
+    "settings": [
+      {
+        "type": "color_scheme",
+        "id": "color_scheme",
+        "label": "t:sections.all.colors.label",
+        "default": "scheme-8"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "main_header",
+        "name": "Main header",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "text",
+            "label": "Text"
+          },
+          {
+            "type": "select",
+            "id": "position",
+            "options": [
+              {
+                "value": "left",
+                "label": "Left"
+              },
+              {
+                "value": "right",
+                "label": "Right"
+              }
+            ],
+            "default": "right",
+            "label": "Position"
+          },
+          {
+            "type": "select",
+            "id": "heading_size",
+            "options": [
+              {
+                "value": "h2",
+                "label": "t:sections.all.heading_size.options__1.label"
+              },
+              {
+                "value": "h1",
+                "label": "t:sections.all.heading_size.options__2.label"
+              },
+              {
+                "value": "h0",
+                "label": "t:sections.all.heading_size.options__3.label"
+              },
+              {
+                "value": "hextra",
+                "label": "Extra large"
+              }
+            ],
+            "default": "h1",
+            "label": "t:sections.all.heading_size.label"
+          }
+        ]
+      },
+      {
+        "type": "row",
+        "name": "Row",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "item",
+            "label": "Item text"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "item_amount",
+            "label": "Item amount"
+          },
+          {
+            "type": "inline_richtext",
+            "id": "item_percent",
+            "label": "Item percent"
+          },
+          {
+            "type": "range",
+            "id": "indent",
+            "min": 0,
+            "max": 3,
+            "step": 1,
+            "default": 0,
+            "label": "Indent"
+          },
+          {
+            "type": "text",
+            "id": "section_id",
+            "label": "Section id"
+          }
+        ]
+      },
+      {
+        "type": "info",
+        "name": "Additional info",
+        "settings": [
+          {
+            "type": "inline_richtext",
+            "id": "text",
+            "label": "Text"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "HB Table",
+        "blocks": []
+      }
+    ]
+  }
+{% endschema %}
+  

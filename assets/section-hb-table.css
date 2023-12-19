@@ -1,0 +1,21 @@
+.hb-table-main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 15px solid rgb(var(--color-secondary-button-text));
+  border-bottom: 15px solid rgb(var(--color-secondary-button-text));
+}
+
+.hb-table-main-header .hb-table-main-header--left {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex;
+  align-items: center;
+}
+
+.hb-table-main-header .hb-table-main-header--right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}

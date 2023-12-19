@@ -746,6 +746,43 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "nutrition-facts": {
+      "type": "hb-table",
+      "blocks": {
+        "main-header-left": {
+          "type": "main_header",
+          "settings": {
+            "poistion": "left",
+            "heading_size": "h0",
+            "text": "<b>Nutrition Facts<\/b>"
+          }
+        },
+        "main-header-right-1": {
+          "type": "main_header",
+          "settings": {
+            "poistion": "right",
+            "heading_size": "h1",
+            "text": "1 Serving Per Container"
+          }
+        },
+        "main-header-right-2": {
+          "type": "main_header",
+          "settings": {
+            "poistion": "right",
+            "heading_size": "h1",
+            "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>"
+          }
+        }
+      },
+      "block_order": [
+        "main-header-left",
+        "main-header-right-1",
+        "main-header-right-2"
+      ],
+      "settings": {
+        "color_scheme": "scheme-8"
+      }
     }
   },
   "order": [
@@ -758,6 +795,7 @@
     "1d0a4c80-6430-49be-835c-886760fbe4cf2",
     "ingredients_multicolumn_product",
     "qna",
+    "nutrition-facts",
     "1702980395127de7fa"
   ]
 }
