@@ -33,24 +33,6 @@
     }
   {%- endif -%}
 
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }} .slider-button {
-      z-index: 5;
-      position: absolute;
-      display: flex;
-      align-items: center;
-      height: 100%;
-      top: 0;
-    }
-  }
-
-  @media screen and (max-width: 749px) {
-    .section-{{ section.id }} .slider-button {
-      display: none;
-    }
-  }
-
   .section-{{ section.id }} .slider-button--prev {
     left: 100px;
   }
@@ -69,6 +51,37 @@
     border: {{ section.settings.border_width }}px solid rgb(var(--color-button));
     padding: {{ section.settings.slide_inner_padding }}px;
   }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }} .slider-button {
+      z-index: 5;
+      position: absolute;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      top: 0;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .section-{{ section.id }} .slider-button {
+      display: none;
+    }
+
+    .section-{{ section.id }} .slide__content {
+      padding: {{ section.settings.slide_inner_padding | times: 0.5 }}px;
+      margin: 0px 10px;
+    }
+    .section-{{ section.id }} .five-star__container--top {
+      margin-bottom: 25px;
+    }
+    .section-{{ section.id }} .banner__text {
+      line-height: 2.5rem;
+    }
+    .section-{{ section.id }} .verified-buyer__container {
+      margin: 0;
+    }
+  }
 {%- endstyle -%}
 
 <slideshow-component
@@ -80,7 +93,7 @@
   
   {%- for block in section.blocks -%}
     {%- if block.type == 'five-star-rating' -%}
-      <div class="five-star__container {{ section.settings.desktop_content_position }}">
+      <div class="five-star__container five-star__container--top {{ section.settings.desktop_content_position }}">
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
@@ -156,11 +169,11 @@
                 {%- endif -%}
                 {%- if block.settings.quote != blank -%}
                   <div style="rte">
-                    <p>{{ block.settings.quote }}</p>
+                    <div>{{ block.settings.quote }}</div>
                   </div>
                 {%- endif -%}
                 {%- if block.settings.verified_buyer != blank -%}
-                  <div class="verified-buyed__container">
+                  <div class="verified-buyer__container">
                     {%- liquid render 'icon-checkmark-circle-full', color: 'rgba(96, 111, 181, 1)' -%}
                     Verified buyer
                   </div>

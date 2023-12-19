@@ -83,6 +83,13 @@
     font-size: {{ section.settings.column_content_font_size }}rem;
     text-align: {{ section.settings.column_content_text_align }};
   }
+
+  {%- if section.settings.navigation_caret_size == 'small' -%}
+    .section-{{ section.id }} .slider-button {
+      height: 24px !important;
+      width: 24px !important;
+    }
+  {%- endif -%}
 {%- endstyle -%}
 
 {%- liquid
@@ -457,6 +464,22 @@
       "step": 0.2,
       "default": 1,
       "label": "Column content font size"
+    },
+    {
+      "type": "select",
+      "id": "navigation_caret_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "Small"
+        },
+        {
+          "value": "large",
+          "label": "Large"
+        }
+      ],
+      "default": "large",
+      "label": "Navigation caret size"
     },
     {
       "type": "select",

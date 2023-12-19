@@ -366,7 +366,7 @@ slider-component.slider-component-full-width {
   color: rgb(var(--color-foreground));
 }
 
-.verified-buyed__container {
+.verified-buyer__container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -375,7 +375,7 @@ slider-component.slider-component-full-width {
   color: #9CA3AF; /* rgba(var(--color-text), 0.3); */
 }
 
-.verified-buyed__container .icon {
+.verified-buyer__container .icon {
   margin-right: 10px;
 }
 
