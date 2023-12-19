@@ -642,29 +642,29 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading_size": "h0",
-            "heading": "Ask us anything"
+            "heading": "Ask us anything",
+            "heading_size": "h0"
           }
         },
         "tab1": {
           "type": "tab_header",
           "settings": {
-            "title": "Product information",
-            "tab_number": 1
+            "tab_number": 1,
+            "title": "Product information"
           }
         },
         "tab2": {
           "type": "tab_header",
           "settings": {
-            "title": "Purchase and Policies",
-            "tab_number": 2
+            "tab_number": 2,
+            "title": "Purchase and Policies"
           }
         },
         "tab3": {
           "type": "tab_header",
           "settings": {
-            "title": "Consumption Guidelines",
-            "tab_number": 3
+            "tab_number": 3,
+            "title": "Consumption Guidelines"
           }
         },
         "collapsible_tab1": {
@@ -711,42 +711,6 @@
         "collapsible_tab4"
       ],
       "settings": {
-        "title": "<strong>All good, without\n the guilt.<\/strong>",
-        "subtitle": "",
-        "title_margin_top": 0,
-        "title_margin_bottom": 0,
-        "subtitle_font_family": "assistant_n4",
-        "subtitle_font_size": 1.6,
-        "subtitle_margin_bottom": 0,
-        "column_title_font_size": 1.4,
-        "column_title_margin_bottom": 0,
-        "column_title_margin_top": 16,
-        "column_subtitle_font_size": 1.6,
-        "column_subtitle_margin_bottom": 0,
-        "column_subtitle_margin_top": 0,
-        "column_content_font_size": 0,
-        "column_icon_location": "top",
-        "mobile_content_align": "center",
-        "column_icon_size": 64,
-        "title_heading_size": "h1",
-        "subtitle_heading_size": "h0",
-        "image_width": "full",
-        "enumerate": false,
-        "image_ratio": "adapt",
-        "columns_desktop": 6,
-        "title_alignment": "left",
-        "column_alignment": "center",
-        "column_content_text_align": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-2",
-        "columns_mobile": "2.5",
-        "swipe_on_mobile": true,
-        "show_slider_buttons_mobile": false,
-        "header_position_desktop": "left",
-        "padding_top": 16,
-        "padding_bottom": 16
       }
     }
   },
