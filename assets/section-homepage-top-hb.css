@@ -392,6 +392,24 @@
   }
 }
 
+
+@media screen and (max-width: 750px) {
+  .banner--mobile-transparent .banner__box {
+    background: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .banner--mobile-transparent .button--secondary {
+    --alpha-button-background: 0;
+  }
+
+  .banner--mobile-transparent .content-container:after {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 749px) {
   .banner--mobile-bottom::after,
   .banner--mobile-bottom .banner__media::after {
