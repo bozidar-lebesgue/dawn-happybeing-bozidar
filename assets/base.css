@@ -3595,6 +3595,7 @@ ul.custom--tabs {
 
 .custom--tabs .tab__list {
   display: inline-block;
+  text-align: center;
 }
 
 .custom__tab-content {
@@ -3629,26 +3630,6 @@ ul.custom--tabs {
 
 .tab__list .custom-tab.active {
   border-bottom: 2px solid black;
-}
-
-@media only screen and (max-width: 576px) {
-  /* ul.custom--tabs {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  .custom--tabs .tab__list .custom-tab {
-    margin: 0px !important;
-    width: 100%;
-    padding: 10px 15px !important;
-    border-bottom: none !important;
-  }
-  .tab__list .custom-tab {
-    padding: 0px !important;
-    margin: 10px 0px !important;
-  }
-  .custom__tab-content.active {
-    padding: 0 15px;
-  } */
 }
 
 .five-star-container {
