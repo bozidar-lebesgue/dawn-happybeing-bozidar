@@ -26,11 +26,7 @@
   justify-content: space-between;
   align-items: center;
   margin: 4px 0;
-  border-style: solid;
-  border-color: rgba(var(--color-secondary-button-text), 0.2);
-  border-top-width: 0px;
-  border-right-width: 0px;
-  border-left-width: 0px;
+  border: 0px solid rgba(var(--color-secondary-button-text), 0.2);
 }
 
 .additional-info {
