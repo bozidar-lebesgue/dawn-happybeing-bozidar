@@ -914,6 +914,54 @@
             "item_percentage": "2%",
             "bottom_border_width": 15
           }
+        },
+        "additional-info-1": {
+          "type": "info",
+          "settings": {
+            "text": "The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice. † Daily Value not established.",
+            "vertical_padding": 4,
+            "bottom_border_width": 1
+          }
+        },
+        "additional-info-2": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Blueberry):<\/b> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "vertical_padding": 2,
+            "bottom_border_width": 0
+          }
+        },
+        "additional-info-3": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Peach Rose):<\/b> Filtered Water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "vertical_padding": 2,
+            "bottom_border_width": 0
+          }
+        },
+        "additional-info-4": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Cucumber Mint):<\/b> Filtered Water, Organic Cucumber Juice Concentrate, Xylitol, Natural Blueberry Essence, Natural Flavors, Organic Lime Juice Concentrate, Organic Fair Trade White Tea Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "vertical_padding": 2,
+            "bottom_border_width": 0
+          }
+        },
+        "additional-info-5": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Storage:<\/b>  Store in a cool dry place. To ensure freshness, consume within 4 to 5 weeks of opening.",
+            "vertical_padding": 2,
+            "bottom_border_width": 0
+          }
+        },
+        "additional-info-6": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Warning:<\/b>  Consult with your physician if you are pregnant, breast feeding, or if you have any medical conditions.",
+            "vertical_padding": 2,
+            "bottom_border_width": 0
+          }
         }
       },
       "block_order": [
@@ -933,11 +981,18 @@
         "row-10",
         "row-11",
         "row-12",
-        "row-13"
+        "row-13",
+        "additional-info-1",
+        "additional-info-2",
+        "additional-info-3",
+        "additional-info-4",
+        "additional-info-5",
+        "additional-info-6"
       ],
       "settings": {
         "color_scheme": "scheme-10",
-        "desktop_max_width": 1100
+        "desktop_max_width": 1100,
+        "vertical_margin": 100
       }
     }
   },

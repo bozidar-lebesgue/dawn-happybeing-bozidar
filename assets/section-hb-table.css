@@ -33,6 +33,10 @@
   border-left-width: 0px;
 }
 
+.additional-info {
+  border: 0px solid rgba(var(--color-secondary-button-text), 0.2);
+}
+
 .hb-table-row__right-container {
   display: flex;
   align-items: center;

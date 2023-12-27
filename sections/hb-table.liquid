@@ -3,6 +3,7 @@
 {%- style -%}
   .section-{{ section.id }}-padding .table__container {
     max-width: {{ section.settings.desktop_max_width }}px;
+    padding: {{ section.settings.vertical_margin }}px 0;
     margin: 0 auto;
   }
 {%- endstyle -%}
@@ -47,6 +48,14 @@
         </div>
       {%- endif -%}
     {%- endfor -%}
+
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'info' -%}
+        <div class="additional-info" style="padding: {{ block.settings.vertical_padding }}px 0; border-bottom-width: {{ block.settings.bottom_border_width }}px">
+          {{ block.settings.text }}
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 </section>
 
@@ -75,6 +84,16 @@
         "unit": "px",
         "default": 1000,
         "label": "Desktop maximum width"
+      },
+      {
+        "type": "range",
+        "id": "vertical_margin",
+        "min": 0,
+        "max": 500,
+        "step": 5,
+        "unit": "px",
+        "default": 200,
+        "label": "Vertical margin"
       }
     ],
     "blocks": [
@@ -186,6 +205,26 @@
             "type": "inline_richtext",
             "id": "text",
             "label": "Text"
+          },
+          {
+            "type": "range",
+            "id": "bottom_border_width",
+            "min": 0,
+            "max": 50,
+            "step": 1,
+            "default": 0,
+            "unit": "px",
+            "label": "Bottom border width"
+          },
+          {
+            "type": "range",
+            "id": "vertical_padding",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 4,
+            "unit": "px",
+            "label": "Vertical padding"
           }
         ]
       }
