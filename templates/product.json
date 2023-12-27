@@ -296,7 +296,7 @@
         "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Harness plant’s most powerful nutrients, polyphenols",
+            "heading": "<b>Harness plant’s most powerful nutrients, polyphenols<\/b>",
             "heading_size": "h1"
           }
         },
@@ -388,7 +388,7 @@
         "image": "shopify:\/\/shop_images\/Iysine.png",
         "heading": "We like to do things differently",
         "subheading": "Our founder, Chris, spent three decades helping clients transform their health with the power of polyphenols. When we started happy being we wanted to deliver the best results we could for our customers so we had to rethink everything.",
-        "first_title": "First title",
+        "first_title": "happy being®",
         "second_title": "Pressed juices",
         "heading_size": 32,
         "corner_radius": 24,
@@ -991,7 +991,7 @@
       ],
       "settings": {
         "color_scheme": "scheme-10",
-        "desktop_max_width": 1100,
+        "desktop_max_width": 1000,
         "vertical_margin": 100
       }
     }
@@ -1004,9 +1004,9 @@
     "153683af-8722-4fab-9f64-7d7b27e25f7b_product",
     "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2",
     "1d0a4c80-6430-49be-835c-886760fbe4cf2",
+    "nutrition-facts",
     "ingredients_multicolumn_product",
     "qna",
-    "nutrition-facts",
     "1702980395127de7fa"
   ]
 }
