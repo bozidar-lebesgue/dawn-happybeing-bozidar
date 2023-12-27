@@ -31,8 +31,22 @@
             </div>
           {%- endif -%}
         {%- endfor -%}
-      </div>  
+      </div>
     </div>
+
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'row' -%}
+        <div class="hb-table-row" style="border-bottom-width: {{ bottom_border_width }}px">
+          <div style="padding: {{ block.settings.vertical_padding }}px 0; margin-left: {{ block.settings.indent | times: 16 }}px; border-bottom-width: {{ block.settings.bottom_border_width }}px">
+            {{ block.settings.item }}
+          </div>
+          <div class="hb-table-row__right-container">
+            <div class="hb-table-row__amount">{{ block.settings.item_amount }}</div>
+            <div class="hb-table-row__percent"> {{ block.settings.item_percentage }}</div>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
   </div>
 </section>
 
@@ -119,6 +133,15 @@
         "name": "Row",
         "settings": [
           {
+            "type": "range",
+            "id": "indent",
+            "min": 0,
+            "max": 4,
+            "step": 1,
+            "default": 0,
+            "label": "Indent"
+          },
+          {
             "type": "inline_richtext",
             "id": "item",
             "label": "Item text"
@@ -130,22 +153,28 @@
           },
           {
             "type": "inline_richtext",
-            "id": "item_percent",
+            "id": "item_percentage",
             "label": "Item percent"
           },
           {
             "type": "range",
-            "id": "indent",
+            "id": "bottom_border_width",
             "min": 0,
-            "max": 3,
+            "max": 50,
             "step": 1,
             "default": 0,
-            "label": "Indent"
+            "unit": "px",
+            "label": "Bottom border width"
           },
           {
-            "type": "text",
-            "id": "section_id",
-            "label": "Section id"
+            "type": "range",
+            "id": "vertical_padding",
+            "min": 0,
+            "max": 20,
+            "step": 1,
+            "default": 4,
+            "unit": "px",
+            "label": "Vertical padding"
           }
         ]
       },

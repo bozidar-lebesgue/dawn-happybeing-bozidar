@@ -773,16 +773,171 @@
             "heading_size": "h2",
             "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>"
           }
+        },
+        "table-head": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "",
+            "item_amount": "<b>Amount Per Serving<\/b>",
+            "item_percentage": "<b>*%DV<\/b>",
+            "bottom_border_width": 8,
+            "vertical_padding": 8
+          }
+        },
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Calories",
+            "item_amount": "25-40kcal",
+            "item_percentage": "",
+            "bottom_border_width": 1
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Cholesterol<\/b>",
+            "item_amount": "0 mg",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Sodium<\/b>",
+            "item_amount": "0 mg",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1
+          }
+        },
+        "row-4": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Total Carbohydrate<\/b>",
+            "item_amount": "9-13 g",
+            "item_percentage": "<b>3-5%<\/b>",
+            "bottom_border_width": 1
+          }
+        },
+        "row-5": {
+          "type": "row",
+          "settings": {
+            "indent": 1,
+            "item": "Dietary fiber",
+            "item_amount": "0 g",
+            "item_percentage": "<b>21%<\/b>",
+            "bottom_border_width": 1
+          }
+        },
+        "row-6": {
+          "type": "row",
+          "settings": {
+            "indent": 1,
+            "item": "Total Sugars",
+            "item_amount": "0-3 g",
+            "item_percentage": "",
+            "bottom_border_width": 1
+          }
+        },
+        "row-7": {
+          "type": "row",
+          "settings": {
+            "indent": 2,
+            "item": "Incl. 0g of Added Sugars",
+            "item_amount": "",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1
+          }
+        },
+        "row-8": {
+          "type": "row",
+          "settings": {
+            "indent": 2,
+            "item": "Sugar Alcohol",
+            "item_amount": "8 g",
+            "item_percentage": "",
+            "bottom_border_width": 1
+          }
+        },
+        "row-9": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Protein<\/b>",
+            "item_amount": "0 g",
+            "item_percentage": "",
+            "bottom_border_width": 15
+          }
+        },
+        "row-10": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Vitamin D",
+            "item_amount": "9 mcg",
+            "item_percentage": "45%",
+            "bottom_border_width": 1
+          }
+        },
+        "row-11": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Calcium",
+            "item_amount": "7 mg",
+            "item_percentage": "0%",
+            "bottom_border_width": 1
+          }
+        },
+        "row-12": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Iron",
+            "item_amount": "0 mg",
+            "item_percentage": "0%",
+            "bottom_border_width": 1
+          }
+        },
+        "row-13": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Potassium",
+            "item_amount": "26-101 mg",
+            "item_percentage": "2%",
+            "bottom_border_width": 15
+          }
         }
       },
       "block_order": [
         "main-header-left",
         "main-header-right-1",
-        "main-header-right-2"
+        "main-header-right-2",
+        "table-head",
+        "row-1",
+        "row-2",
+        "row-3",
+        "row-4",
+        "row-5",
+        "row-6",
+        "row-7",
+        "row-8",
+        "row-9",
+        "row-10",
+        "row-11",
+        "row-12",
+        "row-13"
       ],
       "settings": {
         "color_scheme": "scheme-10",
-        "desktop_max_width": 1000
+        "desktop_max_width": 1100
       }
     }
   },

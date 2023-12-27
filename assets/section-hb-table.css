@@ -20,3 +20,32 @@
   align-items: right;
   text-align: right;
 }
+
+.hb-table-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px 0;
+  border-style: solid;
+  border-color: rgba(var(--color-secondary-button-text), 0.2);
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-left-width: 0px;
+}
+
+.hb-table-row__right-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.hb-table-row__amount {
+  text-align: right;
+}
+
+
+.hb-table-row__percent {
+  text-align: right;
+  width: 100px;
+  min-width: 100px;
+}
