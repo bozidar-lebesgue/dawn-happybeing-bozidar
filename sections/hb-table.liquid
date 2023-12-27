@@ -36,8 +36,8 @@
 
     {%- for block in section.blocks -%}
       {%- if block.type == 'row' -%}
-        <div class="hb-table-row" style="border-bottom-width: {{ bottom_border_width }}px">
-          <div style="padding: {{ block.settings.vertical_padding }}px 0; margin-left: {{ block.settings.indent | times: 16 }}px; border-bottom-width: {{ block.settings.bottom_border_width }}px">
+        <div class="hb-table-row" style="padding: {{ block.settings.vertical_padding }}px 0; border-bottom-width: {{ block.settings.bottom_border_width }}px">
+          <div style="margin-left: {{ block.settings.indent | times: 16 }}px; ">
             {{ block.settings.item }}
           </div>
           <div class="hb-table-row__right-container">
