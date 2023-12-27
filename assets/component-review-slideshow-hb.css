@@ -150,6 +150,16 @@ slideshow-component:not(.page-width) .slider-buttons {
   align-items: center;
 }
 
+.child--no-whitespace > * {
+  padding: 0;
+  margin: 0;
+}
+
+.child--no-bottom-whitespace > * {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 749px) {
   slideshow-component.page-width .slideshow__autoplay {
     right: 1.5rem;

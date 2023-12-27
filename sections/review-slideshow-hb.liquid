@@ -117,7 +117,7 @@
     {%- endif -%}
     {%- if block.type == 'heading' -%}
       <h2
-        class="center inline-richtext {{ block.settings.heading_size }}"
+        class="center inline-richtext {{ block.settings.heading_size }}" style="margin-bottom: 0px;"
         {{ block.shopify_attributes }}
       >
         {{ block.settings.heading }}
@@ -176,9 +176,7 @@
                   </div>
                 {%- endif -%}
                 {%- if block.settings.quote != blank -%}
-                  <div style="rte">
-                    <div>{{ block.settings.quote }}</div>
-                  </div>
+                  <div class="child--no-bottom-whitespace">{{ block.settings.quote }}</div>
                 {%- endif -%}
                 {%- if block.settings.verified_buyer != blank -%}
                   <div class="verified-buyer__container">
