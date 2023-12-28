@@ -255,7 +255,7 @@
                   {%- if block.settings.icon_image != blank -%}
                     {{
                       block.settings.icon_image
-                      | image_url: width: 64, height: 64
+                      | image_url: width:  section.settings.column_icon_size, height: section.settings.column_icon_size
                       | image_tag: class: 'icon-image'
                     }}          
                   {%- endif -%}
