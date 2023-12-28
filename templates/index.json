@@ -53,7 +53,7 @@
       ],
       "settings": {
         "gradient_1": "",
-        "gradient_2": "linear-gradient(135.07deg, rgba(171, 191, 237, 1) 8.26%, rgba(251, 209, 242, 1) 95%)",
+        "gradient_2": "linear-gradient(135.07deg, rgba(185, 199, 235, 1) 8.26%, rgba(185, 199, 235, 1) 95%)",
         "image_height": "medium",
         "desktop_content_position": "middle",
         "show_text_box": false,
@@ -446,7 +446,7 @@
       }
     },
     "1d0a4c80-6430-49be-835c-886760fbe4cf": {
-      "type": "multicolumn",
+      "type": "multicolumn-hb",
       "blocks": {
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1": {
           "type": "column",
