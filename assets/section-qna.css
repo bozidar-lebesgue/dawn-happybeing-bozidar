@@ -1,18 +1,22 @@
 details .open-icon {
-  display: none !important;
-}
-
-details .closed-icon {
   display: flex !important;
   align-items: center;
+}
+
+details .close-icon {
+  display: none !important;
 }
 
 
 details[open] .open-icon {
+  display: none !important;
+}
+
+details[open] .close-icon {
   display: flex !important;
   align-items: center;
 }
 
-details[open] .closed-icon {
-  display: none !important;
+details a {
+  color: inherit !important;
 }
