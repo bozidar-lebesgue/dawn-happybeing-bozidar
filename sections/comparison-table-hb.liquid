@@ -64,25 +64,29 @@
       </div>
       {%- for block in section.blocks -%}
         <div class="comparison-table__row comparison-table__row--{{ forloop.index | modulo: 2 }}">
-          <div class="option--row option">
+          <div class="option--row option option--left">
             <div>{{ block.settings.first_description }}</div>
           </div>
 
           <div class="checkmarks">
-            {% if block.settings.first_check %}
-              {% render 'icon-checkmark-circle', color: '#41BF55' %}
-            {% else %}
-              {% render 'icon-cancel-circle', color: '#FF2B77' %}
-            {% endif %}
+            <div class="checkmark">
+              {% if block.settings.first_check %}
+                {% render 'icon-checkmark-circle', color: '#41BF55', size: '100%' %}
+              {% else %}
+                {% render 'icon-cancel-circle', color: '#FF2B77', size: '100%' %}
+              {% endif %}
+            </div>
             
-            {% if block.settings.second_check %}
-              {% render 'icon-checkmark-circle', color: '#41BF55' %}
-            {% else %}
-              {% render 'icon-cancel-circle', color: '#FF2B77' %}
-            {% endif %}
+            <div class="checkmark">
+              {% if block.settings.second_check %}
+                {% render 'icon-checkmark-circle', color: '#41BF55', size: '100%' %}
+              {% else %}
+                {% render 'icon-cancel-circle', color: '#FF2B77', size: '100%' %}
+              {% endif %}
+            </div>
           </div>
           
-          <div class="option--row option">
+          <div class="option--row option option--right">
             {{ block.settings.second_description }}
           </div>
         </div>

@@ -654,45 +654,45 @@
         "template--16149963669561__comparison-table-hb-row-1": {
           "type": "row",
           "settings": {
-            "first_description": "The more you drink the better you feel",
+            "first_description": "3g sugar",
             "first_check": true,
-            "second_description": "Effects wear off over time",
+            "second_description": "31g sugar",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-2": {
           "type": "row",
           "settings": {
-            "first_description": "Doctor approved & formulated",
+            "first_description": "40 calories",
             "first_check": true,
-            "second_description": "“Influencer approved”",
+            "second_description": "150 calories",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-3": {
           "type": "row",
           "settings": {
-            "first_description": "Polyphenol extracts",
+            "first_description": "1335mg polyphenols",
             "first_check": true,
-            "second_description": "Juice, and maybe some probiotics",
+            "second_description": "5mg polyphenols",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-4": {
           "type": "row",
           "settings": {
-            "first_description": "3 grams of sugar",
+            "first_description": "$4.00 (on subscription)",
             "first_check": true,
-            "second_description": "20+ grams of sugar",
+            "second_description": "$8.00 (at least)",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-5": {
           "type": "row",
           "settings": {
-            "first_description": "Caffeine free, real energy",
+            "first_description": "Crisp, refreshing",
             "first_check": true,
-            "second_description": "Crash, jitters & burn out",
+            "second_description": "Too sweet",
             "second_check": false
           }
         }
@@ -714,7 +714,7 @@
         "border_width": 1,
         "color_scheme": "scheme-3",
         "inner_padding": 32,
-        "outer_padding_top": 64,
+        "outer_padding_top": 24,
         "outer_padding_bottom": 64
       }
     },
