@@ -27,6 +27,7 @@
 
     .section-{{ section.id }} .title-hb {
       max-width: {{ section.settings.title_max_width }}px;
+      text-align: center;
     }
   }
 
@@ -85,6 +86,10 @@
     text-align: {{ section.settings.column_content_text_align }};
   }
 
+  .section-{{ section.id }} li {
+    display: flex;
+  }
+
   {%- if section.settings.navigation_caret_size == 'small' -%}
     .section-{{ section.id }} .slider-button {
       height: 24px !important;
@@ -123,7 +128,7 @@
     </div>
   {%- endif -%}
   <div
-    class="page-width section-{{ section.id }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+    class="section-{{ section.id }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {%- if section.settings.full_width == true -%} full-width--space-between{%- else -%} page-width{%- endif -%}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
@@ -221,7 +226,7 @@
               {%- endif -%}
               <div class="multicolumn-card__info">             
                 <div class="{%- if section.settings.column_icon_location == 'left' -%}column-icon-layout--left{% else %}column--center{%- endif -%}">
-                  {%- if block.settings.icon != 'none' -%}
+                  {%- if block.settings.icon != 'none' and block.settings.icon != blank -%}
                     <div class="column__icon">
                       {%- case block.settings.icon -%}
                         {%- when 'dairy-free' -%}
@@ -349,12 +354,18 @@
   },
   "settings": [
     {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": false
+    },
+    {
       "type": "image_picker",
       "id": "image",
       "label": "t:sections.image-with-text.settings.image.label"
     },
     {
-      "type": "inline_richtext",
+      "type": "text",
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
