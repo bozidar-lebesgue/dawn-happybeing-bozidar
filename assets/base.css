@@ -1987,6 +1987,11 @@ input[type='checkbox'] {
   border: 2px solid #676986;
 }
 
+@media screen and (max-width: 749px) {
+  .quantity__option {
+    padding: 18px 24px;
+  }
+}
 
 .quantity__option.quantity--selected {
   background-color: #5b6bb2;
