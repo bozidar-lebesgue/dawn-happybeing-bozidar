@@ -152,7 +152,6 @@
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
-        "column_title_font_size": 1.6,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_subtitle_font_size": 1.6,
@@ -483,13 +482,13 @@
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
-        "column_title_font_size": 1.6,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_subtitle_font_size": 1.2,
         "column_subtitle_margin_bottom": 10,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 1,
+        "navigation_caret_size": "small",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
@@ -508,7 +507,6 @@
         "color_scheme": "scheme-8",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "navigation_caret_size": "small",
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
         "padding_top": 64,
@@ -614,7 +612,6 @@
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 0,
-        "column_title_font_size": 1.4,
         "column_title_margin_bottom": 0,
         "column_title_margin_top": 15,
         "column_subtitle_font_size": 1.6,
@@ -753,25 +750,25 @@
         "main-header-left": {
           "type": "main_header",
           "settings": {
+            "text": "<b>Nutrition Facts<\/b>",
             "position": "left",
-            "heading_size": "h0",
-            "text": "<b>Nutrition Facts<\/b>"
+            "heading_size": "h0"
           }
         },
         "main-header-right-1": {
           "type": "main_header",
           "settings": {
+            "text": "1 Serving Per Container",
             "position": "right",
-            "heading_size": "h2",
-            "text": "1 Serving Per Container"
+            "heading_size": "h2"
           }
         },
         "main-header-right-2": {
           "type": "main_header",
           "settings": {
+            "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>",
             "position": "right",
-            "heading_size": "h2",
-            "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>"
+            "heading_size": "h2"
           }
         },
         "table-head": {
@@ -919,48 +916,48 @@
           "type": "info",
           "settings": {
             "text": "The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice. † Daily Value not established.",
-            "vertical_padding": 4,
-            "bottom_border_width": 1
+            "bottom_border_width": 1,
+            "vertical_padding": 4
           }
         },
         "additional-info-2": {
           "type": "info",
           "settings": {
             "text": "<b>Ingredients (Blueberry):<\/b> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "vertical_padding": 2,
-            "bottom_border_width": 0
+            "bottom_border_width": 0,
+            "vertical_padding": 2
           }
         },
         "additional-info-3": {
           "type": "info",
           "settings": {
             "text": "<b>Ingredients (Peach Rose):<\/b> Filtered Water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "vertical_padding": 2,
-            "bottom_border_width": 0
+            "bottom_border_width": 0,
+            "vertical_padding": 2
           }
         },
         "additional-info-4": {
           "type": "info",
           "settings": {
             "text": "<b>Ingredients (Cucumber Mint):<\/b> Filtered Water, Organic Cucumber Juice Concentrate, Xylitol, Natural Blueberry Essence, Natural Flavors, Organic Lime Juice Concentrate, Organic Fair Trade White Tea Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "vertical_padding": 2,
-            "bottom_border_width": 0
+            "bottom_border_width": 0,
+            "vertical_padding": 2
           }
         },
         "additional-info-5": {
           "type": "info",
           "settings": {
             "text": "<b>Storage:<\/b>  Store in a cool dry place. To ensure freshness, consume within 4 to 5 weeks of opening.",
-            "vertical_padding": 2,
-            "bottom_border_width": 0
+            "bottom_border_width": 0,
+            "vertical_padding": 2
           }
         },
         "additional-info-6": {
           "type": "info",
           "settings": {
             "text": "<b>Warning:<\/b>  Consult with your physician if you are pregnant, breast feeding, or if you have any medical conditions.",
-            "vertical_padding": 2,
-            "bottom_border_width": 0
+            "bottom_border_width": 0,
+            "vertical_padding": 2
           }
         }
       },
