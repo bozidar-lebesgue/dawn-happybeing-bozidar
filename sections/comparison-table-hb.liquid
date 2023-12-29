@@ -20,6 +20,12 @@
   #ComparisonTable-{{ section.id }} .comparison-table {
     background-color: rgb(var(--color-background));
   }
+
+  @media screen and (max-width: 749px) {
+    #ComparisonTable-{{ section.id }} .comparison-table__title {
+      font-size: {{ section.settings.heading_size | times: 0.7 | round: 0 }}px;
+    }
+  }
 {% endstyle %}
 
 <div
@@ -55,10 +61,10 @@
         <div class="comparison-table__subheading">{{ section.settings.subheading }}</div>
       {%- endif -%}
       <div class="comparison-table__head">
-        <div class="comparison-table__title option">
+        <div class="comparison-table__title option-title option-title--left">
           {{ section.settings.first_title }}
         </div>
-        <div class="comparison-table__title option">
+        <div class="comparison-table__title option-title option-title--right">
           {{ section.settings.second_title }}
         </div>
       </div>

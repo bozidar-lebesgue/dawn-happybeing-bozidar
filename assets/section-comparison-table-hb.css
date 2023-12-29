@@ -32,7 +32,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 16px 0;
+  padding: 16px 5px;
   width: 100%;
 }
 .comparison-table__head {
@@ -62,42 +62,49 @@
 .comparison-table .option {
   width: 40%;
   text-align: center;
-  margin: 0 5px;
 }
 
-/* .comparison-table .option--left {
-  margin: 0 5px;
+
+.comparison-table .option-title {
+  width: 50%;
 }
 
-.comparison-table .option--right {
-  margin-left: 5px;
-} */
+.comparison-table .option-title--left {
+  text-align: left;
+}
+
+.comparison-table .option-title--right {
+  text-align: right;
+}
+
 
 .comparison-table .checkmarks {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 20%;
+  width: 10%;
   min-width: 40px;
+  margin: 0 10px;
 }
 
 .comparison-table .checkmark {
-  height: 16px;
-  width: 16px;
+  height: 24px;
+  width: 24px;
 }
-
-
-@media screen and (min-width: 750px) {
-  .comparison-table .checkmark {
-    height: 24px;
-    width: 24px;
-  }
-}
-
 
 @media screen and (max-width: 749px) {
   .comparison-table .option {
     /* font-size: 11px; */
     line-height: 2rem;
+  }
+
+  .comparison-table .checkmark {
+    height: 16px;
+    width: 16px;
+  }
+
+  .comparison-table .option-title {
+    font-size: 11px;
+    line-height: 2.8rem;
   }
 }
