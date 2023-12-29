@@ -286,36 +286,33 @@
                       | image_tag: class: 'icon-image'
                     }}          
                   {%- endif -%}
-                  <div>
-                    {%- if block.settings.title != blank -%}
-                      <div class="column__title {{section.settings.column_title_size }}">{{ block.settings.title }}</div>
-                      
-                    {%- endif -%}
-                    {%- if block.settings.subtitle != blank -%}
-                      <div class="column__subtitle-container">
-                        <div class="inlcine-richtext column__subtitle">{{ block.settings.subtitle }}</div>
-                        {%- if block.settings.second_subtitle != blank -%}
-                          <div class="inlcine-richtext column__subtitle">{{ block.settings.second_subtitle }}</div>
-                        {%- endif -%}
-                      </div>
-                    {%- endif -%}
-                    {%- if block.settings.text != blank -%}
-                      <div class="rte column__content" >{{ block.settings.text }}</div>
-                    {%- endif -%}
-                    {%- if block.settings.link_label != blank -%}
-                      <a
-                        class="link animate-arrow"
-                        {% if block.settings.link == blank %}
-                          role="link" aria-disabled="true"
-                        {% else %}
-                          href="{{ block.settings.link }}"
-                        {% endif %}
-                      >
-                        {{- block.settings.link_label | escape -}}
-                        <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
-                      >
-                    {%- endif -%}
-                  </div>
+                  {%- if block.settings.title != blank -%}
+                    <div class="column__title {{section.settings.column_title_size }}">{{ block.settings.title }}</div>
+                  {%- endif -%}
+                  {%- if block.settings.subtitle != blank -%}
+                    <div class="column__subtitle-container">
+                      <div class="inlcine-richtext column__subtitle">{{ block.settings.subtitle }}</div>
+                      {%- if block.settings.second_subtitle != blank -%}
+                        <div class="inlcine-richtext column__subtitle">{{ block.settings.second_subtitle }}</div>
+                      {%- endif -%}
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.text != blank -%}
+                    <div class="rte column__content" >{{ block.settings.text }}</div>
+                  {%- endif -%}
+                  {%- if block.settings.link_label != blank -%}
+                    <a
+                      class="link animate-arrow"
+                      {% if block.settings.link == blank %}
+                        role="link" aria-disabled="true"
+                      {% else %}
+                        href="{{ block.settings.link }}"
+                      {% endif %}
+                    >
+                      {{- block.settings.link_label | escape -}}
+                      <span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></a
+                    >
+                  {%- endif -%}
                 </div>
               </div>
             </div>
