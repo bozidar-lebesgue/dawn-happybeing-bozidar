@@ -1,6 +1,6 @@
 {{ 'section-multicolumn-hb.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider-hb.css' | asset_url | stylesheet_tag }}
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{% comment %} {{ 'section-image-banner.css' | asset_url | stylesheet_tag }} {% endcomment %}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -77,7 +77,6 @@
   }
 
   .section-{{ section.id }} .column__title {
-    font-size: {{ section.settings.column_title_font_size }}rem;
     margin-top: {{ section.settings.column_title_margin_top }}px;
     margin-bottom: {{ section.settings.column_title_margin_bottom }}px;
   }
@@ -102,6 +101,10 @@
     text-wrap: wrap;
   }
 
+  .section-{{ section.id }} .multicolumn-card {
+    border: {{ section.settings.column_border_tickness }}px solid rgb(var(--color-foreground));
+    border-radius: {{ section.settings.column_border_radius }}px;
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }} .multicolumn-card {
@@ -125,33 +128,33 @@
   endif
 -%}
 
-<div class="banner multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
-  {%- if section.settings.image != blank -%}
-    <div class="banner__media media">
-      {%- liquid
-        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
-        assign sizes = full_width
-        assign fetch_priority = 'auto'
-        assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-      -%}
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          width: section.settings.image.width,
-          height: image_height,
-          sizes: sizes,
-          widths: widths,
-          fetchpriority: fetch_priority
-      }}
-    </div>
-  {%- endif -%}
+<div class="multicolumn color-{{ section.settings.color_scheme }} gradient background-{{ section.settings.background_style }} {% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="section-{{ section.id }} section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %} {%- if section.settings.full_width == true -%} full-width--space-between{%- else -%} page-width{%- endif -%}"
     {% if settings.animations_reveal_on_scroll %}
       data-cascade
     {% endif %}
   >
+    {%- if section.settings.image != blank -%}
+      <div class="multicolumn__background media">
+        {%- liquid
+          assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+          assign sizes = full_width
+          assign fetch_priority = 'auto'
+          assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
+        -%}
+        {{
+          section.settings.image
+          | image_url: width: 3840
+          | image_tag:
+            width: section.settings.image.width,
+            height: image_height,
+            sizes: sizes,
+            widths: widths,
+            fetchpriority: fetch_priority
+        }}
+      </div>
+    {%- endif -%}
     {%- unless section.settings.title == blank -%}
       <div class="title-wrapper-hb title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin {% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
         <div class="title-hb inline-richtext {{ section.settings.title_heading_size }}">
@@ -193,7 +196,7 @@
 
           <li
             id="Slide-{{ section.id }}-{{ forloop.index }}"
-            class="multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            class="front-index multicolumn-list__item grid__item{% if section.settings.swipe_on_mobile %} slider__slide{% endif %}{% if section.settings.column_alignment == 'center' %} center{% endif %}{{ empty_column }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
             {{ block.shopify_attributes }}
             {% if settings.animations_reveal_on_scroll %}
               data-cascade
@@ -243,7 +246,7 @@
                   </div>
                 </div>
               {%- endif -%}
-              <div class="multicolumn-card__info">             
+              <div class="multicolumn-card__info">
                 <div class="{%- if section.settings.column_icon_location == 'left' -%}column-icon-layout--left{% else %}column--center{%- endif -%}">
                   {%- if block.settings.icon != 'none' and block.settings.icon != blank -%}
                     <div class="column__icon">
@@ -285,7 +288,8 @@
                   {%- endif -%}
                   <div>
                     {%- if block.settings.title != blank -%}
-                      <div class="inline-richtext column__title">{{ block.settings.title }}</div>
+                      <div class="column__title {{section.settings.column_title_size }}">{{ block.settings.title }}</div>
+                      
                     {%- endif -%}
                     {%- if block.settings.subtitle != blank -%}
                       <div class="column__subtitle-container">
@@ -463,6 +467,26 @@
     },
     {
       "type": "range",
+      "id": "column_border_radius",
+      "min": 0,
+      "unit": "px",
+      "max": 50,
+      "step": 2,
+      "default": 0,
+      "label": "Column border radius"
+    },
+    {
+      "type": "range",
+      "id": "column_border_tickness",
+      "min": 0,
+      "unit": "px",
+      "max": 10,
+      "step": 0.5,
+      "default": 0,
+      "label": "Column border tickness"
+    },
+    {
+      "type": "range",
       "id": "column_min_width",
       "min": 0,
       "unit": "px",
@@ -470,16 +494,6 @@
       "step": 10,
       "default": 200,
       "label": "Column minimum width"
-    },
-    {
-      "type": "range",
-      "id": "column_title_font_size",
-      "min": 0,
-      "unit": "rem",
-      "max": 20,
-      "step": 0.2,
-      "default": 1.6,
-      "label": "Column title font size"
     },
     {
       "type": "range",
@@ -602,6 +616,30 @@
     {
       "type": "select",
       "id": "title_heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        },
+        {
+          "value": "hextra",
+          "label": "Extra large"
+        }
+      ],
+      "default": "h1",
+      "label": "Title t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "column_title_size",
       "options": [
         {
           "value": "h2",

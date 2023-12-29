@@ -202,17 +202,17 @@
         "padding_bottom": 28
       }
     },
-    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e2": {
+    "review-slideshow-hb2": {
       "type": "review-slideshow-hb",
       "blocks": {
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading": {
+        "template--16149963669561__review-slideshow-hb-heading": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Own your health<\/strong>",
             "heading_size": "h0"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star": {
+        "template--16149963669561__review-slideshow-hb-five-star": {
           "type": "five-star-rating",
           "settings": {
             "rating": "4.9\/5 Stars",
@@ -220,7 +220,7 @@
             "heading_size": "h3"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0": {
+        "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
             "review": "<p>These teas are delicious! They provide energy and I have noticed less inflammation in my body in the last few days. I have used these in place of coffee for an energy boost and did not find myself craving caffeine. 10\/10 would order again!<\/p>",
@@ -235,7 +235,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
+        "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
             "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
@@ -250,7 +250,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
+        "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
             "review": "<p>Manage inflammation and boost my immune system in a delicious drink that actually works with my body? Yes please! I’m a convert.<\/p>",
@@ -267,11 +267,11 @@
         }
       },
       "block_order": [
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2"
+        "template--16149963669561__review-slideshow-hb-heading",
+        "template--16149963669561__review-slideshow-hb-five-star",
+        "template--16149963669561__review-slideshow-hb-slide-0",
+        "template--16149963669561__review-slideshow-hb-slide-1",
+        "template--16149963669561__review-slideshow-hb-slide-2"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -290,17 +290,17 @@
         "slide_inner_padding": 64
       }
     },
-    "153683af-8722-4fab-9f64-7d7b27e25f7b_product": {
+    "image-with-text-1_product": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
+        "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<b>Harness plant’s most powerful nutrients, polyphenols<\/b>",
             "heading_size": "h1"
           }
         },
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1": {
+        "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
             "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
@@ -309,8 +309,8 @@
         }
       },
       "block_order": [
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1",
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1"
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
@@ -328,10 +328,10 @@
         "padding_bottom": 0
       }
     },
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2": {
+    "comparison-table-hb2": {
       "type": "comparison-table-hb",
       "blocks": {
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
+        "template--16149963669561__comparison-table-hb-row-1": {
           "type": "row",
           "settings": {
             "first_description": "The more you drink the better you feel",
@@ -340,7 +340,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
+        "template--16149963669561__comparison-table-hb-row-2": {
           "type": "row",
           "settings": {
             "first_description": "Doctor approved & formulated",
@@ -349,7 +349,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
+        "template--16149963669561__comparison-table-hb-row-3": {
           "type": "row",
           "settings": {
             "first_description": "Polyphenol extracts",
@@ -358,7 +358,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
+        "template--16149963669561__comparison-table-hb-row-4": {
           "type": "row",
           "settings": {
             "first_description": "3 grams of sugar",
@@ -367,7 +367,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
+        "template--16149963669561__comparison-table-hb-row-5": {
           "type": "row",
           "settings": {
             "first_description": "Caffeine free, real energy",
@@ -378,11 +378,11 @@
         }
       },
       "block_order": [
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
+        "template--16149963669561__comparison-table-hb-row-1",
+        "template--16149963669561__comparison-table-hb-row-2",
+        "template--16149963669561__comparison-table-hb-row-3",
+        "template--16149963669561__comparison-table-hb-row-4",
+        "template--16149963669561__comparison-table-hb-row-5"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Iysine.png",
@@ -399,10 +399,10 @@
         "outer_padding_bottom": 64
       }
     },
-    "1d0a4c80-6430-49be-835c-886760fbe4cf2": {
+    "multicolumn-hb-22": {
       "type": "multicolumn-hb",
       "blocks": {
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-1": {
+        "template--16149963669561__multicolumn-hb-22-column-1": {
           "type": "column",
           "settings": {
             "title": "<strong>Ptero (berry polyphenol)<\/strong>",
@@ -415,7 +415,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-2": {
+        "template--16149963669561__multicolumn-hb-22-column-2": {
           "type": "column",
           "settings": {
             "title": "<strong>Tumeric<\/strong>",
@@ -428,7 +428,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-3": {
+        "template--16149963669561__multicolumn-hb-22-column-3": {
           "type": "column",
           "settings": {
             "title": "<strong>EGCG (apple polyphenol)<\/strong>",
@@ -441,7 +441,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-4": {
+        "template--16149963669561__multicolumn-hb-22-column-4": {
           "type": "column",
           "settings": {
             "title": "<strong>Elderberry<\/strong>",
@@ -454,7 +454,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-5": {
+        "template--16149963669561__multicolumn-hb-22-column-5": {
           "type": "column",
           "settings": {
             "title": "<strong>Vitamin D3<\/strong>",
@@ -469,11 +469,11 @@
         }
       },
       "block_order": [
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-1",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-2",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-3",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-4",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf2-column-5"
+        "template--16149963669561__multicolumn-hb-22-column-1",
+        "template--16149963669561__multicolumn-hb-22-column-2",
+        "template--16149963669561__multicolumn-hb-22-column-3",
+        "template--16149963669561__multicolumn-hb-22-column-4",
+        "template--16149963669561__multicolumn-hb-22-column-5"
       ],
       "settings": {
         "title": "",
@@ -515,7 +515,7 @@
         "padding_bottom": 64
       }
     },
-    "ingredients_multicolumn_product": {
+    "ingredients-multicolumn_product": {
       "type": "multicolumn-hb",
       "blocks": {
         "4d129d3b-f7df-4c23-af31-7b08cb6aa613": {
@@ -1000,12 +1000,12 @@
     "main",
     "378ee716-4745-4679-99ec-6abddb8180e8",
     "related-products",
-    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e2",
-    "153683af-8722-4fab-9f64-7d7b27e25f7b_product",
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe2",
-    "1d0a4c80-6430-49be-835c-886760fbe4cf2",
+    "review-slideshow-hb2",
+    "image-with-text-1_product",
+    "comparison-table-hb2",
+    "multicolumn-hb-22",
     "nutrition-facts",
-    "ingredients_multicolumn_product",
+    "ingredients-multicolumn_product",
     "qna",
     "1702980395127de7fa"
   ]

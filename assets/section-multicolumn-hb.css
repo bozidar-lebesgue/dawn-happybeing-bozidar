@@ -17,9 +17,21 @@
   color: rgb(var(--color-foreground));
 }
 
-.column__title {
-  white-space: nowrap;
+.front-index {
+  z-index: 11111;
 }
+
+
+
+.multicolumn__background {
+  z-index: -1;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+
 .multicolumn.no-heading .title {
   display: none;
 }
@@ -93,11 +105,6 @@
 .multicolumn:not(.background-none) .multicolumn-card {
   background: rgb(var(--color-background));
   height: 100%;
-}
-
-.multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background))
-    linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
 }
 
 .multicolumn-list h3 {

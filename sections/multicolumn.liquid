@@ -1,6 +1,5 @@
 {{ 'section-multicolumn.css' | asset_url | stylesheet_tag }}
 {{ 'component-slider.css' | asset_url | stylesheet_tag }}
-{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -14,13 +13,6 @@
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
   }
-
-  .section-{{ section.id }}-padding .multicolumn-card {
-    border-radius: {{ section.settings.column_corner_radius }}px;
-    border: {{ section.settings.column_border_width }}px solid black;
-    padding-top: {{ section.settings.column_padding_top }}px;
-    padding-bottom:  {{ section.settings.column_padding_bottom }}px;
-  }
 {%- endstyle -%}
 
 {%- liquid
@@ -31,27 +23,7 @@
   endif
 -%}
 
-<div class="banner multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
-  {%- if section.settings.image != blank -%}
-    <div class="banner__media media">
-      {%- liquid
-        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
-        assign sizes = full_width
-        assign fetch_priority = 'auto'
-        assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
-      -%}
-      {{
-        section.settings.image
-        | image_url: width: 3840
-        | image_tag:
-          width: section.settings.image.width,
-          height: image_height,
-          sizes: sizes,
-          widths: widths,
-          fetchpriority: fetch_priority
-      }}
-    </div>
-  {%- endif -%}
+<div class="multicolumn color-{{ section.settings.color_scheme }} gradient{% unless section.settings.background_style == 'none' and settings.text_boxes_border_thickness > 0 or settings.text_boxes_shadow_opacity > 0 %} background-{{ section.settings.background_style }}{% endunless %}{% if section.settings.title == blank %} no-heading{% endif %}">
   <div
     class="page-width section-{{ section.id }}-padding isolate{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
     {% if settings.animations_reveal_on_scroll %}
@@ -139,6 +111,7 @@
                       block.settings.image
                       | image_url: width: 3200
                       | image_tag:
+                        loading: 'lazy',
                         widths: '50, 75, 100, 150, 200, 300, 400, 500, 750, 1000, 1250, 1500, 1750, 2000, 2250, 2500, 2750, 3000, 3200',
                         sizes: sizes,
                         class: 'multicolumn-card__image'
@@ -230,31 +203,6 @@
       "id": "title",
       "default": "Multicolumn",
       "label": "t:sections.multicolumn.settings.title.label"
-    },
-    {
-      "type": "range",
-      "id": "column_corner_radius",
-      "min": 0,
-      "max": 40,
-      "step": 1,
-      "unit": "px",
-      "label": "Column corner radius",
-      "default": 0
-    },
-    {
-      "type": "range",
-      "id": "column_border_width",
-      "min": 0,
-      "max": 40,
-      "step": 0.5,
-      "unit": "px",
-      "label": "Column border width",
-      "default": 0
-    },
-    {
-      "type": "image_picker",
-      "id": "image",
-      "label": "t:sections.image-with-text.settings.image.label"
     },
     {
       "type": "select",
@@ -376,7 +324,7 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-1"
+      "default": "background-1"
     },
     {
       "type": "header",
@@ -426,26 +374,6 @@
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "column_padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
-    },
-    {
-      "type": "range",
-      "id": "column_padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "Column padding bottom",
       "default": 36
     }
   ],

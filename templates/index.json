@@ -1,6 +1,6 @@
 {
   "sections": {
-    "homepage_top_hb": {
+    "homepage-top-hb": {
       "type": "homepage-top-hb",
       "blocks": {
         "heading": {
@@ -65,10 +65,10 @@
         "show_text_below": true
       }
     },
-    "c23ade3d-e60e-4247-9350-df78c371f87a": {
+    "benefits-multicolumn-hb": {
       "type": "multicolumn-hb",
       "blocks": {
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-1": {
+        "template--16149963669561__benefits-multicolumn-hb-column-1": {
           "type": "column",
           "settings": {
             "title": "<strong>Fight inflammation<\/strong>",
@@ -81,7 +81,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2": {
+        "template--16149963669561__benefits-multicolumn-hb-column-2": {
           "type": "column",
           "settings": {
             "title": "<strong>Nourish gut health<\/strong>",
@@ -94,7 +94,7 @@
             "icon": "none"
           }
         },
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3": {
+        "template--16149963669561__benefits-multicolumn-hb-column-3": {
           "type": "column",
           "settings": {
             "title": "<strong>Strengthen immunity<\/strong>",
@@ -109,9 +109,9 @@
         }
       },
       "block_order": [
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-1",
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-2",
-        "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3"
+        "template--16149963669561__benefits-multicolumn-hb-column-1",
+        "template--16149963669561__benefits-multicolumn-hb-column-2",
+        "template--16149963669561__benefits-multicolumn-hb-column-3"
       ],
       "settings": {
         "full_width": false,
@@ -123,7 +123,7 @@
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 96,
-        "column_title_font_size": 2.4,
+        "column_title_size": "h2",
         "column_title_margin_bottom": 30,
         "column_title_margin_top": 30,
         "column_subtitle_font_size": 1.6,
@@ -224,7 +224,7 @@
         "padding_bottom": 40
       }
     },
-    "ingredients_multicolumn": {
+    "perks-multicolumn": {
       "type": "multicolumn-hb",
       "blocks": {
         "4d129d3b-f7df-4c23-af31-7b08cb6aa613": {
@@ -306,13 +306,13 @@
         "subtitle": "",
         "title_max_width": 500,
         "column_title_max_width": 50,
-        "column_min_width": 120,
+        "column_min_width": 140,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 0,
-        "column_title_font_size": 1.4,
+        "column_title_size": "h4",
         "column_title_margin_bottom": 0,
         "column_title_margin_top": 15,
         "column_subtitle_font_size": 1.6,
@@ -336,7 +336,7 @@
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-2",
-        "columns_mobile": "2.5",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "left",
@@ -344,17 +344,17 @@
         "padding_bottom": 48
       }
     },
-    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e": {
+    "review-slideshow-hb": {
       "type": "review-slideshow-hb",
       "blocks": {
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading": {
+        "template--16149963669561__review-slideshow-hb-heading": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Own your health<\/strong>",
             "heading_size": "h0"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star": {
+        "template--16149963669561__review-slideshow-hb-five-star": {
           "type": "five-star-rating",
           "settings": {
             "rating": "4.9\/5 Stars",
@@ -362,7 +362,7 @@
             "heading_size": "h3"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0": {
+        "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
             "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
@@ -377,7 +377,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
+        "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
             "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven’t had this in over 10 years.<\/p>",
@@ -392,7 +392,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
+        "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
             "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
@@ -407,7 +407,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-3": {
+        "template--16149963669561__review-slideshow-hb-slide-3": {
           "type": "slide",
           "settings": {
             "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
@@ -422,7 +422,7 @@
             "text_alignment_mobile": "center"
           }
         },
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-4": {
+        "template--16149963669561__review-slideshow-hb-slide-4": {
           "type": "slide",
           "settings": {
             "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I’ve never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
@@ -439,13 +439,13 @@
         }
       },
       "block_order": [
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-3",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-4"
+        "template--16149963669561__review-slideshow-hb-heading",
+        "template--16149963669561__review-slideshow-hb-five-star",
+        "template--16149963669561__review-slideshow-hb-slide-0",
+        "template--16149963669561__review-slideshow-hb-slide-1",
+        "template--16149963669561__review-slideshow-hb-slide-2",
+        "template--16149963669561__review-slideshow-hb-slide-3",
+        "template--16149963669561__review-slideshow-hb-slide-4"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -464,17 +464,17 @@
         "slide_inner_padding": 64
       }
     },
-    "153683af-8722-4fab-9f64-7d7b27e25f7b": {
+    "image-with-text-1": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1": {
+        "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<b>Harness plant’s most powerful nutrients, polyphenols<\/b>",
             "heading_size": "h1"
           }
         },
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1": {
+        "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
             "text": "<p><b>Polyphenols<\/b> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
@@ -483,8 +483,8 @@
         }
       },
       "block_order": [
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-heading-1",
-        "template--16149963669561__153683af-8722-4fab-9f64-7d7b27e25f7b-text-1"
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
@@ -502,63 +502,65 @@
         "padding_bottom": 0
       }
     },
-    "1d0a4c80-6430-49be-835c-886760fbe4cf": {
+    "multicolumn-hb-credentials": {
       "type": "multicolumn-hb",
       "blocks": {
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1": {
+        "template--16149963669561__multicolumn-hb-credentials-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>You get a world class drink, formulated by world class MDs.<\/strong>",
+            "title": "<strong>Formulated by world class health experts.<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland MD focused their combined 100+ years of clinical experience towards helping create Happy Being®.<\/p>",
+            "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland, MD with 100+ years of experience, worked on <b>Happy Being®<\/b> to create the healthiest drink ever.<\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": ""
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2": {
+        "template--16149963669561__multicolumn-hb-credentials-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>You get science-backed benefits.<\/strong>",
+            "title": "<strong>Science-backed health results.<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>We put the most healthful, research-backed nutrients into each serving at doctor-recommended doses and in the most bioavailable forms possible forscience-backed results.<\/p>",
+            "text": "<p>With the help of research-backed, highly bioavailable polyphenols in doctor-recommended doses, each serving ensures effective outcomes for your health.<\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": ""
           }
         },
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3": {
+        "template--16149963669561__multicolumn-hb-credentials-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>You get an iced-tea that's so delicious, you'd drink it just for the taste.<\/strong>",
+            "title": "<strong>Your new go-to health drink.<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>The world’s healthiest drinks can’t do you any good if you don’t drink them every day, so we make sure you’ll love the way it tastes each and every time.<\/p>",
+            "text": "<p>The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
             "link_label": "",
             "link": "",
-            "icon": "none"
+            "icon": ""
           }
         }
       },
       "block_order": [
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-1",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2",
-        "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3"
+        "template--16149963669561__multicolumn-hb-credentials-column-1",
+        "template--16149963669561__multicolumn-hb-credentials-column-2",
+        "template--16149963669561__multicolumn-hb-credentials-column-3"
       ],
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Iysine.png",
         "title": "",
-        "subtitle": "Subtitle",
+        "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
-        "column_title_font_size": 1.6,
+        "column_title_size": "h2",
+        "column_border_radius": 24,
+        "column_border_tickness": 2,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_subtitle_font_size": 1.6,
@@ -572,7 +574,7 @@
         "title_heading_size": "h1",
         "subtitle_heading_size": "h1",
         "image_width": "full",
-        "enumerate": true,
+        "enumerate": false,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "left",
@@ -584,13 +586,13 @@
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "show_slider_buttons_mobile": true,
+        "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 64,
         "padding_bottom": 64
       }
     },
-    "comparison_table_title": {
+    "comparison-table-title": {
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
@@ -634,10 +636,10 @@
         "padding_bottom": 30
       }
     },
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe": {
+    "comparison-table-hb": {
       "type": "comparison-table-hb",
       "blocks": {
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1": {
+        "template--16149963669561__comparison-table-hb-row-1": {
           "type": "row",
           "settings": {
             "first_description": "The more you drink the better you feel",
@@ -646,7 +648,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2": {
+        "template--16149963669561__comparison-table-hb-row-2": {
           "type": "row",
           "settings": {
             "first_description": "Doctor approved & formulated",
@@ -655,7 +657,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3": {
+        "template--16149963669561__comparison-table-hb-row-3": {
           "type": "row",
           "settings": {
             "first_description": "Polyphenol extracts",
@@ -664,7 +666,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4": {
+        "template--16149963669561__comparison-table-hb-row-4": {
           "type": "row",
           "settings": {
             "first_description": "3 grams of sugar",
@@ -673,7 +675,7 @@
             "second_check": false
           }
         },
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5": {
+        "template--16149963669561__comparison-table-hb-row-5": {
           "type": "row",
           "settings": {
             "first_description": "Caffeine free, real energy",
@@ -684,11 +686,11 @@
         }
       },
       "block_order": [
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-1",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-2",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-3",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-4",
-        "template--16149963669561__f6406c5a-56fd-40a4-bb1c-e5096f54a9fe-row-5"
+        "template--16149963669561__comparison-table-hb-row-1",
+        "template--16149963669561__comparison-table-hb-row-2",
+        "template--16149963669561__comparison-table-hb-row-3",
+        "template--16149963669561__comparison-table-hb-row-4",
+        "template--16149963669561__comparison-table-hb-row-5"
       ],
       "settings": {
         "heading": "",
@@ -702,412 +704,6 @@
         "inner_padding": 32,
         "outer_padding_top": 64,
         "outer_padding_bottom": 64
-      }
-    },
-    "rich_text": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "product": {
-          "type": "product",
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "video": {
-      "type": "video",
-      "disabled": true,
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "402e23c4-1717-4373-a1f4-9aedb0b406b4": {
-      "type": "rich-text",
-      "blocks": {
-        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Empowering you to live healty.",
-            "heading_size": "h1"
-          }
-        },
-        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Along with our medical advisory team, I've spent the last 30 years of my life researching how diet and lifestyle affect our physiology. I've come to realize that we have more control over our health than we may think. The keys are to focus on the fundamentals and to address the root causes of health challenges (not just the symptoms). The data is clear and our mission is simple: to share our knowledge with you through our products and content. Our whole team is here to support you on your health journey. Here is our phone number (610) 801-1503. Call us day or night, if we’re up, we’ll answer.<br\/><\/p><p>Chris Conway, Founder<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-heading-1",
-        "template--16149963669561__402e23c4-1717-4373-a1f4-9aedb0b406b4-text-1"
-      ],
-      "disabled": true,
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "column_corner_radius": 0,
-        "column_border_width": 0,
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "column_padding_top": 36,
-        "column_padding_bottom": 36
-      }
-    },
-    "4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7": {
-      "type": "multirow",
-      "blocks": {
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-1": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-1",
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-2",
-        "template--16149963669561__4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7-row-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7": {
-      "type": "collapsible-content",
-      "blocks": {
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-1": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Where can I find the Nutrition Facts?",
-            "icon": "none",
-            "row_content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy#NutritionFacts\"><span style=\"text-decoration:underline\">CLICK HERE<\/span><\/a> to see Happy Being® iced tea Nutrition Facts.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-2": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What is your return policy?",
-            "icon": "none",
-            "row_content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-3": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How often should I drink this?",
-            "icon": "none",
-            "row_content": "<p>To maximize the benefits, we recommend drinking one per day.<\/p>",
-            "page": ""
-          }
-        },
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-4": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "What does the Happy Being® iced tea taste like?",
-            "icon": "none",
-            "row_content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
-            "page": ""
-          }
-        },
-        "118fa1ab-c882-4336-91cd-283af2607044": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is there any sugar?",
-            "icon": "none",
-            "row_content": "<p>Happy Being® iced teas have a total  of 3 grams of naturally-occurring sugar per serving.  <br\/><\/p>",
-            "page": ""
-          }
-        },
-        "8ad6fea0-7ca7-4ff1-80b5-feb3dc970d6c": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "How many calories?",
-            "icon": "none",
-            "row_content": "<p>Happy Being® iced teas have 40 calories per serving.<\/p>",
-            "page": ""
-          }
-        },
-        "d30de1c0-59a3-4c75-a030-dc6825bcab80": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "When should I drink?",
-            "icon": "none",
-            "row_content": "<p>We recommend drinking Happy Being® iced tea in the afternoon as a pick-me-up treat, though it’s also a great morning coffee replacement and evening wine alternative.  <br\/><\/p>",
-            "page": ""
-          }
-        },
-        "fbc1fcbf-d38a-4e60-8e35-a96370e4ab2f": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Is there caffeine?",
-            "icon": "none",
-            "row_content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
-            "page": ""
-          }
-        },
-        "e730d71c-32ca-4179-97b9-c6d34bcab50e": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "none",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "a248f8ac-ebcd-4113-9a87-38ab5b589d7c": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "546e343d-9acf-415c-b2c1-316525a8a545": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "3cac26af-45f5-409f-99aa-6832cb3d96d3": {
-          "type": "collapsible_row",
-          "disabled": true,
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-1",
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-2",
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-3",
-        "template--16149963669561__0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7-collapsible_row-4",
-        "118fa1ab-c882-4336-91cd-283af2607044",
-        "8ad6fea0-7ca7-4ff1-80b5-feb3dc970d6c",
-        "d30de1c0-59a3-4c75-a030-dc6825bcab80",
-        "fbc1fcbf-d38a-4e60-8e35-a96370e4ab2f",
-        "e730d71c-32ca-4179-97b9-c6d34bcab50e",
-        "a248f8ac-ebcd-4113-9a87-38ab5b589d7c",
-        "546e343d-9acf-415c-b2c1-316525a8a545",
-        "3cac26af-45f5-409f-99aa-6832cb3d96d3"
-      ],
-      "disabled": true,
-      "settings": {
-        "caption": "",
-        "heading": "Collapsible content",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
-        "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "qna": {
@@ -1196,23 +792,15 @@
     }
   },
   "order": [
-    "homepage_top_hb",
-    "c23ade3d-e60e-4247-9350-df78c371f87a",
+    "homepage-top-hb",
+    "benefits-multicolumn-hb",
     "product-section",
-    "ingredients_multicolumn",
-    "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e",
-    "153683af-8722-4fab-9f64-7d7b27e25f7b",
-    "1d0a4c80-6430-49be-835c-886760fbe4cf",
-    "comparison_table_title",
-    "f6406c5a-56fd-40a4-bb1c-e5096f54a9fe",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
-    "402e23c4-1717-4373-a1f4-9aedb0b406b4",
-    "multicolumn",
-    "4b8aabd8-c4f7-46c6-9d65-2e3b95e0a0f7",
-    "0ff40a9e-e34d-40c0-a1d7-ac80c4c45bb7",
+    "perks-multicolumn",
+    "review-slideshow-hb",
+    "image-with-text-1",
+    "multicolumn-hb-credentials",
+    "comparison-table-title",
+    "comparison-table-hb",
     "qna"
   ]
 }

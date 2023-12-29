@@ -372,7 +372,7 @@ slider-component.slider-component-full-width {
   justify-content: space-between;
   font-style: italic;
   font-weight: 400;
-  color: #9CA3AF; /* rgba(var(--color-text), 0.3); */
+  color: #9CA3AF;
 }
 
 .verified-buyer__container .icon {
