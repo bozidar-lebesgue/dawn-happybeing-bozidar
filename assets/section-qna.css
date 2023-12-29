@@ -1,0 +1,18 @@
+details .open-icon {
+  display: none !important;
+}
+
+details .closed-icon {
+  display: flex !important;
+  align-items: center;
+}
+
+
+details[open] .open-icon {
+  display: flex !important;
+  align-items: center;
+}
+
+details[open] .closed-icon {
+  display: none !important;
+}

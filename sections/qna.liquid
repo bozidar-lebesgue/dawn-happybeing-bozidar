@@ -1,3 +1,5 @@
+{{ 'section-qna.css' | asset_url | stylesheet_tag }}
+
 {%- style -%}
   #Qna-{{ section.id }} {
     padding: 64px 20px;
@@ -22,11 +24,6 @@
     justify-content: space-between;
     padding-bottom: 16px;
   }
-
-  #Qna-{{ section.id }} .summary__caret {
-    display: flex;
-    align-items: center;
-  }  
 {%- endstyle -%}
 
 <section
@@ -76,8 +73,11 @@
                         <h2 class="h4 accordion__title inline-richtext">
                           {{ block.settings.heading }}
                         </h2>
-                        <div style="summary__caret">
-                          {% render 'icon-caret' %}
+                        <div class="summary__caret open-icon">
+                          {% render 'icon-plus-outline' %}
+                        </div>
+                        <div class="summary__caret closed-icon">
+                          {% render 'icon-minus-outline' %}
                         </div>
                       </div>
                   </summary>
