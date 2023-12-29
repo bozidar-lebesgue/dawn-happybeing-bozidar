@@ -152,7 +152,7 @@
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 72
       }
     },
     "product-section": {
@@ -173,16 +173,11 @@
             "heading_size": "h1"
           }
         },
-        "tabs": {
-          "type": "tabs",
+        "description": {
+          "type": "description-hb",
           "settings": {
-            "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that’ve been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn’t create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
-            "tab2_title": "Ingredients",
-            "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
-            "tab3_title": "How To Use",
-            "tab3_content": "<p>We recommend drinking in the morning as a <strong>coffee replacement<\/strong>, in the afternoon as a <strong>mid-day treat<\/strong>, or in the evening as a <strong>wine alternative<\/strong>.  <br\/><br\/>For best results, drink daily.<\/p>"
-          }
+            "text": "Nature created antioxidants like the ones found in blueberries, but we figured out how to pack enough of them into an iced-tea to positively impact your health."
+          }          
         },
         "caption": {
           "type": "text",
@@ -207,13 +202,13 @@
       "block_order": [
         "five-star-rating-product",
         "heading_product",
-        "tabs",
+        "description",
         "caption",
         "quantity_selector",
         "buy_buttons"
       ],
       "settings": {
-        "product_url": "healthy-peach-rose",
+        "product_url": "healthy-cans",
         "enable_sticky_info": true,
         "color_scheme": "scheme-8",
         "media_size": "small",

@@ -473,6 +473,8 @@
               {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
+            {%- when 'description-hb' -%}
+              {{ block.settings.text }}
             {%- when 'tabs' -%}
               {%- render 'tabs', section_id: section.id, tab1_title: block.settings.tab1_title, tab1_content: block.settings.tab1_content, tab2_title: block.settings.tab2_title, tab2_content: block.settings.tab2_content, tab3_title: block.settings.tab3_title, tab3_content: block.settings.tab3_content -%}
             {%- when 'rating' -%}
@@ -809,6 +811,19 @@
           ],
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "description-hb",
+      "name": "Custom description",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "text",
+          "default": "Tell us about a product",
+          "label": "Custom description"
         }
       ]
     },
