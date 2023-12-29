@@ -70,15 +70,15 @@
 
           <div class="checkmarks">
             {% if block.settings.first_check %}
-              {% render 'icon-checkmark-circle', color: 'rgb(var(--color-button))' %}
+              {% render 'icon-checkmark-circle', color: '#41BF55' %}
             {% else %}
-              {% render 'icon-cancel-circle' %}
+              {% render 'icon-cancel-circle', color: '#FF2B77' %}
             {% endif %}
             
             {% if block.settings.second_check %}
-              {% render 'icon-checkmark-circle', color: 'rgb(var(--color-button))' %}
+              {% render 'icon-checkmark-circle', color: '#41BF55' %}
             {% else %}
-              {% render 'icon-cancel-circle' %}
+              {% render 'icon-cancel-circle', color: '#FF2B77' %}
             {% endif %}
           </div>
           
