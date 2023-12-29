@@ -119,10 +119,10 @@
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
-        "title_margin_bottom": 0,
+        "title_margin_bottom": 64,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
-        "subtitle_margin_bottom": 96,
+        "subtitle_margin_bottom": 0,
         "column_title_size": "h2",
         "column_title_margin_bottom": 30,
         "column_title_margin_top": 30,
@@ -470,14 +470,14 @@
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>Harness plant’s most powerful nutrients, polyphenols<\/b>",
+            "heading": "<b>You are what you drink. And this drink is really healthy.<\/b>",
             "heading_size": "h1"
           }
         },
         "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p><b>Polyphenols<\/b> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<\/p><p>You’ve been told for years to “eat your daily vitamins”…but it’s just as important that you consume your daily polyphenols.<\/p><p>That’s why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<\/p>",
+            "text": "<p>Each serving of <b>Happy Being®<\/b> contains science-backed antioxidants, called <b>Polyphenols<\/b>, which are particularly good at fighting “free radicals” in your body.<br>Free radicals are the <b>inflammation<\/b>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals’ ultimately lead to chronic disease.<br>Polyphenols are an antidote to that inflammation. So drink up, and <b>live healthy.<\/b><\/p>",
             "text_style": "body"
           }
         }
