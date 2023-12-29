@@ -90,6 +90,15 @@
     display: flex;
   }
 
+  .section-{{ section.id }} .column__title {
+    text-wrap: wrap;
+  }
+
+  .section-{{ section.id }} .column__title {
+    max-width: {{ section.settings.column_title_max_width }}px;
+    text-wrap: wrap;
+  }
+
   {%- if section.settings.navigation_caret_size == 'small' -%}
     .section-{{ section.id }} .slider-button {
       height: 24px !important;
@@ -431,6 +440,16 @@
       "step": 1,
       "default": 10,
       "label": "Subtitle margin bottom"
+    },
+    {
+      "type": "range",
+      "id": "column_title_max_width",
+      "min": 0,
+      "unit": "px",
+      "max": 1000,
+      "step": 10,
+      "default": 1000,
+      "label": "Column title maximum width"
     },
     {
       "type": "range",

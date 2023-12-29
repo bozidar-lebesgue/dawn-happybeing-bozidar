@@ -302,9 +302,10 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "<strong>Because we care.<\/strong>",
+        "title": "<b>Because we care.<\/b>",
         "subtitle": "",
-        "title_max_width": 350,
+        "title_max_width": 500,
+        "column_title_max_width": 50,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
@@ -338,63 +339,128 @@
         "swipe_on_mobile": true,
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "left",
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e": {
       "type": "review-slideshow-hb",
       "blocks": {
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Own your health<\/strong>",
+            "heading_size": "h0"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star": {
+          "type": "five-star-rating",
+          "settings": {
+            "rating": "4.9\/5 Stars",
+            "heading": "",
+            "heading_size": "h3"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
+            "quote": "<h3><strong>David F.<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "scheme-6",
+            "text_alignment_mobile": "center"
+          }
+        },
         "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1": {
           "type": "slide",
           "settings": {
-            "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
-            "quote": "<p><i>- Dr. William Kracht<\/i><\/p>",
+            "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven’t had this in over 10 years.<\/p>",
+            "quote": "<h3><strong>John Y.<\/strong><\/h3>",
             "quote_font": "assistant_n4",
-            "show_text_box": false,
-            "five_star": false,
-            "verified_buyer": false,
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "",
+            "color_scheme": "scheme-6",
             "text_alignment_mobile": "center"
           }
         },
         "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
-            "quote": "<p><i>- Dr. William Kracht<\/i><\/p>",
+            "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
+            "quote": "<h3><strong>Robin P.<\/strong><\/h3>",
             "quote_font": "assistant_n4",
-            "show_text_box": false,
-            "five_star": false,
-            "verified_buyer": false,
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "",
+            "color_scheme": "scheme-6",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-3": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
+            "quote": "<h3><strong>Janet B.<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "scheme-6",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-4": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I’ve never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
+            "quote": "<h3><strong>Camille G.<\/strong><\/h3>",
+            "quote_font": "assistant_n4",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "scheme-6",
             "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-heading",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-five-star",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-0",
         "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-1",
-        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2"
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-2",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-3",
+        "template--16149963669561__9c79dc64-b1c6-4c99-9ee4-8a09a86f6a3e-slide-4"
       ],
       "settings": {
         "layout": "full_bleed",
         "gradient": "",
-        "corner_radius": 0,
-        "border_width": 0,
+        "corner_radius": 24,
+        "border_width": 1,
         "slide_height": "medium",
-        "slider_visual": "car",
+        "slider_visual": "none",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "mobile_padding_bottom": 0,
+        "mobile_padding_bottom": 30,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "scheme-9",
-        "slide_inner_padding": 36
+        "color_scheme": "scheme-1",
+        "slide_inner_padding": 64
       }
     },
     "153683af-8722-4fab-9f64-7d7b27e25f7b": {
