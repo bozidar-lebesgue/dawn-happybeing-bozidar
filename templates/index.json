@@ -77,6 +77,7 @@
             "text": "<p>Reduce chronic inflammation caused by oxidative stress & harmful free radicals that attack your cells.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/image.png",
             "icon": "none"
           }
         },
@@ -89,6 +90,7 @@
             "text": "<p>Feed & fuel the good bacteria in your gut biome while decreasing inflammation in the GI tract.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/image_1_2c6be0a0-4881-47ea-b144-d4985cb221e3.png",
             "icon": "none"
           }
         },
@@ -101,6 +103,7 @@
             "text": "<p>Reinforce your immune system by helping catalyze your body's responses to toxins and infections.<\/p>",
             "link_label": "",
             "link": "",
+            "icon_image": "shopify:\/\/shop_images\/image_2_9fdd2440-57fa-492a-a154-02e4a4d54d7a.png",
             "icon": "none"
           }
         }
@@ -111,8 +114,10 @@
         "template--16149963669561__c23ade3d-e60e-4247-9350-df78c371f87a-column-3"
       ],
       "settings": {
+        "full_width": false,
         "title": "<p><strong>A new kind of delicious tasting iced-tea<br>— with health benefits.<\/strong><\/p>",
         "subtitle": "",
+        "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
@@ -125,13 +130,14 @@
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 1.8,
+        "navigation_caret_size": "large",
         "column_icon_location": "top",
         "mobile_content_align": "center",
-        "column_icon_size": 16,
+        "column_icon_size": 100,
         "title_heading_size": "h1",
         "subtitle_heading_size": "h1",
         "image_width": "full",
-        "enumerate": true,
+        "enumerate": false,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
@@ -316,6 +322,7 @@
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 0,
+        "navigation_caret_size": "large",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 32,
@@ -387,6 +394,7 @@
         "slider_visual": "car",
         "auto_rotate": false,
         "change_slides_speed": 5,
+        "mobile_padding_bottom": 0,
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
@@ -439,27 +447,36 @@
           "type": "column",
           "settings": {
             "title": "<strong>You get a world class drink, formulated by world class MDs.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland MD focused their combined 100+ years of clinical experience towards helping create Happy Being®.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-2": {
           "type": "column",
           "settings": {
             "title": "<strong>You get science-backed benefits.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p>We put the most healthful, research-backed nutrients into each serving at doctor-recommended doses and in the most bioavailable forms possible forscience-backed results.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         },
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3": {
           "type": "column",
           "settings": {
             "title": "<strong>You get an iced-tea that's so delicious, you'd drink it just for the taste.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
             "text": "<p>The world’s healthiest drinks can’t do you any good if you don’t drink them every day, so we make sure you’ll love the way it tastes each and every time.<\/p>",
             "link_label": "",
-            "link": ""
+            "link": "",
+            "icon": "none"
           }
         }
       },
@@ -469,32 +486,55 @@
         "template--16149963669561__1d0a4c80-6430-49be-835c-886760fbe4cf-column-3"
       ],
       "settings": {
-        "title": "",
-        "column_corner_radius": 24,
-        "column_border_width": 1,
+        "full_width": false,
         "image": "shopify:\/\/shop_images\/Iysine.png",
-        "heading_size": "h1",
+        "title": "",
+        "subtitle": "Subtitle",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 10,
+        "column_title_font_size": 1.6,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h1",
+        "subtitle_heading_size": "h1",
         "image_width": "full",
+        "enumerate": true,
         "image_ratio": "adapt",
         "columns_desktop": 3,
+        "title_alignment": "left",
         "column_alignment": "center",
+        "column_content_text_align": "left",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-3",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 64,
-        "column_padding_top": 36,
-        "column_padding_bottom": 36
+        "padding_bottom": 64
       }
     },
     "comparison_table_title": {
       "type": "multicolumn-hb",
       "settings": {
+        "full_width": false,
         "title": "<strong>How Happy Being® is different<\/strong>",
         "subtitle": "<i>Packed with polyphenols, not sugar.<\/i>",
+        "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
@@ -507,6 +547,7 @@
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 1.8,
+        "navigation_caret_size": "large",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
@@ -1086,7 +1127,9 @@
         "collapsible_tab4"
       ],
       "settings": {
-        "color_scheme": "scheme-8"
+        "color_scheme": "scheme-8",
+        "include_all_tab": false,
+        "initialy_selected_tab": ""
       }
     }
   },
