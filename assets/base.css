@@ -651,6 +651,10 @@ details > * {
   transition: text-decoration-thickness ease 100ms;
 }
 
+.invisible {
+  display: none !important;
+}
+
 .underlined-link,
 .customer a {
   color: rgba(var(--color-link), var(--alpha-link));

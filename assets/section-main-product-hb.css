@@ -231,6 +231,10 @@ fieldset.product-form__input .form__label {
 .product-form__input input[type='radio']:checked + label {
   background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background));
+  outline-style: solid;
+  outline-color: black;
+  outline-width: 1px;
+  outline-offset: 3px;
 }
 
 .product-form__input input[type='radio']:not(.disabled) + label > .visually-hidden {
@@ -1612,4 +1616,11 @@ a.product__text {
 }
 .product__media--white-bg {
   background-color: white;
+}
+
+.flavor-option {
+  height: 64px !important;
+  width: 64px !important;
+  border-radius: 100% !important;
+  border: none !important;
 }

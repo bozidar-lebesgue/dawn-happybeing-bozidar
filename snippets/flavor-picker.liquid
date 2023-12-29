@@ -21,12 +21,10 @@
     {{ block.shopify_attributes }}
   >
     {%- for option in product.options_with_values -%}
-      {%- if option.values.size > 1 -%}
-        <fieldset class="js product-form__input">
-          <p><b>Select Flavor:</b> {{ option.selected_value | capitalize }}</p>
-          {% render 'flavor-options', product: product, option: option, block: block %}
-        </fieldset>
-      {%- endif -%}
+      <fieldset class="js product-form__input {% if option.values.size < 2 %} invisible{% endif %}">
+        <p class="form__label"><b>Select Flavor:</b> {{ option.selected_value | capitalize }}</p>
+        {% render 'flavor-options', product: product, option: option, block: block %}
+      </fieldset>
     {%- endfor -%}
     <script type="application/json">
       {{ product.variants | json }}
