@@ -142,7 +142,7 @@
         "columns_desktop": 3,
         "title_alignment": "center",
         "column_alignment": "center",
-        "column_content_text_align": "left",
+        "column_content_text_align": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
