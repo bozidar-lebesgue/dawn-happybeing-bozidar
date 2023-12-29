@@ -1,3 +1,7 @@
+.multicolum {
+  position: relative;
+}
+
 .multicolumn .title {
   margin: 0;
   font-weight: 600;
