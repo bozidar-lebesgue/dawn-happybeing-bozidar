@@ -152,23 +152,31 @@
         "b49b8b0e-402b-4065-9c47-05a1f3d3666f"
       ],
       "settings": {
+        "full_width": false,
         "title": "",
         "subtitle": "",
+        "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_subtitle_font_size": 1.6,
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 1,
+        "navigation_caret_size": "large",
         "column_icon_location": "left",
         "mobile_content_align": "center",
         "column_icon_size": 16,
         "title_heading_size": "h1",
+        "column_title_size": "h1",
         "subtitle_heading_size": "h1",
         "image_width": "full",
         "enumerate": false,
@@ -531,13 +539,19 @@
         "template--16149963669561__multicolumn-hb-22-column-5"
       ],
       "settings": {
+        "full_width": false,
         "title": "",
         "subtitle": "",
+        "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
         "column_subtitle_font_size": 1.2,
@@ -549,8 +563,8 @@
         "mobile_content_align": "center",
         "column_icon_size": 64,
         "title_heading_size": "h1",
-        "subtitle_heading_size": "h1",
         "column_title_size": "h3",
+        "subtitle_heading_size": "h1",
         "image_width": "full",
         "enumerate": false,
         "image_ratio": "adapt",
@@ -570,6 +584,267 @@
         "padding_bottom": 64
       }
     },
+    "nutrition-facts": {
+      "type": "hb-table",
+      "blocks": {
+        "main-header-left": {
+          "type": "main_header",
+          "settings": {
+            "text": "<b>Nutrition Facts<\/b>",
+            "position": "left",
+            "heading_size": "h0"
+          }
+        },
+        "main-header-right-1": {
+          "type": "main_header",
+          "settings": {
+            "text": "1 Serving Per Container",
+            "position": "right",
+            "heading_size": "h2"
+          }
+        },
+        "main-header-right-2": {
+          "type": "main_header",
+          "settings": {
+            "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>",
+            "position": "right",
+            "heading_size": "h2"
+          }
+        },
+        "table-head": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "",
+            "item_amount": "<b>Amount Per Serving<\/b>",
+            "item_percentage": "<b>*%DV<\/b>",
+            "bottom_border_width": 8,
+            "vertical_padding": 8
+          }
+        },
+        "row-1": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Calories",
+            "item_amount": "25-40kcal",
+            "item_percentage": "",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-2": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Cholesterol<\/b>",
+            "item_amount": "0 mg",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-3": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Sodium<\/b>",
+            "item_amount": "0 mg",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-4": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Total Carbohydrate<\/b>",
+            "item_amount": "9-13 g",
+            "item_percentage": "<b>3-5%<\/b>",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-5": {
+          "type": "row",
+          "settings": {
+            "indent": 1,
+            "item": "Dietary fiber",
+            "item_amount": "0 g",
+            "item_percentage": "<b>21%<\/b>",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-6": {
+          "type": "row",
+          "settings": {
+            "indent": 1,
+            "item": "Total Sugars",
+            "item_amount": "0-3 g",
+            "item_percentage": "",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-7": {
+          "type": "row",
+          "settings": {
+            "indent": 2,
+            "item": "Incl. 0g of Added Sugars",
+            "item_amount": "",
+            "item_percentage": "<b>0%<\/b>",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-8": {
+          "type": "row",
+          "settings": {
+            "indent": 2,
+            "item": "Sugar Alcohol",
+            "item_amount": "8 g",
+            "item_percentage": "",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-9": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "<b>Protein<\/b>",
+            "item_amount": "0 g",
+            "item_percentage": "",
+            "bottom_border_width": 15,
+            "vertical_padding": 4
+          }
+        },
+        "row-10": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Vitamin D",
+            "item_amount": "9 mcg",
+            "item_percentage": "45%",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-11": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Calcium",
+            "item_amount": "7 mg",
+            "item_percentage": "0%",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-12": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Iron",
+            "item_amount": "0 mg",
+            "item_percentage": "0%",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "row-13": {
+          "type": "row",
+          "settings": {
+            "indent": 0,
+            "item": "Potassium",
+            "item_amount": "26-101 mg",
+            "item_percentage": "2%",
+            "bottom_border_width": 15,
+            "vertical_padding": 4
+          }
+        },
+        "additional-info-1": {
+          "type": "info",
+          "settings": {
+            "text": "The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice. † Daily Value not established.",
+            "bottom_border_width": 1,
+            "vertical_padding": 4
+          }
+        },
+        "additional-info-2": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Blueberry):<\/b> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "bottom_border_width": 0,
+            "vertical_padding": 2
+          }
+        },
+        "additional-info-3": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Peach Rose):<\/b> Filtered Water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "bottom_border_width": 0,
+            "vertical_padding": 2
+          }
+        },
+        "additional-info-4": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Ingredients (Cucumber Mint):<\/b> Filtered Water, Organic Cucumber Juice Concentrate, Xylitol, Natural Blueberry Essence, Natural Flavors, Organic Lime Juice Concentrate, Organic Fair Trade White Tea Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
+            "bottom_border_width": 0,
+            "vertical_padding": 2
+          }
+        },
+        "additional-info-5": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Storage:<\/b>  Store in a cool dry place. To ensure freshness, consume within 4 to 5 weeks of opening.",
+            "bottom_border_width": 0,
+            "vertical_padding": 2
+          }
+        },
+        "additional-info-6": {
+          "type": "info",
+          "settings": {
+            "text": "<b>Warning:<\/b>  Consult with your physician if you are pregnant, breast feeding, or if you have any medical conditions.",
+            "bottom_border_width": 0,
+            "vertical_padding": 2
+          }
+        }
+      },
+      "block_order": [
+        "main-header-left",
+        "main-header-right-1",
+        "main-header-right-2",
+        "table-head",
+        "row-1",
+        "row-2",
+        "row-3",
+        "row-4",
+        "row-5",
+        "row-6",
+        "row-7",
+        "row-8",
+        "row-9",
+        "row-10",
+        "row-11",
+        "row-12",
+        "row-13",
+        "additional-info-1",
+        "additional-info-2",
+        "additional-info-3",
+        "additional-info-4",
+        "additional-info-5",
+        "additional-info-6"
+      ],
+      "settings": {
+        "color_scheme": "scheme-10",
+        "desktop_max_width": 1000,
+        "vertical_margin": 100
+      }
+    },
     "perks-multicolumn": {
       "type": "multicolumn-hb",
       "blocks": {
@@ -582,7 +857,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Customer_Service.png",
+            "icon_image": "shopify:\/\/shop_images\/Dairy_Free_Icon_91517bbd-9134-4378-a345-c78a8aef081d.png",
             "icon": "none"
           }
         },
@@ -595,7 +870,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/90_day_money_back.png",
+            "icon_image": "shopify:\/\/shop_images\/Non_GMO.png",
             "icon": "none"
           }
         },
@@ -608,7 +883,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Free_shipping.png",
+            "icon_image": "shopify:\/\/shop_images\/Vegan_Icon_4a597625-04cb-401a-a41c-215a9a21abfe.png",
             "icon": "none"
           }
         },
@@ -634,7 +909,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Delicious_i_dont_like.png",
+            "icon_image": "shopify:\/\/shop_images\/0_sugar_icon_ee243450-45d5-4642-935b-b47c857fe86d.png",
             "icon": "none"
           }
         },
@@ -647,7 +922,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Delicious_i_dont_like.png",
+            "icon_image": "shopify:\/\/shop_images\/Caffeine_Free.png",
             "icon": "none"
           }
         }
@@ -662,7 +937,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "<b>All good, without the guilt.<\/b>",
+        "title": "All good, without the guilt.",
         "subtitle": "",
         "title_max_width": 350,
         "title_margin_top": 0,
@@ -806,254 +1081,6 @@
       ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "nutrition-facts": {
-      "type": "hb-table",
-      "blocks": {
-        "main-header-left": {
-          "type": "main_header",
-          "settings": {
-            "text": "<b>Nutrition Facts<\/b>",
-            "position": "left",
-            "heading_size": "h0"
-          }
-        },
-        "main-header-right-1": {
-          "type": "main_header",
-          "settings": {
-            "text": "1 Serving Per Container",
-            "position": "right",
-            "heading_size": "h2"
-          }
-        },
-        "main-header-right-2": {
-          "type": "main_header",
-          "settings": {
-            "text": "<b>Serving Size 12 fl oz (355 ml)<\/b>",
-            "position": "right",
-            "heading_size": "h2"
-          }
-        },
-        "table-head": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "",
-            "item_amount": "<b>Amount Per Serving<\/b>",
-            "item_percentage": "<b>*%DV<\/b>",
-            "bottom_border_width": 8,
-            "vertical_padding": 8
-          }
-        },
-        "row-1": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "Calories",
-            "item_amount": "25-40kcal",
-            "item_percentage": "",
-            "bottom_border_width": 1
-          }
-        },
-        "row-2": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "<b>Cholesterol<\/b>",
-            "item_amount": "0 mg",
-            "item_percentage": "<b>0%<\/b>",
-            "bottom_border_width": 1
-          }
-        },
-        "row-3": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "<b>Sodium<\/b>",
-            "item_amount": "0 mg",
-            "item_percentage": "<b>0%<\/b>",
-            "bottom_border_width": 1
-          }
-        },
-        "row-4": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "<b>Total Carbohydrate<\/b>",
-            "item_amount": "9-13 g",
-            "item_percentage": "<b>3-5%<\/b>",
-            "bottom_border_width": 1
-          }
-        },
-        "row-5": {
-          "type": "row",
-          "settings": {
-            "indent": 1,
-            "item": "Dietary fiber",
-            "item_amount": "0 g",
-            "item_percentage": "<b>21%<\/b>",
-            "bottom_border_width": 1
-          }
-        },
-        "row-6": {
-          "type": "row",
-          "settings": {
-            "indent": 1,
-            "item": "Total Sugars",
-            "item_amount": "0-3 g",
-            "item_percentage": "",
-            "bottom_border_width": 1
-          }
-        },
-        "row-7": {
-          "type": "row",
-          "settings": {
-            "indent": 2,
-            "item": "Incl. 0g of Added Sugars",
-            "item_amount": "",
-            "item_percentage": "<b>0%<\/b>",
-            "bottom_border_width": 1
-          }
-        },
-        "row-8": {
-          "type": "row",
-          "settings": {
-            "indent": 2,
-            "item": "Sugar Alcohol",
-            "item_amount": "8 g",
-            "item_percentage": "",
-            "bottom_border_width": 1
-          }
-        },
-        "row-9": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "<b>Protein<\/b>",
-            "item_amount": "0 g",
-            "item_percentage": "",
-            "bottom_border_width": 15
-          }
-        },
-        "row-10": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "Vitamin D",
-            "item_amount": "9 mcg",
-            "item_percentage": "45%",
-            "bottom_border_width": 1
-          }
-        },
-        "row-11": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "Calcium",
-            "item_amount": "7 mg",
-            "item_percentage": "0%",
-            "bottom_border_width": 1
-          }
-        },
-        "row-12": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "Iron",
-            "item_amount": "0 mg",
-            "item_percentage": "0%",
-            "bottom_border_width": 1
-          }
-        },
-        "row-13": {
-          "type": "row",
-          "settings": {
-            "indent": 0,
-            "item": "Potassium",
-            "item_amount": "26-101 mg",
-            "item_percentage": "2%",
-            "bottom_border_width": 15
-          }
-        },
-        "additional-info-1": {
-          "type": "info",
-          "settings": {
-            "text": "The % Daily Value (DV) tells you how much a nutrient in a serving of food contributes to a daily diet. 2,000 calories a day is used for general nutrition advice. † Daily Value not established.",
-            "bottom_border_width": 1,
-            "vertical_padding": 4
-          }
-        },
-        "additional-info-2": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Ingredients (Blueberry):<\/b> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        },
-        "additional-info-3": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Ingredients (Peach Rose):<\/b> Filtered Water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        },
-        "additional-info-4": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Ingredients (Cucumber Mint):<\/b> Filtered Water, Organic Cucumber Juice Concentrate, Xylitol, Natural Blueberry Essence, Natural Flavors, Organic Lime Juice Concentrate, Organic Fair Trade White Tea Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        },
-        "additional-info-5": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Storage:<\/b>  Store in a cool dry place. To ensure freshness, consume within 4 to 5 weeks of opening.",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        },
-        "additional-info-6": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Warning:<\/b>  Consult with your physician if you are pregnant, breast feeding, or if you have any medical conditions.",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        }
-      },
-      "block_order": [
-        "main-header-left",
-        "main-header-right-1",
-        "main-header-right-2",
-        "table-head",
-        "row-1",
-        "row-2",
-        "row-3",
-        "row-4",
-        "row-5",
-        "row-6",
-        "row-7",
-        "row-8",
-        "row-9",
-        "row-10",
-        "row-11",
-        "row-12",
-        "row-13",
-        "additional-info-1",
-        "additional-info-2",
-        "additional-info-3",
-        "additional-info-4",
-        "additional-info-5",
-        "additional-info-6"
-      ],
-      "settings": {
-        "color_scheme": "scheme-10",
-        "desktop_max_width": 1000,
-        "vertical_margin": 100
       }
     }
   },
