@@ -937,7 +937,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "All good, without the guilt.",
+        "title": "<b>All good, without the guilt.<\/b>",
         "subtitle": "",
         "title_max_width": 350,
         "title_margin_top": 0,
@@ -1016,8 +1016,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
-            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "heading": "<strong>Where can I find the Nutrition Facts?<\/strong>",
+            "content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy#NutritionFacts\">CLICK HERE<\/a> to see Happy Being® iced tea Nutrition Facts.<\/p>",
             "page": ""
           }
         },
@@ -1026,7 +1026,7 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>What is your return policy?<\/strong>",
-            "content": "<p>We really believe in our products so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever else we can to help make things right.<\/p>",
+            "content": "<p>We believe you'll love our iced teas so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever we can to make things right.<\/p>",
             "page": ""
           }
         },
@@ -1035,7 +1035,7 @@
           "settings": {
             "tab_number": 2,
             "heading": "<strong>How often should I drink this?<\/strong>",
-            "content": "<p>To maximize the benefits of our drinks we recommend drinking them daily, or at least 3-4 times per week.<\/p>",
+            "content": "<p>To maximize the benefits, we recommend drinking one per day.<\/p>",
             "page": ""
           }
         },
@@ -1043,8 +1043,80 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "<strong>Where can I find the ingredients & supplement facts?<\/strong>",
-            "content": "<p>CLICK HERE to see nutrition facts.<\/p>",
+            "heading": "<strong>What does the Happy Being® iced tea taste like?<\/strong>",
+            "content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab5": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Is there any sugar?<\/strong>",
+            "content": "<p>Happy Being® iced teas have a total  of 3 grams of naturally-occurring sugar per serving.  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab6": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>How many calories?<\/strong>",
+            "content": "<p>Happy Being® iced teas have 40 calories per serving.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab7": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>When should I drink?<\/strong>",
+            "content": "<p>We recommend drinking Happy Being® iced tea in the afternoon as a pick-me-up treat, though it’s also a great morning coffee replacement and evening wine alternative.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab8": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Is there caffeine?<\/strong>",
+            "content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab9": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Can it help we lose weight?<\/strong>",
+            "content": "<p>Yes. Polyphenols like the ones in Happy Being® iced tea boost thermogenesis, the body’s natural process of burning brown fat, and they help increase the body’s metabolic rate.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab10": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Can I drink while pregnant?<\/strong>",
+            "content": "<p>Many pregnant women drink Happy Being® iced tea, but always consult a physician if you have questions.  <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab11": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Can I cancel my subscription<\/strong>",
+            "content": "<p>Yes, you can cancel by emailing hi@happybeing.co or you can sign into your account portal and cancel anytime. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab12": {
+          "type": "collapsible_tab",
+          "settings": {
+            "tab_number": 3,
+            "heading": "<strong>Is it gluten free, dairy free, soy free, and nut free?<\/strong>",
+            "content": "<p>Yes, Happy Being® iced teas are gluten free, dairy free, soy free, and nut free.<\/p>",
             "page": ""
           }
         }
@@ -1057,7 +1129,15 @@
         "collapsible_tab1",
         "collapsible_tab2",
         "collapsible_tab3",
-        "collapsible_tab4"
+        "collapsible_tab4",
+        "collapsible_tab5",
+        "collapsible_tab6",
+        "collapsible_tab7",
+        "collapsible_tab8",
+        "collapsible_tab9",
+        "collapsible_tab10",
+        "collapsible_tab11",
+        "collapsible_tab12"
       ],
       "settings": {
         "color_scheme": "scheme-9",

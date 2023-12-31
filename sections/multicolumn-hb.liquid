@@ -21,10 +21,19 @@
   }
 
   @media screen and (min-width: 750px) {
+    .section-{{ section.id }} .title-hb {
+      max-width: {{ section.settings.title_max_width }}px;
+      text-align: center;
+    }
+
     {%- if section.settings.header_position_desktop == 'left' -%}
       .section-{{ section.id }} {
         display: flex;
         justify-content: space-between;
+      }
+
+      .section-{{ section.id }} .title-hb {
+        text-align: left;
       }
       
       .section-{{ section.id }} .multicolumn-card__info {
@@ -32,10 +41,6 @@
       }
     {%- endif -%}
 
-    .section-{{ section.id }} .title-hb {
-      max-width: {{ section.settings.title_max_width }}px;
-      text-align: center;
-    }
   }
 
   .section-{{ section.id }} .column-icon-layout--left  {
@@ -49,8 +54,6 @@
     margin-bottom: {{ section.settings.title_margin_bottom }}px;
     margin-top: {{ section.settings.title_margin_top }}px;
   }
-
-  
 
   .section-{{ section.id }} .column__icon {
     height: {{ section.settings.column_icon_size }}px;
