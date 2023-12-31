@@ -570,98 +570,99 @@
         "padding_bottom": 64
       }
     },
-    "ingredients-multicolumn_product": {
+    "perks-multicolumn": {
       "type": "multicolumn-hb",
       "blocks": {
-        "4d129d3b-f7df-4c23-af31-7b08cb6aa613": {
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613-dairy-free": {
           "type": "column",
           "settings": {
-            "title": "<strong>Dairy free<\/strong>",
+            "title": "Dairy free",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
             "icon_image": "shopify:\/\/shop_images\/Customer_Service.png",
-            "icon": "dairy-free"
+            "icon": "none"
           }
         },
-        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb": {
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb-non-gmo": {
           "type": "column",
           "settings": {
-            "title": "<strong>Non gmo<\/strong>",
+            "title": "Non gmo",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Non_GMO.png",
-            "icon": "non-gmo"
+            "icon_image": "shopify:\/\/shop_images\/90_day_money_back.png",
+            "icon": "none"
           }
         },
-        "f1913978-e779-4afb-b8aa-69c6a1587a26": {
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-vegan": {
           "type": "column",
           "settings": {
-            "title": "<strong>Vegan<\/strong>",
+            "title": "Vegan",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Vegan_Icon_4a597625-04cb-401a-a41c-215a9a21abfe.png",
-            "icon": "vegan"
+            "icon_image": "shopify:\/\/shop_images\/Free_shipping.png",
+            "icon": "none"
           }
         },
         "f1913978-e779-4afb-b8aa-69c6a1587a26-soy-free": {
           "type": "column",
           "settings": {
-            "title": "<strong>Soy free<\/strong>",
+            "title": "Soy free",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
             "icon_image": "shopify:\/\/shop_images\/Soy_free_icon_b7d0278b-f27d-4e56-a1e6-45dd86379bcb.png",
-            "icon": "soy-free"
+            "icon": "none"
           }
         },
         "f1913978-e779-4afb-b8aa-69c6a1587a26-no-added-sugar": {
           "type": "column",
           "settings": {
-            "title": "<strong>No added sugar<\/strong>",
+            "title": "No added sugar",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/0_sugar_icon_ee243450-45d5-4642-935b-b47c857fe86d.png",
-            "icon": "no-added-sugar"
+            "icon_image": "shopify:\/\/shop_images\/Delicious_i_dont_like.png",
+            "icon": "none"
           }
         },
         "f1913978-e779-4afb-b8aa-69c6a1587a26-no-caffeine": {
           "type": "column",
           "settings": {
-            "title": "<strong>No caffeine<\/strong>",
+            "title": "No caffeine",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Caffeine_Free.png",
-            "icon": "no-caffeine"
+            "icon_image": "shopify:\/\/shop_images\/Delicious_i_dont_like.png",
+            "icon": "none"
           }
         }
       },
       "block_order": [
-        "4d129d3b-f7df-4c23-af31-7b08cb6aa613",
-        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb",
-        "f1913978-e779-4afb-b8aa-69c6a1587a26",
+        "4d129d3b-f7df-4c23-af31-7b08cb6aa613-dairy-free",
+        "f9cfe87b-c917-4a8f-9c53-5b7fee3062cb-non-gmo",
+        "f1913978-e779-4afb-b8aa-69c6a1587a26-vegan",
         "f1913978-e779-4afb-b8aa-69c6a1587a26-soy-free",
         "f1913978-e779-4afb-b8aa-69c6a1587a26-no-added-sugar",
         "f1913978-e779-4afb-b8aa-69c6a1587a26-no-caffeine"
       ],
       "settings": {
-        "title": "<strong>All good, without the guilt.<\/strong>",
+        "full_width": true,
+        "title": "<b>All good, without the guilt.<\/b>",
         "subtitle": "",
         "title_max_width": 350,
         "title_margin_top": 0,
@@ -669,16 +670,22 @@
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 0,
+        "column_title_max_width": 80,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 140,
         "column_title_margin_bottom": 0,
         "column_title_margin_top": 15,
-        "column_subtitle_font_size": 1.6,
+        "column_subtitle_font_size": 0,
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 0,
+        "navigation_caret_size": "large",
         "column_icon_location": "top",
         "mobile_content_align": "center",
-        "column_icon_size": 0,
+        "column_icon_size": 48,
         "title_heading_size": "h1",
+        "column_title_size": "h3",
         "subtitle_heading_size": "h0",
         "image_width": "full",
         "enumerate": false,
@@ -686,17 +693,17 @@
         "columns_desktop": 6,
         "title_alignment": "left",
         "column_alignment": "center",
-        "column_content_text_align": "left",
+        "column_content_text_align": "center",
         "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-2",
-        "columns_mobile": "2.5",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "left",
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 48,
+        "padding_bottom": 48
       }
     },
     "qna": {
@@ -1060,7 +1067,7 @@
     "comparison-table-hb3",
     "multicolumn-hb-22",
     "nutrition-facts",
-    "ingredients-multicolumn_product",
+    "perks-multicolumn",
     "qna",
     "1702980395127de7fa"
   ]

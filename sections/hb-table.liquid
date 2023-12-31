@@ -6,6 +6,13 @@
     padding: {{ section.settings.vertical_margin }}px 0;
     margin: 0 auto;
   }
+
+@media screen and (max-width: 749px) {
+  .section-{{ section.id }}-padding .table__container {
+    padding: 0 0;
+  }
+}
+
 {%- endstyle -%}
 
 <section

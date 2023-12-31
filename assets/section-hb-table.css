@@ -51,6 +51,11 @@
 
 .hb-table-row__percent {
   text-align: right;
-  width: 100px;
   min-width: 100px;
+}
+
+@media screen and (max-width: 749px) {
+  .hb-table-row__percent {
+    min-width: 70px;
+  }
 }
