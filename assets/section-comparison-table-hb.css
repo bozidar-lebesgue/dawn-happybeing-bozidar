@@ -35,6 +35,7 @@
   padding: 16px 5px;
   width: 100%;
 }
+
 .comparison-table__head {
   display: flex;
   justify-content: space-between;
@@ -67,16 +68,15 @@
 
 .comparison-table .option-title {
   width: 50%;
+  text-align: center;
 }
 
-.comparison-table .option-title--left {
-  text-align: left;
+.comparison-table__image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  /* height: 200px; */
 }
-
-.comparison-table .option-title--right {
-  text-align: right;
-}
-
 
 .comparison-table .checkmarks {
   display: flex;
@@ -106,5 +106,13 @@
   .comparison-table .option-title {
     font-size: 11px;
     line-height: 2.8rem;
+  }
+
+  .comparison-table .option-title--left {
+    text-align: left;
+  }
+
+  .comparison-table .option-title--right {
+    text-align: right;
   }
 }

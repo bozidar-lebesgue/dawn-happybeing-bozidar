@@ -22,7 +22,7 @@
   >
     {%- for option in product.options_with_values -%}
       <fieldset class="js product-form__input {% if option.values.size < 2 %} invisible{% endif %}">
-        <p class="form__label"><b>Select Flavor:</b> {{ option.selected_value | capitalize }}</p>
+        <p class="h3"><b>Select Flavor:</b> {{ option.selected_value | capitalize }}</p>
         {% render 'flavor-options', product: product, option: option, block: block %}
       </fieldset>
     {%- endfor -%}

@@ -21,6 +21,15 @@
     background-color: rgb(var(--color-background));
   }
 
+
+  /* #ComparisonTable-{{ section.id }} .comparison-table__image--left {
+    background: center center no-repeat url({{ section.settings.first_image }});
+  }
+
+  #ComparisonTable-{{ section.id }} .comparison-table__image--right {
+    background: center center no-repeat url({{ section.settings.second_image }});
+  } */
+
   @media screen and (max-width: 749px) {
     #ComparisonTable-{{ section.id }} .comparison-table__title {
       font-size: {{ section.settings.heading_size | times: 0.65 | round: 0 }}px;
@@ -59,6 +68,32 @@
       {%- endif -%}
       {%- if section.settings.subheading != blank -%}
         <div class="comparison-table__subheading">{{ section.settings.subheading }}</div>
+      {%- endif -%}
+      {%- if section.settings.first_image != blank and section.settings.second_image != blank -%}
+        <div class="comparison-table__head">
+          <div class="comparison-table__image comparison-table__image--left">
+            {{
+              section.settings.first_image
+              | image_url: width: 3084
+              | image_tag:
+              width: nil,
+                sizes: '(min-width: 750px) 300px, 200px',
+                widths: '300, 200',
+                heights: '300, 200',
+                fetchpriority: fetch_priority
+            }}
+          </div>
+          <div class="comparison-table__image comparison-table__image--right">
+            {{
+              section.settings.second_image
+              | image_url: width: 3084
+              | image_tag:
+                width: nil,
+                sizes: '(min-width: 750px) 300px, 200px',
+                fetchpriority: fetch_priority
+            }}
+          </div>
+        </div>
       {%- endif -%}
       <div class="comparison-table__head">
         <div class="comparison-table__title option-title option-title--left">
@@ -110,11 +145,11 @@
     "groups": ["header", "footer"]
   },
   "settings": [
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "Background t:sections.multicolumn.blocks.column.settings.image.label"
-      },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background t:sections.multicolumn.blocks.column.settings.image.label"
+    },
     {
       "type": "text",
       "id": "heading",
@@ -138,6 +173,16 @@
       "id": "second_title",
       "default": "Second title",
       "label": "Second title"
+    },
+    {
+      "type": "image_picker",
+      "id": "first_image",
+      "label": "First image"
+    },
+    {
+      "type": "image_picker",
+      "id": "second_image",
+      "label": "Second image"
     },
     {
       "type": "range",
