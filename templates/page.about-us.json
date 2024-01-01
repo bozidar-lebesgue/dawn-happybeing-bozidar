@@ -97,7 +97,7 @@
           "type": "heading",
           "settings": {
             "heading": "<strong>Relationship based<\/strong>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-text-1": {
@@ -106,24 +106,15 @@
             "text": "<p>We're here to share what we know about taking care of our bodies and minds. through our blog & social, we'll make it easy: you ask, we'll share. our community of subscribers receives additional information (collateral, news, sample products, partnerships) that goes even further to support their whole health & well being.<\/p>",
             "text_style": "body"
           }
-        },
-        "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-heading-1",
-        "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-text-1",
-        "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-button-1"
+        "template--16351571673145__f247f828-5688-4429-bd7b-7db7b5e22359-text-1"
       ],
       "settings": {
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
