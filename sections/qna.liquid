@@ -31,8 +31,7 @@
   class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}"
   data-section="{{ section.id }}"
 >
-  <div class="tabs-section__container">
-
+  <div class="page-width tabs-section__container">
     {%- for block in section.blocks -%}
       {%- case block.type -%}
         {%- when 'heading' -%}
