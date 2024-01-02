@@ -16,12 +16,16 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+    .section-{{ section.id }}-padding .text-container {
+      min-height: {{ section.settings.desktop_min_height }}px;
+    }
   }
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 749px) {
     .section-{{ section.id }}-padding .banner__media {
       position: relative;
-      height: 300px;
+      height: {{ section.settings.mobile_image_height }}px;
       width: 100%;
     }
 
@@ -129,7 +133,7 @@
             id="ImageWithText--{{ section.id }}"
             class="{% if section.settings.desktop_image_width != 'large' %}image-with-text__content{% endif %} image-with-text__content--mobile image-with-text__content--{{ section.settings.desktop_content_position }}
               image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }}
-              image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
+            text-container image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
@@ -394,6 +398,26 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "desktop_min_height",
+      "min": 0,
+      "max": 1500,
+      "step": 50,
+      "unit": "px",
+      "label": "Desktop minimum height",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "mobile_image_height",
+      "min": 0,
+      "max": 1000,
+      "step": 10,
+      "unit": "px",
+      "label": "Mobile image height",
+      "default": 300
     },
     {
       "type": "range",

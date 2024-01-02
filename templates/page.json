@@ -13,8 +13,8 @@
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>Our process<\/b>",
-            "heading_size": "h1",
+            "heading": "<b>Debbi Niggeman, MS CNS<\/b>",
+            "heading_size": "h2",
             "margin_bottom": 0
           }
         }
@@ -27,6 +27,184 @@
         "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
         "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
         "height": "adapt",
+        "desktop_min_height": 700,
+        "mobile_image_height": 400,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_size": 1.8,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-2": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-2-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Polyphenols help protect the gut microbiome and other core elements of your health in the most incredible and effective ways. Polyphenols feed good gut bacteria helping rebalance dysbiosos, they combat inflammation helping catalyze healthy levels of inflammation, polyphenols strengthen the gut lining helping address permeability issues like leaky gut and acid reflux. And there aren’t many other nutrients that bring bloating down.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-2-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Leo Galland, MD<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-2-text-1",
+        "template--16149963669561__image-with-text-2-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "height": "adapt",
+        "desktop_min_height": 700,
+        "mobile_image_height": 400,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_size": 1.8,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-3": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“I’ve helped thousands of men and women address hormonal and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. The goal of the Nourished development team team was to create not only a fortifying plant-protein powder but also a nutrient-dense nutrition powder that has the right active nutrients and ingredients, the right amounts of those active nutrients and ingredients, in the best quality forms to make the biggest impact on your health.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Jacqueline Maganas, MPHN CIMHC<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-3-text-1",
+        "template--16149963669561__image-with-text-3-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "height": "adapt",
+        "desktop_min_height": 700,
+        "mobile_image_height": 400,
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_size": 1.8,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-4": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The polyphenols in happy being help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Gerald Lemole, MD<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-4-text-1",
+        "template--16149963669561__image-with-text-4-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "height": "adapt",
+        "desktop_min_height": 700,
+        "mobile_image_height": 400,
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "text_size": 1.8,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "image-with-text-5": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“We've spent the last 30 years researching how diet and lifestyle affect our physiology. I've come to realize that we have more control over our health than we may think. The keys are to focus on the fundamentals and to address the root causes of health challenges (not just the symptoms).<\/p><p>The data is clear and our mission is simple: to share our knowledge with you through our products and content. Our whole team is here to support you on your health journey.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-5-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Chris Conway<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-5-text-1",
+        "template--16149963669561__image-with-text-5-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "height": "adapt",
+        "desktop_min_height": 700,
+        "mobile_image_height": 400,
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "middle",
@@ -44,6 +222,10 @@
     }
   },
   "order": [
-    "image-with-text-1"
+    "image-with-text-1",
+    "image-with-text-2",
+    "image-with-text-3",
+    "image-with-text-4",
+    "image-with-text-5"
   ]
 }
