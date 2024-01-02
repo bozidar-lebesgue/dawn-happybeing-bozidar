@@ -1,75 +1,117 @@
 {
   "sections": {
+    "5006c850-ff92-4884-b532-c62db2fcf201": {
+      "type": "image-banner",
+      "blocks": {
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-buttons-1": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-heading-1",
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-text-1",
+        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-buttons-1"
+      ],
+      "settings": {
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multicolumn-hb": {
       "type": "multicolumn-hb",
       "blocks": {
         "template--16149963669561__multicolumn-hb-22-column-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "title": "<strong>Doctor-recommended doses<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>1mg of Turmeric won’t do anything for you but 250mg will reduce inflammation. That same logic applies to all polyphenols. Trace amounts don’t offer benefits while the right doses do. That’s why we give you enough of the good stuff as shown by science to have a real, positive impact.<\/p>",
             "link_label": "",
             "link": "",
-            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-            "icon_image": "",
             "icon": "none"
           }
         },
         "template--16149963669561__multicolumn-hb-22-column-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "title": "<strong>Optimum bioavailability<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>“Bioavailability” is how well a nutrient is absorbed by your body. If an ingredient isn’t bioavailable, it passes through your system with little effect. Unlike our competitors, we make sure each ingredient is optimized for liquid bioavailability, so that each can is as efficacious for your health as it is delicious.<\/p>",
             "link_label": "",
             "link": "",
-            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-            "icon_image": "",
             "icon": "none"
           }
         },
         "template--16149963669561__multicolumn-hb-22-column-3": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "title": "<strong>Research-backed polyphenols<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>Polyphenols are antioxidants abundant in healthy plant-based foods from blueberries to broccoli. Polyphenols improve gut health, boost immune function, help manage inflammation, and more. A diet abundant in polyphenols has even been found to improve longevity by 33%!<\/p>",
             "link_label": "",
             "link": "",
-            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-            "icon_image": "",
             "icon": "none"
           }
         },
         "template--16149963669561__multicolumn-hb-22-column-4": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "title": "<strong>Science-backed results<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>By infusing research-backed polyphenols into each serving of <b>Happy Being®<\/b> — at doctor-recommended doses and in the most bioavailable forms  — our iced-tea delivers science-backed results like reduced inflammation, fortified gut health, and strengthened immunity.<\/p>",
             "link_label": "",
             "link": "",
-            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-            "icon_image": "",
             "icon": "none"
           }
         },
         "template--16149963669561__multicolumn-hb-22-column-5": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "title": "<strong>A PhD in delicious!<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>Taste is everything when it comes to better health because better taste leads to more consistent use. With <b>Happy Being®<\/b>, the more you drink, the better you feel. You’re not gonna drink it daily if it doesn’t taste great, so we made an iced-tea you’ll love. <\/p>",
             "link_label": "",
             "link": "",
-            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-            "icon_image": "",
             "icon": "none"
           }
         }
@@ -89,6 +131,7 @@
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
         "subtitle_margin_bottom": 10,
         "column_title_max_width": 1000,
         "column_border_radius": 0,
@@ -100,13 +143,13 @@
         "column_subtitle_margin_bottom": 10,
         "column_subtitle_margin_top": 0,
         "column_content_font_size": 1.8,
-        "column_text_style": "subtitle",
         "navigation_caret_size": "small",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 64,
         "title_heading_size": "hextra",
         "column_title_size": "h2",
+        "column_text_style": "body",
         "subtitle_heading_size": "h1",
         "image_width": "full",
         "enumerate": false,
@@ -155,6 +198,7 @@
         "column_icon_size": 16,
         "title_heading_size": "hextra",
         "column_title_size": "h1",
+        "column_text_style": "body",
         "subtitle_heading_size": "h1",
         "image_width": "full",
         "enumerate": true,
@@ -162,7 +206,6 @@
         "columns_desktop": 3,
         "title_alignment": "center",
         "column_alignment": "center",
-        "column_mobile_alignment": "center",
         "column_content_text_align": "left",
         "background_style": "none",
         "button_label": "",
@@ -228,14 +271,14 @@
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
-        "image_border_radius": 0,
         "padding_bottom": 36
       }
     }
   },
   "order": [
+    "5006c850-ff92-4884-b532-c62db2fcf201",
     "multicolumn-hb",
     "title",
-    "d3b41365-1b11-4e6e-8a1c-4b73134b4194"    
+    "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
   ]
 }
