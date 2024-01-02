@@ -15,7 +15,7 @@
           "settings": {
             "heading": "<b>Our process<\/b>",
             "heading_size": "h1",
-            "margin_bottom": 24
+            "margin_bottom": 0
           }
         }
       },
@@ -24,8 +24,8 @@
         "template--16149963669561__image-with-text-1-heading-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
-        "secondary_image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -35,7 +35,7 @@
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_title_alignment": "center",
+        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
         "text_size": 1.8,
         "padding_top": 0,
