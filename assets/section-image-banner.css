@@ -168,6 +168,15 @@
   width: 50%;
 }
 
+.banner__media-wide-half {
+  width: min(1600px, 80vw);
+}
+
+.banner__media-narrow-half {
+  width: max(700px, 30vw);
+}
+
+
 .banner__media-half + .banner__media-half {
   right: 0;
   left: auto;

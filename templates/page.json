@@ -1,50 +1,41 @@
 {
   "sections": {
-    "5006c850-ff92-4884-b532-c62db2fcf201": {
-      "type": "image-banner",
+    "image-with-text-1": {
+      "type": "image-with-text-hb",
       "blocks": {
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-heading-1": {
+        "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<b>Our process<\/b>",
             "heading_size": "h1"
           }
         },
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-text-1": {
+        "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text": "<p>We begin by working with <strong>top health experts<\/strong> like Gerald Lemole, MD & Leo Galland MD who focus their combined 100+ years of clinical experience towards helping create <strong>Happy Being®<\/strong><br><br>Based on their insights, we incorporate research-backed, highly bioavailable polyphenols in doctor-recommended doses into each serving, ensuring <strong>science-backed health results.<\/strong><br><br>And then we make it <strong>taste delicious.<\/strong> The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
             "text_style": "body"
-          }
-        },
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-buttons-1": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-heading-1",
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-text-1",
-        "template--16149963702329__5006c850-ff92-4884-b532-c62db2fcf201-buttons-1"
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-left",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "multicolumn-hb": {
@@ -170,6 +161,44 @@
         "padding_bottom": 64
       }
     },
+    "image-with-text-2": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>We believe in you.<\/b>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b> <br><br>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><br><br><br><\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-3",
+        "color_scheme": "scheme-3",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "title": {
       "type": "multicolumn-hb",
       "settings": {
@@ -276,8 +305,9 @@
     }
   },
   "order": [
-    "5006c850-ff92-4884-b532-c62db2fcf201",
+    "image-with-text-1",
     "multicolumn-hb",
+    "image-with-text-2",
     "title",
     "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
   ]
