@@ -269,6 +269,7 @@
           "type": "row",
           "settings": {
             "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "heading": "<strong>Doctor-recommended<\/strong>",
             "text": "<p>Why would you drink something that wasn't? We work hand-in-hand with some of the world's best doctors, like Dr. Leo Galland and Dr. Gerald Lemole, to ensure that our products help our community feel happier and healthier.<\/p>",
             "button_label": "",
@@ -279,6 +280,7 @@
           "type": "row",
           "settings": {
             "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "heading": "<strong>Research-led<\/strong>",
             "text": "<p>We're motivated by tested, data-driven outcomes. we look to the best research, spanning from historically-proven natural remedies to cutting-edge medical science, to create functional products that deliver significant benefits to our near & long-term health.<\/p>",
             "button_label": "",
@@ -289,6 +291,7 @@
           "type": "row",
           "settings": {
             "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
             "heading": "<strong>Relationship-based<\/strong>",
             "text": "<p>We're here to share what we know about taking care of our bodies and minds. through our blog & social, we'll make it easy: you ask, we'll share. our community of subscribers receives additional information (collateral, news, sample products, partnerships) that goes even further to support their whole health & well being.<\/p>",
             "button_label": "",
@@ -304,6 +307,7 @@
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "large",
+        "mobile_image_full_width": true,
         "heading_size": "h2",
         "text_style": "subtitle",
         "button_style": "secondary",
