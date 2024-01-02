@@ -90,7 +90,22 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+}
 
+.column--left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+@media screen and (max-width: 749px) {
+  .column-mobile--center {
+    align-items: center;  
+  }  
+  .column-mobile--left {
+    align-items: flex-start;
+  }
 }
 
 .multicolumn-list {
