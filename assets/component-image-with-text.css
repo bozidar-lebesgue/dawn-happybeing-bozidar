@@ -437,6 +437,16 @@
   .secondary-image .image-with-text__content {
     padding-top: 8rem;
   }
+
+  .image-width--large .image-with-text__content--mobile {
+    padding-top: 32px;
+  }
+
+  .image-width--large .image-with-text__grid {
+    margin-top: -100px;
+    padding-top: 0px;
+    background-color: rgb(var(--color-background));
+  }
 }
 
 @media screen and (min-width: 750px) {

@@ -29,16 +29,9 @@
       width: 100%;
     }
 
-    .section-{{ section.id }}-padding .image-with-text__grid {
-      {% if section.settings.desktop_image_width == 'large' %}
-        margin-top: -100px;
-        padding-top: 10px;
-      {% endif %}
-      background-color: rgb(var(--color-background));
-    }
-
     .section-{{ section.id }}-padding .image-with-text__text-size {
-      font-size: {{ section.settings.text_size | times: 0.75 }}rem;
+      font-size: {{ section.settings.text_size }}rem;
+      line-height: 26px;
     }
   }
 {%- endstyle -%}
@@ -127,7 +120,7 @@
               {{ 'detailed-apparel-1' | placeholder_svg_tag: 'placeholder-svg' }}
             {%- endif -%}
           </div> {% endcomment %}
-        </div>desktop_image_width
+        </div>
         <div class="image-with-text__text-item grid__item image-width--{{ section.settings.desktop_image_width }} {% if section.settings.secondary_image != blank %} secondary-image{% endif %}">
           <div
             id="ImageWithText--{{ section.id }}"
