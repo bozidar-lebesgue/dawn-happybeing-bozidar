@@ -1024,7 +1024,7 @@
         "collapsible_tab2": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 1,
+            "tab_number": 2,
             "heading": "<strong>What is your return policy?<\/strong>",
             "content": "<p>We believe you'll love our iced teas so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever we can to make things right.<\/p>",
             "page": ""
@@ -1033,7 +1033,7 @@
         "collapsible_tab3": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 2,
+            "tab_number": 3,
             "heading": "<strong>How often should I drink this?<\/strong>",
             "content": "<p>To maximize the benefits, we recommend drinking one per day.<\/p>",
             "page": ""
@@ -1042,7 +1042,7 @@
         "collapsible_tab4": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>What does the Happy Being® iced tea taste like?<\/strong>",
             "content": "<p>Our iced tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
             "page": ""
@@ -1051,7 +1051,7 @@
         "collapsible_tab5": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>Is there any sugar?<\/strong>",
             "content": "<p>Happy Being® iced teas have a total  of 3 grams of naturally-occurring sugar per serving.  <\/p>",
             "page": ""
@@ -1060,7 +1060,7 @@
         "collapsible_tab6": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>How many calories?<\/strong>",
             "content": "<p>Happy Being® iced teas have 40 calories per serving.<\/p>",
             "page": ""
@@ -1078,7 +1078,7 @@
         "collapsible_tab8": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>Is there caffeine?<\/strong>",
             "content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
             "page": ""
@@ -1087,7 +1087,7 @@
         "collapsible_tab9": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>Can it help we lose weight?<\/strong>",
             "content": "<p>Yes. Polyphenols like the ones in Happy Being® iced tea boost thermogenesis, the body’s natural process of burning brown fat, and they help increase the body’s metabolic rate.<\/p>",
             "page": ""
@@ -1105,7 +1105,7 @@
         "collapsible_tab11": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 2,
             "heading": "<strong>Can I cancel my subscription<\/strong>",
             "content": "<p>Yes, you can cancel by emailing hi@happybeing.co or you can sign into your account portal and cancel anytime. <\/p>",
             "page": ""
@@ -1114,7 +1114,7 @@
         "collapsible_tab12": {
           "type": "collapsible_tab",
           "settings": {
-            "tab_number": 3,
+            "tab_number": 1,
             "heading": "<strong>Is it gluten free, dairy free, soy free, and nut free?<\/strong>",
             "content": "<p>Yes, Happy Being® iced teas are gluten free, dairy free, soy free, and nut free.<\/p>",
             "page": ""

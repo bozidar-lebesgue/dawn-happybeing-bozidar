@@ -92,6 +92,12 @@
   z-index: 1;
 }
 
+@media screen and (max-width: 749px) {
+  .image-with-text__content {
+    padding: 4rem calc(2rem / var(--font-body-scale)) 5rem;
+  }
+}
+
 .image-with-text .grid__item::after {
   content: '';
   position: absolute;
