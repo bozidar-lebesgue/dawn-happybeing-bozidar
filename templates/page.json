@@ -174,8 +174,9 @@
         "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b> <br><br>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><br><br><br><\/p>",
-            "text_style": "subtitle"
+            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b><br><br>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><\/p>",
+            "text_size": 2.4,
+            "text_style": "body"            
           }
         }
       },
@@ -195,8 +196,8 @@
         "color_scheme": "scheme-3",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 24,
+        "padding_bottom": 72
       }
     },
     "title": {
