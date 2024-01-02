@@ -305,7 +305,7 @@
         "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3"
       ],
       "settings": {
-        "image_height": "large",
+        "image_height": "large  ",
         "desktop_image_width": "large",
         "mobile_image_full_width": true,
         "heading_size": "h2",
