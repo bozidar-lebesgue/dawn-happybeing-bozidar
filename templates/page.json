@@ -3,75 +3,202 @@
     "image-with-text-1": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Oftentimes achieving our health goals doesn’t happen overnight, especially when it comes to nutrition.<br><br>But you have more control over your health than you think. If you just stick with it, you will see results.”<\/p>",
-            "text_style": "body"
-          }
-        },
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>Debbi Niggeman, MS CNS<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
+            "heading": "<b>Our process<\/b>",
+            "heading_size": "h1",
+            "margin_bottom": 24
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We begin by working with <strong>top health experts<\/strong> like Gerald Lemole, MD & Leo Galland MD who focus their combined 100+ years of clinical experience towards helping create <strong>Happy Being®<\/strong><br><br>Based on their insights, we incorporate research-backed, highly bioavailable polyphenols in doctor-recommended doses into each serving, ensuring <strong>science-backed health results.<\/strong><br><br>And then we make it <strong>taste delicious.<\/strong> The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--16149963669561__image-with-text-1-text-1",
-        "template--16149963669561__image-with-text-1-heading-1"
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "desktop_image_width": "large",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_title_alignment": "left",
+        "mobile_title_alignment": "center",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "text_size": 1.9,
+        "padding_top": 48,
+        "padding_bottom": 96
+      }
+    },
+    "multicolumn-hb": {
+      "type": "multicolumn-hb",
+      "blocks": {
+        "template--16149963669561__multicolumn-hb-22-column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "title": "<strong>Doctor-recommended doses<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>1mg of Turmeric won’t do anything for you but 250mg will reduce inflammation. That same logic applies to all polyphenols. Trace amounts don’t offer benefits while the right doses do. That’s why we give you enough of the good stuff as shown by science to have a real, positive impact.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16149963669561__multicolumn-hb-22-column-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "title": "<strong>Optimum bioavailability<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>“Bioavailability” is how well a nutrient is absorbed by your body. If an ingredient isn’t bioavailable, it passes through your system with little effect. Unlike our competitors, we make sure each ingredient is optimized for liquid bioavailability, so that each can is as efficacious for your health as it is delicious.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16149963669561__multicolumn-hb-22-column-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "title": "<strong>Research-backed polyphenols<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>Polyphenols are antioxidants abundant in healthy plant-based foods from blueberries to broccoli. Polyphenols improve gut health, boost immune function, help manage inflammation, and more. A diet abundant in polyphenols has even been found to improve longevity by 33%!<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16149963669561__multicolumn-hb-22-column-4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "title": "<strong>Science-backed results<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>By infusing research-backed polyphenols into each serving of <b>Happy Being®<\/b> — at doctor-recommended doses and in the most bioavailable forms  — our iced-tea delivers science-backed results like reduced inflammation, fortified gut health, and strengthened immunity.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        },
+        "template--16149963669561__multicolumn-hb-22-column-5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "title": "<strong>A PhD in delicious!<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>Taste is everything when it comes to better health because better taste leads to more consistent use. With <b>Happy Being®<\/b>, the more you drink, the better you feel. You’re not gonna drink it daily if it doesn’t taste great, so we made an iced-tea you’ll love. <\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__multicolumn-hb-22-column-1",
+        "template--16149963669561__multicolumn-hb-22-column-2",
+        "template--16149963669561__multicolumn-hb-22-column-3",
+        "template--16149963669561__multicolumn-hb-22-column-4",
+        "template--16149963669561__multicolumn-hb-22-column-5"
+      ],
+      "settings": {
+        "full_width": false,
+        "title": "<b>How we’re different<\/b>",
+        "subtitle": "<i>Our iced-teas are packed with science, not sugar.<\/i>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_margin_bottom": 72,
+        "column_title_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.2,
+        "column_subtitle_margin_bottom": 10,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1.8,
+        "navigation_caret_size": "small",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 64,
+        "title_heading_size": "hextra",
+        "column_title_size": "h15",
+        "column_text_style": "body",
+        "subtitle_heading_size": "h1",
+        "image_width": "full",
+        "enumerate": false,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_content_text_align": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-3",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": false,
+        "header_position_desktop": "top",
+        "padding_top": 64,
+        "padding_bottom": 64
       }
     },
     "image-with-text-2": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16149963669561__image-with-text-2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Polyphenols help protect the gut microbiome and other core elements of your health in the most incredible and effective ways. Polyphenols feed good gut bacteria helping rebalance dysbiosos, they combat inflammation helping catalyze healthy levels of inflammation, polyphenols strengthen the gut lining helping address permeability issues like leaky gut and acid reflux. And there aren’t many other nutrients that bring bloating down.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-2-heading-1": {
+        "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>Leo Galland, MD<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
+            "heading": "<b>We believe in you.<\/b>",
+            "heading_size": "h1",
+            "margin_bottom": 32
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b><\/p>",
+            "text_style": "body"            
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><\/p>",
+            "text_style": "body"            
           }
         }
       },
       "block_order": [
-        "template--16149963669561__image-with-text-2-text-1",
-        "template--16149963669561__image-with-text-2-heading-1"
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1",
+        "template--16149963669561__image-with-text-1-text-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Leo_galland_bio_pic.png",
+        "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -79,154 +206,128 @@
         "section_color_scheme": "scheme-3",
         "color_scheme": "scheme-3",
         "image_behavior": "none",
-        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_title_alignment": "center",
+        "text_size": 2.4,
+        "padding_top": 72,
+        "padding_bottom": 100
       }
     },
-    "image-with-text-3": {
-      "type": "image-with-text-hb",
+    "title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<strong>Our pillars<\/strong>",
+        "subtitle": "",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 0,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 3,
+        "subtitle_margin_bottom": 0,
+        "column_title_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 0,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1.8,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "hextra",
+        "column_title_size": "h1",
+        "column_text_style": "body",
+        "subtitle_heading_size": "h1",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "column_content_text_align": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-11",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 64,
+        "padding_bottom": 24
+      }
+    },
+    "d3b41365-1b11-4e6e-8a1c-4b73134b4194": {
+      "type": "multirow",
       "blocks": {
-        "template--16149963669561__image-with-text-3-text-1": {
-          "type": "text",
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1": {
+          "type": "row",
           "settings": {
-            "text": "<p>“I’ve helped thousands of men and women address hormonal and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. The goal of the Nourished development team team was to create not only a fortifying plant-protein powder but also a nutrient-dense nutrition powder that has the right active nutrients and ingredients, the right amounts of those active nutrients and ingredients, in the best quality forms to make the biggest impact on your health.”<\/p>",
-            "text_style": "body"
+            "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "heading": "<strong>Doctor-recommended<\/strong>",
+            "text": "<p>Why would you drink something that wasn't? We work hand-in-hand with some of the world's best doctors, like Dr. Leo Galland and Dr. Gerald Lemole, to ensure that our products help our community feel happier and healthier.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "template--16149963669561__image-with-text-3-heading-1": {
-          "type": "heading",
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2": {
+          "type": "row",
           "settings": {
-            "heading": "<b>Jacqueline Maganas, MPHN CIMHC<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
+            "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "heading": "<strong>Research-led<\/strong>",
+            "text": "<p>We're motivated by tested, data-driven outcomes. we look to the best research, spanning from historically-proven natural remedies to cutting-edge medical science, to create functional products that deliver significant benefits to our near & long-term health.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
+            "heading": "<strong>Relationship-based<\/strong>",
+            "text": "<p>We're here to share what we know about taking care of our bodies and minds. through our blog & social, we'll make it easy: you ask, we'll share. our community of subscribers receives additional information (collateral, news, sample products, partnerships) that goes even further to support their whole health & well being.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "template--16149963669561__image-with-text-3-text-1",
-        "template--16149963669561__image-with-text-3-heading-1"
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1",
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2",
+        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/jacqueline.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
+        "image_height": "large",
+        "desktop_image_width": "large",
+        "mobile_image_full_width": true,
+        "heading_size": "h2",
+        "text_style": "subtitle",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "scheme-11",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text-4": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The polyphenols in happy being help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Gerald Lemole, MD<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-4-text-1",
-        "template--16149963669561__image-with-text-4-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/gerry.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text-5": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“We've spent the last 30 years researching how diet and lifestyle affect our physiology. I've come to realize that we have more control over our health than we may think. The keys are to focus on the fundamentals and to address the root causes of health challenges (not just the symptoms).<\/p><p>The data is clear and our mission is simple: to share our knowledge with you through our products and content. Our whole team is here to support you on your health journey.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Chris Conway<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-5-text-1",
-        "template--16149963669561__image-with-text-5-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Chris_Conway_Bio.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-3",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 2.2,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0
+        "mobile_title_alignment": "center",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "image-with-text-1",
+    "multicolumn-hb",
     "image-with-text-2",
-    "image-with-text-3",
-    "image-with-text-4",
-    "image-with-text-5"
+    "title",
+    "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
   ]
 }
