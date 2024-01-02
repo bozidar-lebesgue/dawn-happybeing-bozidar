@@ -24,6 +24,9 @@
   .strawberry-bg {
     background: center center no-repeat url({{ 'strawberry.png' | asset_img_url }});
   }
+  .variety-bg {
+    background: center center no-repeat url({{ 'variety.png' | asset_img_url }});
+  }
 {% endstyle %}
 
 {%- liquid
@@ -34,6 +37,13 @@
 
   assign product_form_id = 'product-form-' | append: section.id
 -%}
+
+<script>
+  function setSelectedFlavor(value) {
+    console.log(value);
+    document.getElementById('flavor__selected').innerHTML = `<b>Select Flavor:</b> ${value}</p>`
+  };
+</script>
 
 {%- for value in option.values -%}
   {%- liquid
@@ -72,13 +82,21 @@
     {%- liquid
       if value contains "peach"
         assign bg_class = "peach-bg"
+        assign selected_text = "Peach Rose"
       elsif value contains "blueberry"
         assign bg_class = "blueberry-bg"
-      else
+        assign selected_text = "Blueberry"
+      elsif value contains "strawberry"
         assign bg_class = "strawberry-bg"
+        assign selected_text = "Strawberry"
+      elsif value contains "variety"
+        assign bg_class = "variety-bg"
+        assign selected_text = "Variety pack"
       endif
     -%}
-    <label class="{{ bg_class }} flavor-option" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label class="{{ bg_class }} flavor-option" for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
+      onclick="setSelectedFlavor('{{ selected_text }}')"
+    >
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>
   </input>
