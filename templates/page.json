@@ -7,7 +7,8 @@
           "type": "heading",
           "settings": {
             "heading": "<b>Our process<\/b>",
-            "heading_size": "h0"
+            "heading_size": "h1",
+            "margin_bottom": 24
           }
         },
         "template--16149963669561__image-with-text-1-text-1": {
@@ -35,8 +36,9 @@
         "image_behavior": "none",
         "mobile_title_alignment": "center",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "text_size": 1.8,
+        "padding_top": 32,
+        "padding_bottom": 72
       }
     },
     "multicolumn-hb": {
@@ -121,10 +123,10 @@
         "subtitle": "<i>Our iced-teas are packed with science, not sugar.<\/i>",
         "title_max_width": 1000,
         "title_margin_top": 0,
-        "title_margin_bottom": 10,
+        "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
-        "subtitle_margin_bottom": 10,
+        "subtitle_margin_bottom": 72,
         "column_title_max_width": 1000,
         "column_border_radius": 0,
         "column_border_tickness": 0,
@@ -140,7 +142,7 @@
         "mobile_content_align": "center",
         "column_icon_size": 64,
         "title_heading_size": "hextra",
-        "column_title_size": "h2",
+        "column_title_size": "h15",
         "column_text_style": "body",
         "subtitle_heading_size": "h1",
         "image_width": "full",
@@ -150,7 +152,7 @@
         "title_alignment": "center",
         "column_alignment": "left",
         "column_content_text_align": "left",
-        "background_style": "",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-3",
@@ -169,20 +171,29 @@
           "type": "heading",
           "settings": {
             "heading": "<b>We believe in you.<\/b>",
-            "heading_size": "h1"
+            "heading_size": "h1",
+            "margin_bottom": 32
           }
         },
         "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b><br>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><\/p>",
+            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b><\/p>",
+            "text_style": "body"            
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><\/p>",
             "text_style": "body"            
           }
         }
       },
       "block_order": [
         "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1"
+        "template--16149963669561__image-with-text-1-text-1",
+        "template--16149963669561__image-with-text-1-text-2"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/none-3_6c7c4f22-6366-4850-b427-f65288aad826.png",
@@ -197,9 +208,9 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "mobile_title_alignment": "center",
-        "text_size": 1.8,
-        "padding_top": 24,
-        "padding_bottom": 72
+        "text_size": 2.4,
+        "padding_top": 36,
+        "padding_bottom": 96
       }
     },
     "title": {

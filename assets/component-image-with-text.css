@@ -92,9 +92,10 @@
   z-index: 1;
 }
 
+
 @media screen and (max-width: 749px) {
-  .image-with-text__content {
-    padding: 4rem calc(2rem / var(--font-body-scale)) 5rem;
+  .image-with-text__content--mobile {
+    padding: 0 calc(4rem / var(--font-body-scale));
   }
 }
 
