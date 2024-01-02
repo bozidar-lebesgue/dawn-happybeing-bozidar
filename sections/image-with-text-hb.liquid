@@ -31,7 +31,7 @@
 
     .section-{{ section.id }}-padding .image-with-text__text-size {
       font-size: {{ section.settings.text_size }}rem;
-      line-height: 26px;
+      line-height: {{ section.settings.text_line_height }}px;
     }
   }
 {%- endstyle -%}
@@ -421,6 +421,16 @@
       "unit": "rem",
       "label": "Text size",
       "default": 1.8
+    },
+    {
+      "type": "range",
+      "id": "text_line_height",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Text line height",
+      "default": 30
     },
     {
       "type": "range",

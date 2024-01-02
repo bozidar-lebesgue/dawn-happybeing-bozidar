@@ -361,7 +361,7 @@ h1,
 }
 
 .h14 {
-  font-size: calc(var(--font-heading-scale) * 2.4rem);
+  font-size: calc(var(--font-heading-scale) * 2.6rem);
 }
 
 @media only screen and (min-width: 750px) {
@@ -515,6 +515,7 @@ table:not([class]) th {
 }
 
 .center {
+  width: 100%;
   text-align: center;
 }
 

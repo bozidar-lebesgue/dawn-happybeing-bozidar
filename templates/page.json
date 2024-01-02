@@ -308,7 +308,7 @@
         "image_height": "large",
         "desktop_image_width": "large",
         "mobile_image_full_width": true,
-        "heading_size": "h2",
+        "heading_size": "h14",
         "text_style": "subtitle",
         "button_style": "secondary",
         "desktop_content_position": "middle",
