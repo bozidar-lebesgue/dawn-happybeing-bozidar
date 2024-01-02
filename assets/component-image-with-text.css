@@ -87,17 +87,11 @@
   height: 100%;
   justify-content: center;
   align-self: center;
-  padding: 4rem 0 5rem;
   position: relative;
   z-index: 1;
 }
 
 
-@media screen and (max-width: 749px) {
-  .image-with-text__content--mobile {
-    padding: 0;
-  }
-}
 
 .image-with-text .grid__item::after {
   content: '';
@@ -207,11 +201,6 @@
   .image-with-text__content--desktop-center > * {
     align-self: center;
     text-align: center;
-  }
-
-  .image-with-text--overlap .image-with-text__text-item {
-    display: flex;
-    padding: 3rem 0;
   }
 
   .image-with-text--overlap .image-with-text__content {
@@ -338,14 +327,6 @@
 }
 
 
-/* bgd */
-@media screen and (min-width: 750px) {
-  .image-with-text__content {
-    padding-top: 6rem;
-    padding-bottom: 7rem;
-  }
-}
-
 .image-with-text__content > * + * {
   margin-top: 2rem;
 }
@@ -383,26 +364,6 @@
   color: rgb(var(--color-foreground));
 }
 
-@media screen and (max-width: 749px) {
-  .collapse-padding .image-with-text__grid .image-with-text__content {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-@media screen and (min-width: 750px) {
-  .collapse-padding
-    .image-with-text__grid:not(.image-with-text__grid--reverse)
-    .image-with-text__content:not(.image-with-text__content--desktop-center) {
-    padding-right: 0;
-  }
-
-  .collapse-padding
-    .image-with-text__grid--reverse
-    .image-with-text__content:not(.image-with-text__content--desktop-center) {
-    padding-left: 0;
-  }
-}
 
 /* check for flexbox gap in older Safari versions */
 @supports not (inset: 10px) {
@@ -425,11 +386,6 @@
   .multirow__inner {
     row-gap: var(--grid-desktop-vertical-spacing);
   }
-}
-
-.image-with-text__content--mobile-left {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
 }
 
 .image-with-text__secondary-image {
@@ -469,14 +425,26 @@
 }
 
 /* bgd */
+
 @media screen and (max-width: 749px) {
-  .image-width--medium .image-with-text__content {
-    padding: 5rem 1.5rem 3rem;
+  .image-with-text__content {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .secondary-image .image-with-text__content {
+    padding-top: 8rem;
   }
 }
 
 @media screen and (min-width: 750px) {
-  .image-width--medium .image-with-text__content {
-    padding: 6rem 7rem 7rem;
+  .image-with-text__grid--reverse .image-with-text__content {
+    padding-right: 5rem;
+  }
+
+  .image-with-text__grid:not(.image-with-text__grid--reverse) .image-with-text__content {
+    padding-left: 5rem;
   }
 }
