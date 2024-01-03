@@ -136,6 +136,12 @@
         "settings": {
           "show_preview_data": false
         }
+      },
+      "2866599292834799514": {
+        "type": "shopify:\/\/apps\/prive-subscriptions\/blocks\/widget-app-embed-block\/42050940-af72-406b-ba49-06f437b1dbb5",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
