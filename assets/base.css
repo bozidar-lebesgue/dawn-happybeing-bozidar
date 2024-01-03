@@ -105,15 +105,24 @@ html.no-js .no-js-hidden {
   padding: 0 1.5rem;
 }
 
+@media screen and (max-width: 749px) {
+  .full-width--space-between {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+  }
+}
 
-.full-width--space-between {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1600px;
-  width: min(1600px, 100%);
-  margin: 0 auto;
-  padding: 0 5rem;
+@media screen and (min-width: 750px) {
+  .full-width--space-between {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1600px;
+    width: min(1600px, 100%);
+    margin: 0 auto;
+    padding: 0 5rem;
+  }
 }
 
 body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
