@@ -129,6 +129,15 @@
     "content_for_index": [
 
     ],
+    "blocks": {
+      "733389323033596483": {
+        "type": "shopify:\/\/apps\/okendo-product-reviews-ugc\/blocks\/theme-settings\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
+        "disabled": false,
+        "settings": {
+          "show_preview_data": false
+        }
+      }
+    },
     "color_schemes": {
       "scheme-1": {
         "settings": {
@@ -190,7 +199,7 @@
           "background": "#ffffff",
           "background_gradient": "linear-gradient(242.63deg, #D4E3F9 32.95%, #D4F2F9 82.5%)",
           "text": "#000000",
-          "button": "#000",
+          "button": "#000000",
           "button_label": "#334fb4",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
@@ -209,12 +218,12 @@
       },
       "scheme-8": {
         "settings": {
-          "background": "#EFF1FF",
+          "background": "#eff1ff",
           "background_gradient": "",
           "text": "#000000",
           "button": "#000000",
-          "button_label": "#fff",
-          "secondary_button_label": "#D9D9D9",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#d9d9d9",
           "shadow": "#6a6a6a"
         }
       },
@@ -225,7 +234,7 @@
           "text": "#000000",
           "button": "#000000",
           "button_label": "#000000",
-          "secondary_button_label": "#9DA4C8",
+          "secondary_button_label": "#9da4c8",
           "shadow": ""
         }
       },
