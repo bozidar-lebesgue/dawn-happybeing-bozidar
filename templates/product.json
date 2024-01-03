@@ -548,7 +548,7 @@
         "title_margin_bottom": 10,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
-        "subtitle_margin_bottom": 10,
+        "subtitle_margin_bottom": 12,
         "column_title_max_width": 1000,
         "column_border_radius": 0,
         "column_border_tickness": 0,
