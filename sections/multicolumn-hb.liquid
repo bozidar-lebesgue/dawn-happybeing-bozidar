@@ -121,7 +121,7 @@
     }
 
     .section-{{ section.id }} .subtitle-hb {
-      font-size: {{ section.settings.subtitle_font_size | times: 0.75 }}rem;
+      font-size: {% if section.settings.subtitle_mobile_font_size > 0 %}{{ section.settings.subtitle_mobile_font_size }}{% else %}{{ section.settings.subtitle_font_size | times: 0.75 }}{% endif %}rem;
       margin-bottom: {{ section.settings.subtitle_margin_bottom | times: 0.5 }}px;
     }
 
@@ -182,7 +182,7 @@
         <div class="title-hb inline-richtext {{ section.settings.title_heading_size }}">
           {{ section.settings.title }}
         </div>
-        <div class="subtitle-hb inline-richtext {{ section.settings.subtitle_heading_size }}">
+        <div class="subtitle-hb inline-richtext">
           {{ section.settings.subtitle }}
         </div>
         {%- if section.settings.button_label != blank and show_mobile_slider -%}
@@ -466,6 +466,16 @@
     },
     {
       "type": "range",
+      "id": "subtitle_mobile_font_size",
+      "min": 0,
+      "unit": "rem",
+      "max": 10,
+      "step": 0.1,
+      "default": 0,
+      "label": "Subtitle mobile font size"
+    },
+    {
+      "type": "range",
       "id": "subtitle_margin_bottom",
       "min": 0,
       "unit": "px",
@@ -705,30 +715,6 @@
       ],
       "default": "body",
       "label": "t:sections.multirow.settings.text_style.label"
-    },
-    {
-      "type": "select",
-      "id": "subtitle_heading_size",
-      "options": [
-        {
-          "value": "h2",
-          "label": "t:sections.all.heading_size.options__1.label"
-        },
-        {
-          "value": "h1",
-          "label": "t:sections.all.heading_size.options__2.label"
-        },
-        {
-          "value": "h0",
-          "label": "t:sections.all.heading_size.options__3.label"
-        },
-        {
-          "value": "hextra",
-          "label": "Extra large"
-        }
-      ],
-      "default": "h1",
-      "label": "Subtitle t:sections.all.heading_size.label"
     },
     {
       "type": "select",
