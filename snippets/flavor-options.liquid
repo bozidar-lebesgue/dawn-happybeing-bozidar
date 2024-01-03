@@ -79,17 +79,19 @@
       class="disabled"
     {% endif %}
   >
-    {%- liquid
-      if value contains "peach"
+    {%- assign value_downcase = value | downcase -%}
+
+    {%- liquid      
+      if value_downcase contains "peach"
         assign bg_class = "peach-bg"
         assign selected_text = "Peach Rose"
-      elsif value contains "blueberry"
+      elsif value_downcase contains "blueberry"
         assign bg_class = "blueberry-bg"
         assign selected_text = "Blueberry"
-      elsif value contains "strawberry"
+      elsif value_downcase contains "strawberry"
         assign bg_class = "strawberry-bg"
         assign selected_text = "Strawberry"
-      elsif value contains "Variety"
+      elsif value_downcase contains "variety"
         assign bg_class = "variety-bg"
         assign selected_text = "Variety pack"
       endif
