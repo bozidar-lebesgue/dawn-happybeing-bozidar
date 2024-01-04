@@ -178,7 +178,7 @@
     {% endif %}
   >
     {%- unless section.settings.title == blank -%}
-      <div class="title-wrapper-hb title-wrapper-with-link title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin{% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
+      <div class="title-wrapper-hb title-wrapper--self-padded-mobile title-wrapper--no-top-margin title-wrapper--no-bottom-margin{% if section.settings.title_alignment == 'center' %} title--center{% else %} title--left{% endif %}">
         <div class="title-hb inline-richtext {{ section.settings.title_heading_size }}">
           {{ section.settings.title }}
         </div>
