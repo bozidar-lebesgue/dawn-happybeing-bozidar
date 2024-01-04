@@ -9,7 +9,7 @@
 
 @media screen and (max-width: 749px) {
   .section-{{ section.id }}-padding .table__container {
-    padding: 0 0;
+    padding: 0 0 {{ section.settings.vertical_margin | times: 0.5 }}px;
   }
 }
 
