@@ -295,6 +295,9 @@
 }
 
 .column__subtitle {
-  font-style: italic;
   letter-spacing: 0.01em;
+}
+
+.title-hb {
+  align-self: center;
 }
