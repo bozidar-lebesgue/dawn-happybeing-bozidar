@@ -52,6 +52,16 @@
     padding: {{ section.settings.slide_inner_padding }}px;
   }
 
+  .section-{{ section.id }} .review-quote {
+    font-family: {{ section.settings.quote_font }};
+  }
+
+
+  .section-{{ section.id }} .review-text {
+    font-size: {{ section.settings.review_font_size }}px;
+  }  
+
+
   @media screen and (min-width: 750px) {
     .section-{{ section.id }} .slider-button {
       z-index: 5;
@@ -89,6 +99,10 @@
       background: transparent;
     }
     
+    .section-{{ section.id }} .review-text {
+      font-size: {{ section.settings.review_font_size | times: 0.75 }}px;
+    }  
+
   }
 {%- endstyle -%}
 
@@ -162,7 +176,7 @@
             <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent banner--mobile-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
               <div class="slide__content slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
                 {%- if block.settings.review != blank -%}
-                  <h2 class="banner__text rte">
+                  <h2 class="banner__text rte review-text">
                     {{ block.settings.review }}
                   </h2>
                 {%- endif -%}
@@ -176,7 +190,7 @@
                   </div>
                 {%- endif -%}
                 {%- if block.settings.quote != blank -%}
-                  <div class="child--no-bottom-whitespace">{{ block.settings.quote }}</div>
+                  <div class="child--no-bottom-whitespace review-quote">{{ block.settings.quote }}</div>
                 {%- endif -%}
                 {%- if block.settings.verified_buyer != blank -%}
                   <div class="verified-buyer__container">
@@ -244,18 +258,34 @@
       "max": 40,
       "step": 1,
       "unit": "px",
-      "label": "corner radius",
+      "label": "Corner radius",
       "default": 0
     },
     {
       "type": "range",
       "id": "border_width",
       "min": 0,
-      "max": 40,
-      "step": 0.5,
+      "max": 20,
+      "step": 1,
       "unit": "px",
       "label": "Border width",
       "default": 0
+    },
+    {
+      "type": "range",
+      "id": "review_font_size",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "Review font size",
+      "default": 20
+    },
+    {
+      "type": "font_picker",
+      "id": "quote_font",
+      "default": "assistant_n4",
+      "label": "Quote font family"
     },
     {
       "type": "select",
@@ -406,12 +436,6 @@
           "id": "quote",
           "default": "<p>John Doe<\/p>",
           "label": "John Doe"
-        },
-        {
-          "type": "font_picker",
-          "id": "quote_font",
-          "default": "assistant_n4",
-          "label": "Quote font family"
         },
         {
           "type": "checkbox",

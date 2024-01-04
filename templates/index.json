@@ -377,7 +377,6 @@
           "settings": {
             "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
             "quote": "<h3><strong>David F.<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -392,7 +391,6 @@
           "settings": {
             "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven’t had this in over 10 years.<\/p>",
             "quote": "<h3><strong>John Y.<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -407,7 +405,6 @@
           "settings": {
             "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
             "quote": "<h3><strong>Robin P.<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -422,7 +419,6 @@
           "settings": {
             "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
             "quote": "<h3><strong>Janet B.<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -437,7 +433,6 @@
           "settings": {
             "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I’ve never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
             "quote": "<h3><strong>Camille G.<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -460,10 +455,12 @@
       "settings": {
         "layout": "full_bleed",
         "gradient": "",
+        "review_font_size": 20,
         "corner_radius": 24,
         "border_width": 1,
         "slide_height": "medium",
         "slider_visual": "none",
+        "quote_font": "assistant_n4",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "mobile_padding_bottom": 30,
