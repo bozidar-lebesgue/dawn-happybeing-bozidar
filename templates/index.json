@@ -620,7 +620,7 @@
         "title_margin_top": 0,
         "title_margin_bottom": 0,
         "subtitle_font_family": "assistant_n4",
-        "subtitle_font_size": 4.6,
+        "subtitle_font_size": 3.8,
         "subtitle_mobile_font_size": 2,
         "subtitle_margin_bottom": 0,
         "column_title_max_width": 1000,
@@ -657,7 +657,7 @@
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 30
+        "padding_bottom": 0
       }
     },
     "comparison-table-hb": {
