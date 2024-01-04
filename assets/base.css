@@ -301,11 +301,13 @@ h4,
 h5,
 .hextra,
 .h0,
-.h06,
+.h04,
 .h1,
 .h14,
 .h15,
 .h2,
+.h24,
+.h26,
 .h3,
 .h4,
 .h5 {
@@ -344,6 +346,16 @@ h5,
 
 @media only screen and (min-width: 750px) {
   .h0 {
+    font-size: calc(var(--font-heading-scale) * 5.2rem);
+  }
+}
+
+.h04 {
+  font-size: calc(var(--font-heading-scale) * 3rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .h04 {
     font-size: calc(var(--font-heading-scale) * 5.2rem);
   }
 }
@@ -388,6 +400,27 @@ h2,
 @media only screen and (min-width: 750px) {
   h2,
   .h2 {
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+  }
+}
+
+.h24 {
+  font-size: calc(var(--font-heading-scale) * 1.6rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .h24 {
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+  }
+}
+
+
+.h26 {
+  font-size: calc(var(--font-heading-scale) * 1.4rem);
+}
+
+@media only screen and (min-width: 750px) {
+  .h26 {
     font-size: calc(var(--font-heading-scale) * 2.4rem);
   }
 }
