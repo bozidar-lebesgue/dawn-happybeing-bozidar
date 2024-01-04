@@ -1,4 +1,4 @@
-{{ 'section-homepage-top-hb.css' | asset_url | stylesheet_tag }}
+{{ 'section-hero-hb.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.image_height == 'adapt' and section.settings.image != blank -%}
   {%- style -%}
@@ -162,7 +162,7 @@
 
 {% schema %}
 {
-  "name": "Homepage top HB",
+  "name": "Hero HB",
   "tag": "section",
   "class": "section",
   "disabled_on": {

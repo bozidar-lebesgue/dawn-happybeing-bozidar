@@ -1,7 +1,7 @@
 {
   "sections": {
-    "homepage-top-hb": {
-      "type": "homepage-top-hb",
+    "hero": {
+      "type": "hero-hb",
       "blocks": {
         "heading": {
           "type": "heading",
@@ -899,7 +899,7 @@
     }
   },
   "order": [
-    "homepage-top-hb",
+    "hero",
     "benefits-multicolumn-hb",
     "product-section",
     "perks-multicolumn",
