@@ -1,0 +1,26 @@
+{% comment %}
+  Renders product buy-buttons.
+  Accepts:
+  - color: String color code.
+  - size: Icon size.
+  Usage:
+  {% render 'icon-cancel-circle-full', color: 'black', size: 24 %}
+{% endcomment %}
+
+{% liquid
+  if color == blank
+    assign icon_color = 'black'
+  else 
+    assign icon_color = color
+  endif
+
+  if size == blank
+    assign icon_size = 24
+  else 
+    assign icon_size = size
+  endif
+%}
+<svg width="{{ icon_size }}" height="{{ icon_size }}{% endif %}" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="12.3447" cy="12" r="11" fill="{{ icon_color }}" stroke="{{ icon_color }}" stroke-width="2"/>
+  <path d="M7.46967 6.96967C7.76256 6.67678 8.23744 6.67678 8.53033 6.96967L12.5 10.9393L16.4697 6.96967C16.7626 6.67678 17.2374 6.67678 17.5303 6.96967C17.8232 7.26256 17.8232 7.73744 17.5303 8.03033L13.5607 12L17.5303 15.9697C17.8232 16.2626 17.8232 16.7374 17.5303 17.0303C17.2374 17.3232 16.7626 17.3232 16.4697 17.0303L12.5 13.0607L8.53033 17.0303C8.23744 17.3232 7.76256 17.3232 7.46967 17.0303C7.17678 16.7374 7.17678 16.2626 7.46967 15.9697L11.4393 12L7.46967 8.03033C7.17678 7.73744 7.17678 7.26256 7.46967 6.96967Z" fill="white" stroke="white" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

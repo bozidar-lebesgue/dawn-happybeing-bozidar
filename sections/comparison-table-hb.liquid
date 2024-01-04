@@ -34,6 +34,10 @@
     #ComparisonTable-{{ section.id }} .comparison-table__title {
       font-size: {{ section.settings.heading_size | times: 0.65 | round: 0 }}px;
     }
+
+    #ComparisonTable-{{ section.id }} .comparison-table {
+      padding: {{ section.settings.inner_padding | times: 0.5 }}px;
+    }
   }
 {% endstyle %}
 
@@ -112,17 +116,17 @@
           <div class="checkmarks">
             <div class="checkmark">
               {% if block.settings.first_check %}
-                {% render 'icon-checkmark-circle', color: '#41BF55', size: '100%' %}
+                {% render 'icon-checkmark-circle-full', color: '#A8C73E', size: '100%' %}
               {% else %}
-                {% render 'icon-cancel-circle', color: '#FF2B77', size: '100%' %}
+                {% render 'icon-cancel-circle-full', color: '#F44538', size: '100%' %}
               {% endif %}
             </div>
             
             <div class="checkmark">
               {% if block.settings.second_check %}
-                {% render 'icon-checkmark-circle', color: '#41BF55', size: '100%' %}
+                {% render 'icon-checkmark-circle-full', color: '#41BF55', size: '100%' %}
               {% else %}
-                {% render 'icon-cancel-circle', color: '#FF2B77', size: '100%' %}
+                {% render 'icon-cancel-circle-full', color: '#F44538', size: '100%' %}
               {% endif %}
             </div>
           </div>

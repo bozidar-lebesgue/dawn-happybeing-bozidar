@@ -84,7 +84,15 @@
   align-items: center;
   width: 10%;
   min-width: 40px;
-  margin: 0 10px;
+}
+
+
+.comparison-table .option--left {
+  margin-right: 20px;
+}
+
+.comparison-table .option--right {
+  margin-left: 20px;
 }
 
 .comparison-table .checkmark {
@@ -114,5 +122,12 @@
 
   .comparison-table .option-title--right {
     text-align: right;
+  }
+
+  .comparison-table .option--left {
+    margin-right: 10px;
+  }  
+  .comparison-table .option--right {
+    margin-left: 10px;
   }
 }

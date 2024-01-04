@@ -1,7 +1,29 @@
-<svg width="{% if size == blank %}24{% else %}{{ size }}{% endif %}" height="{% if size == blank %}24{% else %}{{ size }}{% endif %}" viewBox="0 0 25 24" fill="none" class="icon icon-cancel-circle" xmlns="http://www.w3.org/2000/svg">
+{% comment %}
+  Renders product buy-buttons.
+  Accepts:
+  - color: String color code.
+  - size: Icon size.
+  Usage:
+  {% render 'icon-cancel-circle', color: 'black', size: 24 %}
+{% endcomment %}
+
+{% liquid
+  if color == blank
+    assign icon_color = 'black'
+  else 
+    assign icon_color = color
+  endif
+
+  if size == blank
+    assign icon_size = 24
+  else 
+    assign icon_size = size
+  endif
+%}
+<svg width="{{ icon_size }}" height="{{ icon_size }}" viewBox="0 0 25 24" fill="none" class="icon icon-cancel-circle" xmlns="http://www.w3.org/2000/svg">
   <path
     d="M7.96967 6.96967C8.26256 6.67678 8.73744 6.67678 9.03033 6.96967L13 10.9393L16.9697 6.96967C17.2626 6.67678 17.7374 6.67678 18.0303 6.96967C18.3232 7.26256 18.3232 7.73744 18.0303 8.03033L14.0607 12L18.0303 15.9697C18.3232 16.2626 18.3232 16.7374 18.0303 17.0303C17.7374 17.3232 17.2626 17.3232 16.9697 17.0303L13 13.0607L9.03033 17.0303C8.73744 17.3232 8.26256 17.3232 7.96967 17.0303C7.67678 16.7374 7.67678 16.2626 7.96967 15.9697L11.9393 12L7.96967 8.03033C7.67678 7.73744 7.67678 7.26256 7.96967 6.96967Z"
-    fill="{% if color == blank %}black{% else %}{{ color }}{% endif %}" stroke="{% if color == blank %}black{% else %}{{ color }}{% endif %}" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
+    fill="{% if color == blank %}black{% else %}{{ color }}{% endif %}" stroke="{{ icon_color }}" stroke-width="0.5" stroke-linecap="round" stroke-linejoin="round"
   />
-  <circle cx="12.8447" cy="12" r="11" stroke="{% if color == blank %}black{% else %}{{ color }}{% endif %}" stroke-width="2"/>
+  <circle cx="12.8447" cy="12" r="11" stroke="{{ icon_color }}" stroke-width="2"/>
 </svg>
