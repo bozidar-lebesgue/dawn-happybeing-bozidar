@@ -224,7 +224,7 @@
         "padding_bottom": 28
       }
     },
-    "review-slideshow-hb2": {
+    "review-slideshow-hb": {
       "type": "review-slideshow-hb",
       "blocks": {
         "template--16149963669561__review-slideshow-hb-heading": {
@@ -245,9 +245,8 @@
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
-            "review": "<p>These teas are delicious! They provide energy and I have noticed less inflammation in my body in the last few days. I have used these in place of coffee for an energy boost and did not find myself craving caffeine. 10\/10 would order again!<\/p>",
-            "quote": "<h3><strong>Bobby<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
+            "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
+            "quote": "<h3><strong>David F.<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -260,9 +259,8 @@
         "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
-            "review": "<p>Happy being has some real science behind its formulation and provides data to support its claims. I like the way it tastes and the way it makes me feel. Whether because of diet, stress, anxiety, or depression, we all have to help boost our immune system and this is a great way to do that.<\/p>",
-            "quote": "<h3><strong>Dr. William Kracht<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
+            "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven’t had this in over 10 years.<\/p>",
+            "quote": "<h3><strong>John Y.<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -275,9 +273,36 @@
         "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "<p>Manage inflammation and boost my immune system in a delicious drink that actually works with my body? Yes please! I’m a convert.<\/p>",
-            "quote": "<h3><strong>Monica<\/strong><\/h3>",
-            "quote_font": "assistant_n4",
+            "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
+            "quote": "<h3><strong>Robin P.<\/strong><\/h3>",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "scheme-6",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__review-slideshow-hb-slide-3": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
+            "quote": "<h3><strong>Janet B.<\/strong><\/h3>",
+            "show_text_box": true,
+            "five_star": true,
+            "verified_buyer": true,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "scheme-6",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16149963669561__review-slideshow-hb-slide-4": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I’ve never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
+            "quote": "<h3><strong>Camille G.<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
             "verified_buyer": true,
@@ -293,15 +318,19 @@
         "template--16149963669561__review-slideshow-hb-five-star",
         "template--16149963669561__review-slideshow-hb-slide-0",
         "template--16149963669561__review-slideshow-hb-slide-1",
-        "template--16149963669561__review-slideshow-hb-slide-2"
+        "template--16149963669561__review-slideshow-hb-slide-2",
+        "template--16149963669561__review-slideshow-hb-slide-3",
+        "template--16149963669561__review-slideshow-hb-slide-4"
       ],
       "settings": {
         "layout": "full_bleed",
         "gradient": "",
+        "review_font_size": 20,
         "corner_radius": 24,
         "border_width": 1,
         "slide_height": "medium",
         "slider_visual": "none",
+        "quote_font": "assistant_n4",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "mobile_padding_bottom": 30,
@@ -1189,7 +1218,7 @@
     "main",
     "378ee716-4745-4679-99ec-6abddb8180e8",
     "related-products",
-    "review-slideshow-hb2",
+    "review-slideshow-hb",
     "image-with-text-1_product",
     "comparison-table-title3",
     "comparison-table-hb3",
