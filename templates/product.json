@@ -929,7 +929,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Non_GMO.png",
+            "icon_image": "shopify:\/\/shop_images\/Non_gmo_9dfd0274-5259-4680-8fb4-d9513828d0bb.png",
             "icon": "none"
           }
         },
@@ -981,7 +981,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Caffeine_Free.png",
+            "icon_image": "shopify:\/\/shop_images\/Caffeine_free_1118c793-5f87-408e-8796-7424c2fd6c81.png",
             "icon": "none"
           }
         }
@@ -996,7 +996,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "<b>All good, without the guilt.<\/b>",
+        "title": "All good, without the guilt.",
         "subtitle": "",
         "title_max_width": 350,
         "title_margin_top": 0,
