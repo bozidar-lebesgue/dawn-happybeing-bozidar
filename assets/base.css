@@ -3767,3 +3767,10 @@ ul.custom--tabs {
   display: flex;
   margin: 0 auto;
 }
+
+@media screen and (min-width: 750px) {
+  .header-dropdown-menu {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
