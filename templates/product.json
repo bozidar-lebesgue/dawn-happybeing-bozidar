@@ -192,6 +192,7 @@
         "columns_desktop": 5,
         "title_alignment": "left",
         "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
         "column_content_text_align": "left",
         "background_style": "",
         "button_label": "",
@@ -202,7 +203,9 @@
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 12,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "related-products": {
@@ -325,12 +328,12 @@
       "settings": {
         "layout": "full_bleed",
         "gradient": "",
-        "review_font_size": 20,
         "corner_radius": 24,
         "border_width": 1,
+        "review_font_size": 20,
+        "quote_font": "assistant_n4",
         "slide_height": "medium",
         "slider_visual": "none",
-        "quote_font": "assistant_n4",
         "auto_rotate": false,
         "change_slides_speed": 5,
         "mobile_padding_bottom": 30,
@@ -383,7 +386,9 @@
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "comparison-table-title3": {
@@ -423,6 +428,7 @@
         "columns_desktop": 3,
         "title_alignment": "center",
         "column_alignment": "center",
+        "column_mobile_title_alignment": "left",
         "column_content_text_align": "left",
         "background_style": "none",
         "button_label": "",
@@ -433,7 +439,9 @@
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
         "padding_top": 48,
-        "padding_bottom": 16
+        "padding_bottom": 16,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "comparison-table-hb3": {
@@ -497,8 +505,8 @@
         "subheading": "",
         "first_title": "happy being®",
         "second_title": "Pressed juices",
-        "first_image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
-        "second_image": "shopify:\/\/shop_images\/1.02-1x1-HappyBeing-EST-185014.png",
+        "first_image": "shopify:\/\/shop_images\/1.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942.png",
+        "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942.png",
         "heading_size": 32,
         "corner_radius": 24,
         "border_width": 1,
@@ -619,6 +627,7 @@
         "columns_desktop": 3,
         "title_alignment": "left",
         "column_alignment": "center",
+        "column_mobile_title_alignment": "left",
         "column_content_text_align": "left",
         "background_style": "",
         "button_label": "",
@@ -629,7 +638,9 @@
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 64
+        "padding_bottom": 64,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "nutrition-facts": {
@@ -1018,6 +1029,7 @@
         "columns_desktop": 6,
         "title_alignment": "left",
         "column_alignment": "center",
+        "column_mobile_title_alignment": "left",
         "column_content_text_align": "center",
         "background_style": "none",
         "button_label": "",
@@ -1028,7 +1040,9 @@
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "left",
         "padding_top": 48,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "qna": {
