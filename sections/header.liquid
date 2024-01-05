@@ -154,7 +154,7 @@
       assign localization_forms = true
     endif
   -%}
-  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} full-width{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
+  <header class="header header--{{ section.settings.logo_position }} header--mobile-{{ section.settings.mobile_logo_position }} {% if section.settings.full_width %} full-width{% else %}page-width{% endif %}{% if section.settings.menu_type_desktop == 'drawer' %} drawer-menu{% endif %}{% if section.settings.menu != blank %} header--has-menu{% endif %}{% if has_app_block %} header--has-app{% endif %}{% if social_links %} header--has-social{% endif %}{% if shop.customer_accounts_enabled %} header--has-account{% endif %}{% if localization_forms %} header--has-localizations{% endif %}">
     {%- liquid
       if section.settings.menu != blank
         render 'header-drawer'
@@ -293,7 +293,9 @@
           </localization-form>
         {%- endif -%}
       </div>
-      {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {%- if section.settings.enable_search -%}
+        {% render 'header-search', input_id: 'Search-In-Modal' %}
+      {%- endif -%}
 
       {%- if shop.customer_accounts_enabled -%}
         <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}" class="header__icon header__icon--account link focus-inset{% if section.settings.menu != blank %} small-hide{% endif %}">
@@ -502,6 +504,12 @@
   "max_blocks": 3,
   "settings": [
     {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "t:sections.featured-collection.settings.full_width.label",
+      "default": false
+    },
+    {
       "type": "select",
       "id": "logo_position",
       "options": [
@@ -620,6 +628,12 @@
       "id": "enable_language_selector",
       "default": true,
       "label": "t:sections.header.settings.enable_language_selector.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_search",
+      "default": true,
+      "label": "Enable search"
     },
     {
       "type": "header",

@@ -156,6 +156,15 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   .utility-bar__grid.page-width {
     padding-left: 3.2rem;
     padding-right: 3.2rem;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header.full-width {
+    padding-left: 5.2rem;
+    padding-right: 5.2rem;
+    display: flex;
+    justify-content: space-between;
   }
 
   .page-width--narrow {
@@ -2693,6 +2702,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 /* Header icons */
 .header__icons {
   display: flex;
+  flex-shrink: 1;
   grid-area: icons;
   justify-self: end;
   padding-right: 0.8rem;
@@ -3751,4 +3761,9 @@ ul.custom--tabs {
     justify-content: center;
     width: 100%;
   }
+}
+
+.header--middle-left .header__inline-menu {
+  display: flex;
+  margin: 0 auto;
 }
