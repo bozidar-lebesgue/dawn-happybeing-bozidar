@@ -3,8 +3,16 @@
   "type": "footer",
   "sections": {
     "footer": {
-      "type": "footer",
+      "type": "footer-hb",
       "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "HAPPY BEING NEWS (*HAPPY NEWS ONLY)",
+            "placeholder": "HAPPY@YOUREMAIL.COM",
+            "submit": "SUBMIT"
+          }
+        },
         "footer-0": {
           "type": "link_list",
           "settings": {
@@ -28,17 +36,20 @@
         }
       },
       "block_order": [
+        "newsletter",
         "footer-0",
         "footer-1",
         "footer-2"
       ],
       "settings": {
-        "color_scheme": "scheme-1",
-        "newsletter_enable": true,
+        "color_scheme": "scheme-9",
+        "logo": "",
+        "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "show_social": true,
         "enable_country_selector": false,
         "enable_language_selector": false,
+        "enable_follow_on_shop": false,
         "payment_enable": true,
         "show_policy": false,
         "margin_top": 48,

@@ -508,3 +508,14 @@
     }
   }
 }
+
+
+.submit_btn {
+  font-weight: 600;
+  text-decoration: underline;
+  padding: 4px 8px;
+}
+
+.footer-block__details-content.footer-block--newsletter {
+  border: 1px solid rgb(var(--color-secondary-button));
+}

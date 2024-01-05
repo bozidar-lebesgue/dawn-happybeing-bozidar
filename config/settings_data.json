@@ -238,11 +238,11 @@
       "scheme-9": {
         "settings": {
           "background": "#ffffff",
-          "background_gradient": "linear-gradient(135.07deg, #ABBFED 8.26%, #FBD1F2 95%)",
-          "text": "#000000",
-          "button": "#000000",
-          "button_label": "#000000",
-          "secondary_button_label": "#9da4c8",
+          "background_gradient": "",
+          "text": "#464499",
+          "button": "#464499",
+          "button_label": "#464499",
+          "secondary_button_label": "#464499",
           "shadow": ""
         }
       },
