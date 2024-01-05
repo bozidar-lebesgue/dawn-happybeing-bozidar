@@ -28,175 +28,176 @@
 {%- endstyle -%}
 
 <footer class="footer color-{{ section.settings.color_scheme }} gradient section-{{ section.id }}-padding">
-  {%- if section.settings.logo != blank -%}
-    <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
-      <div class="header__heading-logo-wrapper">
-        {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
-        {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
-        {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
-        {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
-        {{ settings.logo | image_url: width: 600 | image_tag:
-          class: 'header__heading-logo motion-reduce',
-          widths: widths,
-          height: logo_height,
-          width: settings.logo_width,
-          alt: logo_alt,
-          sizes: sizes,
-          preload: true
-        }}
-      </div>
-    </a>
-  {%- endif -%}
-
-  <div class="footer_main page-width">
-    <div class="newsletter-hb">
-      <div class="inline-richtext newsletter__title">{{ section.settings.newsletter_title }}</div>
-      {%- form 'customer', id: 'ContactFooter', class: 'footer-hb__newsletter' -%}
-        <input type="hidden" name="contact[tags]" value="newsletter">
-        <div class="newsletter-hb__field__container">
-          <div class="newsletter-hb__field">
-            <input
-              id="NewsletterForm--{{ section.id }}"
-              type="email"
-              name="contact[email]"
-              class="newsletter-hb__input"
-              value="{{ form.email }}"
-              aria-required="true"
-              autocorrect="off"
-              autocapitalize="off"
-              autocomplete="email"
-              {% if form.errors %}
-                autofocus
-                aria-invalid="true"
-                aria-describedby="ContactFooter-error"
-              {% elsif form.posted_successfully? %}
-                aria-describedby="ContactFooter-success"
-              {% endif %}
-              placeholder="{{ section.settings.newsletter_placeholder }}"
-              required
-            >
-            <button
-              type="submit"
-              class="submit_btn"
-              name="commit"
-              id="Subscribe"
-              aria-label="{{ 'newsletter.button_label' | t }}"
-            >
-              {{ section.settings.newsletter_submit }}
-            </button>
+  <div class="page-width">
+    {%- if section.settings.logo != blank -%}
+      <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+        <div class="header__heading-logo-wrapper">
+          {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
+          {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
+          {% capture sizes %}(max-width: {{ settings.logo_width | times: 2 }}px) 50vw, {{ settings.logo_width }}px{% endcapture %}
+          {% capture widths %}{{ settings.logo_width }}, {{ settings.logo_width | times: 1.5 | round }}, {{ settings.logo_width | times: 2 }}{% endcapture %}
+          {{ section.settings.logo | image_url: width: 600 | image_tag:
+            class: 'header__heading-logo motion-reduce',
+            widths: widths,
+            height: logo_height,
+            width: settings.logo_width,
+            alt: logo_alt,
+            sizes: sizes,
+            preload: true
+          }}
+        </div>
+      </a>
+    {%- endif -%}
+    <div class="footer_main">
+      <div class="newsletter-hb">
+        <div class="inline-richtext newsletter__title">{{ section.settings.newsletter_title }}</div>
+        {%- form 'customer', id: 'ContactFooter', class: 'footer-hb__newsletter' -%}
+          <input type="hidden" name="contact[tags]" value="newsletter">
+          <div class="newsletter-hb__field__container">
+            <div class="newsletter-hb__field">
+              <input
+                id="NewsletterForm--{{ section.id }}"
+                type="email"
+                name="contact[email]"
+                class="newsletter-hb__input"
+                value="{{ form.email }}"
+                aria-required="true"
+                autocorrect="off"
+                autocapitalize="off"
+                autocomplete="email"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="ContactFooter-error"
+                {% elsif form.posted_successfully? %}
+                  aria-describedby="ContactFooter-success"
+                {% endif %}
+                placeholder="{{ section.settings.newsletter_placeholder }}"
+                required
+              >
+              <button
+                type="submit"
+                class="submit_btn"
+                name="commit"
+                id="Subscribe"
+                aria-label="{{ 'newsletter.button_label' | t }}"
+              >
+                {{ section.settings.newsletter_submit }}
+              </button>
+            </div>
+            {%- if form.errors -%}
+              <small class="newsletter-form__message form__message" id="ContactFooter-error">
+                {%- render 'icon-error' -%}
+                {{- form.errors.translated_fields.email | capitalize }}
+                {{ form.errors.messages.email -}}
+              </small>
+            {%- endif -%}
           </div>
-          {%- if form.errors -%}
-            <small class="newsletter-form__message form__message" id="ContactFooter-error">
-              {%- render 'icon-error' -%}
-              {{- form.errors.translated_fields.email | capitalize }}
-              {{ form.errors.messages.email -}}
-            </small>
+          {%- if form.posted_successfully? -%}
+            <h3
+              class="newsletter-form__message newsletter-form__message--success form__message"
+              id="ContactFooter-success"
+              tabindex="-1"
+              autofocus
+            >
+              {% render 'icon-success' -%}
+              {{- 'newsletter.success' | t }}
+            </h3>
           {%- endif -%}
-        </div>
-        {%- if form.posted_successfully? -%}
-          <h3
-            class="newsletter-form__message newsletter-form__message--success form__message"
-            id="ContactFooter-success"
-            tabindex="-1"
-            autofocus
+        {%- endform -%}
+      </div>
+      <div class="flex">
+        {%- for block in section.blocks -%}
+          <div
+            class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+            {% if settings.animations_reveal_on_scroll %}
+              data-cascade
+              style="--animation-order: {{ forloop.index }};"
+            {% endif %}
           >
-            {% render 'icon-success' -%}
-            {{- 'newsletter.success' | t }}
-          </h3>
-        {%- endif -%}
-      {%- endform -%}
-    </div>
-    <div class="flex">
-      {%- for block in section.blocks -%}
-        <div
-          class="footer-block grid__item{% if block.type == 'link_list' %} footer-block--menu{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
-          {% if settings.animations_reveal_on_scroll %}
-            data-cascade
-            style="--animation-order: {{ forloop.index }};"
-          {% endif %}
-        >
-          {%- if block.settings.heading != blank -%}
-            <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
-          {%- endif -%}
+            {%- if block.settings.heading != blank -%}
+              <h2 class="footer-block__heading inline-richtext">{{- block.settings.heading -}}</h2>
+            {%- endif -%}
 
-          {%- case block.type -%}
-            {%- when '@app' -%}
-              {% render block %}
-            {%- when 'text' -%}
-              <div class="footer-block__details-content rte">
-                {{ block.settings.subtext }}
-              </div>
-            {%- when 'link_list' -%}
-              {%- if block.settings.menu != blank -%}
-                <ul class="footer-block__details-content list-unstyled">
-                  {%- for link in block.settings.menu.links -%}
-                    <li>
-                      <a
-                        href="{{ link.url }}"
-                        class="link link--text list-menu__item list-menu__item--link list-menu__item--active link-footer-hb"
-                      >
-                        {{ link.title }}
-                      </a>
-                    </li>
-                  {%- endfor -%}
-                </ul>
-              {%- endif -%}
-            {%- when 'brand_information' -%}
-              <div class="footer-block__brand-info">
-                {%- if settings.brand_image != blank -%}
-                  {%- assign brand_image_height = settings.brand_image_width
-                    | divided_by: settings.brand_image.aspect_ratio
-                  -%}
-                  <div
-                    class="footer-block__image-wrapper"
-                    style="max-width: min(100%, {{ settings.brand_image_width }}px);"
-                  >
-                    {{
-                      settings.brand_image
-                      | image_url: width: 1100
-                      | image_tag:
-                        loading: 'lazy',
-                        widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
-                        height: brand_image_height,
-                        width: settings.brand_image_width
-                    }}
-                  </div>
+            {%- case block.type -%}
+              {%- when '@app' -%}
+                {% render block %}
+              {%- when 'text' -%}
+                <div class="footer-block__details-content rte">
+                  {{ block.settings.subtext }}
+                </div>
+              {%- when 'link_list' -%}
+                {%- if block.settings.menu != blank -%}
+                  <ul class="footer-block__details-content list-unstyled">
+                    {%- for link in block.settings.menu.links -%}
+                      <li>
+                        <a
+                          href="{{ link.url }}"
+                          class="link link--text list-menu__item list-menu__item--link list-menu__item--active link-footer-hb"
+                        >
+                          {{ link.title }}
+                        </a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
                 {%- endif -%}
-                {%- if settings.brand_headline != blank -%}
-                  <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
-                {%- endif -%}
-                {%- if settings.brand_description != blank -%}
-                  <div class="rte">{{ settings.brand_description }}</div>
-                {%- endif -%}
-                {%- if block.settings.show_social and has_social_icons -%}
-                  {%- render 'social-icons', class: 'footer__list-social' -%}
-                {%- endif -%}
-              </div>
-            {%- when 'image' -%}
-              <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
-                {%- if block.settings.image != blank -%}
-                  {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
-                  <div
-                    class="footer-block__image-wrapper"
-                    style="max-width: min(100%, {{ block.settings.image_width }}px);"
-                  >
-                    <img
-                      srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
-                      src="{{ block.settings.image | image_url: width: 760 }}"
-                      alt="{{ block.settings.image.alt | escape }}"
-                      loading="lazy"
-                      width="{{ block.settings.image.width }}"
-                      height="{{ block.settings.image.height }}"
+              {%- when 'brand_information' -%}
+                <div class="footer-block__brand-info">
+                  {%- if settings.brand_image != blank -%}
+                    {%- assign brand_image_height = settings.brand_image_width
+                      | divided_by: settings.brand_image.aspect_ratio
+                    -%}
+                    <div
+                      class="footer-block__image-wrapper"
+                      style="max-width: min(100%, {{ settings.brand_image_width }}px);"
                     >
-                  </div>
-                {%- else -%}
-                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
-                {%- endif -%}
-              </div>
-          {%- endcase -%}
-        </div>
-      {%- endfor -%}
+                      {{
+                        settings.brand_image
+                        | image_url: width: 1100
+                        | image_tag:
+                          loading: 'lazy',
+                          widths: '50, 100, 150, 200, 300, 400, 550, 800, 1100',
+                          height: brand_image_height,
+                          width: settings.brand_image_width
+                      }}
+                    </div>
+                  {%- endif -%}
+                  {%- if settings.brand_headline != blank -%}
+                    <h2 class="footer-block__heading rte">{{ settings.brand_headline }}</h2>
+                  {%- endif -%}
+                  {%- if settings.brand_description != blank -%}
+                    <div class="rte">{{ settings.brand_description }}</div>
+                  {%- endif -%}
+                  {%- if block.settings.show_social and has_social_icons -%}
+                    {%- render 'social-icons', class: 'footer__list-social' -%}
+                  {%- endif -%}
+                </div>
+              {%- when 'image' -%}
+                <div class="footer-block__details-content footer-block-image {{ block.settings.alignment }}">
+                  {%- if block.settings.image != blank -%}
+                    {%- assign image_size_2x = block.settings.image_width | times: 2 | at_most: 5760 -%}
+                    <div
+                      class="footer-block__image-wrapper"
+                      style="max-width: min(100%, {{ block.settings.image_width }}px);"
+                    >
+                      <img
+                        srcset="{{ block.settings.image | image_url: width: block.settings.image_width }}, {{ block.settings.image | image_url: width: image_size_2x }} 2x"
+                        src="{{ block.settings.image | image_url: width: 760 }}"
+                        alt="{{ block.settings.image.alt | escape }}"
+                        loading="lazy"
+                        width="{{ block.settings.image.width }}"
+                        height="{{ block.settings.image.height }}"
+                      >
+                    </div>
+                  {%- else -%}
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg placeholder' }}
+                  {%- endif -%}
+                </div>
+            {%- endcase -%}
+          </div>
+        {%- endfor -%}
+      </div>
     </div>
   </div>
 </footer>

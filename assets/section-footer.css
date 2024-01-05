@@ -604,6 +604,7 @@
 
 .link-footer-hb {
   font-weight: 600;
-  font-size: 13px;
-  line-height: 16px;
+  font-size: 1.3rem;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
 }
