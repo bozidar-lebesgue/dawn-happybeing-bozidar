@@ -42,7 +42,8 @@
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 48,
-        "padding_bottom": 96
+        "padding_bottom": 48,
+        "mobile_padding_bottom": 0
       }
     },
     "multicolumn-hb": {
@@ -166,7 +167,8 @@
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "mobile_padding_top": 0
       }
     },
     "image-with-text-2": {
