@@ -304,7 +304,7 @@
                     }}          
                   {%- endif -%}
                   {%- if block.settings.title != blank -%}
-                    <div class="column__title {{ section.settings.column_alignment }} {{ section.settings.column_title_size }}">{{ block.settings.title }}</div>
+                    <div class="column__title {{ section.settings.column_alignment }} {{ section.settings.column_title_size }} mobile--{{ section.settings.column_mobile_title_alignment }}">{{ block.settings.title }}</div>
                   {%- endif -%}
                   {%- if block.settings.subtitle != blank -%}
                     <div class="column__subtitle-container">
@@ -801,6 +801,26 @@
       ],
       "default": "left",
       "label": "Column alignment"
+    },
+    {
+      "type": "select",
+      "id": "column_mobile_title_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-with-text.settings.mobile_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "Column mobile content position"
     },
     {
       "type": "select",

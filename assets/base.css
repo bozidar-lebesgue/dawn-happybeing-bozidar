@@ -3743,3 +3743,12 @@ ul.custom--tabs {
   max-width: 800px;
   margin: 0 auto;
 }
+
+
+@media screen and (max-width: 749px) {
+  .mobile--center {
+    text-align: center !important;
+    justify-content: center;
+    width: 100%;
+  }
+}
