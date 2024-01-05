@@ -592,5 +592,18 @@
 .footer_main {
   display: grid;
   grid-template-columns: 50% 50%;
-  /* justify-content: space-between; */
+}
+
+@media screen and (max-width: 749px) {
+  .footer_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.link-footer-hb {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
 }
