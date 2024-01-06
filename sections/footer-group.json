@@ -18,11 +18,18 @@
             "heading": "Our mission",
             "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
           }
+        },
+        "82fb3177-4d2d-49c7-ac42-44f5d2554706": {
+          "type": "brand_information",
+          "settings": {
+            "show_social": true
+          }
         }
       },
       "block_order": [
         "footer-0",
-        "footer-2"
+        "footer-2",
+        "82fb3177-4d2d-49c7-ac42-44f5d2554706"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/HB_logo_blue.svg",
