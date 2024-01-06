@@ -5,21 +5,14 @@
     "footer": {
       "type": "footer-hb",
       "blocks": {
-        "footer-0": {
+        "menu": {
           "type": "link_list",
           "settings": {
             "heading": "",
             "menu": "dawn-footer-menu"
           }
         },
-        "footer-2": {
-          "type": "text",
-          "settings": {
-            "heading": "Our mission",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
-        "82fb3177-4d2d-49c7-ac42-44f5d2554706": {
+        "social-media": {
           "type": "brand_information",
           "settings": {
             "show_social": true
@@ -27,9 +20,8 @@
         }
       },
       "block_order": [
-        "footer-0",
-        "footer-2",
-        "82fb3177-4d2d-49c7-ac42-44f5d2554706"
+        "menu",
+        "social-media"
       ],
       "settings": {
         "logo": "shopify:\/\/shop_images\/HB_logo_blue.svg",

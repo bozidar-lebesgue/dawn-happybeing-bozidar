@@ -1,0 +1,100 @@
+{% comment %}
+  Renders social icons.
+  Accepts:
+  - class: {String} a class to be added to the <ul> element (optional).
+
+  Usage:
+  {% render 'social-icons-hb',
+    class: 'my-class'
+  %}
+{% endcomment %}
+
+<ul class="list-unstyled {% if class %} {{ class }}{% endif %}" role="list">
+  <li class="list-social__item">
+    <a href="mailto:hi@happybeing.co" class="link list-social__link list-social__link-hb">
+      {%- render 'icon-mail' -%}
+      <div class="social__link__text">HI@HAPPYBEING.COM</div>
+    </a>
+  </li>
+  {%- if settings.social_facebook_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_facebook_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-facebook' -%}
+        <div class="social__link__text">FACEBOOK</div>
+        <span class="visually-hidden">{{ 'general.social.links.facebook' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_instagram_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_instagram_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-instagram' -%}
+        <div class="social__link__text">INSTAGRAM</div>
+        <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_youtube_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_youtube_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-youtube' -%}
+        <div class="social__link__text">YOUTUBE</div>
+        <span class="visually-hidden">{{ 'general.social.links.youtube' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tiktok_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_tiktok_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-tiktok' -%}
+        <div class="social__link__text">TIKTOK</div>
+        <span class="visually-hidden">{{ 'general.social.links.tiktok' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_twitter_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_twitter_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-twitter' -%}
+        <div class="social__link__text">TWITTER</div>
+        <span class="visually-hidden">{{ 'general.social.links.twitter' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_pinterest_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_pinterest_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-pinterest' -%}
+        <div class="social__link__text">PINTEREST</div>
+        <span class="visually-hidden">{{ 'general.social.links.pinterest' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_snapchat_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_snapchat_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-snapchat' -%}
+        <div class="social__link__text">SNAPCHAT</div>
+        <span class="visually-hidden">{{ 'general.social.links.snapchat' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_tumblr_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_tumblr_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-tumblr' -%}
+        <div class="social__link__text">TUMBLR</div>
+        <span class="visually-hidden">{{ 'general.social.links.tumblr' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+  {%- if settings.social_vimeo_link != blank -%}
+    <li class="list-social__item">
+      <a href="{{ settings.social_vimeo_link }}" class="link list-social__link list-social__link-hb">
+        {%- render 'icon-vimeo' -%}
+        <div class="social__link__text">VIMEO</div>
+        <span class="visually-hidden">{{ 'general.social.links.vimeo' | t }}</span>
+      </a>
+    </li>
+  {%- endif -%}
+</ul>

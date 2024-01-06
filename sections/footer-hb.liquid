@@ -169,8 +169,8 @@
                   {%- if settings.brand_description != blank -%}
                     <div class="rte">{{ settings.brand_description }}</div>
                   {%- endif -%}
-                  {%- if block.settings.show_social and has_social_icons -%}
-                    {%- render 'social-icons', class: 'footer__list-social' -%}
+                  {%- if block.settings.show_social -%}
+                    {%- render 'social-icons-hb', class: 'footer__list-social-hb' -%}
                   {%- endif -%}
                 </div>
               {%- when 'image' -%}
