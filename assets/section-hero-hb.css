@@ -358,6 +358,7 @@
   }
 
   .banner:not(.banner--mobile-bottom) .field__input,
+  .hero__box,
   .banner--mobile-bottom:not(.banner--stacked) .banner__box.color-scheme-1 {
     background: transparent;
   }
