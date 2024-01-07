@@ -14,6 +14,7 @@
         "menu_color_scheme": "scheme-3",
         "enable_country_selector": false,
         "enable_language_selector": false,
+        "enable_search": false,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
         "padding_top": 20,
