@@ -125,8 +125,8 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "How we’re different",
-        "subtitle": "<em>Our iced-teas are packed with science, not sugar.<\/em>",
+        "title": "<b>How we’re different<\/b>",
+        "subtitle": "<i>Our iced-teas are packed with science, not sugar.<\/i>",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 16,
