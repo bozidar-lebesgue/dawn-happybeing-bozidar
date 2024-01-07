@@ -120,13 +120,13 @@
       "main-password-header": {
         "type": "main-password-header",
         "settings": {
-          "color_scheme": "scheme-1"
+          "color_scheme": "scheme-3"
         }
       },
       "main-password-footer": {
         "type": "main-password-footer",
         "settings": {
-          "color_scheme": "scheme-1"
+          "color_scheme": "scheme-3"
         }
       }
     },
@@ -257,6 +257,17 @@
           "button_label": "#606fb5",
           "secondary_button_label": "#606fb5",
           "shadow": ""
+        }
+      },
+      "scheme-11": {
+        "settings": {
+          "background": "",
+          "background_gradient": "linear-gradient(180deg, #EFF1FF 0%, #E3FDFF 100%)",
+          "text": "#000000",
+          "button": "#000000",
+          "button_label": "#ffffff",
+          "secondary_button_label": "#9ca3af",
+          "shadow": "#29304e"
         }
       }
     }
@@ -490,13 +501,13 @@
         "main-password-header": {
           "type": "main-password-header",
           "settings": {
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         },
         "main-password-footer": {
           "type": "main-password-footer",
           "settings": {
-            "color_scheme": "scheme-1"
+            "color_scheme": "scheme-3"
           }
         }
       }
