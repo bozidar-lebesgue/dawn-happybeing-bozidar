@@ -216,7 +216,7 @@
         "heading_size": "h2",
         "products_to_show": 4,
         "columns_desktop": 4,
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-12",
         "image_ratio": "square",
         "image_shape": "default",
         "show_secondary_image": true,
@@ -340,7 +340,7 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-12",
         "slide_inner_padding": 64
       }
     },

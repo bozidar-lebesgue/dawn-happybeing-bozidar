@@ -58,7 +58,7 @@
         "desktop_content_position": "middle",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-12",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -153,7 +153,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-12",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "show_slider_buttons_mobile": false,
@@ -473,7 +473,7 @@
         "image_behavior": "none",
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "scheme-1",
+        "color_scheme": "scheme-12",
         "slide_inner_padding": 64
       }
     },
