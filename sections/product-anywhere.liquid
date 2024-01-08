@@ -470,7 +470,45 @@
                 </div>
               </div>
             {%- when 'variant_picker' -%}
-              {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
+              {% render 'flavor-picker', product: product, block: block, product_form_id: product_form_id %}
+            {% when 'selling_plan_selector' %}
+              <div
+                id="SellingPlan-Form-{{ section.id }}"
+                class="product-form__input product-form__selling_plan"
+                {{ block.shopify_attributes }}
+              >                
+                <div class="price-per-item__container">
+                  <selling-plan-input-hb class="selling_plan-hb" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <div class="selling_plan-options__container">
+                      <div
+                        class="selling_plan__option selling_plan--selected"
+                        data-selling_plan="5377425465"
+                      >
+                        <div class="price-container">
+                          <div class="subscribe-price">{{ product.price | times: 0.8 | round: 0 | money_with_currency }}</div>
+                          <div class="subscribe-badge">Save 20%</div>
+                        </div>
+                        <div class="subscribe-description">Subscribe & Save</div>
+                      </div>
+                      <div
+                        class="selling_plan__option"
+                        data-selling_plan=""
+                      >
+                        <div class="subscribe-price">{{ product.price | money_with_currency }}</div>
+                        <div class="subscribe-description">Delivered once</div>
+                      </div>
+                    </div>
+                    <input
+                      class="selling_plan__input"
+                      type="number"
+                      name="selling_plan"
+                      id="SellingPlan-{{ section.id }}"
+                      value="5377425465"
+                      form="{{ product_form_id }}"
+                    />
+                  </selling-plan-input-hb>
+                </div>
+              </div>
             {%- when 'buy_buttons' -%}
               {%- render 'buy-buttons', block: block, product: product, product_form_id: product_form_id, section_id: section.id, show_pickup_availability: true -%}
             {%- when 'description-hb' -%}
@@ -991,6 +1029,11 @@
     {
       "type": "quantity_selector",
       "name": "t:sections.main-product.blocks.quantity_selector.name",
+      "limit": 1
+    },
+    {
+      "type": "selling_plan_selector",
+      "name": "Selling plan selector",
       "limit": 1
     },
     {

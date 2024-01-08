@@ -195,8 +195,19 @@
             "text_style": "subtitle"
           }
         },
+        "variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "selling_plan_selector": {
+          "type": "selling_plan_selector",
           "settings": {
           }
         },
@@ -213,7 +224,9 @@
         "heading_product",
         "description",
         "caption",
+        "variant-picker",
         "quantity_selector",
+        "selling_plan_selector",
         "buy_buttons"
       ],
       "settings": {
