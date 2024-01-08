@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
     <link rel="canonical" href="{{ canonical_url }}">
+    <link href="https://fonts.cdnfonts.com/css/neue-haas-grotesk-display-pro" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/baskvl" rel="stylesheet">
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
@@ -44,6 +46,14 @@
     %}
 
     {% style %}
+      @font-face {
+        font-family: "Neue Haas Grotesk Display Pro";
+        src: url({{ 'NeueHaasDisplayRoman.woff2' |  asset_url }}) format("woff2");
+      }
+      @font-face {
+        font-family: "baskvl";
+        src: url({{ 'baskvl.woff2' |  asset_url }}) format("woff2");
+      }
       {{ settings.type_body_font | font_face: font_display: 'swap' }}
       {{ body_font_bold | font_face: font_display: 'swap' }}
       {{ body_font_italic | font_face: font_display: 'swap' }}
