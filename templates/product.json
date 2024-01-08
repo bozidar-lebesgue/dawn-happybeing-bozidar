@@ -996,10 +996,10 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "All good, without the guilt.",
+        "title": "<strong>All good, without the guilt.<\/strong>",
         "subtitle": "",
         "title_max_width": 350,
-        "title_margin_top": 0,
+        "title_margin_top": 48,
         "title_margin_bottom": 48,
         "subtitle_font_family": "assistant_n4",
         "subtitle_font_size": 1.6,
