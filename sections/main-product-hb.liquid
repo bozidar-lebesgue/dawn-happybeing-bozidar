@@ -223,6 +223,40 @@
                   </div>
                 </details>
               </div>
+            {% when 'selling_plan_selector' %}
+              <div
+                id="SellingPlan-Form-{{ section.id }}"
+                class="product-form__input product-form__selling_plan"
+                {{ block.shopify_attributes }}
+              >                
+                <div class="price-per-item__container">
+                  <selling-plan-input-hb class="selling_plan-hb" data-url="{{ product.url }}" data-section="{{ section.id }}">
+                    <div class="selling_plan-options__container">
+                      <div
+                        class="selling_plan__option selling_plan--selected"
+                        data-selling_plan="5377425465"
+                      >
+                        {{ 80 }}
+                        <div>Delivered once</div>
+                      </div>
+                      <div
+                        class="selling_plan__option"
+                        data-selling_plan=""
+                      >
+                        {{ 80 }}
+                        <div>Delivered once</div>
+                      </div>
+                    <input
+                      class=""
+                      type="number"
+                      name="selling_plan"
+                      id="SellingPlan-{{ section.id }}"
+                      value="5377425465"
+                      form="{{ product_form_id }}"
+                    />
+                  </selling-plan-input-hb>
+                </div>
+              </div>
             {%- when 'quantity_selector' -%}
               <div
                 id="Quantity-Form-{{ section.id }}"
@@ -233,12 +267,6 @@
                 {% # theme-check-disable %}
                 {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                 {% # theme-check-enable %}
-                <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
-                  <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
-                    {%- render 'loading-spinner' -%}
-                    <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
-                  </span>
-                </label>
                 <div class="price-per-item__container">
                   <quantity-input-hb class="quantity-hb" data-url="{{ product.url }}" data-section="{{ section.id }}">
                     <div class="quantity-options__container">
@@ -971,6 +999,11 @@
     {
       "type": "quantity_selector",
       "name": "t:sections.main-product.blocks.quantity_selector.name",
+      "limit": 1
+    },
+    {
+      "type": "selling_plan_selector",
+      "name": "Selling plan selector",
       "limit": 1
     },
     {

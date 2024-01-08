@@ -243,6 +243,30 @@ class QuantityInputHb extends HTMLElement {
 
 customElements.define('quantity-input-hb', QuantityInputHb);
 
+
+
+class SellingPlanInputHb extends HTMLElement {
+  constructor() {
+    super();
+    this.input = this.querySelector('input');
+    this.querySelectorAll('.selling_plan__option').forEach((button) =>
+      button.addEventListener('click', this.onButtonClick.bind(this))
+    );
+  }
+
+  onButtonClick(event) {
+    event.preventDefault();
+    this.input.value = parseInt(event.target.dataset.selling_plan);
+    
+    this.querySelectorAll('.selling_plan__option').forEach((button) =>
+      button.classList.remove('selling_plan--selected')
+    );
+    this.querySelector(`.selling_plan__option[data-selling_plan='${this.input.value}']`).classList.add('selling_plan--selected');
+  }
+}
+
+customElements.define('selling-plan-input-hb', SellingPlanInputHb);
+
 function debounce(fn, wait) {
   let t;
   return (...args) => {

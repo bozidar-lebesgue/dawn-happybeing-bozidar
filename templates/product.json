@@ -47,8 +47,8 @@
           "settings": {
           }
         },
-        "f7dcdb25-abb4-4a28-9440-81b5252c9fc6": {
-          "type": "shopify:\/\/apps\/prive-subscriptions\/blocks\/subs-widget-block\/42050940-af72-406b-ba49-06f437b1dbb5",
+        "selling_plan_selector": {
+          "type": "selling_plan_selector",
           "settings": {
           }
         },
@@ -67,7 +67,7 @@
         "caption",
         "variant-picker",
         "quantity_selector",
-        "f7dcdb25-abb4-4a28-9440-81b5252c9fc6",
+        "selling_plan_selector",
         "buy_buttons"
       ],
       "settings": {
