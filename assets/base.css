@@ -3058,6 +3058,11 @@ details[open] > .header__submenu {
   .header--middle-left .header__inline-menu {
     margin-left: 0;
   }
+
+  .header--middle-left .header__inline-menu {
+    display: flex;
+    margin: 0 auto;
+  }
 }
 
 .header__menu {
@@ -3850,10 +3855,6 @@ ul.custom--tabs {
   }
 }
 
-.header--middle-left .header__inline-menu {
-  display: flex;
-  margin: 0 auto;
-}
 
 @media screen and (min-width: 750px) {
   .header-dropdown-menu {
