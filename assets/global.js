@@ -256,7 +256,8 @@ class SellingPlanInputHb extends HTMLElement {
 
   onButtonClick(event) {
     event.preventDefault();
-    this.input.value = parseInt(event.target.dataset.selling_plan);
+    let realTarget = event.target.closest('.selling_plan__option');
+    this.input.value = parseInt(realTarget.dataset.selling_plan);
     
     this.querySelectorAll('.selling_plan__option').forEach((button) =>
       button.classList.remove('selling_plan--selected')

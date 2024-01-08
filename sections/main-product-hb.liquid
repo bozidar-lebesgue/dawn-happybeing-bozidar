@@ -236,18 +236,22 @@
                         class="selling_plan__option selling_plan--selected"
                         data-selling_plan="5377425465"
                       >
-                        {{ 80 }}
-                        <div>Delivered once</div>
+                        <div class="price-container">
+                          <div class="subscribe-price">{{ product.price | times: 0.8 | round: 0 | money_with_currency }}</div>
+                          <div class="subscribe-badge">Save 20%</div>
+                        </div>
+                        <div class="subscribe-description">Subscribe & Save</div>
                       </div>
                       <div
                         class="selling_plan__option"
                         data-selling_plan=""
                       >
-                        {{ 80 }}
-                        <div>Delivered once</div>
+                        <div class="subscribe-price">{{ product.price | money_with_currency }}</div>
+                        <div class="subscribe-description">Delivered once</div>
                       </div>
+                    </div>
                     <input
-                      class=""
+                      class="selling_plan__input"
                       type="number"
                       name="selling_plan"
                       id="SellingPlan-{{ section.id }}"
@@ -267,6 +271,12 @@
                 {% # theme-check-disable %}
                 {%- assign cart_qty = cart | item_count_for_variant: product.selected_or_first_available_variant.id -%}
                 {% # theme-check-enable %}
+                <label class="quantity__label form__label" for="Quantity-{{ section.id }}">
+                  <span class="quantity__rules-cart no-js-hidden{% if cart_qty == 0 %} hidden{% endif %}">
+                    {%- render 'loading-spinner' -%}
+                    <span>({{- 'products.product.quantity.in_cart_html' | t: quantity: cart_qty -}})</span>
+                  </span>
+                </label>
                 <div class="price-per-item__container">
                   <quantity-input-hb class="quantity-hb" data-url="{{ product.url }}" data-section="{{ section.id }}">
                     <div class="quantity-options__container">

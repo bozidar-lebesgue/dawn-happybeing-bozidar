@@ -2051,6 +2051,7 @@ input[type='checkbox'] {
   padding: 24px 30px;
   background-color: white;
   border-radius: 4px;
+  font-weight: 600;
   text-align: center;
   border: 2px solid #676986;
 }
@@ -2058,14 +2059,15 @@ input[type='checkbox'] {
 .selling_plan-options__container {
   display: grid;
   column-gap: 12px;  
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 1fr 1fr;
 }
 
 .selling_plan__option {
   position: relative;
   cursor: pointer;
-  padding: 24px 30px;
+  padding: 4px 12px;
   background-color: white;
+  font-weight: 600;
   border-radius: 4px;
   text-align: center;
   border: 2px solid #676986;
@@ -2073,11 +2075,13 @@ input[type='checkbox'] {
 
 @media screen and (max-width: 749px) {
   .quantity__option {
-    padding: 14px 20px;
+    /* padding: 14px 20px; */
   }
 }
 
-
+.selling_plan__input {
+  display: none;
+}
 @media screen and (max-width: 749px) {
   .selling_plan__option {
     padding: 14px 20px;
@@ -2091,9 +2095,39 @@ input[type='checkbox'] {
 }
 
 .selling_plan__option.selling_plan--selected {
-  background-color: #5b6bb2;
+  background-color: #cbd0ec;
   border: 2px solid black;
+  color: black;
+}
+
+.price-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+
+.subscribe-badge {
+  font-size: 12px;
+  line-height: 16px;
   color: white;
+  padding: 2px 20px;
+  margin-left: 12px;
+  background-color: #f58356;
+  border-radius: 4px;
+}
+
+.subscribe-pricce {
+  font-size: 16px;
+}
+
+.subscribe-description {
+  font-size: 14px;
+  color: #676986;
+  text-align: center;
+  width: 100%;
+  font-weight: 400;
 }
 
 .quantity-checkmark {
