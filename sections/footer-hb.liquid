@@ -200,6 +200,24 @@
       </div>
     </div>
   </div>
+  
+  <div class="footer_bottom_bar color-{{ section.settings.bottom_bar_color_scheme }}">
+    <div class="inline_richtext footer-bottom__text">{{ section.settings.bottom_bar_text }}</div>
+    {%- if section.settings.bottom_bar_menu != blank -%}
+      <ul class="footer-bottom-block__details-content list-unstyled">
+        {%- for link in section.settings.bottom_bar_menu.links -%}
+          <li>
+            <a
+              href="{{ link.url }}"
+              class="link link--text link-footer-bottom-hb"
+            >
+              {{ link.title }}
+            </a>
+          </li>
+        {%- endfor -%}
+      </ul>
+    {%- endif -%}
+  </div>
 </footer>
 
 {% schema %}
@@ -319,7 +337,25 @@
       "type": "color_scheme",
       "id": "color_scheme",
       "label": "t:sections.all.colors.label",
-      "default": "scheme-3"
+      "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "bottom_bar_color_scheme",
+      "label": "Bottom bar color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "text",
+      "id": "bottom_bar_text",
+      "default": "Welcome to our store",
+      "label": "Bottom bar text"
+    },
+    {
+      "type": "link_list",
+      "id": "bottom_bar_menu",
+      "default": "footer",
+      "label": "Bottom bar menu"
     },
     {
       "type": "header",
