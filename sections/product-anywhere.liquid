@@ -485,7 +485,9 @@
                         data-selling_plan="5377425465"
                       >
                         <div class="price-container">
-                          <div class="subscribe-price">{{ product.price | times: 0.8 | round: 0 | money_with_currency }}</div>
+                          <div class="subscribe-price subscribe-price--quantity-1 active-quantity">{{ product.price | times: 0.8 | money_with_currency }}</div>
+                          <div class="subscribe-price subscribe-price--quantity-2">{{ product.price | times: 0.8 | times: 2 | times: 0.95  | money_with_currency }}</div>
+                          <div class="subscribe-price subscribe-price--quantity-3">{{ product.price | times: 0.8 | times: 3 | times: 0.9 | money_with_currency }}</div>
                           <div class="subscribe-badge">Save 20%</div>
                         </div>
                         <div class="subscribe-description">Subscribe & Save</div>
@@ -494,7 +496,9 @@
                         class="selling_plan__option"
                         data-selling_plan=""
                       >
-                        <div class="subscribe-price">{{ product.price | money_with_currency }}</div>
+                        <div class="subscribe-price subscribe-price--quantity-1 active-quantity">{{ product.price | money_with_currency }}</div>
+                        <div class="subscribe-price subscribe-price--quantity-2">{{ product.price | times: 2 | times: 0.95 | money_with_currency }}</div>
+                        <div class="subscribe-price subscribe-price--quantity-3">{{ product.price | times: 3 | times: 0.9 | money_with_currency }}</div>
                         <div class="subscribe-description">Delivered once</div>
                       </div>
                     </div>
