@@ -237,7 +237,7 @@
                         data-selling_plan="5377425465"
                       >
                         <div class="price-container">
-                          <div class="subscribe-price">{{ product.price | times: 0.8 | round: 0 | money_with_currency }}</div>
+                          <div class="subscribe-price subscribe-price--subscribe">{{ product.price | times: 0.8 | money_with_currency }}</div>
                           <div class="subscribe-badge">Save 20%</div>
                         </div>
                         <div class="subscribe-description">Subscribe & Save</div>
@@ -246,10 +246,11 @@
                         class="selling_plan__option"
                         data-selling_plan=""
                       >
-                        <div class="subscribe-price">{{ product.price | money_with_currency }}</div>
+                        <div class="subscribe-price subscribe-price--onetime">{{ product.price | money_with_currency }}</div>
                         <div class="subscribe-description">Delivered once</div>
                       </div>
                     </div>
+                    {% comment %} <div style="display: none"></div> {% endcomment %}
                     <input
                       class="selling_plan__input"
                       type="number"
@@ -261,6 +262,21 @@
                   </selling-plan-input-hb>
                 </div>
               </div>
+              <script>
+                let sellingPlanElem = document.querySelector('#SellingPlan-Form-{{ section.id }} .selling_plan-hb');
+                sellingPlanElem.addEventListener('quantity-changed', (e) => {
+                  let quantity = e.value;
+                  let quantityModifier = 1;
+                  if (quantity === 2) {
+                    quantityModifier = 2 * 0.95;
+                  } else if (quantity === 3) {
+                    quantityModifier = 3 * 0.9;
+                  }
+                  
+                  sellingPlanElem.querySelector('.subscribe-price--subscribe').innerHTML = "{{ product.price | times: 0.8 | times: quantityModifier | money_with_currency }}";
+                  thsellingPlanElemis.querySelector('.subscribe-price--onetime').innerHTML = "{{ product.price | times: 1 | money_with_currency }}";
+                }) 
+              </script>
             {%- when 'quantity_selector' -%}
               <div
                 id="Quantity-Form-{{ section.id }}"

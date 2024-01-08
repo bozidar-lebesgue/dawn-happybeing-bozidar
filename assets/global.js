@@ -231,6 +231,14 @@ class QuantityInputHb extends HTMLElement {
   onButtonClick(event) {
     event.preventDefault();
     this.input.value = parseInt(event.target.dataset.quantity);
+
+    const quantityChangeEvent = new CustomEvent("quantity-changed", {
+      bubbles: true,
+      value: this.input.value,
+    });
+
+    const sellingPlanElement = document.querySelector('.selling_plan-hb');
+    sellingPlanElement.dispatchEvent(quantityChangeEvent)
     
     this.querySelectorAll('.quantity__option').forEach((button) =>
       button.classList.remove('quantity--selected')
@@ -252,6 +260,20 @@ class SellingPlanInputHb extends HTMLElement {
     this.querySelectorAll('.selling_plan__option').forEach((button) =>
       button.addEventListener('click', this.onButtonClick.bind(this))
     );
+
+
+    // this.addEventListener('quantity-changed', (e) => {
+    //   let quantity = e.value;
+    //   let quantityModifier = 1;
+    //   if (quantity === 2) {
+    //     quantityModifier = 2 * 0.95;
+    //   } else if (quantity === 3) {
+    //     quantityModifier = 3 * 0.9;
+    //   }
+      
+    //   this.querySelector('.subscribe-price--subscribe').innerHTML = "{{ product.price | times: 0.8 | times:  quantityModifier | money_with_currency }}"
+    //   this.querySelector('.subscribe-price--onetime').innerHTML = "{{ product.price | times: " +  quantityModifier + " | money_with_currency }}";
+    // }) 
   }
 
   onButtonClick(event) {
