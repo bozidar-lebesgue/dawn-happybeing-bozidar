@@ -3868,3 +3868,28 @@ ul.custom--tabs {
   font-size: 15px;
   line-height: 24px;
 }
+
+.totals-hb {
+  margin-bottom: 20px;
+}
+
+.flex {
+  display: flex;
+}
+
+
+.cart-free-shipping-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(var(--color-foreground));
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  padding: 4px 0;
+}
+
+.free-shipping-text {
+  margin-left: 8px;
+}

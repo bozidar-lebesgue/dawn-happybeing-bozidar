@@ -19,7 +19,6 @@
   height: 100%;
   width: 40rem;
   max-width: calc(100vw - 3rem);
-  padding: 0 1.5rem;
   border: 0.1rem solid rgba(var(--color-foreground), 0.2);
   border-right: 0;
   overflow: hidden;
@@ -29,9 +28,13 @@
   transition: transform var(--duration-default) ease;
 }
 
+.drawer__inner--padding {
+  padding: 0 1.5rem;
+  /* position: relative; */
+}
+
 .drawer__inner-empty {
   height: 100%;
-  padding: 0 1.5rem;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -70,7 +73,8 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 
 .drawer__header {
   position: relative;
-  padding: 1.5rem 0;
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -78,6 +82,7 @@ cart-drawer:not(.is-empty) .cart-drawer__collection {
 
 .drawer__heading {
   margin: 0 0 1rem;
+  font-weight: 600;
 }
 
 .drawer__close {
