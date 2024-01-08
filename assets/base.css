@@ -2075,17 +2075,12 @@ input[type='checkbox'] {
 
 @media screen and (max-width: 749px) {
   .quantity__option {
-    /* padding: 14px 20px; */
+    padding: 14px 20px;
   }
 }
 
 .selling_plan__input {
   display: none;
-}
-@media screen and (max-width: 749px) {
-  .selling_plan__option {
-    padding: 14px 20px;
-  }
 }
 
 .quantity__option.quantity--selected {
@@ -2118,7 +2113,19 @@ input[type='checkbox'] {
   border-radius: 4px;
 }
 
-.subscribe-pricce {
+
+@media screen and (max-width: 749px) {
+  .selling_plan__option {
+    padding: 4px 12px;
+  }
+  .subscribe-badge {
+    padding: 2px 8px;
+    margin-left: 6px;
+  }
+  
+}
+
+.subscribe-price {
   font-size: 16px;
 }
 
