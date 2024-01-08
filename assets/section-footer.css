@@ -634,3 +634,16 @@
   justify-content: flex-start;
   align-items: start !important;
 }
+
+@media screen and (max-width: 749px) {
+  .list-social__link-hb,
+  .social__link__text,
+  .footer__list-social-hb,
+  .link-footer-hb {
+    font-size: 1.1rem;
+  }
+  
+  .footer__list-social-hb {
+    margin-left: -20px;
+  }
+}
