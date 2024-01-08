@@ -3854,3 +3854,10 @@ ul.custom--tabs {
     margin-right: 20px;
   }
 }
+
+.shipping-info-container {
+  margin-top: -10px;
+  width: 100%;
+  font-size: 15px;
+  line-height: 24px;
+}
