@@ -303,8 +303,8 @@
                   {%- if block.settings.icon_image != blank -%}
                     {{
                       block.settings.icon_image
-                      | image_url: width:  section.settings.column_icon_size, height: section.settings.column_icon_size
-                      | image_tag: class: 'icon-image'
+                      | image_url: width: 600
+                      | image_tag: class: 'icon-image', width: section.settings.column_icon_size, height: section.settings.column_icon_size
                     }}          
                   {%- endif -%}
                   {%- if block.settings.title != blank -%}
