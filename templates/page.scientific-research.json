@@ -1,67 +1,108 @@
 {
   "sections": {
-    "d3b41365-1b11-4e6e-8a1c-4b73134b4194": {
-      "type": "multirow",
+    "213f4660-a163-4856-9dc7-7e5b65964005": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "The science of polyphenols",
+        "subtitle": "",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_font_family": "assistant_n4",
+        "subtitle_font_size": 1.6,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h1",
+        "column_title_size": "h1",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "left",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "77515c36-a578-426d-81bc-520a8bcad193": {
+      "type": "image-with-text-hb",
       "blocks": {
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1": {
-          "type": "row",
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.01_-_1080x1080_-_Happy_Being_-_JTD_-_205116_1.png",
-            "caption": "",
-            "heading": "<strong>Doctor-recommended<\/strong>",
-            "text": "<p>Why would you drink something that wasn't? We work hand-in-hand with some of the world's best doctors, like Dr. Leo Galland and Dr. Gerald Lemole, to ensure that our products help our community feel happier and healthier.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "<strong>What are polyphenols?<\/strong>",
+            "heading_size": "h1",
+            "margin_bottom": 20
           }
         },
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2": {
-          "type": "row",
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KCC6879.jpg",
-            "caption": "",
-            "heading": "<strong>Research-led<\/strong>",
-            "text": "<p>We're motivated by tested, data-driven outcomes. we look to the best research, spanning from historically-proven natural remedies to cutting-edge medical science, to create functional products that deliver significant benefits to our near & long-term health.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/You_are_what_you_drink.png",
-            "caption": "",
-            "heading": "<strong>Relationship-based<\/strong>",
-            "text": "<p>We're here to share what we know about taking care of our bodies and minds. through our blog & social, we'll make it easy: you ask, we'll share. our community of subscribers receives additional information (collateral, news, sample products, partnerships) that goes even further to support their whole health & well being.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "text": "<p>Each serving of <strong>Happy Being<\/strong>® contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting “free radicals” in your body.  <\/p><p><\/p><p>Free radicals are the <strong>inflammation<\/strong>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals’ ultimately lead to chronic disease.<\/p><p><\/p><p>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy<\/strong>.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1",
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2",
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3"
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1"
       ],
       "settings": {
-        "image_height": "large",
-        "desktop_image_width": "large",
-        "mobile_image_full_width": true,
-        "heading_size": "h14",
-        "text_style": "subtitle",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
+        "image": "shopify:\/\/shop_images\/3.01-1920x2032-HappyBeing-MPV-207766.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-11",
-        "row_color_scheme": "scheme-11",
-        "mobile_title_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     }
   },
   "order": [
-    "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
+    "213f4660-a163-4856-9dc7-7e5b65964005",
+    "77515c36-a578-426d-81bc-520a8bcad193"
   ]
 }
