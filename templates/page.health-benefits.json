@@ -4,8 +4,8 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "The science of polyphenols",
-        "subtitle": "",
+        "title": "Inflammation ",
+        "subtitle": "<em>Inflammation’s worst nightmare.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
@@ -29,18 +29,18 @@
         "mobile_content_align": "center",
         "column_icon_size": 16,
         "title_heading_size": "h1",
-        "column_title_size": "h1",
+        "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
         "enumerate": true,
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "title_alignment": "left",
+        "title_alignment": "center",
         "column_alignment": "left",
         "column_mobile_title_alignment": "left",
-        "column_content_text_align": "left",
+        "column_content_text_align": "center",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "",
         "columns_mobile": "1",
@@ -59,28 +59,36 @@
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>What are polyphenols?<\/strong>",
+            "heading": "<strong>Problem<\/strong>",
             "heading_size": "h1",
-            "margin_bottom": 20
+            "margin_bottom": 0
           }
         },
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each serving of <strong>Happy Being<\/strong>® contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting “free radicals” in your body.  <\/p><p><\/p><p>Free radicals are the <strong>inflammation<\/strong>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals’ ultimately lead to chronic disease.<\/p><p><\/p><p>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy<\/strong>.<\/p>",
+            "text": "<p>Left unchecked, inflammation <strong>harms healthy cells<\/strong> and leads to severe chronic health conditions like cancer, type-2 diabetes, neurodegenerative diseases and others.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>pTerostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight “<em>Free Radicals<\/em>,” <strong>blocking inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1"
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1",
+        "7d9b066b-9e8d-41cd-865b-001867748415"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3.01-1920x2032-HappyBeing-MPV-207766.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
