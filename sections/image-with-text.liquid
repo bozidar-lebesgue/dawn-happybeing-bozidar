@@ -11,6 +11,16 @@
       padding-top: {{ section.settings.padding_top }}px;
       padding-bottom: {{ section.settings.padding_bottom }}px;
     }
+
+    #ImageWithText--{{ section.id }} {
+      {% if section.settings.image_text_gap != 0 %}
+        {% if section.settings.layout == 'image_first' %}
+          padding-left: {{ section.settings.image_text_gap }}px !important;
+        {% else %}
+          padding-right: {{ section.settings.image_text_gap }}px !important;
+        {% endif %}
+      {% endif %}
+    }
   }
 {%- endstyle -%}
 
@@ -304,6 +314,16 @@
     },
     {
       "type": "range",
+      "id": "image_text_gap",
+      "min": 0,
+      "max": 400,
+      "step": 4,
+      "unit": "px",
+      "label": "Image text gap",
+      "default": 0
+    },
+    {
+      "type": "range",
       "id": "padding_top",
       "min": 0,
       "max": 100,
@@ -327,7 +347,6 @@
     {
       "type": "heading",
       "name": "t:sections.image-with-text.blocks.heading.name",
-      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
