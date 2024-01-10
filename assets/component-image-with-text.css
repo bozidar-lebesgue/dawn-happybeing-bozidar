@@ -468,4 +468,9 @@
   .image-width--large .image-with-text__grid:not(.image-with-text__grid--reverse) .image-with-text__content {
     padding-left: 0;
   }
+
+  .image-with-text__content--padding {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }

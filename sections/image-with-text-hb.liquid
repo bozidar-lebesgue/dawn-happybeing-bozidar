@@ -126,7 +126,7 @@
             id="ImageWithText--{{ section.id }}"
             class="image-with-text__content image-with-text__content--mobile image-with-text__content--{{ section.settings.desktop_content_position }}
               image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }}
-            text-container image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
+            text-container {% if section.settings.textbox_has_padding == true %} image-with-text__content--padding{% endif %} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
           >
             {%- for block in section.blocks -%}
               {% case block.type %}
@@ -391,6 +391,12 @@
     {
       "type": "header",
       "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "checkbox",
+      "id": "textbox_has_padding",
+      "label": "Textbox has padding",
+      "default": false
     },
     {
       "type": "range",
