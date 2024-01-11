@@ -38,133 +38,228 @@
     {{ content_for_header }}
 
     {% style %}
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-BoldItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: bold;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-BoldItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Bold.woff2" | asset_url }}) format('woff2');
-        font-weight: bold;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Bold.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Black.woff2" | asset_url }}) format('woff2');
-        font-weight: 900;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Black.woff2" | asset_url }}) format('woff2');
+          font-weight: 900;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-BlackItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 900;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-BlackItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 900;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Roman.woff2" | asset_url }}) format('woff2');
-        font-weight: 500;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Roman.woff2" | asset_url }}) format('woff2');
+          font-weight: 500;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-XXThin.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-XXThin.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-ThinItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-ThinItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-MediumItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 500;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-MediumItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 500;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-LightItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 300;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-LightItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 300;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-XThin.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-XThin.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Mediu.woff2" | asset_url }}) format('woff2');
-        font-weight: normal;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Mediu.woff2" | asset_url }}) format('woff2');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Light.woff2" | asset_url }}) format('woff2');
-        font-weight: 300;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Light.woff2" | asset_url }}) format('woff2');
+          font-weight: 300;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-XXThinItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-XXThinItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-RomanItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 500;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-RomanItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 500;
+          font-style: italic;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-Thin.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: normal;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-Thin.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: normal;
+          font-display: swap;
+      }
 
-    @font-face {
-        font-family: 'Neue Haas Grotesk Display Pro';
-        src: url({{"NeueHaasDisplay-XThinItalic.woff2" | asset_url }}) format('woff2');
-        font-weight: 100;
-        font-style: italic;
-        font-display: swap;
-    }
+      @font-face {
+          font-family: 'Neue Haas Grotesk Display Pro';
+          src: url({{"NeueHaasDisplay-XThinItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: italic;
+          font-display: swap;
+      }
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"BaskervilleBold.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"BaskervilleLight-Italic.woff2" | asset_url }}) format('woff2');
+          font-weight: 300;
+          font-style: italic;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"BaskervilleLight.woff2" | asset_url }}) format('woff2');
+          font-weight: 300;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville BT';
+          src: url({{"BaskervilleBT-Italic.woff2" | asset_url }}) format('woff2');
+          font-weight: normal;
+          font-style: italic;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville BT';
+          src: url({{"BaskervilleBT-Roman.woff2" | asset_url }}) format('woff2');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"Baskerville.woff2" | asset_url }}) format('woff2');
+          font-weight: 100;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville BT';
+          src: url({{"BaskervilleBT-Bold.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville BT';
+          src: url({{"BaskervilleBT-BoldItalic.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: italic;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"Baskerville-Normal.woff2" | asset_url }}) format('woff2');
+          font-weight: normal;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"BaskervilleBold.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville BT';
+          src: url({{"BaskervilleBT-Bold.woff2" | asset_url }}) format('woff2');
+          font-weight: bold;
+          font-style: normal;
+          font-display: swap;
+      }
+
+      @font-face {
+          font-family: 'Baskerville';
+          src: url({{"Baskerville-LightA.woff2" | asset_url }}) format('woff2');
+          font-weight: 300;
+          font-style: normal;
+          font-display: swap;
+      }
     {% endstyle %}
 
     {%- liquid
@@ -225,14 +320,21 @@
       }
 
       :root {
-        --font-body-family: {{ settings.type_body_font.family }};
-        --font-body-style: {{ settings.type_body_font.style }};
-        --font-body-weight: {{ settings.type_body_font.weight }};
-        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }};
+        /* --font-body-family: {{ settings.type_body_font.family }}; */
+        /* --font-body-style: {{ settings.type_body_font.style }};
+        --font-body-weight: {{ settings.type_body_font.weight }}; */
+        /* --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }}; */
+        --font-body-family: 'Neue Haas Grotesk Display Pro';
+        --font-body-style: 'italic';
+        --font-body-weight: normal;
+        --font-body-weight-bold: bold;
 
-        --font-heading-family: {{ settings.type_header_font.family }};
+        /* --font-heading-family: {{ settings.type_header_font.family }};
         --font-heading-style: {{ settings.type_header_font.style }};
-        --font-heading-weight: {{ settings.type_header_font.weight }};
+        --font-heading-weight: {{ settings.type_header_font.weight }}; */
+        --font-heading-family: 'Neue Haas Grotesk Display Pro';
+        --font-heading-style: 'italic';
+        --font-heading-weight: normal;
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};
         --font-heading-scale: {{ settings.heading_scale | times: 1.0 | divided_by: settings.body_scale }};
