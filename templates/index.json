@@ -642,8 +642,8 @@
         "title_margin_top": 24,
         "title_margin_bottom": 24,
         "subtitle_secondary_font": true,
-        "subtitle_font_size": 3.8,
-        "subtitle_mobile_font_size": 2,
+        "subtitle_font_size": 5,
+        "subtitle_mobile_font_size": 2.4,
         "subtitle_margin_bottom": 16,
         "column_title_max_width": 1000,
         "column_max_width": 1000,
@@ -660,7 +660,7 @@
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
-        "title_heading_size": "hextra",
+        "title_heading_size": "h04",
         "column_title_size": "h1",
         "column_text_style": "body",
         "image_width": "full",
@@ -681,7 +681,7 @@
         "header_position_desktop": "top",
         "padding_top": 32,
         "padding_bottom": 0,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 16,
         "mobile_padding_bottom": -1
       }
     },
