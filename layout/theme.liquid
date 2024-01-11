@@ -320,20 +320,24 @@
       }
 
       :root {
-        /* --font-body-family: {{ settings.type_body_font.family }}; */
-        /* --font-body-style: {{ settings.type_body_font.style }};
-        --font-body-weight: {{ settings.type_body_font.weight }}; */
-        /* --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }}; */
-        --font-body-family: 'Neue Haas Grotesk Display Pro';
-        --font-body-style: 'italic';
+        /* --font-body-family: {{ settings.type_body_font.family }};
+        --font-body-style: {{ settings.type_body_font.style }};
+        --font-body-weight: {{ settings.type_body_font.weight }};
+        --font-body-weight-bold: {{ settings.type_body_font.weight | plus: 300 | at_most: 1000 }}; */
+        --font-body-family: "Neue Haas Grotesk Display Pro", sans-serif;
+        --font-body-style: normal;
         --font-body-weight: normal;
         --font-body-weight-bold: bold;
+
+        --secondary-font-family: "Baskerville";
+        --secondary-font-style: normal;
+        --secondary-font-weight: normal;
 
         /* --font-heading-family: {{ settings.type_header_font.family }};
         --font-heading-style: {{ settings.type_header_font.style }};
         --font-heading-weight: {{ settings.type_header_font.weight }}; */
-        --font-heading-family: 'Neue Haas Grotesk Display Pro';
-        --font-heading-style: 'italic';
+        --font-heading-family: "Neue Haas Grotesk Display Pro", sans-serif;
+        --font-heading-style: normal;
         --font-heading-weight: normal;
 
         --font-body-scale: {{ settings.body_scale | divided_by: 100.0 }};

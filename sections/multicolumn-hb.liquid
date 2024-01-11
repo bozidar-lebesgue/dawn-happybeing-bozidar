@@ -47,14 +47,17 @@
   .section-{{ section.id }} .subtitle-hb {
     font-size: {{ section.settings.subtitle_font_size }}rem;
     line-height: {{ section.settings.subtitle_font_size }}rem;
-    /* font-family: {{ section.settings.subtitle_font_family.family }};
-    font-weight: {{ section.settings.subtitle_font_family.weight }};
-    font-style: {{ section.settings.subtitle_font_family.style }}; */
     font-family: 'Baskerville';
     font-weight: 400;
     font-style: italic;
     margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
-    text-align: center;    
+    text-align: center;
+
+    {%- if section.settings.subtitle_secondary_font -%}
+      font-family: var(--secondary-font-family);
+      font-weight: var(--secondary-font-weight);
+      font-style: var(--secondary-font-style);
+    {%- endif -%}
   }
 
   .section-{{ section.id }} .column__title {
@@ -444,10 +447,10 @@
       "label": "Title margin bottom"
     },
     {
-      "type": "font_picker",
-      "id": "subtitle_font_family",
-      "default": "neue_haas_unica_n4",
-      "label": "Subtitle font family"
+      "type": "checkbox",
+      "id": "subtitle_secondary_font",
+      "default": false,
+      "label": "Subtitle use secondary font"
     },
     {
       "type": "range",
