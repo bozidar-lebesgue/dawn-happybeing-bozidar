@@ -330,138 +330,136 @@ h5,
 }
 
 .hxl {
-  font-size: calc(var(--font-heading-scale) * 5rem);
+  font-size: calc(var(--font-heading-scale) * 5rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .hxl {
-    font-size: calc(var(--font-heading-scale) * 6.2rem);
+    font-size: calc(var(--font-heading-scale) * 6.2rem * var(--font-custom-scale));
   }
 }
 
 .hextra {
-  font-size: calc(var(--font-heading-scale) * 4rem);
+  font-size: calc(var(--font-heading-scale) * 4rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .hextra {
-    font-size: calc(var(--font-heading-scale) * 6.2rem);
+    font-size: calc(var(--font-heading-scale) * 6.2rem * var(--font-custom-scale));
   }
 }
 
 .h0 {
-  font-size: calc(var(--font-heading-scale) * 4rem);
+  font-size: calc(var(--font-heading-scale) * 4rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h0 {
-    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    font-size: calc(var(--font-heading-scale) * 5.2rem * var(--font-custom-scale));
   }
 }
 
 .h04 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 3rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h04 {
-    font-size: calc(var(--font-heading-scale) * 5.2rem);
+    font-size: calc(var(--font-heading-scale) * 5.2rem * var(--font-custom-scale));
   }
 }
 
 h1,
 .h1 {
-  font-size: calc(var(--font-heading-scale) * 3rem);
+  font-size: calc(var(--font-heading-scale) * 3rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   h1,
   .h1 {
-    font-size: calc(var(--font-heading-scale) * 4rem);
+    font-size: calc(var(--font-heading-scale) * 4rem * var(--font-custom-scale));
   }
 }
 
 .h15 {
-  font-size: calc(var(--font-heading-scale) * 1.8rem);
+  font-size: calc(var(--font-heading-scale) * 1.8rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h15 {
-    font-size: calc(var(--font-heading-scale) * 3.4rem);
+    font-size: calc(var(--font-heading-scale) * 3.4rem * var(--font-custom-scale));
   }
 }
 
 .h14 {
-  font-size: calc(var(--font-heading-scale) * 2.6rem);
+  font-size: calc(var(--font-heading-scale) * 2.6rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h14 {
-    font-size: calc(var(--font-heading-scale) * 3.4rem);
+    font-size: calc(var(--font-heading-scale) * 3.4rem * var(--font-custom-scale));
   }
 }
 
 h2,
 .h2 {
-  font-size: calc(var(--font-heading-scale) * 2rem);
+  font-size: calc(var(--font-heading-scale) * 2rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   h2,
   .h2 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 2.4rem * var(--font-custom-scale));
   }
 }
 
 .h24 {
-  font-size: calc(var(--font-heading-scale) * 1.6rem);
+  font-size: calc(var(--font-heading-scale) * 1.6rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h24 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 2.4rem * var(--font-custom-scale));
   }
 }
 
 
 .h26 {
-  font-size: calc(var(--font-heading-scale) * 1.4rem);
+  font-size: calc(var(--font-heading-scale) * 1.4rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   .h26 {
-    font-size: calc(var(--font-heading-scale) * 2.4rem);
+    font-size: calc(var(--font-heading-scale) * 2.4rem * var(--font-custom-scale));
   }
 }
 
 h3,
 .h3 {
-  font-size: calc(var(--font-heading-scale) * 1.7rem);
+  font-size: calc(var(--font-heading-scale) * 1.7rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   h3,
   .h3 {
-    font-size: calc(var(--font-heading-scale) * 1.8rem);
+    font-size: calc(var(--font-heading-scale) * 1.8rem * var(--font-custom-scale));
   }
 }
 
 h4,
 .h4 {
-  font-family: var(--font-heading-family);
-  font-style: var(--font-heading-style);
-  font-size: calc(var(--font-heading-scale) * 1.5rem);
+  font-size: calc(var(--font-heading-scale) * 1.5rem * var(--font-custom-scale));
 }
 
 h5,
 .h5 {
-  font-size: calc(var(--font-heading-scale) * 1.2rem);
+  font-size: calc(var(--font-heading-scale) * 1.2rem * var(--font-custom-scale));
 }
 
 @media only screen and (min-width: 750px) {
   h5,
   .h5 {
-    font-size: calc(var(--font-heading-scale) * 1.3rem);
+    font-size: calc(var(--font-heading-scale) * 1.3rem * var(--font-custom-scale));
   }
 }
 
@@ -470,6 +468,7 @@ h6,
   color: rgb(var(--color-foreground));
   margin-block-start: 1.67em;
   margin-block-end: 1.67em;
+  font-size: calc(1rem * var(--font-custom-scale));
 }
 
 blockquote {
