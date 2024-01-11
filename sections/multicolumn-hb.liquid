@@ -47,13 +47,10 @@
   .section-{{ section.id }} .subtitle-hb {
     font-size: {{ section.settings.subtitle_font_size }}rem;
     line-height: {{ section.settings.subtitle_font_size }}rem;
-    font-family: 'Baskerville';
-    font-weight: 400;
-    font-style: italic;
     margin-bottom: {{ section.settings.subtitle_margin_bottom }}px;
     text-align: center;
 
-    {%- if section.settings.subtitle_secondary_font -%}
+    {%- if section.settings.subtitle_secondary_font == true -%}
       font-family: var(--secondary-font-family);
       font-weight: var(--secondary-font-weight);
       font-style: var(--secondary-font-style);
