@@ -57,7 +57,7 @@
             "title": "<strong>Doctor-recommended doses<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>1mg of Turmeric won’t do anything for you but 250mg will reduce inflammation. That same logic applies to all polyphenols. Trace amounts don’t offer benefits while the right doses do. That’s why we give you enough of the good stuff as shown by science to have a real, positive impact.<\/p>",
+            "text": "<p>1mg of Turmeric won't do anything for you but 250mg will reduce inflammation. That same logic applies to all polyphenols. Trace amounts don't offer benefits while the right doses do. That's why we give you enough of the good stuff as shown by science to have a real, positive impact.<\/p>",
             "link_label": "",
             "link": "",
             "icon": "none"
@@ -70,7 +70,7 @@
             "title": "<strong>Optimum bioavailability<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>“Bioavailability” is how well a nutrient is absorbed by your body. If an ingredient isn’t bioavailable, it passes through your system with little effect. Unlike our competitors, we make sure each ingredient is optimized for liquid bioavailability, so that each can is as efficacious for your health as it is delicious.<\/p>",
+            "text": "<p>“Bioavailability” is how well a nutrient is absorbed by your body. If an ingredient isn't bioavailable, it passes through your system with little effect. Unlike our competitors, we make sure each ingredient is optimized for liquid bioavailability, so that each can is as efficacious for your health as it is delicious.<\/p>",
             "link_label": "",
             "link": "",
             "icon": "none"
@@ -109,7 +109,7 @@
             "title": "<strong>A PhD in delicious!<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Taste is everything when it comes to better health because better taste leads to more consistent use. With <strong>Happy Being®<\/strong>, the more you drink, the better you feel. You’re not gonna drink it daily if it doesn’t taste great, so we made an iced-tea you’ll love. <\/p>",
+            "text": "<p>Taste is everything when it comes to better health because better taste leads to more consistent use. With <strong>Happy Being®<\/strong>, the more you drink, the better you feel. You're not gonna drink it daily if it doesn't taste great, so we made an iced-tea you'll love. <\/p>",
             "link_label": "",
             "link": "",
             "icon": "none"
@@ -188,7 +188,7 @@
         "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>You don’t have to have a perfect diet and wellness routine to <b>live healthy.<\/b><\/p>",
+            "text": "<p>You don't have to have a perfect diet and wellness routine to <b>live healthy.<\/b><\/p>",
             "text_style": "body"
           }
         },

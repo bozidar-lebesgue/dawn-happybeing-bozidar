@@ -32,7 +32,7 @@ Before contributing to Dawn, please read the following theme code principles to 
 
 ### Why these principles?
 
-Browsers provide APIs to solve many problems: from [WebGL](https://en.wikipedia.org/wiki/WebGL) and [WASM](https://en.wikipedia.org/wiki/WebAssembly)-powered apps to static websites. The best APIs to use depends on the thing you’re building. Themes power ecommerce websites. In most cases, _Web-native_—making the most of the built-in features of browsers: HTTP, HTML, CSS, JavaScript, and the DOM—is a perfect fit for ecommerce websites. Ecommerce needs incredibly fast websites for mostly “logged out” traffic.
+Browsers provide APIs to solve many problems: from [WebGL](https://en.wikipedia.org/wiki/WebGL) and [WASM](https://en.wikipedia.org/wiki/WebAssembly)-powered apps to static websites. The best APIs to use depends on the thing you're building. Themes power ecommerce websites. In most cases, _Web-native_—making the most of the built-in features of browsers: HTTP, HTML, CSS, JavaScript, and the DOM—is a perfect fit for ecommerce websites. Ecommerce needs incredibly fast websites for mostly “logged out” traffic.
 
 ### Web-native in its purest form
 
@@ -40,11 +40,11 @@ _The most important principle._
 
 Themes run on the [evergreen Web](https://www.w3.org/2001/tag/doc/evergreen-web/). We leverage the latest web browsers to their fullest, while maintaining support for the older ones through progressive enhancement—not polyfills.
 
-We write bespoke Web-native code with no abstractions. Frameworks, libraries, and dependencies don’t belong in our themes.
+We write bespoke Web-native code with no abstractions. Frameworks, libraries, and dependencies don't belong in our themes.
 
 We engage with the browser ecosystem on behalf of our merchants to make Web-native ecommerce the best it can be.
 
-“Don’t repeat yourself” is an anti-pattern. We do our utmost best to do more with less, but we don’t build abstractions around repetition. Instead, we use linting and testing to enforce consistently-good and up-to-date Web-native code.
+“Don't repeat yourself” is an anti-pattern. We do our utmost best to do more with less, but we don't build abstractions around repetition. Instead, we use linting and testing to enforce consistently-good and up-to-date Web-native code.
 
 ### Lean, fast, and reliable
 
@@ -59,9 +59,9 @@ Code must be lean, fast, and reliable. Our targets include:
 
 Functionality and design defaults to “no” until it meets this requirement. Code ships on quality.
 
-We relentlessly and continuously optimize code within the constraint of being Web-native. If ever there is a feature that browsers have not made fast yet, we either don’t use it, or use it “as is” if it is fast enough. We trust that browsers will get faster over time.
+We relentlessly and continuously optimize code within the constraint of being Web-native. If ever there is a feature that browsers have not made fast yet, we either don't use it, or use it “as is” if it is fast enough. We trust that browsers will get faster over time.
 
-Themes must be built with purpose. They shouldn’t support each and every feature in Shopify.
+Themes must be built with purpose. They shouldn't support each and every feature in Shopify.
 
 ### JavaScript not required, fails gracefully
 
@@ -77,17 +77,17 @@ JavaScript can only be used to progressively enhance features. JavaScript cannot
 
 _Our main constraint._
 
-HTML must be rendered by Shopify servers using [Liquid](https://shopify.dev/api/liquid). Business logic and platform primitives such as translations and money formatting don’t belong on the client.
+HTML must be rendered by Shopify servers using [Liquid](https://shopify.dev/api/liquid). Business logic and platform primitives such as translations and money formatting don't belong on the client.
 
-Server-rendered doesn’t imply “full page reload”. Async and on-demand rendering of parts of the page is OK, but we do it sparingly as a progressive enhancement.
+Server-rendered doesn't imply “full page reload”. Async and on-demand rendering of parts of the page is OK, but we do it sparingly as a progressive enhancement.
 
 ### Functional, not pixel-perfect
 
 _No buyer is left behind._
 
-The Web doesn’t require each page to be rendered pixel-perfect by each browser engine. Using semantic markup, progressive enhancement, and clever design, we ensure that themes remain functional regardless of the browser.
+The Web doesn't require each page to be rendered pixel-perfect by each browser engine. Using semantic markup, progressive enhancement, and clever design, we ensure that themes remain functional regardless of the browser.
 
-And since legacy browsers are often the slowest, we don’t burden them with polyfills. We rely instead on the fail-open nature of the Web to provide them with a “minimal but functional” experience.
+And since legacy browsers are often the slowest, we don't burden them with polyfills. We rely instead on the fail-open nature of the Web to provide them with a “minimal but functional” experience.
 
 ## Contributing code
 
