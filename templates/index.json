@@ -120,6 +120,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 0,
@@ -328,6 +329,7 @@
         "title_max_width": 500,
         "title_margin_top": 48,
         "title_margin_bottom": 48,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 0,
@@ -512,7 +514,7 @@
         "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/You_are_what_you_drink.png",
+        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -589,6 +591,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 10,
