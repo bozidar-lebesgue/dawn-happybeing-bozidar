@@ -169,7 +169,7 @@
 }
 
 .banner__media-wide-half {
-  width: min(1600px, 80vw);
+  width: max(calc((100vw - 1200px) / 2 + 800px), 50vw);
 }
 
 .banner__media-narrow-half {
