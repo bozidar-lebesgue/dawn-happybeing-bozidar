@@ -48,7 +48,7 @@
         "header_position_desktop": "top",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": -1
       }
     },
@@ -184,7 +184,7 @@
         "template--16401007870009__e5410863-c275-420c-a4b3-ebeeeeb40d2a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<\/p><p><\/p><p>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
+            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<\/p><br><p>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
             "text_style": "subtitle"
           }
         }
@@ -205,7 +205,7 @@
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
+        "textbox_has_padding": true,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 1.8,
