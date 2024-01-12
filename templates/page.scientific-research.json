@@ -52,10 +52,10 @@
         "mobile_padding_bottom": -1
       }
     },
-    "77515c36-a578-426d-81bc-520a8bcad193": {
+    "inflamation-info": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
+        "template--16401007870009__inflamation-info-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<strong>What are polyphenols?<\/strong>",
@@ -63,7 +63,7 @@
             "margin_bottom": 20
           }
         },
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
+        "template--16401007870009__inflamation-info-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Each serving of <strong>Happy Being<\/strong>® contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting “free radicals” in your body.  <\/p><p><\/p><p>Free radicals are the <strong>inflammation<\/strong>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<\/p><p><\/p><p>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy<\/strong>.<\/p>",
@@ -72,8 +72,8 @@
         }
       },
       "block_order": [
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1"
+        "template--16401007870009__inflamation-info-heading-1",
+        "template--16401007870009__inflamation-info-text-1"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/3.01-1920x2032-HappyBeing-MPV-207766.png",
@@ -220,7 +220,7 @@
   },
   "order": [
     "213f4660-a163-4856-9dc7-7e5b65964005",
-    "77515c36-a578-426d-81bc-520a8bcad193",
+    "inflamation-info",
     "250a3d76-4899-4f10-b62d-76a396dbafc2",
     "be14e643-24b6-4e47-bfe8-da5ecae95163",
     "e5410863-c275-420c-a4b3-ebeeeeb40d2a"

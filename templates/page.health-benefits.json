@@ -90,10 +90,10 @@
         "mobile_padding_bottom": -1
       }
     },
-    "77515c36-a578-426d-81bc-520a8bcad193": {
+    "inflamation-info": {
       "type": "image-with-text-hb",
       "blocks": {
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
+        "template--16401007870009__inflamation-info-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Problem<\/strong>",
@@ -101,7 +101,7 @@
             "margin_bottom": 10
           }
         },
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
+        "template--16401007870009__inflamation-info-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Left unchecked, inflammation <strong>harms healthy cells<\/strong> and leads to severe chronic health conditions like cancer, type-2 diabetes, neurodegenerative diseases and others.<\/p>",
@@ -117,8 +117,8 @@
         }
       },
       "block_order": [
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1",
+        "template--16401007870009__inflamation-info-heading-1",
+        "template--16401007870009__inflamation-info-text-1",
         "7d9b066b-9e8d-41cd-865b-001867748415"
       ],
       "settings": {
@@ -281,7 +281,7 @@
   "order": [
     "213f4660-a163-4856-9dc7-7e5b65964005",
     "d5427266-1c6a-4b13-b578-bd79c3bb7366",
-    "77515c36-a578-426d-81bc-520a8bcad193",
+    "inflamation-info",
     "5d10e1e4-3311-4161-a29d-cb45caad606b",
     "ed521371-0bb3-4138-aa0c-108514f8947f",
     "e5410863-c275-420c-a4b3-ebeeeeb40d2a"
