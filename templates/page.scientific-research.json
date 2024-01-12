@@ -9,6 +9,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 10,
@@ -123,7 +124,7 @@
         "template--16401007870009__250a3d76-4899-4f10-b62d-76a396dbafc2-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.01_-_2882x1832_-_Happy_Being_-_JTD_-_208006_c53c8ced-8430-4844-a75c-5cc918cc11cb.png",
+        "image": "shopify:\/\/shop_images\/1.01_-_2882x1832_-_Happy_Being_-_JTD_-_208006_c53c8ced-8430-4844-a75c-5cc918cc11cb_3_40.webp",
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
@@ -162,7 +163,7 @@
         "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.03_-_1920x1708_-_Happy_Being_-_JTD_-_208278_2228569a-9c08-4a07-a4ed-ce0279d9377e.png",
+        "image": "shopify:\/\/shop_images\/2.03_-_1920x1708_-_Happy_Being_-_JTD_-_208278_2228569a-9c08-4a07-a4ed-ce0279d9377e_50_1.webp",
         "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
