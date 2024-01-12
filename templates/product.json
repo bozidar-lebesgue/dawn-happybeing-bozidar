@@ -657,8 +657,8 @@
           "settings": {
             "indent": 0,
             "item": "",
-            "item_amount": "<b>Amount Per Serving<\/b>",
-            "item_percentage": "<b>*%DV<\/b>",
+            "item_amount": "<strong>Amount Per Serving<\/strong>",
+            "item_percentage": "<strong>*%DV<\/strong>",
             "bottom_border_width": 8,
             "vertical_padding": 8
           }
@@ -668,7 +668,7 @@
           "settings": {
             "indent": 0,
             "item": "Calories",
-            "item_amount": "25-40kcal",
+            "item_amount": "40kcal",
             "item_percentage": "",
             "bottom_border_width": 1,
             "vertical_padding": 4
@@ -723,7 +723,7 @@
           "settings": {
             "indent": 1,
             "item": "Total Sugars",
-            "item_amount": "0-3 g",
+            "item_amount": "3 g",
             "item_percentage": "",
             "bottom_border_width": 1,
             "vertical_padding": 4
