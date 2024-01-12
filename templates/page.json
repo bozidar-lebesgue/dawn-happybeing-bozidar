@@ -74,6 +74,13 @@
             "text_style": "subtitle"
           }
         },
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 100,
+            "mobile_height": 10
+          }
+        },
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-2": {
           "type": "heading",
           "settings": {
@@ -124,6 +131,7 @@
       "block_order": [
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1",
+        "spacing-1",
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-2",
         "7d9b066b-9e8d-41cd-865b-001867748415",
         "image-side-top-text-1",

@@ -3900,3 +3900,15 @@ ul.custom--tabs {
 .free-shipping-text {
   margin-left: 8px;
 }
+
+@media screen and (min-width: 750px) {
+  .hide-desktop {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .hide-mobile {
+    display: none;
+  }
+}
