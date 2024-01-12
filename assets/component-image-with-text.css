@@ -506,6 +506,11 @@
   .image-grid-block {
     text-align: center;
   }
+
+  .image-grid-block-section .image-with-text__content {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 @media screen and (max-width: 749px) {
