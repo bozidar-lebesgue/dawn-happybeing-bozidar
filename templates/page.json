@@ -305,12 +305,157 @@
         "padding_top": 0,
         "padding_bottom": 36
       }
+    },
+    "immunity-title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<b>Immunity<\/b>",
+        "subtitle": "<em>Immune support on the tip of your tongue.<\/em>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-8",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "immunity-info": {
+      "type": "image-with-text-grid",
+      "blocks": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 0
+          }
+        },
+        "template--16401007870009__immunity-info-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "template--16401007870009__immunity-info-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have a weakened immune system you’re <b>more susceptible<\/b> to infections, and other health threats that can have long-lasting impacts as well as near term like fatigue, brain fog, and depression.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 10
+          }
+        },
+        "template--16401007870009__immunity-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clinical studies show that Elderberry and Vitamin D3 have the power to support your immune function — specifically, they contain the health-directing polyphenols and anthocyanin-protectors to give your body a silver shield of immunity.<br>We infuse both Elderberry and Vitamin D3 at the proper doses into every serving of <b>Happy Being<\/b>®.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https://www.google.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "spacing-1",
+        "template--16401007870009__immunity-info-heading-1",
+        "template--16401007870009__immunity-info-text-1",
+        "spacing-2",
+        "template--16401007870009__immunity-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "button_gArYkt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Inflammation.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8",
+        "color_scheme": "scheme-8",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "inflammation-title",
     "inflamation-info",
     "gut-health-title",
-    "gut-health-info"
+    "gut-health-info",
+    "immunity-title",
+    "immunity-info"
   ]
 }
