@@ -1,16 +1,16 @@
 {
   "sections": {
-    "213f4660-a163-4856-9dc7-7e5b65964005": {
+    "inflammation-title": {
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "Inflammation",
-        "subtitle": "<em>Inflammation's worst nightmare.<\/em>",
+        "title": "<b>Inflammation<\/b>",
+        "subtitle": "<em>Inflammation’s worst nightmare.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
         "subtitle_secondary_font": true,
-        "subtitle_font_size": 1.6,
+        "subtitle_font_size": 4,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 10,
         "column_title_max_width": 1000,
@@ -28,7 +28,7 @@
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
-        "title_heading_size": "h1",
+        "title_heading_size": "h0",
         "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
@@ -42,84 +42,123 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-8",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "d5427266-1c6a-4b13-b578-bd79c3bb7366": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16401204379705__d5427266-1c6a-4b13-b578-bd79c3bb7366-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Over a 6 week period, people who consumed Turmacin daily (the Turmeric used in Happy Being®), cut their WOMAC Score in half. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16401204379705__d5427266-1c6a-4b13-b578-bd79c3bb7366-text-1"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "right",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": -1
       }
     },
     "inflamation-info": {
-      "type": "image-with-text-hb",
+      "type": "image-with-text-grid",
       "blocks": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 30,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
         "template--16401007870009__inflamation-info-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Problem<\/strong>",
-            "heading_size": "h1",
-            "margin_bottom": 10
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
           }
         },
         "template--16401007870009__inflamation-info-text-1": {
           "type": "text",
           "settings": {
             "text": "<p>Left unchecked, inflammation <strong>harms healthy cells<\/strong> and leads to severe chronic health conditions like cancer, type-2 diabetes, neurodegenerative diseases and others.<\/p>",
-            "text_style": "body"
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 70,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__inflamation-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
           }
         },
         "7d9b066b-9e8d-41cd-865b-001867748415": {
           "type": "text",
           "settings": {
             "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>pTerostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight “<em>Free Radicals<\/em>,” <strong>blocking inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "image-side-top-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over a 6 week period, people who consumed Turmacin daily (the Turmeric used in Happy Being®), cut their WOMAC Score in half.<\/p>",
+            "side": "image",
+            "position": "top",
             "text_style": "body"
+          }
+        },
+        "image-side-bottom-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The WOMAC test is the standard test used by health professionals to evaluate osteoarthritis of the knee, hip and ankle, including pain, stiffness, and physical functioning of the joints.<\/p>",
+            "side": "image",
+            "position": "bottom",
+            "text_style": "body"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 50,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
+        "spacing-1",
         "template--16401007870009__inflamation-info-heading-1",
         "template--16401007870009__inflamation-info-text-1",
-        "7d9b066b-9e8d-41cd-865b-001867748415"
+        "spacing-2",
+        "template--16401007870009__inflamation-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "image-side-top-text-1",
+        "image-side-bottom-text-1",
+        "spacing-3",
+        "button_gArYkt"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Inflammation.png",
@@ -132,158 +171,333 @@
         "section_color_scheme": "scheme-8",
         "color_scheme": "scheme-8",
         "image_behavior": "none",
-        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
+        "image_text_gap": 0,
+        "padding_top": 24,
+        "padding_bottom": 36
       }
     },
-    "5d10e1e4-3311-4161-a29d-cb45caad606b": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>What polyphenols do<\/strong>",
-            "heading_size": "h1",
-            "margin_bottom": 0
-          }
-        },
-        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Fight inflammation Increase blood flowImprove digestion Lower blood sugar Enhance brain function Protect cell health <strong>and more<\/strong>. <\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-heading-1",
-        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-text-1"
-      ],
+    "gut-health-title": {
+      "type": "multicolumn-hb",
       "settings": {
-        "image": "shopify:\/\/shop_images\/1.01_-_2882x1832_-_Happy_Being_-_JTD_-_208006.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
+        "full_width": false,
+        "title": "<b>Gut health<\/b>",
+        "subtitle": "<em>It takes guts to live healthy.<\/em>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": -1
       }
     },
-    "ed521371-0bb3-4138-aa0c-108514f8947f": {
-      "type": "image-with-text-hb",
+    "gut-health-info": {
+      "type": "image-with-text-grid",
       "blocks": {
-        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-heading-1": {
-          "type": "heading",
+        "spacing-1": {
+          "type": "spacing",
           "settings": {
-            "heading": "<strong>How polyphenols work<\/strong>",
-            "heading_size": "h1",
-            "margin_bottom": 0
+            "desktop_height": 0,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
           }
         },
-        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-text-1": {
+        "template--16401007870009__gut-health-info-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "template--16401007870009__gut-health-info-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful <em>“Free Radicals”<\/em> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. <em>Free Radicals <\/em>are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
+            "text": "<p>When <b>bad gut bacteria<\/b> thrives, microbiome imbalance called “dysbiosis” sets in. This sets the stage for autoimmune problems, digestive issues (irritable bowel syndrome, constipation, diarrhea), as well as heartburn and bloating.<\/p>",
+            "side": "text",
+            "position": "bottom",
             "text_style": "subtitle"
           }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__gut-health-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols like EGCG (notably found in apples) help fight microbiome imbalance by <b>fueling good gut bacteria<\/b>. How? Because polyphenols like EGCG are prebiotic in nature, and prebiotics help sustain healthy gut bacteria (probiotics). <\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 80,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
+          }
         }
       },
       "block_order": [
-        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-heading-1",
-        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-text-1"
+        "spacing-1",
+        "template--16401007870009__gut-health-info-heading-1",
+        "template--16401007870009__gut-health-info-text-1",
+        "spacing-2",
+        "template--16401007870009__gut-health-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "spacing-3",
+        "button_gArYkt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.03_-_1920x1708_-_Happy_Being_-_JTD_-_208278.png",
+        "image": "shopify:\/\/shop_images\/Gut_health_49369283-b2cb-4eb4-86ab-686a37d7b75c.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
+        "image_text_gap": 0,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "immunity-title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<b>Immunity<\/b>",
+        "subtitle": "<em>Immune support on the tip of your tongue.<\/em>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-14",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
         "padding_top": 36,
         "padding_bottom": 36,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": -1
       }
     },
-    "e5410863-c275-420c-a4b3-ebeeeeb40d2a": {
-      "type": "image-with-text-hb",
+    "immunity-info": {
+      "type": "image-with-text-grid",
       "blocks": {
-        "template--16401007870009__e5410863-c275-420c-a4b3-ebeeeeb40d2a-text-1": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__immunity-info-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "template--16401007870009__immunity-info-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<\/p><p>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
+            "text": "<p>If you have a weakened immune system you’re <b>more susceptible<\/b> to infections, and other health threats that can have long-lasting impacts as well as near term like fatigue, brain fog, and depression.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__immunity-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clinical studies show that Elderberry and Vitamin D3 have the power to support your immune function — specifically, they contain the health-directing polyphenols and anthocyanin-protectors to give your body a silver shield of immunity.<br>We infuse both Elderberry and Vitamin D3 at the proper doses into every serving of <b>Happy Being<\/b>®.<\/p>",
+            "side": "text",
+            "position": "bottom",
             "text_style": "body"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 80,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--16401007870009__e5410863-c275-420c-a4b3-ebeeeeb40d2a-text-1"
+        "spacing-1",
+        "template--16401007870009__immunity-info-heading-1",
+        "template--16401007870009__immunity-info-text-1",
+        "spacing-2",
+        "template--16401007870009__immunity-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "spacing-3",
+        "button_gArYkt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/blueberrycarousel4.png",
+        "image": "shopify:\/\/shop_images\/Immunity_e99a0b5d-e8cf-44e0-9ce5-1b3b856f48f8.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
+        "layout": "text_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-8",
-        "color_scheme": "scheme-8",
+        "section_color_scheme": "scheme-14",
+        "color_scheme": "scheme-14",
         "image_behavior": "none",
-        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
+        "image_text_gap": 0,
+        "padding_top": 24,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
-    "213f4660-a163-4856-9dc7-7e5b65964005",
-    "d5427266-1c6a-4b13-b578-bd79c3bb7366",
+    "inflammation-title",
     "inflamation-info",
-    "5d10e1e4-3311-4161-a29d-cb45caad606b",
-    "ed521371-0bb3-4138-aa0c-108514f8947f",
-    "e5410863-c275-420c-a4b3-ebeeeeb40d2a"
+    "gut-health-title",
+    "gut-health-info",
+    "immunity-title",
+    "immunity-info"
   ]
 }
