@@ -164,6 +164,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 10,
@@ -360,6 +361,7 @@
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 1.8,
@@ -380,6 +382,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 20,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.7,
         "subtitle_mobile_font_size": 1.6,
         "subtitle_margin_bottom": 0,
@@ -578,6 +581,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 12,
@@ -685,9 +689,9 @@
           "type": "row",
           "settings": {
             "indent": 0,
-            "item": "<b>Sodium<\/b>",
+            "item": "<strong>Sodium<\/strong>",
             "item_amount": "0 mg",
-            "item_percentage": "<b>0%<\/b>",
+            "item_percentage": "<strong>0%<\/strong>",
             "bottom_border_width": 1,
             "vertical_padding": 4
           }
@@ -696,9 +700,9 @@
           "type": "row",
           "settings": {
             "indent": 0,
-            "item": "<b>Total Carbohydrate<\/b>",
+            "item": "<strong>Total Carbohydrate<\/strong>",
             "item_amount": "9-13 g",
-            "item_percentage": "<b>3-5%<\/b>",
+            "item_percentage": "<strong>3-5%<\/strong>",
             "bottom_border_width": 1,
             "vertical_padding": 4
           }
@@ -826,14 +830,6 @@
             "vertical_padding": 2
           }
         },
-        "additional-info-4": {
-          "type": "info",
-          "settings": {
-            "text": "<b>Ingredients (Cucumber Mint):<\/b> Filtered Water, Organic Cucumber Juice Concentrate, Xylitol, Natural Blueberry Essence, Natural Flavors, Organic Lime Juice Concentrate, Organic Fair Trade White Tea Extract, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3",
-            "bottom_border_width": 0,
-            "vertical_padding": 2
-          }
-        },
         "additional-info-5": {
           "type": "info",
           "settings": {
@@ -872,7 +868,6 @@
         "additional-info-1",
         "additional-info-2",
         "additional-info-3",
-        "additional-info-4",
         "additional-info-5",
         "additional-info-6"
       ],
@@ -979,6 +974,7 @@
         "title_max_width": 350,
         "title_margin_top": 48,
         "title_margin_bottom": 48,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 0,
