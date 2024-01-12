@@ -56,13 +56,20 @@
     "77515c36-a578-426d-81bc-520a8bcad193": {
       "type": "image-with-text-grid",
       "blocks": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 30,
+            "mobile_height": 0
+          }
+        },
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<strong>Problem<\/strong>",
             "side": "text",
             "position": "bottom",
-            "heading_size": "h2"
+            "heading_size": "h14"
           }
         },
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
@@ -74,10 +81,10 @@
             "text_style": "subtitle"
           }
         },
-        "spacing-1": {
+        "spacing-2": {
           "type": "spacing",
           "settings": {
-            "desktop_height": 100,
+            "desktop_height": 70,
             "mobile_height": 10
           }
         },
@@ -87,7 +94,7 @@
             "heading": "<strong>Solution<\/strong>",
             "side": "text",
             "position": "bottom",
-            "heading_size": "h2"
+            "heading_size": "h14"
           }
         },
         "7d9b066b-9e8d-41cd-865b-001867748415": {
@@ -129,9 +136,10 @@
         }
       },
       "block_order": [
+        "spacing-1",
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1",
-        "spacing-1",
+        "spacing-2",
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-2",
         "7d9b066b-9e8d-41cd-865b-001867748415",
         "image-side-top-text-1",
