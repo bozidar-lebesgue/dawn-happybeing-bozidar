@@ -4,12 +4,13 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "The <i>science<\/i> of <b>polyphenols<\/b>",
-        "subtitle": "",
+        "title": "<b>Inflammation<\/b>",
+        "subtitle": "<em>Inflammation’s worst nightmare.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 10,
-        "subtitle_font_size": 1.6,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 10,
         "column_title_max_width": 1000,
@@ -27,21 +28,21 @@
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
-        "title_heading_size": "h1",
-        "column_title_size": "h1",
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
         "enumerate": true,
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "title_alignment": "left",
+        "title_alignment": "center",
         "column_alignment": "left",
         "column_mobile_title_alignment": "left",
-        "column_content_text_align": "left",
+        "column_content_text_align": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-8",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "show_slider_buttons_mobile": true,
@@ -53,42 +54,78 @@
       }
     },
     "77515c36-a578-426d-81bc-520a8bcad193": {
-      "type": "image-with-text-hb",
+      "type": "image-with-text-grid",
       "blocks": {
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>What are polyphenols?<\/strong>",
-            "heading_size": "h1",
+            "heading": "<strong>Problem<\/strong>",
+            "heading_size": "h2",
             "margin_bottom": 20
           }
         },
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each serving of <strong>Happy Being<\/strong>® contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting “free radicals” in your body.  <\/p><p><\/p><p>Free radicals are the <strong>inflammation<\/strong>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<\/p><p><\/p><p>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy<\/strong>.<\/p>",
+            "text": "<p>Left unchecked, inflammation <strong>harms healthy cells<\/strong> and leads to severe chronic health conditions like cancer, type-2 diabetes, neurodegenerative diseases and others.<\/p>",
             "text_style": "body"
+          }
+        },
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "heading_size": "h2",
+            "margin_bottom": 20
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>pTerostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight “<em>Free Radicals<\/em>,” <strong>blocking inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "image-side-top-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over a 6 week period, people who consumed Turmacin daily (the Turmeric used in Happy Being®), cut their WOMAC Score in half.<\/p>",
+            "text_style": "body",
+            "side": "image",
+            "position": "top"
+          }
+        },
+        "image-side-bottom-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The WOMAC test is the standard test used by health professionals to evaluate osteoarthritis of the knee, hip and ankle, including pain, stiffness, and physical functioning of the joints.<\/p>",
+            "text_style": "body",
+            "side": "image",
+            "position": "bottom"
           }
         }
       },
       "block_order": [
         "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-1",
-        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1"
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-text-1",
+        "template--16401007870009__77515c36-a578-426d-81bc-520a8bcad193-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "image-side-top-text-1",
+        "image-side-bottom-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/3.01-1920x2032-HappyBeing-MPV-207766.png",
+        "image": "shopify:\/\/shop_images\/Inflammation.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
+        "layout": "text_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
+        "section_color_scheme": "scheme-8",
+        "color_scheme": "scheme-8",
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 1.8,
@@ -100,82 +137,98 @@
         "mobile_padding_bottom": -1
       }
     },
-    "250a3d76-4899-4f10-b62d-76a396dbafc2": {
-      "type": "image-with-text",
+    "5d10e1e4-3311-4161-a29d-cb45caad606b": {
+      "type": "image-with-text-hb",
       "blocks": {
-        "template--16401007870009__250a3d76-4899-4f10-b62d-76a396dbafc2-heading-1": {
+        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-heading-1": {
           "type": "heading",
           "settings": {
             "heading": "<strong>What polyphenols do<\/strong>",
-            "heading_size": "h2"
+            "heading_size": "h1",
+            "margin_bottom": 0
           }
         },
-        "template--16401007870009__250a3d76-4899-4f10-b62d-76a396dbafc2-text-1": {
+        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Fight inflammation<br\/>Increase blood flow<br\/>Improve digestion<br\/>Lower blood sugar<br\/>Enhance brain function<br\/>Protect cell health <strong>and more<\/strong>. <\/p>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16401007870009__250a3d76-4899-4f10-b62d-76a396dbafc2-heading-1",
-        "template--16401007870009__250a3d76-4899-4f10-b62d-76a396dbafc2-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/1.01_-_2882x1832_-_Happy_Being_-_JTD_-_208006_c53c8ced-8430-4844-a75c-5cc918cc11cb.png",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "image_text_gap": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "be14e643-24b6-4e47-bfe8-da5ecae95163": {
-      "type": "image-with-text",
-      "blocks": {
-        "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>How polyphenols work<\/strong>",
-            "heading_size": "h2"
-          }
-        },
-        "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful <i>“Free Radicals”<\/i> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. <i>Free Radicals<\/i> are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
+            "text": "<p>Fight inflammation Increase blood flowImprove digestion Lower blood sugar Enhance brain function Protect cell health <strong>and more<\/strong>. <\/p>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
-        "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-heading-1",
-        "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-text-1"
+        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-heading-1",
+        "template--16401007870009__5d10e1e4-3311-4161-a29d-cb45caad606b-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/2.03_-_1920x1708_-_Happy_Being_-_JTD_-_208278_2228569a-9c08-4a07-a4ed-ce0279d9377e.png",
+        "image": "shopify:\/\/shop_images\/1.01_-_2882x1832_-_Happy_Being_-_JTD_-_208006.png",
         "height": "adapt",
-        "desktop_image_width": "large",
+        "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "middle",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
+        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "image_text_gap": 0,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "ed521371-0bb3-4138-aa0c-108514f8947f": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>How polyphenols work<\/strong>",
+            "heading_size": "h1",
+            "margin_bottom": 0
+          }
+        },
+        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful <em>“Free Radicals”<\/em> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. <em>Free Radicals <\/em>are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
+            "text_style": "subtitle"
+          }
+        }
+      },
+      "block_order": [
+        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-heading-1",
+        "template--16401007870009__ed521371-0bb3-4138-aa0c-108514f8947f-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2.03_-_1920x1708_-_Happy_Being_-_JTD_-_208278.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "e5410863-c275-420c-a4b3-ebeeeeb40d2a": {
@@ -184,8 +237,8 @@
         "template--16401007870009__e5410863-c275-420c-a4b3-ebeeeeb40d2a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<br><br>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
-            "text_style": "subtitle"
+            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<\/p><p>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
+            "text_style": "body"
           }
         }
       },
@@ -200,29 +253,28 @@
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-13",
-        "color_scheme": "scheme-13",
+        "section_color_scheme": "scheme-8",
+        "color_scheme": "scheme-8",
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "textbox_has_padding": true,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 1.8,
-        "text_line_height": 36,
-        "padding_horizontal": 0,
-        "padding_top": 64,
-        "padding_bottom": 64,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 36,
+        "padding_bottom": 36,
         "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
+        "mobile_padding_bottom": -1
       }
     }
   },
   "order": [
     "213f4660-a163-4856-9dc7-7e5b65964005",
     "77515c36-a578-426d-81bc-520a8bcad193",
-    "250a3d76-4899-4f10-b62d-76a396dbafc2",
-    "be14e643-24b6-4e47-bfe8-da5ecae95163",
+    "5d10e1e4-3311-4161-a29d-cb45caad606b",
+    "ed521371-0bb3-4138-aa0c-108514f8947f",
     "e5410863-c275-420c-a4b3-ebeeeeb40d2a"
   ]
 }
