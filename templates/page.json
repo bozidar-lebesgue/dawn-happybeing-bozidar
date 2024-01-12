@@ -132,7 +132,7 @@
           "type": "spacing",
           "settings": {
             "desktop_height": 50,
-            "mobile_height": 10,
+            "mobile_height": 0,
             "side": "image",
             "position": "bottom"
           }
@@ -290,8 +290,8 @@
         "spacing-3": {
           "type": "spacing",
           "settings": {
-            "desktop_height": 50,
-            "mobile_height": 10,
+            "desktop_height": 80,
+            "mobile_height": 0,
             "side": "image",
             "position": "bottom"
           }
@@ -447,8 +447,8 @@
         "spacing-3": {
           "type": "spacing",
           "settings": {
-            "desktop_height": 50,
-            "mobile_height": 10,
+            "desktop_height": 80,
+            "mobile_height": 0,
             "side": "image",
             "position": "bottom"
           }
