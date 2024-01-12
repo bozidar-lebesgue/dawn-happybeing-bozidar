@@ -36,6 +36,7 @@
         "image_behavior": "none",
         "mobile_title_alignment": "center",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 1.9,
@@ -53,7 +54,7 @@
         "template--16149963669561__multicolumn-hb-22-column-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1.01_-_2979x2265_-_Happy_Being_-_JTD_-_202718_1.png",
+            "image": "shopify:\/\/shop_images\/1.01_-_2979x2265_-_Happy_Being_-_JTD_-_202718_1_1_20.webp",
             "title": "<strong>Doctor-recommended doses<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
@@ -79,7 +80,7 @@
         "template--16149963669561__multicolumn-hb-22-column-3": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KCC7607_a0b1d520-db7c-400c-b7b5-1566c1126a4d.jpg",
+            "image": "shopify:\/\/shop_images\/KCC7607_a0b1d520-db7c-400c-b7b5-1566c1126a4d_15.webp",
             "title": "<strong>Research-backed polyphenols<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
@@ -92,7 +93,7 @@
         "template--16149963669561__multicolumn-hb-22-column-4": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Science_backed_results.jpg",
+            "image": "shopify:\/\/shop_images\/Science_backed_results_500x_31b47988-e061-41e2-a720-e94a7a65cb35.webp",
             "title": "<strong>Science-backed results<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
@@ -105,7 +106,7 @@
         "template--16149963669561__multicolumn-hb-22-column-5": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/doctor_recommended_doses.jpg",
+            "image": "shopify:\/\/shop_images\/doctor_recommended_doses_500x_9e0d419b-f1ac-4e95-a5b4-9da82ea33fe1.webp",
             "title": "<strong>A PhD in delicious!<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
@@ -125,8 +126,8 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "<b>How we're different<\/b>",
-        "subtitle": "<i>Our iced-teas are packed with science, not sugar.<\/i>",
+        "title": "How we're different",
+        "subtitle": "<em>Our iced-teas are packed with science, not sugar.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 16,
@@ -218,6 +219,7 @@
         "image_behavior": "none",
         "mobile_title_alignment": "center",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
         "text_size": 2.4,
@@ -238,6 +240,7 @@
         "title_max_width": 1000,
         "title_margin_top": 0,
         "title_margin_bottom": 0,
+        "subtitle_secondary_font": false,
         "subtitle_font_size": 3,
         "subtitle_mobile_font_size": 0,
         "subtitle_margin_bottom": 0,
