@@ -26,7 +26,7 @@
             "tab2_title": "Ingredients",
             "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
             "tab3_title": "How To Use",
-            "tab3_content": "<p>We recommend drinking in the morning as a <strong>coffee replacement<\/strong>, in the afternoon as a <strong>mid-day treat<\/strong>, or in the evening as a <strong>wine alternative<\/strong>.  <br\/><br\/>For best results, drink daily.<\/p>"
+            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> after a workout, in the afternoon as a <b>midday pick-me-up<\/b> without the caffeine jitters, or in the <b>evening<\/b> as a mocktail.<\/p>"
           }
         },
         "caption": {
@@ -914,7 +914,7 @@
         "f1913978-e779-4afb-b8aa-69c6a1587a26-vegan": {
           "type": "column",
           "settings": {
-            "title": "Vegan",
+            "title": "Plant based",
             "subtitle": "",
             "second_subtitle": "",
             "text": "",
@@ -1121,7 +1121,7 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>Is there caffeine?<\/strong>",
-            "content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
+            "content": "<p>We use white tea as our base for Happy Being tea, which naturally has .02 mg of caffeine. So no, you won’t feel any jitters or effects of caffeine.<\/p>",
             "page": ""
           }
         },
@@ -1129,7 +1129,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Can it help we lose weight?<\/strong>",
+            "heading": "<strong>Can Happy Being help promote weight loss?<\/strong>",
             "content": "<p>Yes. Polyphenols like the ones in Happy Being® iced tea boost thermogenesis, the body's natural process of burning brown fat, and they help increase the body's metabolic rate.<\/p>",
             "page": ""
           }

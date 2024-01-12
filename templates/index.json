@@ -177,8 +177,8 @@
         "heading_product": {
           "type": "heading",
           "settings": {
-            "heading": "Feel less pain & more energy in 30 days",
-            "heading_size": "h1"
+            "heading": "Tea with health benefits",
+            "heading_size": "h14"
           }
         },
         "description": {
@@ -545,7 +545,7 @@
             "title": "<strong>Formulated by world class health experts.<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>World renowned doctors like Gerald Lemole, MD & Leo Galland, MD with 100+ years of experience, worked on <b>Happy Being®<\/b> to create the healthiest drink ever.<\/p>",
+            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <b>Happy Being<\/b>® just might be the healthiest iced-tea ever made.<\/p>",
             "link_label": "",
             "link": "",
             "icon": ""
@@ -854,7 +854,7 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>Is there caffeine?<\/strong>",
-            "content": "<p>Our Happy Being® white tea has 0.002mg of naturally occurring caffeine that comes from the white tea – so essentially zero caffeine.<\/p>",
+            "content": "<p>We use white tea as our base for Happy Being tea, which naturally has .02 mg of caffeine. So no, you won’t feel any jitters or effects of caffeine.<\/p>",
             "page": ""
           }
         },
@@ -862,7 +862,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Can it help we lose weight?<\/strong>",
+            "heading": "<strong>Can Happy Being help promote weight loss?<\/strong>",
             "content": "<p>Yes. Polyphenols like the ones in Happy Being® iced tea boost thermogenesis, the body's natural process of burning brown fat, and they help increase the body's metabolic rate.<\/p>",
             "page": ""
           }
