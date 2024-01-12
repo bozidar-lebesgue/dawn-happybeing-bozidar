@@ -483,17 +483,17 @@
   padding-right: 2rem;
 }
 
-@media screen and (min-width: 750px) {
-  .image-grid-block {
-    text-align: center;
-  }
-}
-
-
 .image-grid-block--top {
   margin-bottom: 20px;
 }
 
 .image-grid-block--bottom {
   margin-top: 20px;
+}
+
+
+@media screen and (min-width: 750px) {
+  .image-grid-block {
+    text-align: center;
+  }
 }
