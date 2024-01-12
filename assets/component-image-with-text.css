@@ -477,6 +477,7 @@
 
 .image-grid-block {
   display: flex;
+  flex-direction: column;
   justify-content: center;
 
   padding-left: 2rem;
@@ -487,6 +488,15 @@
   margin-bottom: 20px;
 }
 
+.image-grid-block__elem {
+  display: flex;
+  justify-content: center;
+}
+
+.image-grid-block__elem + .image-grid-block__elem {
+  padding-top: 3rem;
+}
+
 .image-grid-block--bottom {
   margin-top: 20px;
 }
@@ -495,5 +505,12 @@
 @media screen and (min-width: 750px) {
   .image-grid-block {
     text-align: center;
+  }
+}
+
+@media screen and (max-width: 749px) {
+  .image-grid-block-section .image-with-text__content .image-with-text__heading {
+    text-align: center;
+    width: 100%;
   }
 }
