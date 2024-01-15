@@ -167,6 +167,13 @@
     "product-section": {
       "type": "product-anywhere",
       "blocks": {
+        "free-shipping-caption": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping",
+            "text_style": "body"
+          }
+        },
         "five-star-rating-product": {
           "type": "five-star-rating",
           "settings": {
@@ -178,21 +185,19 @@
         "heading_product": {
           "type": "heading",
           "settings": {
-            "heading": "Tea with health benefits",
+            "heading": "Scientifically speaking, it tastes delicious.",
             "heading_size": "h14"
           }
         },
-        "description": {
-          "type": "description-hb",
+        "tabs": {
+          "type": "tabs",
           "settings": {
-            "text": "Nature created antioxidants like the ones found in blueberries, but we figured out how to pack enough of them into an iced-tea to positively impact your health."
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "subtitle"
+            "tab1_title": "Tea with benefits",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
+            "tab2_title": "Ingredients",
+            "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
+            "tab3_title": "How To Use",
+            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> after a workout, in the afternoon as a <b>midday pick-me-up<\/b> without the caffeine jitters, or in the <b>evening<\/b> as a mocktail.<\/p>"
           }
         },
         "variant-picker": {
@@ -220,17 +225,15 @@
         }
       },
       "block_order": [
-        "five-star-rating-product",
+        "free-shipping-caption",
         "heading_product",
-        "description",
-        "caption",
         "variant-picker",
         "quantity_selector",
         "selling_plan_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "tabs"
       ],
       "settings": {
-        "product_url": "healthy-cans",
         "enable_sticky_info": true,
         "color_scheme": "scheme-8",
         "media_size": "small",
@@ -242,8 +245,8 @@
         "mobile_thumbnails": "show",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 64,
-        "padding_bottom": 64
+        "padding_top": 36,
+        "padding_bottom": 40
       }
     },
     "perks-multicolumn": {

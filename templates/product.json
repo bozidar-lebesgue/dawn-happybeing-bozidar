@@ -3,7 +3,7 @@
     "main": {
       "type": "main-product-hb",
       "blocks": {
-        "caption2": {
+        "free-shipping-caption": {
           "type": "text",
           "settings": {
             "text": "Free shipping",
@@ -36,13 +36,6 @@
             "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> after a workout, in the afternoon as a <b>midday pick-me-up<\/b> without the caffeine jitters, or in the <b>evening<\/b> as a mocktail.<\/p>"
           }
         },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "variant-picker": {
           "type": "variant_picker",
           "settings": {
@@ -68,9 +61,8 @@
         }
       },
       "block_order": [
-        "caption2",
+        "free-shipping-caption",
         "heading_product",
-        "caption",
         "variant-picker",
         "quantity_selector",
         "selling_plan_selector",
