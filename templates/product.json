@@ -3,6 +3,13 @@
     "main": {
       "type": "main-product-hb",
       "blocks": {
+        "caption2": {
+          "type": "text",
+          "settings": {
+            "text": "Free shipping",
+            "text_style": "body"
+          }
+        },
         "five-star-rating-product": {
           "type": "five-star-rating",
           "settings": {
@@ -61,14 +68,14 @@
         }
       },
       "block_order": [
-        "five-star-rating-product",
+        "caption2",
         "heading_product",
-        "tabs",
         "caption",
         "variant-picker",
         "quantity_selector",
         "selling_plan_selector",
-        "buy_buttons"
+        "buy_buttons",
+        "tabs"
       ],
       "settings": {
         "enable_sticky_info": true,
