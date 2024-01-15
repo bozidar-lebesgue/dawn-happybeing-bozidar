@@ -2048,7 +2048,7 @@ input[type='checkbox'] {
 .quantity__option {
   position: relative;
   cursor: pointer;
-  padding: 24px 30px;
+  padding: 18px 24px;
   background-color: white;
   border-radius: 4px;
   font-weight: 600;
