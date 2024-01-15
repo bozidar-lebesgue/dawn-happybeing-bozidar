@@ -263,11 +263,7 @@ class SellingPlanInputHb extends HTMLElement {
 
 
     this.addEventListener('quantity-changed', (e) => {
-      console.log(e)
       let quantity = e.detail.value;
-      console.log(quantity)
-      console.log(e)
-
       this.querySelectorAll('.subscribe-price').forEach((button) =>
         button.classList.remove('active-quantity')
       );
@@ -287,6 +283,16 @@ class SellingPlanInputHb extends HTMLElement {
       button.classList.remove('selling_plan--selected')
     );
     this.querySelector(`.selling_plan__option[data-selling_plan='${this.input.value}']`).classList.add('selling_plan--selected');
+
+    if(this.input.value == "") {
+      document.querySelectorAll('.shipping-info-container').forEach((elem) => {
+        elem.classList.add('hidden');
+      });
+    } else {
+      document.querySelectorAll('.shipping-info-container').forEach((elem) => {
+        elem.classList.remove('hidden');
+      });
+    }
   }
 }
 
