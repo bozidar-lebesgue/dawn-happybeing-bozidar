@@ -86,18 +86,10 @@
   height: 200px;
 }
 
-@media  screen and (max-width: 749) {
+@media  screen and (max-width: 749px) {
   .comparison-table__image {
     height: 100px;
   }
-/* 
-  .comparison-table__image--left {
-    margin-left: 6px;
-  }
-  
-  .comparison-table__image--right {
-    margin-right: 6px;
-  } */
 }
 
 .comparison-table .checkmarks {
@@ -139,11 +131,20 @@
   }
 
   .comparison-table .option-title--left {
-    text-align: center;
+    text-align: left;
   }
 
   .comparison-table .option-title--right {
-    text-align: center;
+    text-align: right;
+  }
+
+  @media screen and (max-width: 749px) {
+    .comparison-table .option-title--left {
+      text-align: center;
+    }
+    .comparison-table .option-title--right {
+      text-align: center;
+    }
   }
 
   .comparison-table .option--left {

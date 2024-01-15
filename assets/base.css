@@ -3904,12 +3904,12 @@ ul.custom--tabs {
 
 @media screen and (min-width: 750px) {
   .hide-desktop {
-    display: none;
+    display: none !important;
   }
 }
 
 @media screen and (max-width: 749px) {
   .hide-mobile {
-    display: none;
+    display: none !important;
   }
 }
