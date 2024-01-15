@@ -1,140 +1,18 @@
 {
   "sections": {
-    "image-with-text-1": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Our process<\/b>",
-            "heading_size": "h1",
-            "margin_bottom": 24
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We begin by working with <strong>top health experts<\/strong> like Gerald Lemole, MD & Leo Galland MD who focus their combined 100+ years of clinical experience towards helping create <strong>Happy Being®<\/strong><br><br>Based on their insights, we incorporate research-backed, highly bioavailable polyphenols in doctor-recommended doses into each serving, ensuring <strong>science-backed health results.<\/strong><br><br>And then we make it <strong>taste delicious.<\/strong> The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
-            "text_style": "subtitle"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Our_process.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "center",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.9,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 48,
-        "padding_bottom": 48,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": 0
-      }
-    },
-    "multicolumn-hb": {
+    "inflammation-title": {
       "type": "multicolumn-hb",
-      "blocks": {
-        "template--16149963669561__multicolumn-hb-22-column-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/1.01_-_2979x2265_-_Happy_Being_-_JTD_-_202718_1_1_20.webp",
-            "title": "<strong>Doctor-recommended doses<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>1mg of Turmeric won't do anything for you but 250mg will reduce inflammation. That same logic applies to all polyphenols. Trace amounts don't offer benefits while the right doses do. That's why we give you enough of the good stuff as shown by science to have a real, positive impact.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16149963669561__multicolumn-hb-22-column-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/4.01_-_1080x1080_-_Happy_Being_-_JTD_-_205116_500x_a8ee5ff1-0729-4ccc-a6b6-e11551824f8f.webp",
-            "title": "<strong>Optimum bioavailability<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>“Bioavailability” is how well a nutrient is absorbed by your body. If an ingredient isn't bioavailable, it passes through your system with little effect. Unlike our competitors, we make sure each ingredient is optimized for liquid bioavailability, so that each can is as efficacious for your health as it is delicious.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16149963669561__multicolumn-hb-22-column-3": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/KCC7607_a0b1d520-db7c-400c-b7b5-1566c1126a4d_15.webp",
-            "title": "<strong>Research-backed polyphenols<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>Polyphenols are antioxidants abundant in healthy plant-based foods from blueberries to broccoli. Polyphenols improve gut health, boost immune function, help manage inflammation, and more. A diet abundant in polyphenols has even been found to improve longevity by 33%!<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16149963669561__multicolumn-hb-22-column-4": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Science_backed_results_500x_31b47988-e061-41e2-a720-e94a7a65cb35.webp",
-            "title": "<strong>Science-backed results<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>By infusing research-backed polyphenols into each serving of <strong>Happy Being®<\/strong> — at doctor-recommended doses and in the most bioavailable forms  — our iced-tea delivers science-backed results like reduced inflammation, fortified gut health, and strengthened immunity.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": "none"
-          }
-        },
-        "template--16149963669561__multicolumn-hb-22-column-5": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/doctor_recommended_doses_500x_9e0d419b-f1ac-4e95-a5b4-9da82ea33fe1.webp",
-            "title": "<strong>A PhD in delicious!<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>Taste is everything when it comes to better health because better taste leads to more consistent use. With <strong>Happy Being®<\/strong>, the more you drink, the better you feel. You're not gonna drink it daily if it doesn't taste great, so we made an iced-tea you'll love. <\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__multicolumn-hb-22-column-1",
-        "template--16149963669561__multicolumn-hb-22-column-2",
-        "template--16149963669561__multicolumn-hb-22-column-3",
-        "template--16149963669561__multicolumn-hb-22-column-4",
-        "template--16149963669561__multicolumn-hb-22-column-5"
-      ],
       "settings": {
         "full_width": false,
-        "title": "How we're different",
-        "subtitle": "<em>Our iced-teas are packed with science, not sugar.<\/em>",
+        "title": "<b>Inflammation<\/b>",
+        "subtitle": "<em>Inflammation’s worst nightmare.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
-        "title_margin_bottom": 16,
+        "title_margin_bottom": 10,
         "subtitle_secondary_font": true,
-        "subtitle_font_size": 3.8,
-        "subtitle_mobile_font_size": 2.6,
-        "subtitle_margin_bottom": 72,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
         "column_title_max_width": 1000,
         "column_max_width": 1000,
         "column_border_radius": 0,
@@ -142,214 +20,484 @@
         "column_min_width": 200,
         "column_title_margin_bottom": 10,
         "column_title_margin_top": 10,
-        "column_subtitle_font_size": 1.2,
-        "column_subtitle_margin_bottom": 10,
-        "column_subtitle_margin_top": 0,
-        "column_content_font_size": 1.8,
-        "navigation_caret_size": "small",
-        "column_icon_location": "top",
-        "mobile_content_align": "center",
-        "column_icon_size": 64,
-        "title_heading_size": "hextra",
-        "column_title_size": "h14",
-        "column_text_style": "body",
-        "image_width": "full",
-        "enumerate": false,
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "title_alignment": "center",
-        "column_alignment": "left",
-        "column_mobile_title_alignment": "center",
-        "column_content_text_align": "left",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "show_slider_buttons_mobile": false,
-        "header_position_desktop": "top",
-        "padding_top": 64,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image-with-text-2": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>We believe in you.<\/b>",
-            "heading_size": "h1",
-            "margin_bottom": 32
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You don't have to have a perfect diet and wellness routine to <b>live healthy.<\/b><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>But simple, daily habits can reinforce good health - simple, daily habits like drinking <b>Happy Being®<\/b><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1",
-        "template--16149963669561__image-with-text-1-text-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/KCC7245.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "center",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 2.4,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 72,
-        "padding_bottom": 100,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "title": {
-      "type": "multicolumn-hb",
-      "settings": {
-        "full_width": false,
-        "title": "<strong>Our pillars<\/strong>",
-        "subtitle": "",
-        "title_max_width": 1000,
-        "title_margin_top": 0,
-        "title_margin_bottom": 0,
-        "subtitle_secondary_font": false,
-        "subtitle_font_size": 3,
-        "subtitle_mobile_font_size": 0,
-        "subtitle_margin_bottom": 0,
-        "column_title_max_width": 1000,
-        "column_max_width": 1000,
-        "column_border_radius": 0,
-        "column_border_tickness": 0,
-        "column_min_width": 200,
-        "column_title_margin_bottom": 0,
-        "column_title_margin_top": 0,
         "column_subtitle_font_size": 1.6,
         "column_subtitle_margin_bottom": 0,
         "column_subtitle_margin_top": 0,
-        "column_content_font_size": 1.8,
+        "column_content_font_size": 1,
         "navigation_caret_size": "large",
         "column_icon_location": "top",
         "mobile_content_align": "center",
         "column_icon_size": 16,
-        "title_heading_size": "hextra",
-        "column_title_size": "h1",
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
         "enumerate": true,
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
-        "column_alignment": "center",
+        "column_alignment": "left",
         "column_mobile_title_alignment": "left",
-        "column_content_text_align": "left",
-        "background_style": "none",
+        "column_content_text_align": "center",
+        "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-11",
+        "color_scheme": "scheme-8",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "show_slider_buttons_mobile": true,
         "header_position_desktop": "top",
-        "padding_top": 64,
-        "padding_bottom": 24,
-        "mobile_padding_top": 32,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
         "mobile_padding_bottom": -1
       }
     },
-    "d3b41365-1b11-4e6e-8a1c-4b73134b4194": {
-      "type": "multirow",
+    "inflamation-info": {
+      "type": "image-with-text-grid",
       "blocks": {
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1": {
-          "type": "row",
+        "spacing-1": {
+          "type": "spacing",
           "settings": {
-            "image": "shopify:\/\/shop_images\/2.01_-_1080x1080_-_Happy_Being_-_JTD_-_205116_1.png",
-            "caption": "",
-            "heading": "<strong>Doctor-recommended<\/strong>",
-            "text": "<p>Why would you drink something that wasn't? We work hand-in-hand with some of the world's best doctors, like Dr. Leo Galland and Dr. Gerald Lemole, to ensure that our products help our community feel happier and healthier.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "desktop_height": 30,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
           }
         },
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2": {
-          "type": "row",
+        "template--16401007870009__inflamation-info-heading-1": {
+          "type": "heading",
           "settings": {
-            "image": "shopify:\/\/shop_images\/KCC6879.jpg",
-            "caption": "",
-            "heading": "<strong>Research-led<\/strong>",
-            "text": "<p>We're motivated by tested, data-driven outcomes. we look to the best research, spanning from historically-proven natural remedies to cutting-edge medical science, to create functional products that deliver significant benefits to our near & long-term health.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
           }
         },
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3": {
-          "type": "row",
+        "template--16401007870009__inflamation-info-text-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/14.01_-_3000x3000_-_Happy_Being_-_JTD_-_209619_1.png",
-            "caption": "",
-            "heading": "<strong>Relationship-based<\/strong>",
-            "text": "<p>We're here to share what we know about taking care of our bodies and minds. through our blog & social, we'll make it easy: you ask, we'll share. our community of subscribers receives additional information (collateral, news, sample products, partnerships) that goes even further to support their whole health & well being.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "text": "<p>Left unchecked, inflammation <strong>harms healthy cells<\/strong> and leads to severe chronic health conditions like cancer, type-2 diabetes, neurodegenerative diseases and others.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 70,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__inflamation-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>pTerostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight “<em>Free Radicals<\/em>,” <strong>blocking inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "image-side-top-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Over a 6 week period, people who consumed Turmacin daily (the Turmeric used in Happy Being®), cut their WOMAC Score in half.<\/p>",
+            "side": "image",
+            "position": "top",
+            "text_style": "body"
+          }
+        },
+        "image-side-bottom-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The WOMAC test is the standard test used by health professionals to evaluate osteoarthritis of the knee, hip and ankle, including pain, stiffness, and physical functioning of the joints.<\/p>",
+            "side": "image",
+            "position": "bottom",
+            "text_style": "body"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 50,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-1",
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-2",
-        "template--16351571673145__d3b41365-1b11-4e6e-8a1c-4b73134b4194-row-3"
+        "spacing-1",
+        "template--16401007870009__inflamation-info-heading-1",
+        "template--16401007870009__inflamation-info-text-1",
+        "spacing-2",
+        "template--16401007870009__inflamation-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "image-side-top-text-1",
+        "image-side-bottom-text-1",
+        "spacing-3",
+        "button_gArYkt"
       ],
       "settings": {
-        "image_height": "large",
-        "desktop_image_width": "large",
-        "mobile_image_full_width": true,
-        "heading_size": "h14",
-        "text_style": "subtitle",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
+        "image": "shopify:\/\/shop_images\/Inflammation_1_50.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "scheme-11",
-        "row_color_scheme": "scheme-11",
-        "mobile_title_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-8",
+        "color_scheme": "scheme-8",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "gut-health-title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<b>Gut health<\/b>",
+        "subtitle": "<em>It takes guts to live healthy.<\/em>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
         "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "gut-health-info": {
+      "type": "image-with-text-grid",
+      "blocks": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__gut-health-info-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "template--16401007870009__gut-health-info-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When <b>bad gut bacteria<\/b> thrives, microbiome imbalance called “dysbiosis” sets in. This sets the stage for autoimmune problems, digestive issues (irritable bowel syndrome, constipation, diarrhea), as well as heartburn and bloating.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__gut-health-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Polyphenols like EGCG (notably found in apples) help fight microbiome imbalance by <b>fueling good gut bacteria<\/b>. How? Because polyphenols like EGCG are prebiotic in nature, and prebiotics help sustain healthy gut bacteria (probiotics). <\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 80,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "spacing-1",
+        "template--16401007870009__gut-health-info-heading-1",
+        "template--16401007870009__gut-health-info-text-1",
+        "spacing-2",
+        "template--16401007870009__gut-health-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "spacing-3",
+        "button_gArYkt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Gut_health_49369283-b2cb-4eb4-86ab-686a37d7b75c_1_50.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "immunity-title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<b>Immunity<\/b>",
+        "subtitle": "<em>Immune support on the tip of your tongue.<\/em>",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 4,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "left",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-14",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 36,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "immunity-info": {
+      "type": "image-with-text-grid",
+      "blocks": {
+        "spacing-1": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 0,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__immunity-info-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Problem<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "template--16401007870009__immunity-info-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you have a weakened immune system you’re <b>more susceptible<\/b> to infections, and other health threats that can have long-lasting impacts as well as near term like fatigue, brain fog, and depression.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "subtitle"
+          }
+        },
+        "spacing-2": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 0,
+            "mobile_height": 10,
+            "side": "text",
+            "position": "bottom"
+          }
+        },
+        "template--16401007870009__immunity-info-heading-2": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Solution<\/strong>",
+            "side": "text",
+            "position": "bottom",
+            "heading_size": "h14"
+          }
+        },
+        "7d9b066b-9e8d-41cd-865b-001867748415": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Clinical studies show that Elderberry and Vitamin D3 have the power to support your immune function — specifically, they contain the health-directing polyphenols and anthocyanin-protectors to give your body a silver shield of immunity.<br>We infuse both Elderberry and Vitamin D3 at the proper doses into every serving of <b>Happy Being<\/b>®.<\/p>",
+            "side": "text",
+            "position": "bottom",
+            "text_style": "body"
+          }
+        },
+        "spacing-3": {
+          "type": "spacing",
+          "settings": {
+            "desktop_height": 80,
+            "mobile_height": 0,
+            "side": "image",
+            "position": "bottom"
+          }
+        },
+        "button_gArYkt": {
+          "type": "button",
+          "settings": {
+            "button_label": "learn more",
+            "side": "image",
+            "position": "bottom",
+            "button_link": "https:\/\/www.google.com",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "spacing-1",
+        "template--16401007870009__immunity-info-heading-1",
+        "template--16401007870009__immunity-info-text-1",
+        "spacing-2",
+        "template--16401007870009__immunity-info-heading-2",
+        "7d9b066b-9e8d-41cd-865b-001867748415",
+        "spacing-3",
+        "button_gArYkt"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Immunity_e99a0b5d-e8cf-44e0-9ce5-1b3b856f48f8_1_50_1.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-14",
+        "color_scheme": "scheme-14",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     }
   },
   "order": [
-    "image-with-text-1",
-    "multicolumn-hb",
-    "image-with-text-2",
-    "title",
-    "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
+    "inflammation-title",
+    "inflamation-info",
+    "gut-health-title",
+    "gut-health-info",
+    "immunity-title",
+    "immunity-info"
   ]
 }

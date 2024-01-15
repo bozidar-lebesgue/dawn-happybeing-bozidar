@@ -562,3 +562,8 @@
 .hero {
   padding-bottom: 0;
 }
+
+.hero__button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

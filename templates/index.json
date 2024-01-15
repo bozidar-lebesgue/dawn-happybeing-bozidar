@@ -13,17 +13,9 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We put the health benefits of 63,000<br>blueberries and more into each can.<p>",
+            "text": "<p>We put the health benefits of 63,000<br>blueberries and more into each can.<\/p>",
             "text_size": "h15",
             "text_style": "body"
-          }
-        },
-        "five-star-rating": {
-          "type": "five-star-rating",
-          "settings": {
-            "rating": "4.9",
-            "heading": "7,000+ Happy Customers",
-            "heading_size": "h3"
           }
         },
         "button": {
@@ -37,6 +29,14 @@
             "button_style_secondary_2": false
           }
         },
+        "five-star-rating": {
+          "type": "five-star-rating",
+          "settings": {
+            "rating": "4.9",
+            "heading": "7,000+ Happy Customers",
+            "heading_size": "h3"
+          }
+        },
         "ba6b8365-95f0-4058-be48-1abcd665d991": {
           "type": "image",
           "settings": {
@@ -47,8 +47,8 @@
       "block_order": [
         "heading",
         "text",
-        "five-star-rating",
         "button",
+        "five-star-rating",
         "ba6b8365-95f0-4058-be48-1abcd665d991"
       ],
       "settings": {
