@@ -75,7 +75,7 @@
   width: 50%;
   display: flex;
   justify-content: center;
-  /* height: 200px; */
+  height: 200px;
 }
 
 .comparison-table .checkmarks {
