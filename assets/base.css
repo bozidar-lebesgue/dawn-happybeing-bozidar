@@ -3913,3 +3913,8 @@ ul.custom--tabs {
     display: none !important;
   }
 }
+
+
+.product__media-item:not(.is-active) {
+  display: none;
+}
