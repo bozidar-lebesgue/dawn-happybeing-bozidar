@@ -271,7 +271,7 @@
         "7d9b066b-9e8d-41cd-865b-001867748415": {
           "type": "text",
           "settings": {
-            "text": "<p>Polyphenols like EGCG (notably found in apples) help fight microbiome imbalance by <b>fueling good gut bacteria<\/b>. How? Because polyphenols like EGCG are prebiotic in nature, and prebiotics help sustain healthy gut bacteria (probiotics). <\/p>",
+            "text": "<p>Polyphenols like <em>EGCG<\/em> (notably found in apples) help fight microbiome imbalance by <strong>fueling good gut bacteria<\/strong>. How? Because polyphenols like EGCG are \"prebiotic\" in nature, and <em>prebiotics<\/em> help sustain healthy gut bacteria (probiotics). <\/p>",
             "side": "text",
             "position": "bottom",
             "text_style": "subtitle"
