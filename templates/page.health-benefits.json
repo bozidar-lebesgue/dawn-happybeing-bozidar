@@ -290,7 +290,7 @@
         "spacing-3": {
           "type": "spacing",
           "settings": {
-            "desktop_height": 80,
+            "desktop_height": 0,
             "mobile_height": 0,
             "side": "image",
             "position": "bottom"
