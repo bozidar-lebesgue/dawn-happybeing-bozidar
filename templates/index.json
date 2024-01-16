@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Live Healthy.",
+            "heading": "Live healthy.",
             "heading_size": "hextra"
           }
         },
@@ -425,15 +425,6 @@
     "review-slideshow-hb": {
       "type": "review-slideshow-hb",
       "blocks": {
-        "template--16149963669561__review-slideshow-hb-five-star": {
-          "type": "five-star-rating",
-          "disabled": true,
-          "settings": {
-            "rating": "4.9\/5 Stars",
-            "heading": "",
-            "heading_size": "h3"
-          }
-        },
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
@@ -488,6 +479,7 @@
         "corner_radius": 24,
         "border_width": 1,
         "review_font_size": 20,
+        "quote_secondary_font": false,
         "slide_height": "medium",
         "slider_visual": "none",
         "auto_rotate": false,
@@ -498,152 +490,6 @@
         "accessibility_info": "Slideshow about our brand",
         "color_scheme": "scheme-12",
         "slide_inner_padding": 64
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>You are what you drink, and this drink is really healthy.<\/b>",
-            "heading_size": "h1",
-            "margin_bottom": 0
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Each serving of <b>Happy Being®<\/b> contains science-backed antioxidants, called <b>Polyphenols<\/b>, which are particularly good at fighting “free radicals” in your body.<br><br>Free radicals are the <b>inflammation<\/b>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<br><br>Polyphenols are an antidote to that inflammation. So drink up, and <b>live healthy.<\/b><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    
-    "multicolumn-hb-credentials": {
-      "type": "multicolumn-hb",
-      "blocks": {
-        "template--16149963669561__multicolumn-hb-credentials-column-1": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Formulated by world class health experts.<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <b>Happy Being<\/b> just might be the healthiest white tea ever made.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": ""
-          }
-        },
-        "template--16149963669561__multicolumn-hb-credentials-column-2": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Science-backed health results.<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>With the help of research-backed, highly bioavailable polyphenols in doctor-recommended doses, each serving ensures effective outcomes for your health.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": ""
-          }
-        },
-        "template--16149963669561__multicolumn-hb-credentials-column-3": {
-          "type": "column",
-          "settings": {
-            "title": "<strong>Your new go-to health drink.<\/strong>",
-            "subtitle": "",
-            "second_subtitle": "",
-            "text": "<p>The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
-            "link_label": "",
-            "link": "",
-            "icon": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__multicolumn-hb-credentials-column-1",
-        "template--16149963669561__multicolumn-hb-credentials-column-2",
-        "template--16149963669561__multicolumn-hb-credentials-column-3"
-      ],
-      "settings": {
-        "full_width": false,
-        "image": "shopify:\/\/shop_images\/Liquid_behind_cards.png",
-        "title": "",
-        "subtitle": "",
-        "title_max_width": 1000,
-        "title_margin_top": 0,
-        "title_margin_bottom": 10,
-        "subtitle_secondary_font": false,
-        "subtitle_font_size": 1.6,
-        "subtitle_mobile_font_size": 0,
-        "subtitle_margin_bottom": 10,
-        "column_title_max_width": 1000,
-        "column_max_width": 1000,
-        "column_border_radius": 24,
-        "column_border_tickness": 2,
-        "column_min_width": 200,
-        "column_title_margin_bottom": 25,
-        "column_title_margin_top": 10,
-        "column_subtitle_font_size": 1.6,
-        "column_subtitle_margin_bottom": 0,
-        "column_subtitle_margin_top": 0,
-        "column_content_font_size": 1.6,
-        "navigation_caret_size": "large",
-        "column_icon_location": "top",
-        "mobile_content_align": "center",
-        "column_icon_size": 16,
-        "title_heading_size": "h1",
-        "column_title_size": "h2",
-        "column_text_style": "body",
-        "image_width": "full",
-        "enumerate": false,
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "title_alignment": "left",
-        "column_alignment": "center",
-        "column_mobile_title_alignment": "left",
-        "column_content_text_align": "center",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "scheme-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": true,
-        "show_slider_buttons_mobile": false,
-        "header_position_desktop": "top",
-        "padding_top": 64,
-        "padding_bottom": 64,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
       }
     },
     "comparison-table-title": {
@@ -769,6 +615,151 @@
         "inner_padding": 32,
         "outer_padding_top": 24,
         "outer_padding_bottom": 64
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>You are what you drink, and this drink is really healthy.<\/b>",
+            "heading_size": "h1",
+            "margin_bottom": 0
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Each serving of <b>Happy Being®<\/b> contains science-backed antioxidants, called <b>Polyphenols<\/b>, which are particularly good at fighting “free radicals” in your body.<br><br>Free radicals are the <b>inflammation<\/b>-causing chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<br><br>Polyphenols are an antidote to that inflammation. So drink up, and <b>live healthy.<\/b><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "multicolumn-hb-credentials": {
+      "type": "multicolumn-hb",
+      "blocks": {
+        "template--16149963669561__multicolumn-hb-credentials-column-1": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Formulated by world class health experts.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <b>Happy Being<\/b> just might be the healthiest white tea ever made.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": ""
+          }
+        },
+        "template--16149963669561__multicolumn-hb-credentials-column-2": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Science-backed health results.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>With the help of research-backed, highly bioavailable polyphenols in doctor-recommended doses, each serving ensures effective outcomes for your health.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": ""
+          }
+        },
+        "template--16149963669561__multicolumn-hb-credentials-column-3": {
+          "type": "column",
+          "settings": {
+            "title": "<strong>Your new go-to health drink.<\/strong>",
+            "subtitle": "",
+            "second_subtitle": "",
+            "text": "<p>The more you drink, the better you feel. With that in mind, we make sure each serving tastes delicious so you can sip happy and healthy.<\/p>",
+            "link_label": "",
+            "link": "",
+            "icon": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__multicolumn-hb-credentials-column-1",
+        "template--16149963669561__multicolumn-hb-credentials-column-2",
+        "template--16149963669561__multicolumn-hb-credentials-column-3"
+      ],
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Liquid_behind_cards.png",
+        "title": "",
+        "subtitle": "",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
+        "subtitle_font_size": 1.6,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 24,
+        "column_border_tickness": 2,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 25,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1.6,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h1",
+        "column_title_size": "h2",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": false,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "left",
+        "column_alignment": "center",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "show_slider_buttons_mobile": false,
+        "header_position_desktop": "top",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "qna": {
