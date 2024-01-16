@@ -13,7 +13,7 @@
         "heading_product": {
           "type": "heading",
           "settings": {
-            "heading": "Inflammation's worst nightmare.",
+            "heading": "Scientifically speaking, it tastes delicious.",
             "heading_size": "h1"
           }
         },
@@ -255,15 +255,6 @@
     "review-slideshow-hb": {
       "type": "review-slideshow-hb",
       "blocks": {
-        "template--16149963669561__review-slideshow-hb-five-star": {
-          "type": "five-star-rating",
-          "disabled": true,
-          "settings": {
-            "rating": "4.9\/5 Stars",
-            "heading": "",
-            "heading_size": "h3"
-          }
-        },
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
@@ -318,6 +309,7 @@
         "corner_radius": 24,
         "border_width": 1,
         "review_font_size": 20,
+        "quote_secondary_font": false,
         "slide_height": "medium",
         "slider_visual": "none",
         "auto_rotate": false,
@@ -328,54 +320,6 @@
         "accessibility_info": "Slideshow about our brand",
         "color_scheme": "scheme-12",
         "slide_inner_padding": 64
-      }
-    },
-    "image-with-text-1_product": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Harness plants’ most powerful compounds, polyphenols.<\/b>",
-            "heading_size": "h1",
-            "margin_bottom": 0
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<br><br>You've been told for years to “eat your daily vitamins”…but it's just as important that you consume your daily polyphenols.<br><br>That's why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<br><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Harness_plants_most_powerful_1.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
       }
     },
     "comparison-table-title3": {
@@ -501,6 +445,54 @@
         "inner_padding": 32,
         "outer_padding_top": 24,
         "outer_padding_bottom": 64
+      }
+    },
+    "image-with-text-1_product": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Harness plants’ most powerful compounds, polyphenols.<\/b>",
+            "heading_size": "h1",
+            "margin_bottom": 0
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Polyphenols<\/strong> are the tiny micronutrients found naturally in plants, herbs,  spices and fruits & veggies that at the right doses provide serious, science-backed health benefits.<br><br>You've been told for years to “eat your daily vitamins”…but it's just as important that you consume your daily polyphenols.<br><br>That's why each serving of <strong>Happy Being®<\/strong> is fortified with doctor-recommend doses of polyphenols from blueberries, apples, turmeric, tea and more.<br><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Harness_plants_most_powerful_1.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "multicolumn-hb-22": {
