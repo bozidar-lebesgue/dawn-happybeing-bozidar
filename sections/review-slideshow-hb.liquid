@@ -136,7 +136,7 @@
     {%- endif -%}
     {%- if block.type == 'heading' -%}
       <h2
-        class="center inline-richtext {{ block.settings.heading_size }}" style="margin-bottom: 0px;"
+        class="center inline-richtext {{ block.settings.heading_size }}"
         {{ block.shopify_attributes }}
       >
         {{ block.settings.heading }}
@@ -178,7 +178,10 @@
             aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}"
             tabindex="-1"
           >
-            <div class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent banner--mobile-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}">
+            <div
+              class="slideshow__text-wrapper banner__content banner__content--{{ block.settings.box_align }} page-width{% if block.settings.show_text_box == false %} banner--desktop-transparent banner--mobile-transparent{% endif %}{% if settings.animations_reveal_on_scroll and forloop.index == 1 %} scroll-trigger animate--slide-in{% endif %}"
+              style="padding-top: 0rem;"
+            >
               <div class="slide__content slideshow__text banner__box content-container content-container--full-width-mobile color-{{ block.settings.color_scheme }} slideshow__text--{{ block.settings.text_alignment }} slideshow__text-mobile--{{ block.settings.text_alignment_mobile }}">
                 {%- if block.settings.review != blank -%}
                   <h2 class="banner__text rte review-text">

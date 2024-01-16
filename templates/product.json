@@ -199,16 +199,62 @@
         "mobile_padding_bottom": -1
       }
     },
+    "slideshow-title": {
+      "type": "multicolumn-hb",
+      "settings": {
+        "full_width": false,
+        "title": "<strong>Drink to a happy life.<\/strong>",
+        "subtitle": "",
+        "title_max_width": 1000,
+        "title_margin_top": 24,
+        "title_margin_bottom": 24,
+        "subtitle_secondary_font": true,
+        "subtitle_font_size": 5,
+        "subtitle_mobile_font_size": 2.4,
+        "subtitle_margin_bottom": 16,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 0,
+        "column_title_margin_top": 0,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1.8,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "h0",
+        "column_title_size": "h1",
+        "column_text_style": "body",
+        "image_width": "full",
+        "enumerate": true,
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "column_mobile_title_alignment": "left",
+        "column_content_text_align": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-12",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 32,
+        "padding_bottom": 0,
+        "mobile_padding_top": 16,
+        "mobile_padding_bottom": -1
+      }
+    },
     "review-slideshow-hb": {
       "type": "review-slideshow-hb",
       "blocks": {
-        "template--16149963669561__review-slideshow-hb-heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Drink to a healthy life.<\/strong>",
-            "heading_size": "h0"
-          }
-        },
         "template--16149963669561__review-slideshow-hb-five-star": {
           "type": "five-star-rating",
           "disabled": true,
@@ -262,7 +308,6 @@
         }
       },
       "block_order": [
-        "template--16149963669561__review-slideshow-hb-heading",
         "template--16149963669561__review-slideshow-hb-slide-0",
         "template--16149963669561__review-slideshow-hb-slide-1",
         "template--16149963669561__review-slideshow-hb-slide-2"
@@ -1164,6 +1209,7 @@
   "order": [
     "main",
     "378ee716-4745-4679-99ec-6abddb8180e8",
+    "slideshow-title",
     "review-slideshow-hb",
     "comparison-table-title3",
     "comparison-table-hb3",
