@@ -128,15 +128,6 @@
             "text_style": "body"
           }
         },
-        "spacing-3": {
-          "type": "spacing",
-          "settings": {
-            "desktop_height": 50,
-            "mobile_height": 0,
-            "side": "image",
-            "position": "bottom"
-          }
-        },
         "button_gArYkt": {
           "type": "button",
           "settings": {
@@ -157,7 +148,6 @@
         "7d9b066b-9e8d-41cd-865b-001867748415",
         "image-side-top-text-1",
         "image-side-bottom-text-1",
-        "spacing-3",
         "button_gArYkt"
       ],
       "settings": {
@@ -287,15 +277,6 @@
             "text_style": "subtitle"
           }
         },
-        "spacing-3": {
-          "type": "spacing",
-          "settings": {
-            "desktop_height": 0,
-            "mobile_height": 0,
-            "side": "image",
-            "position": "bottom"
-          }
-        },
         "button_gArYkt": {
           "type": "button",
           "settings": {
@@ -314,7 +295,6 @@
         "spacing-2",
         "template--16401007870009__gut-health-info-heading-2",
         "7d9b066b-9e8d-41cd-865b-001867748415",
-        "spacing-3",
         "button_gArYkt"
       ],
       "settings": {
@@ -444,15 +424,6 @@
             "text_style": "body"
           }
         },
-        "spacing-3": {
-          "type": "spacing",
-          "settings": {
-            "desktop_height": 80,
-            "mobile_height": 0,
-            "side": "image",
-            "position": "bottom"
-          }
-        },
         "button_gArYkt": {
           "type": "button",
           "settings": {
@@ -471,7 +442,6 @@
         "spacing-2",
         "template--16401007870009__immunity-info-heading-2",
         "7d9b066b-9e8d-41cd-865b-001867748415",
-        "spacing-3",
         "button_gArYkt"
       ],
       "settings": {
