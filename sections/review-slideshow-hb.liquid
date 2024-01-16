@@ -52,10 +52,13 @@
     padding: {{ section.settings.slide_inner_padding }}px;
   }
 
+  
   .section-{{ section.id }} .review-quote {
-    {% if section.settings.quote_font != blank %}
-      font-family: {{ section.settings.quote_font }};
-    {% endif %}
+    {%- if section.settings.quote_secondary_font == true -%}
+      font-family: var(--secondary-font-family);
+      font-weight: var(--secondary-font-weight);
+      font-style: var(--secondary-font-style);
+    {%- endif -%}
   }
 
 
@@ -284,10 +287,10 @@
       "default": 20
     },
     {
-      "type": "font_picker",
-      "id": "quote_font",
-      "default": "neue_haas_unica_n4",
-      "label": "Quote font family"
+      "type": "checkbox",
+      "id": "quote_secondary_font",
+      "default": false,
+      "label": "Quote use secondary font"
     },
     {
       "type": "select",
