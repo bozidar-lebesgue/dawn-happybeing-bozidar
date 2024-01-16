@@ -391,7 +391,7 @@
         "template--16401007870009__immunity-info-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you have a weakened immune system, you’re <strong>more susceptible<\/strong> to infections and other health threats that can have long-lasting impacts. You're also more susceptible to near term health concerns like fatigue, brain fog, and depression.<\/p>",
+            "text": "<p>If you have a weakened immune system, you’re <strong>more susceptible<\/strong> to infections and other health threats that can have long-lasting impacts. You're also more susceptible to near term health issues like fatigue, brain fog, and depression.<\/p>",
             "side": "text",
             "position": "bottom",
             "text_style": "subtitle"
