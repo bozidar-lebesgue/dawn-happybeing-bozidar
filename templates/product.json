@@ -205,7 +205,7 @@
         "template--16149963669561__review-slideshow-hb-heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Live healthy.<\/strong>",
+            "heading": "<strong>Drink to a healthy life.<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -221,11 +221,11 @@
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
-            "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
-            "quote": "<h3><strong>David F.<\/strong><\/h3>",
+            "review": "<p>The plant compounds in Happy Being, called polyphenols, help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.<\/p>",
+            "quote": "<h3><strong>Gerald Lemole, MD<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -235,11 +235,11 @@
         "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
-            "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven't had this in over 10 years.<\/p>",
-            "quote": "<h3><strong>John Y.<\/strong><\/h3>",
+            "review": "<p>Polyphenols like the ones in Happy Being are antioxidants found in plants, and they help protect the gut microbiome and other core elements of your health in the most incredible and effective ways. Polyphenols feed good gut bacteria helping rebalance dysbiosis, they combat inflammation helping catalyze healthy levels of inflammation, polyphenols strengthen the gut lining helping address permeability issues like leaky gut and acid reflux. And there aren’t many other nutrients that bring bloating down.<\/p>",
+            "quote": "<h3><strong>Leo Galland, MD<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -249,39 +249,11 @@
         "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
-            "quote": "<h3><strong>Robin P.<\/strong><\/h3>",
+            "review": "<p>I’ve helped thousands of men and women address hormonal and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. The goal of the Happy Being development team was to create not only a tasty refreshment, but also a nutrient-dense blend that has the right active ingredients, in the right amounts, and in the best quality forms to make the biggest impact on your health.<\/p>",
+            "quote": "<h3><strong>Jacqueline Maganas, MPHN CIMHC<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "scheme-6",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__review-slideshow-hb-slide-3": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
-            "quote": "<h3><strong>Janet B.<\/strong><\/h3>",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "scheme-6",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__review-slideshow-hb-slide-4": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I've never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
-            "quote": "<h3><strong>Camille G.<\/strong><\/h3>",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -291,12 +263,9 @@
       },
       "block_order": [
         "template--16149963669561__review-slideshow-hb-heading",
-        "template--16149963669561__review-slideshow-hb-five-star",
         "template--16149963669561__review-slideshow-hb-slide-0",
         "template--16149963669561__review-slideshow-hb-slide-1",
-        "template--16149963669561__review-slideshow-hb-slide-2",
-        "template--16149963669561__review-slideshow-hb-slide-3",
-        "template--16149963669561__review-slideshow-hb-slide-4"
+        "template--16149963669561__review-slideshow-hb-slide-2"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -304,7 +273,7 @@
         "corner_radius": 24,
         "border_width": 1,
         "review_font_size": 20,
-        "quote_font": "neue_haas_unica_n4",
+        "quote_font": "",
         "slide_height": "medium",
         "slider_visual": "none",
         "auto_rotate": false,

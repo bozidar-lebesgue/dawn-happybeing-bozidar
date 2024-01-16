@@ -443,7 +443,7 @@
         "corner_radius": 24,
         "border_width": 1,
         "review_font_size": 20,
-        "quote_font": "neue_haas_unica_n4",
+        "quote_font": "",
         "slide_height": "medium",
         "slider_visual": "none",
         "auto_rotate": false,

@@ -53,7 +53,9 @@
   }
 
   .section-{{ section.id }} .review-quote {
-    font-family: {{ section.settings.quote_font }};
+    {% if section.settings.quote_font != blank %}
+      font-family: {{ section.settings.quote_font }};
+    {% endif %}
   }
 
 
