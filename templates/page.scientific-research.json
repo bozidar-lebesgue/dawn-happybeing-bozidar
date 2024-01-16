@@ -153,7 +153,7 @@
         "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful <i>“Free Radicals”<\/i> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. <i>Free Radicals<\/i> are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
+            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful <em>“Free Radicals”<\/em> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. <em>Free Radicals<\/em> are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
             "text_style": "body"
           }
         }
@@ -185,7 +185,7 @@
         "template--16401007870009__e5410863-c275-420c-a4b3-ebeeeeb40d2a-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>When your cells are healthy and working the way they should, it's harder for chronic health conditions to set in.<br><br>They say you need your daily vitamins, but what you really need is to “consume your daily <strong>polyphenols<\/strong>” for cell health.<\/p>",
+            "text": "<p>When your cells are healthy and functioning the way that they should, it's harder for chronic health conditions to set in.<br\/><br\/>They say you need to take your daily vitamins, but what you really need to do is consume your daily <strong>polyphenols<\/strong> for the health of your cells.<\/p>",
             "text_style": "subtitle"
           }
         }
