@@ -113,7 +113,7 @@
         "image-side-top-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Over a 6 week period, people who consumed Turmacin daily (the Turmeric used in Happy Being®), cut their WOMAC Score in half.<\/p>",
+            "text": "<p><strong>People who consumed Turmacin® (the form of Turmeric that's in Happy Being) daily, cut their WOMAC Score in half.<\/strong><\/p>",
             "side": "image",
             "position": "top",
             "text_style": "body"
