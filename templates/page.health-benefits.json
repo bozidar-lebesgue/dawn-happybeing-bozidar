@@ -391,7 +391,7 @@
         "template--16401007870009__immunity-info-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>If you have a weakened immune system you’re <b>more susceptible<\/b> to infections, and other health threats that can have long-lasting impacts as well as near term like fatigue, brain fog, and depression.<\/p>",
+            "text": "<p>If you have a weakened immune system, you’re <strong>more susceptible<\/strong> to infections and other health threats that can have long-lasting impacts. You're also more susceptible to near term health concerns like fatigue, brain fog, and depression.<\/p>",
             "side": "text",
             "position": "bottom",
             "text_style": "subtitle"
@@ -418,7 +418,7 @@
         "7d9b066b-9e8d-41cd-865b-001867748415": {
           "type": "text",
           "settings": {
-            "text": "<p>Clinical studies show that Elderberry and Vitamin D3 have the power to support your immune function — specifically, they contain the health-directing polyphenols and anthocyanin-protectors to give your body a silver shield of immunity.<br>We infuse both Elderberry and Vitamin D3 at the proper doses into every serving of <b>Happy Being<\/b>®.<\/p>",
+            "text": "<p>Clinical studies show that <em>Elderberry<\/em> and <em>Vitamin D3<\/em> have the power to support your immune function — specifically, they contain the health-directing polyphenols to give your body a silver shield of immunity. We infuse both Elderberry and Vitamin D3 at the proper doses into every serving of <strong>Happy Being<\/strong>.<\/p>",
             "side": "text",
             "position": "bottom",
             "text_style": "body"
