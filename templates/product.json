@@ -13,7 +13,7 @@
         "heading_product": {
           "type": "heading",
           "settings": {
-            "heading": "Scientifically speaking, it tastes delicious.",
+            "heading": "Inflammation's worst nightmare.",
             "heading_size": "h14"
           }
         },
@@ -44,11 +44,11 @@
           "type": "tabs",
           "settings": {
             "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into white teas to make a long-lasting impact on your health.<\/p>",
             "tab2_title": "Ingredients",
             "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
             "tab3_title": "How To Use",
-            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> after a workout, in the afternoon as a <b>midday pick-me-up<\/b> without the caffeine jitters, or in the <b>evening<\/b> as a mocktail.<\/p>"
+            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> in replacement of juices which are high in sugar and calories, in the afternoon as a non-caffeinated <b>midday<\/b> pick-me-up, and in the <b>evening<\/b> as a healthy alternative to alcohol.<\/p>"
           }
         }
       },
@@ -86,7 +86,7 @@
             "title": "",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Healthy inflammation, leading to less joint pain<\/p>",
+            "text": "<p>Inflammation fighting<\/p>",
             "link_label": "",
             "link": "",
             "icon": "checkmark"
@@ -98,7 +98,7 @@
             "title": "",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Improves immunity so you get sick less often<\/p>",
+            "text": "<p>Immunity supporting<\/p>",
             "link_label": "",
             "link": "",
             "icon": "checkmark"
@@ -110,7 +110,7 @@
             "title": "",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Reduces bloating for happy, healthy stomachs<\/p>",
+            "text": "<p>Gut health nourishing<\/p>",
             "link_label": "",
             "link": "",
             "icon": "checkmark"
@@ -122,7 +122,7 @@
             "title": "",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>90 day “happy” guarantee - 100% money back<\/p>",
+            "text": "<p>90 day guarantee<\/p>",
             "link_label": "",
             "link": "",
             "icon": "checkmark"
@@ -134,7 +134,7 @@
             "title": "",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Backed by 100+ years of clinical experience<\/p>",
+            "text": "<p>100+ years of expertise<\/p>",
             "link_label": "",
             "link": "",
             "icon": "checkmark"
@@ -205,7 +205,7 @@
         "template--16149963669561__review-slideshow-hb-heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Own your health<\/strong>",
+            "heading": "<strong>Live healthy.<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -323,7 +323,7 @@
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>Harness plant's most powerful nutrients, polyphenols<\/b>",
+            "heading": "<b>Harness plants’ most powerful compounds, polyphenols.<\/b>",
             "heading_size": "h1",
             "margin_bottom": 0
           }
@@ -370,10 +370,10 @@
       "settings": {
         "full_width": false,
         "title": "<strong>We like to do things differently<\/strong>",
-        "subtitle": "Our founder, Chris, spent three decades helping clients transform their health with the power of polyphenols. When we started happy being we wanted to deliver the best results we could for our customers so we had to rethink everything.",
+        "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
-        "title_margin_bottom": 20,
+        "title_margin_bottom": 0,
         "subtitle_secondary_font": false,
         "subtitle_font_size": 1.7,
         "subtitle_mobile_font_size": 1.6,

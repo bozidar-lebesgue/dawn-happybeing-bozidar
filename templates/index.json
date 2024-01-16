@@ -97,7 +97,7 @@
         "template--16149963669561__benefits-multicolumn-hb-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Strengthen immunity<\/strong>",
+            "title": "<strong>Support immunity  <\/strong>",
             "subtitle": "",
             "second_subtitle": "",
             "text": "<p>Reinforce your immune system by helping catalyze your body's responses to toxins and infections.<\/p>",
@@ -115,7 +115,7 @@
       ],
       "settings": {
         "full_width": false,
-        "title": "<p><strong>A new kind of delicious tasting iced-tea<br>— with health benefits.<\/strong><\/p>",
+        "title": "<p><strong>Delicious tasting white tea with health benefits.<\/strong><\/p>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
@@ -177,7 +177,7 @@
         "heading_product": {
           "type": "heading",
           "settings": {
-            "heading": "Scientifically speaking, it tastes delicious.",
+            "heading": "Inflammation's worst nightmare.",
             "heading_size": "h14"
           }
         },
@@ -208,11 +208,11 @@
           "type": "tabs",
           "settings": {
             "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into iced-teas to make a long-lasting impact on your health.<\/p><p><\/p>",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries and peaches, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into white teas to make a long-lasting impact on your health.<\/p>",
             "tab2_title": "Ingredients",
             "tab2_content": "<p>Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
             "tab3_title": "How To Use",
-            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> after a workout, in the afternoon as a <b>midday pick-me-up<\/b> without the caffeine jitters, or in the <b>evening<\/b> as a mocktail.<\/p>"
+            "tab3_content": "<p>We recommend drinking your Happy Being in the <b>morning<\/b> in replacement of juices which are high in sugar and calories, in the afternoon as a non-caffeinated <b>midday<\/b> pick-me-up, and in the <b>evening<\/b> as a healthy alternative to alcohol.<\/p>"
           }
         }
       },
@@ -375,7 +375,7 @@
         "template--16149963669561__review-slideshow-hb-heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Own your health<\/strong>",
+            "heading": "<strong>Drink to a healthy life.<\/strong>",
             "heading_size": "h0"
           }
         },
@@ -391,11 +391,11 @@
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
-            "review": "<p>I've lost 60 pounds since October of last year and I'm close to 10 percent body fat. So I get asked almost everyday what's my secret. This is definitely one of them. From my barber to family members and friends have already ordered. I order 4-5 boxes a month. I drink 1 or 2 everyday. I think it is the healthiest drink in the world. I'll be drinking this product for the rest of my life as long as you have it.<\/p>",
-            "quote": "<h3><strong>David F.<\/strong><\/h3>",
+            "review": "<p>The plant compounds in Happy Being, called polyphenols, help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.<\/p>",
+            "quote": "<h3><strong>Gerald Lemole, MD<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -405,11 +405,11 @@
         "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
-            "review": "<p>Several days into drinking one a day I began to notice waking up with less back pain, getting up after sitting for a while and being able to stand up straight right away. Two weeks into drinking one a day I noticed extended periods of no pain in my back or knees. Haven't had this in over 10 years.<\/p>",
-            "quote": "<h3><strong>John Y.<\/strong><\/h3>",
+            "review": "<p>Polyphenols like the ones in Happy Being are antioxidants found in plants, and they help protect the gut microbiome and other core elements of your health in the most incredible and effective ways. Polyphenols feed good gut bacteria helping rebalance dysbiosis, they combat inflammation helping catalyze healthy levels of inflammation, polyphenols strengthen the gut lining helping address permeability issues like leaky gut and acid reflux. And there aren’t many other nutrients that bring bloating down.<\/p>",
+            "quote": "<h3><strong>Leo Galland, MD<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -419,39 +419,11 @@
         "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "<p>My entire experience with this company has been outstanding. The website is easy to navigate, I was amazed at how quickly my order arrived, my mother, husband and I absolutely love the products and I particularly appreciate the personal emails from Josemaria! I will be ordering from this company on a regular basis!<\/p>",
-            "quote": "<h3><strong>Robin P.<\/strong><\/h3>",
+            "review": "<p>I’ve helped thousands of men and women address hormonal and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. The goal of the Happy Being development team was to create not only a tasty refreshment, but also a nutrient-dense blend that has the right active ingredients, in the right amounts, and in the best quality forms to make the biggest impact on your health.<\/p>",
+            "quote": "<h3><strong>Jacqueline Maganas, MPHN CIMHC<\/strong><\/h3>",
             "show_text_box": true,
             "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "scheme-6",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__review-slideshow-hb-slide-3": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>After extensive research, I sent my daughter a get well gift of blue berry HAPPY BEING drinks to help heal her stomach issues. More creative than flowers and with lasting benefits; she was delighted! The ease of ordering, free shipping, and fast delivery were noted and greatly appreciated. Thank you!<\/p>",
-            "quote": "<h3><strong>Janet B.<\/strong><\/h3>",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "scheme-6",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "template--16149963669561__review-slideshow-hb-slide-4": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>I actually feel a better sense of well- being after daily drinking these for three weeks. I've never really had aches or pains but I have had general inflammation. These happy being drinks really do seem to reduce systemic inflammation. I just noticed that I wake up feeling better... feeling lighter. I will definitely put these on subscription. All the flavors are delicious.<\/p>",
-            "quote": "<h3><strong>Camille G.<\/strong><\/h3>",
-            "show_text_box": true,
-            "five_star": true,
-            "verified_buyer": true,
+            "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
             "color_scheme": "scheme-6",
@@ -461,12 +433,9 @@
       },
       "block_order": [
         "template--16149963669561__review-slideshow-hb-heading",
-        "template--16149963669561__review-slideshow-hb-five-star",
         "template--16149963669561__review-slideshow-hb-slide-0",
         "template--16149963669561__review-slideshow-hb-slide-1",
-        "template--16149963669561__review-slideshow-hb-slide-2",
-        "template--16149963669561__review-slideshow-hb-slide-3",
-        "template--16149963669561__review-slideshow-hb-slide-4"
+        "template--16149963669561__review-slideshow-hb-slide-2"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -493,7 +462,7 @@
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>You are what you drink. And this drink is really healthy.<\/b>",
+            "heading": "<b>You are what you drink, and this drink is really healthy.<\/b>",
             "heading_size": "h1",
             "margin_bottom": 0
           }
@@ -544,7 +513,7 @@
             "title": "<strong>Formulated by world class health experts.<\/strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <b>Happy Being<\/b>® just might be the healthiest iced-tea ever made.<\/p>",
+            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <b>Happy Being<\/b> just might be the healthiest iced-tea ever made.<\/p>",
             "link_label": "",
             "link": "",
             "icon": ""
@@ -636,7 +605,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<strong>How Happy Being® is different<\/strong>",
+        "title": "<strong>How Happy Being is different<\/strong>",
         "subtitle": "<em>Packed with antioxidants, not sugar.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 24,
@@ -744,7 +713,7 @@
       "settings": {
         "heading": "",
         "subheading": "",
-        "first_title": "happy being®",
+        "first_title": "Happy Being",
         "second_title": "Pressed juices",
         "first_image": "shopify:\/\/shop_images\/11.01_-_3000x3000_-_Happy_Being_-_JTD_-_209592_1.png",
         "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
