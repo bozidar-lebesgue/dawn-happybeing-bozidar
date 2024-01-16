@@ -379,20 +379,6 @@ slider-component.slider-component-full-width {
   margin-right: 10px;
 }
 
-.five-star__container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.five-star__container .icon-star {
-  margin-right: 6px;
-}
-
-.five-star__container .icon-star:last-child{
-  margin-right: 0px;
-}
-
 .slider-button .icon {
   height: 2rem;
 }

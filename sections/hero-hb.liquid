@@ -112,22 +112,12 @@
               {%- endif -%}
             </div>
             {%- when 'five-star-rating' -%}
-              <div class="five-star-container banner_content banner__content--{{ section.settings.desktop_content_position }}">
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
+              <div class="five-star-container banner__content--{{ section.settings.desktop_content_position }}">
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
                 <div>
                   {{ block.settings.rating }}
                 </div>

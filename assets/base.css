@@ -3836,12 +3836,6 @@ ul.custom--tabs {
   border-bottom: 2px solid black;
 }
 
-.five-star-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .pdp__heading {
   margin: 0 0;
   font-weight: 600;
@@ -3918,3 +3912,26 @@ ul.custom--tabs {
 .product__media-item:not(.is-active) {
   display: none;
 }
+
+
+.five-star-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.five-star-container:not(.wide) .icon-star {
+  margin-right: 4px;
+}
+
+.five-star-container.wide .icon-star {
+  margin-right: 6px;
+}
+
+
+@media screen and (max-width: 749px) {
+  .five-star-container:not(.wide) .icon-star:not(:last-child) {
+    margin-right: 3px;
+  }
+}
+

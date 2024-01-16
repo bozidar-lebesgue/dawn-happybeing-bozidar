@@ -18,19 +18,6 @@
   }
 }
 
-
-.five-star-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.icon-star {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .banner__box {
   text-align: center;
 }
@@ -490,7 +477,7 @@
 
 @media screen and (max-width: 749px) {
   .five-star__desc {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
 
   .banner__text {

@@ -447,21 +447,11 @@
               %}
             {%- when 'five-star-rating' -%}
               <div class="five-star-container" style="justify-content: flex-start">
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
-                <div style="margin-right: 6px;">
-                  {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
-                </div>
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
+                {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
                 <div>
                   {{ block.settings.rating }}
                 </div>

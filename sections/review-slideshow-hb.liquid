@@ -87,7 +87,7 @@
       padding: {{ section.settings.slide_inner_padding | times: 0.5 }}px;
       margin: 0px 10px;
     }
-    .section-{{ section.id }} .five-star__container--top {
+    .section-{{ section.id }} .five-star-container--top {
       margin-bottom: 25px;
     }
     .section-{{ section.id }} .banner__text {
@@ -120,7 +120,7 @@
   
   {%- for block in section.blocks -%}
     {%- if block.type == 'five-star-rating' -%}
-      <div class="five-star__container five-star__container--top {{ section.settings.desktop_content_position }}">
+      <div class="five-star-container five-star-container--top {{ section.settings.desktop_content_position }}">
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
         {%- liquid render 'icon-star', color: 'rgb(var(--color-button))' -%}
@@ -189,7 +189,7 @@
                   </h2>
                 {%- endif -%}
                 {%- if block.settings.five_star != blank -%}
-                  <div class="five-star__container">
+                  <div class="five-star-container wide">
                     {%- liquid render 'icon-star', color: '#E2BF08' -%}
                     {%- liquid render 'icon-star', color: '#E2BF08' -%}
                     {%- liquid render 'icon-star', color: '#E2BF08' -%}
