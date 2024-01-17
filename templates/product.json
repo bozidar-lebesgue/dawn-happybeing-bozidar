@@ -1050,7 +1050,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Where can I find the Nutrition Facts?<\/strong>",
+            "heading": "Where can I find the Nutrition Facts?",
             "content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy#NutritionFacts\">CLICK HERE<\/a> to see Happy Being® white tea Nutrition Facts.<\/p>",
             "page": ""
           }
@@ -1104,8 +1104,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "<strong>When should I drink?<\/strong>",
-            "content": "<p>We recommend drinking Happy Being® white tea in the afternoon as a pick-me-up treat, though it's also a great morning coffee replacement and evening wine alternative.<\/p>",
+            "heading": "When should I drink?",
+            "content": "<p>Happy Being was made to be a part of your <strong>daily ritual<\/strong>:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>",
             "page": ""
           }
         },
