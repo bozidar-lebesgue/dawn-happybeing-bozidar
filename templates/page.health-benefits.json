@@ -104,7 +104,7 @@
         "7d9b066b-9e8d-41cd-865b-001867748415": {
           "type": "text",
           "settings": {
-            "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>Pterostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight “<em>Free Radicals<\/em>,” <strong>blocking pro-inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
+            "text": "<p>Polyphenols like <em>Turmeric<\/em> and <em>Pterostilbene<\/em> (notably found in blueberries) are an antidote to inflammation in your body. How? They fight \"<em>Free Radicals<\/em>,\" <strong>blocking pro-inflammatory proteins<\/strong> like <em>tnf-alpha<\/em> and <em>NFkB<\/em>.<\/p>",
             "side": "text",
             "position": "bottom",
             "text_style": "subtitle"
@@ -318,7 +318,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<b>Immunity<\/b>",
+        "title": "Immunity",
         "subtitle": "<em>Immune support on the tip of your tongue.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
