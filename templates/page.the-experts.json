@@ -232,8 +232,8 @@
     }
   },
   "order": [
-    "image-with-text-1",
     "image-with-text-2",
+    "image-with-text-1",
     "image-with-text-3",
     "image-with-text-4",
     "image-with-text-5"

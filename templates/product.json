@@ -203,7 +203,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "Pour your health a drink.",
+        "title": "<strong>Pour your health a drink.<\/strong>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 24,
@@ -326,7 +326,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "We like to do things differently.",
+        "title": "<strong>We like to do things differently.<\/strong>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
@@ -371,55 +371,55 @@
         "header_position_desktop": "top",
         "padding_top": 48,
         "padding_bottom": 16,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 32,
         "mobile_padding_bottom": -1
       }
     },
-    "comparison-table-hb3": {
+    "comparison-table-hb": {
       "type": "comparison-table-hb",
       "blocks": {
         "template--16149963669561__comparison-table-hb-row-1": {
           "type": "row",
           "settings": {
-            "first_description": "The more you drink the better you feel",
+            "first_description": "3g sugar",
             "first_check": true,
-            "second_description": "Effects wear off over time",
+            "second_description": "31g sugar",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-2": {
           "type": "row",
           "settings": {
-            "first_description": "Doctor approved & formulated",
+            "first_description": "40 calories",
             "first_check": true,
-            "second_description": "“Influencer approved”",
+            "second_description": "150 calories",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-3": {
           "type": "row",
           "settings": {
-            "first_description": "Polyphenol extracts",
+            "first_description": "1335mg polyphenols",
             "first_check": true,
-            "second_description": "Juice, and maybe some probiotics",
+            "second_description": "5mg polyphenols",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-4": {
           "type": "row",
           "settings": {
-            "first_description": "3 grams of sugar",
+            "first_description": "$4.00 (on subscription)",
             "first_check": true,
-            "second_description": "20+ grams of sugar",
+            "second_description": "$8.00 (at least)",
             "second_check": false
           }
         },
         "template--16149963669561__comparison-table-hb-row-5": {
           "type": "row",
           "settings": {
-            "first_description": "Caffeine free, real energy",
+            "first_description": "Crisp, refreshing",
             "first_check": true,
-            "second_description": "Crash, jitters & burn out",
+            "second_description": "Too sweet",
             "second_check": false
           }
         }
@@ -1204,7 +1204,7 @@
     "slideshow-title",
     "review-slideshow-hb",
     "comparison-table-title3",
-    "comparison-table-hb3",
+    "comparison-table-hb",
     "image-with-text-1_product",
     "multicolumn-hb-22",
     "nutrition-facts",
