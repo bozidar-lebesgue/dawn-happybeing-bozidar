@@ -153,7 +153,7 @@
         "template--16401007870009__be14e643-24b6-4e47-bfe8-da5ecae95163-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Polyphenols act as <strong>antioxidants<\/strong>, meaning they neutralize harmful '<em>free radicals'<\/em> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. '<em>Free radicals'<\/em> are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
+            "text": "<p><strong>Polyphenols<\/strong> act as <strong>antioxidants<\/strong>, meaning they neutralize harmful '<em>free radicals'<\/em> that otherwise damage your cells and increase your risk of <strong>chronic health conditions<\/strong> like cancer, diabetes, and heart disease. '<em>Free radicals'<\/em> are highly reactive oxygen molecules produced by all kinds of things ranging from normal <strong>cell breakdown<\/strong> to radiation, air pollution, smoking, and more.<\/p>",
             "text_style": "body"
           }
         }
