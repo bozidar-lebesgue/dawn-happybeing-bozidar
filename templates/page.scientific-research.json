@@ -67,7 +67,7 @@
         "template--16401007870009__inflamation-info-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each serving of <strong>Happy Being<\/strong> contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting 'free radicals' in your body.  <\/p><p><\/p><p>'Free radicals' are the <strong>inflammation<\/strong>-<strong>causing<\/strong> chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<\/p><p><\/p><p>Polyphenols are an antidote to the inflammation caused by 'free radicals'. So drink up, and <strong>live healthy<\/strong>.<\/p>",
+            "text": "<p>Each serving of <strong>Happy Being<\/strong> contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting '<em>free radicals<\/em>' in your body.  <\/p><p><\/p><p>'<em>Free radicals<\/em>' are the <strong>inflammation<\/strong>-<strong>causing<\/strong> chaos agents that attack the machinery of your cells. If left unchecked, these ‘<em>free radicals<\/em>' ultimately lead to chronic disease.<\/p><p><\/p><p><strong>Polyphenols<\/strong> are an antidote to that inflammation. So drink up, and <strong>live free of '<\/strong><em><strong>free radicals<\/strong><\/em><strong>'<\/strong>.<\/p>",
             "text_style": "body"
           }
         }
