@@ -203,7 +203,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "Pour your health a drink.",
+        "title": "<b>Pour your health a drink.<\/b>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 24,
