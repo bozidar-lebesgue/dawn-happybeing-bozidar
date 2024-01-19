@@ -456,6 +456,7 @@
         --table-indent-unit: 16;
         --is-mobile: 0;
         --is-desktop: 1;
+        --letter-spacing-multiplier: 0.7;
       }
 
       *,
@@ -477,7 +478,7 @@
         min-height: 100%;
         margin: 0;
         font-size: 1.5rem;
-        letter-spacing: 0.06rem;
+        letter-spacing: calc(0.06rem * var(--letter-spacing-multiplier));
         line-height: calc(1 + 0.8 / var(--font-body-scale));
         font-family: var(--font-body-family);
         font-style: var(--font-body-style);

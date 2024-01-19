@@ -376,7 +376,7 @@
 }
 
 .card-information .caption {
-  letter-spacing: 0.07rem;
+  letter-spacing: calc(0.07rem * var(--letter-spacing-multiplier));
 }
 
 .card-article-info {
