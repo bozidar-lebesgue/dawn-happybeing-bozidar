@@ -4,7 +4,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<strong>Inflammation<strong><\/strong><\/strong>",
+        "title": "<strong>Inflammation<\/strong>",
         "subtitle": "<em>Inflammation’s worst nightmare.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
