@@ -1,51 +1,5 @@
 {
   "sections": {
-    "image-with-text-1": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Oftentimes achieving our health goals doesn't happen overnight, especially when it comes to nutrition.<br><br>But you have more control over your health than you think. If you just stick with it, you will see results.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Debbi Niggeman, MS CNS<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-text-1",
-        "template--16149963669561__image-with-text-1-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.11.10_PM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image-with-text-2": {
       "type": "image-with-text-hb",
       "blocks": {
@@ -74,7 +28,7 @@
         "secondary_image": "shopify:\/\/shop_images\/Leo_galland_bio_pic.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -83,13 +37,16 @@
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 700,
         "mobile_image_height": 380,
         "text_size": 1.8,
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "image-with-text-3": {
@@ -120,52 +77,6 @@
         "secondary_image": "shopify:\/\/shop_images\/jacqueline.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image-with-text-4": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The polyphenols in happy being help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Gerald Lemole, MD<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-4-text-1",
-        "template--16149963669561__image-with-text-4-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/gerry.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
@@ -175,13 +86,16 @@
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 700,
         "mobile_image_height": 380,
         "text_size": 1.8,
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     },
     "image-with-text-5": {
@@ -221,21 +135,122 @@
         "image_behavior": "none",
         "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
         "desktop_min_height": 700,
         "mobile_image_height": 380,
         "text_size": 2.2,
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "image-with-text-4": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-4-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“The polyphenols in happy being help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-4-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Gerald Lemole, MD<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-4-text-1",
+        "template--16149963669561__image-with-text-4-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
+        "secondary_image": "shopify:\/\/shop_images\/gerry.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 700,
+        "mobile_image_height": 380,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "image-with-text-1": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>“Oftentimes achieving our health goals doesn't happen overnight, especially when it comes to nutrition.<br><br>But you have more control over your health than you think. If you just stick with it, you will see results.”<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>Debbi Niggeman, MS CNS<\/b>",
+            "heading_size": "h2",
+            "margin_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-1-text-1",
+        "template--16149963669561__image-with-text-1-heading-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.11.10_PM.png",
+        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 700,
+        "mobile_image_height": 380,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     }
   },
   "order": [
     "image-with-text-2",
-    "image-with-text-1",
     "image-with-text-3",
+    "image-with-text-5",
     "image-with-text-4",
-    "image-with-text-5"
+    "image-with-text-1"
   ]
 }
