@@ -265,7 +265,7 @@
             "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "scheme-6",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -279,7 +279,7 @@
             "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "scheme-6",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -293,7 +293,7 @@
             "verified_buyer": false,
             "box_align": "middle-center",
             "text_alignment": "center",
-            "color_scheme": "scheme-6",
+            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         }
