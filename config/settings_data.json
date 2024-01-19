@@ -262,8 +262,8 @@
       },
       "scheme-11": {
         "settings": {
-          "background": "",
-          "background_gradient": "linear-gradient(180deg, #EFF1FF 0%, #E3FDFF 100%)",
+          "background": "#f0f1f9",
+          "background_gradient": "",
           "text": "#000000",
           "button": "#000000",
           "button_label": "#ffffff",
