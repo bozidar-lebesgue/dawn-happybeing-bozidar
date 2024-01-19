@@ -1077,7 +1077,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "What does Happy Being taste like?",
+            "heading": "<strong>What does Happy Being taste like?<\/strong>",
             "content": "<p>Our white tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
             "page": ""
           }
@@ -1104,7 +1104,7 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "When should I drink?",
+            "heading": "<strong>When should I drink?<\/strong>",
             "content": "<p>Happy Being was made to be a part of your <strong>daily ritual<\/strong>:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>",
             "page": ""
           }
