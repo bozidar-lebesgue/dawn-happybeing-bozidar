@@ -171,7 +171,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<b>Gut health<\/b>",
+        "title": "Gut health",
         "subtitle": "<em>It takes guts to live healthy.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
@@ -318,7 +318,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "Immunity",
+        "title": "<strong>Immunity<\/strong>",
         "subtitle": "<em>Immune support on the tip of your tongue.<\/em>",
         "title_max_width": 1000,
         "title_margin_top": 0,
