@@ -7,7 +7,8 @@
           "type": "heading",
           "settings": {
             "heading": "Live healthy.",
-            "heading_size": "hextra"
+            "heading_size": "hextra",
+            "use_secondary_color": true
           }
         },
         "text": {
@@ -100,10 +101,10 @@
         "enumerate": true,
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "title_alignment": "left",
-        "column_alignment": "left",
-        "column_mobile_title_alignment": "left",
-        "column_content_text_align": "left",
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "column_mobile_title_alignment": "center",
+        "column_content_text_align": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
