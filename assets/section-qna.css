@@ -20,3 +20,7 @@ details[open] .close-icon {
 details a {
   color: inherit !important;
 }
+
+.qna-title {
+  margin-bottom: 32px;
+}
