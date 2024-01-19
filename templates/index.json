@@ -13,7 +13,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We put the health benefits of 63,000<br>blueberries and more into each can.<\/p>",
+            "text": "<p>We put the health benefits of 63,000<br\/>blueberries and more into each can.<\/p>",
             "text_size": "h15",
             "text_style": "body"
           }
@@ -58,7 +58,7 @@
         "desktop_content_position": "middle",
         "show_text_box": false,
         "desktop_content_alignment": "center",
-        "color_scheme": "scheme-12",
+        "color_scheme": "scheme-1",
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
@@ -153,7 +153,7 @@
         "background_style": "none",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "scheme-12",
+        "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "show_slider_buttons_mobile": false,
