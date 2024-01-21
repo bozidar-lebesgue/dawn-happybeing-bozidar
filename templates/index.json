@@ -108,7 +108,7 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "",
+        "color_scheme": "scheme-15",
         "card_color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,

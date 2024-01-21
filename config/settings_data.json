@@ -306,9 +306,9 @@
       },
       "scheme-15": {
         "settings": {
-          "background": "#eff1ff",
+          "background": "#fff",
           "background_gradient": "",
-          "text": "#000000",
+          "text": "#464499",
           "button": "#000000",
           "button_label": "#ffffff",
           "secondary_button_label": "#d9d9d9",
