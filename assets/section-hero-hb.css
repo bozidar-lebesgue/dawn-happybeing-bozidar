@@ -543,11 +543,11 @@
 .hero__box {
   padding-left: 0;
   padding-right: 0;
-  padding-bottom: 0;
+  padding-bottom: 0 !important;
 }
 
 .hero {
-  padding-bottom: 0;
+  padding-bottom: 0px !important;
 }
 
 .hero__button {
