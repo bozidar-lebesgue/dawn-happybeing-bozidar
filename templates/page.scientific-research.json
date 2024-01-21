@@ -32,7 +32,7 @@
         "column_title_size": "h1",
         "column_text_style": "body",
         "image_width": "full",
-        "enumerate": true,
+        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "left",

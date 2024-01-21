@@ -153,6 +153,7 @@
     <div class="multicolumn__background media">
       {%- liquid
         assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+        assign full_width = '100vw'
         assign sizes = full_width
         assign fetch_priority = 'auto'
         assign widths = '450, 660, 900, 1320, 1800, 2136, 2400, 3600, 7680'
@@ -235,20 +236,6 @@
                       style="padding-bottom: {{ 1 | divided_by: highest_ratio | times: 100 }}%;"
                     {% endif %}
                   >
-                    {%- liquid
-                      assign number_of_columns = section.settings.columns_desktop
-                      assign number_of_columns_mobile = section.settings.columns_mobile
-                      assign grid_space_desktop = number_of_columns | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                      assign grid_space_tablet = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | plus: 100 | append: 'px'
-                      assign grid_space_mobile = number_of_columns_mobile | minus: 1 | times: settings.spacing_grid_horizontal | divided_by: 2 | plus: 30 | append: 'px'
-                      if section.settings.image_width == 'half'
-                        assign image_width = 0.5
-                      elsif section.settings.image_width == 'third'
-                        assign image_width = 0.33
-                      else
-                        assign image_width = 1
-                      endif
-                    -%}
                     {{
                       block.settings.image
                       | image_url: width: 600
@@ -262,33 +249,10 @@
                   {%- if block.settings.icon != 'none' and block.settings.icon != blank -%}
                     <div class="column__icon">
                       {%- case block.settings.icon -%}
-                        {%- when 'dairy-free' -%}
-                          {% comment %} {% render 'icon-dairy-free' %} {% endcomment %}
-                        {%- when 'non-gmo' -%}
-                          {% comment %} {% render 'icon-non-gmo' %} {% endcomment %}
-                        {%- when 'vegan' -%}
-                          {% comment %} {% render 'icon-vegan' %} {% endcomment %}
-                        {%- when 'soy-free' -%}
-                          {% comment %} {% render 'icon-soy-free' %} {% endcomment %}
-                        {%- when 'no-added-sugar' -%}
-                          {% comment %} {% render 'icon-no-added-sugar' %} {% endcomment %}
-                        {%- when 'no-caffeine' -%}
-                          {% comment %} {% render 'icon-no-caffeine' %} {% endcomment %}
                         {%- when 'checkmark' -%}
                           {% render 'icon-checkmark-circle-full', color: 'rgb(var(--color-foreground))', fill_color: 'rgb(var(--color-background))' %}
                       {%- endcase -%} 
                     </div>
-                  {%- endif -%}
-                  {%- if section.settings.enumerate == true -%}
-                    <div class="enumeration-container">
-                      {%- if forloop.index == 1 -%}
-                        {% render 'icon-one-circle' %}
-                      {%- elsif forloop.index == 2 -%}
-                        {% render 'icon-two-circle' %}
-                      {%- elsif forloop.index == 3 -%}
-                        {% render 'icon-three-circle' %}
-                      {%- endif -%}
-                    </div>                
                   {%- endif -%}
                   {%- if block.settings.icon_image != blank -%}
                     {{
@@ -726,12 +690,6 @@
       "label": "t:sections.multicolumn.settings.image_width.label"
     },
     {
-      "type": "checkbox",
-      "id": "enumerate",
-      "default": true,
-      "label": "Enumerate"
-    },
-    {
       "type": "select",
       "id": "image_ratio",
       "options": [
@@ -1015,30 +973,6 @@
           "type": "select",
           "id": "icon",
           "options": [
-            {
-              "value": "dairy-free",
-              "label": "Dairy free"
-            },
-            {
-              "value": "non-gmo",
-              "label": "Non gmo"
-            },
-            {
-              "value": "vegan",
-              "label": "Vegan"
-            },
-            {
-              "value": "soy-free",
-              "label": "Soy free"
-            },
-            {
-              "value": "no-added-sugar",
-              "label": "No added sugar"
-            },
-            {
-              "value": "no-caffeine",
-              "label": "No caffeine"
-            },
             {
               "value": "checkmark",
               "label": "Checkmark"
