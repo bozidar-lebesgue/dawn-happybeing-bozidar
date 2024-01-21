@@ -1,108 +1,5 @@
 {
   "sections": {
-    "image-with-text-2": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>We believe in you.<\/b>",
-            "heading_size": "h1",
-            "margin_bottom": 32
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You don't have to have a perfect diet and wellness routine to <strong>live healthy.<\/strong><\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-1-text-2": {
-          "type": "text",
-          "settings": {
-            "text": "<p>But simple, daily habits can reinforce good health — simple, daily habits like drinking <strong>Happy Being.<\/strong><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-heading-1",
-        "template--16149963669561__image-with-text-1-text-1",
-        "template--16149963669561__image-with-text-1-text-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2338E68B-3B2B-45C8-AE7D-33E17465B88A_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "center",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 2.4,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 72,
-        "padding_bottom": 100,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image_with_text_wxM4HV": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_JaeEfP": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>We believe in you.<\/strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_m6VHc7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>You don't have to have a perfect diet and wellness routine to <strong>live healthy.<\/strong><\/p>",
-            "text_style": "body"
-          }
-        },
-        "text_Fm8yWg": {
-          "type": "text",
-          "settings": {
-            "text": "<p>But simple, daily habits can reinforce good health — simple, daily habits like drinking <strong>Happy Being.<\/strong><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_JaeEfP",
-        "text_m6VHc7",
-        "text_Fm8yWg"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/2338E68B-3B2B-45C8-AE7D-33E17465B88A_1.jpg",
-        "height": "adapt",
-        "desktop_image_width": "large",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "image_text_gap": 0,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image-with-text-1": {
       "type": "image-with-text-hb",
       "blocks": {
@@ -278,6 +175,62 @@
         "mobile_padding_bottom": -1
       }
     },
+    "image-with-text-2": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "template--16149963669561__image-with-text-1-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<b>We believe in you.<\/b>",
+            "heading_size": "h1",
+            "margin_bottom": 32
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>You don't have to have a perfect diet and wellness routine to <strong>live healthy.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16149963669561__image-with-text-1-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But simple, daily habits can reinforce good health — simple, daily habits like drinking <strong>Happy Being.<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "template--16149963669561__image-with-text-1-heading-1",
+        "template--16149963669561__image-with-text-1-text-1",
+        "template--16149963669561__image-with-text-1-text-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/2338E68B-3B2B-45C8-AE7D-33E17465B88A_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_title_alignment": "center",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 2.4,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 72,
+        "padding_bottom": 100,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
     "title": {
       "type": "multicolumn-hb",
       "settings": {
@@ -393,10 +346,9 @@
     }
   },
   "order": [
-    "image-with-text-2",
-    "image_with_text_wxM4HV",
     "image-with-text-1",
     "multicolumn-hb",
+    "image-with-text-2",
     "title",
     "d3b41365-1b11-4e6e-8a1c-4b73134b4194"
   ]
