@@ -154,7 +154,6 @@
         "column_title_size": "h14",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
@@ -263,7 +262,6 @@
         "column_title_size": "h1",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",

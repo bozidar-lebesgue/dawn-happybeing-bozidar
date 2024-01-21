@@ -197,7 +197,6 @@
         "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
@@ -403,7 +402,6 @@
         "column_title_size": "h3",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 6,
         "title_alignment": "left",
@@ -457,7 +455,6 @@
         "column_title_size": "h1",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
@@ -581,7 +578,6 @@
         "column_title_size": "h1",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "center",
@@ -799,7 +795,6 @@
         "column_title_size": "h2",
         "column_text_style": "body",
         "image_width": "full",
-        
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "title_alignment": "left",
