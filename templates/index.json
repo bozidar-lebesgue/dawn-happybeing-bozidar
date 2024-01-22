@@ -431,7 +431,7 @@
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 24,
-        "title_margin_bottom": 0,
+        "title_margin_bottom": 24,
         "subtitle_secondary_font": true,
         "subtitle_font_size": 5,
         "subtitle_mobile_font_size": 2.4,
