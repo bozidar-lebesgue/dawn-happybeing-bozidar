@@ -443,7 +443,7 @@
   }
 
   .image-width--large .image-with-text__grid {
-    margin-top: -100px;
+    margin-top: -60px;
     padding-top: 0px;
     background-color: rgb(var(--color-background));
   }
