@@ -1,256 +1,79 @@
 {
   "sections": {
-    "image-with-text-2": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-2-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Polyphenols help protect the gut microbiome and other core elements of your health in the most incredible and effective ways. Polyphenols feed good gut bacteria helping rebalance dysbiosos, they combat inflammation helping catalyze healthy levels of inflammation, polyphenols strengthen the gut lining helping address permeability issues like leaky gut and acid reflux. And there aren't many other nutrients that bring bloating down.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-2-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Leo Galland, MD<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-2-text-1",
-        "template--16149963669561__image-with-text-2-heading-1"
-      ],
+    "multicolumn_hb_TpmFXH": {
+      "type": "multicolumn-hb",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.08.41_PM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Leo_galland_bio_pic.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
+        "full_width": false,
+        "title": "<strong>Reviews<\/strong>",
+        "subtitle": "",
+        "title_max_width": 1000,
+        "title_margin_top": 0,
+        "title_margin_bottom": 10,
+        "subtitle_secondary_font": false,
+        "subtitle_font_size": 1.6,
+        "subtitle_mobile_font_size": 0,
+        "subtitle_margin_bottom": 10,
+        "column_title_max_width": 1000,
+        "column_max_width": 1000,
+        "column_border_radius": 0,
+        "column_border_tickness": 0,
+        "column_min_width": 200,
+        "column_title_margin_bottom": 10,
+        "column_title_margin_top": 10,
+        "column_subtitle_font_size": 1.6,
+        "column_subtitle_margin_bottom": 0,
+        "column_subtitle_margin_top": 0,
+        "column_content_font_size": 1,
+        "navigation_caret_size": "large",
+        "column_icon_location": "top",
+        "mobile_content_align": "center",
+        "column_icon_size": 16,
+        "title_heading_size": "hextra",
+        "column_title_size": "hextra",
+        "column_text_style": "body",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "title_alignment": "center",
+        "column_alignment": "center",
+        "column_mobile_title_alignment": "center",
+        "column_content_text_align": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "scheme-15",
+        "card_color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "show_slider_buttons_mobile": true,
+        "header_position_desktop": "top",
+        "padding_top": 36,
+        "padding_bottom": 36,
         "mobile_padding_top": 0,
         "mobile_padding_bottom": -1
       }
     },
-    "image-with-text-3": {
-      "type": "image-with-text-hb",
+    "170591860224584bcd": {
+      "type": "apps",
       "blocks": {
-        "template--16149963669561__image-with-text-3-text-1": {
-          "type": "text",
+        "okendo_reviews_widget_A9mQKN": {
+          "type": "shopify:\/\/apps\/okendo\/blocks\/reviews-widget\/bb689e69-ea70-4661-8fb7-ad24a2e23c29",
           "settings": {
-            "text": "<p>“I've helped thousands of men and women address hormonal and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. The goal of the Nourished development team team was to create not only a fortifying plant-protein powder but also a nutrient-dense nutrition powder that has the right active nutrients and ingredients, the right amounts of those active nutrients and ingredients, in the best quality forms to make the biggest impact on your health.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-3-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Jacqueline Maganas, MPHN CIMHC<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
+            "product": "",
+            "widget_type": "reviews_widget"
           }
         }
       },
       "block_order": [
-        "template--16149963669561__image-with-text-3-text-1",
-        "template--16149963669561__image-with-text-3-heading-1"
+        "okendo_reviews_widget_A9mQKN"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.04.47_PM.png",
-        "secondary_image": "shopify:\/\/shop_images\/jacqueline.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image-with-text-5": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-5-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“We've spent the last 30 years researching how diet and lifestyle affect our physiology. I've come to realize that we have more control over our health than we may think. The keys are to focus on the fundamentals and to address the root causes of health challenges (not just the symptoms).<\/p><p>The data is clear and our mission is simple: to share our knowledge with you through our products and content. Our whole team is here to support you on your health journey.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-5-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Chris Conway<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-5-text-1",
-        "template--16149963669561__image-with-text-5-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.09.45_PM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Chris_Conway_Bio.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 2.2,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image-with-text-4": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-4-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“The polyphenols in happy being help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-4-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Gerald Lemole, MD<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-4-text-1",
-        "template--16149963669561__image-with-text-4-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screen_Shot_2023-06-15_at_11.49.19_AM.png",
-        "secondary_image": "shopify:\/\/shop_images\/gerry.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image-with-text-1": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "template--16149963669561__image-with-text-1-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>“Oftentimes achieving our health goals doesn't happen overnight, especially when it comes to nutrition.<br><br>But you have more control over your health than you think. If you just stick with it, you will see results.”<\/p>",
-            "text_style": "body"
-          }
-        },
-        "template--16149963669561__image-with-text-1-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<b>Debbi Niggeman, MS CNS<\/b>",
-            "heading_size": "h2",
-            "margin_bottom": 0
-          }
-        }
-      },
-      "block_order": [
-        "template--16149963669561__image-with-text-1-text-1",
-        "template--16149963669561__image-with-text-1-heading-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Screenshot_2023-12-20_at_3.11.10_PM.png",
-        "secondary_image": "shopify:\/\/shop_images\/Debbie_Bio_Pic.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 700,
-        "mobile_image_height": 380,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
+        "include_margins": true
       }
     }
   },
   "order": [
-    "image-with-text-2",
-    "image-with-text-3",
-    "image-with-text-5",
-    "image-with-text-4",
-    "image-with-text-1"
+    "multicolumn_hb_TpmFXH",
+    "170591860224584bcd"
   ]
 }
