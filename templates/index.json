@@ -812,7 +812,7 @@
         "header_position_desktop": "top",
         "padding_top": 64,
         "padding_bottom": 45,
-        "mobile_padding_top": 40,
+        "mobile_padding_top": 45,
         "mobile_padding_bottom": -1
       }
     },
