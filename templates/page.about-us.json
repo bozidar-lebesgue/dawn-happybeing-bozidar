@@ -222,7 +222,7 @@
         "textbox_has_padding": false,
         "desktop_min_height": 0,
         "mobile_image_height": 300,
-        "text_size": 2.4,
+        "text_size": 2,
         "text_line_height": 30,
         "padding_horizontal": 2,
         "padding_top": 72,
