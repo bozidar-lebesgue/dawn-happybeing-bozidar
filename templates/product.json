@@ -604,22 +604,22 @@
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "title_alignment": "left",
+        "title_alignment": "center",
         "column_alignment": "center",
-        "column_mobile_title_alignment": "left",
-        "column_content_text_align": "left",
-        "background_style": "",
+        "column_mobile_title_alignment": "center",
+        "column_content_text_align": "center",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "scheme-8",
         "card_color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
-        "show_slider_buttons_mobile": true,
+        "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 64,
         "padding_bottom": 64,
-        "mobile_padding_top": 0,
+        "mobile_padding_top": 32,
         "mobile_padding_bottom": -1
       }
     },
@@ -1052,7 +1052,7 @@
           "settings": {
             "tab_number": 1,
             "heading": "<strong>Where can I find the Nutrition Facts?<\/strong>",
-            "content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy-cans#NutritionFacts\" title=\"https:\/\/happybeing.co\/products\/healthy-cans#NutritionFacts\">CLICK HERE<\/a> to see Happy Being® white tea Nutrition Facts.<\/p>",
+            "content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy-cans#NutritionFacts\" title=\"Nutritional facts\">CLICK HERE<\/a> to see Happy Being® white tea Nutrition Facts.<\/p>",
             "page": ""
           }
         },
