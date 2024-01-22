@@ -770,7 +770,7 @@
         "title": "",
         "subtitle": "",
         "title_max_width": 1000,
-        "title_margin_top": 0,
+        "title_margin_top": 10,
         "title_margin_bottom": 10,
         "subtitle_secondary_font": false,
         "subtitle_font_size": 1.6,
@@ -811,8 +811,8 @@
         "show_slider_buttons_mobile": false,
         "header_position_desktop": "top",
         "padding_top": 64,
-        "padding_bottom": 64,
-        "mobile_padding_top": 0,
+        "padding_bottom": 45,
+        "mobile_padding_top": 40,
         "mobile_padding_bottom": -1
       }
     },
