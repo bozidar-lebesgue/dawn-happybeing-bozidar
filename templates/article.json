@@ -163,27 +163,45 @@
         "row_WMPqLA": {
           "type": "row",
           "settings": {
-            "first_description": "",
+            "first_description": "3g sugar",
             "first_check": true,
-            "second_description": "",
+            "second_description": "31g sugar",
             "second_check": false
           }
         },
         "row_WYY3LT": {
           "type": "row",
           "settings": {
-            "first_description": "",
+            "first_description": "40 calories",
             "first_check": true,
-            "second_description": "",
+            "second_description": "150 calories",
+            "second_check": false
+          }
+        },
+        "row_Twt6ED": {
+          "type": "row",
+          "settings": {
+            "first_description": "1335mg polyphenols",
+            "first_check": true,
+            "second_description": "5mg polyphenols",
             "second_check": false
           }
         },
         "row_f9kHDT": {
           "type": "row",
           "settings": {
-            "first_description": "",
+            "first_description": "$4.00 (on subscription)",
             "first_check": true,
-            "second_description": "",
+            "second_description": "$8.00 (at least)",
+            "second_check": false
+          }
+        },
+        "row_QTnWdt": {
+          "type": "row",
+          "settings": {
+            "first_description": "Crisp, refreshing",
+            "first_check": true,
+            "second_description": "Too sweet",
             "second_check": false
           }
         }
@@ -191,7 +209,9 @@
       "block_order": [
         "row_WMPqLA",
         "row_WYY3LT",
-        "row_f9kHDT"
+        "row_Twt6ED",
+        "row_f9kHDT",
+        "row_QTnWdt"
       ],
       "settings": {
         "heading": "",
