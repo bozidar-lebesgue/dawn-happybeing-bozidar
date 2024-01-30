@@ -43,12 +43,12 @@
         "tabs": {
           "type": "tabs",
           "settings": {
-            "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols, nature did, we just figured out how to pack enough of them into a white tea to make a long-lasting impact on your health.<\/p>",
+            "tab1_title": "How To Use",
+            "tab1_content": "<p>Happy Being is made to be a part of your daily ritual:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>",
             "tab2_title": "Ingredients",
             "tab2_content": "<p><strong>Blueberry Tea:<\/strong> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p><p><strong>Peach Rose Tea:<\/strong> Filtered water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
-            "tab3_title": "How To Use",
-            "tab3_content": "<p>Happy Being is made to be a part of your daily ritual:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>"
+            "tab3_title": "Tea with benefits",
+            "tab3_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols, nature did, we just figured out how to pack enough of them into a white tea to make a long-lasting impact on your health.<\/p>"
           }
         }
       },
