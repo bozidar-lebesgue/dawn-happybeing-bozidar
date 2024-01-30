@@ -229,12 +229,95 @@
         "outer_padding_top": 24,
         "outer_padding_bottom": 64
       }
+    },
+    "hero_hb_atrBem": {
+      "type": "hero-hb",
+      "blocks": {
+        "heading_PDmEjg": {
+          "type": "heading",
+          "settings": {
+            "heading": "The health benefits of 63,000 blueberries and more in every can.",
+            "heading_size": "h1",
+            "use_secondary_color": false
+          }
+        },
+        "buttons_dHEx7n": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Learn more",
+            "button_link_1": "",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PDmEjg",
+        "buttons_dHEx7n"
+      ],
+      "settings": {
+        "gradient_1": "",
+        "gradient_2": "",
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "image_banner_73kLCB": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_DQJLVX": {
+          "type": "heading",
+          "settings": {
+            "heading": "The health benefits of 63,000 blueberries and more in every can.",
+            "heading_size": "h1"
+          }
+        },
+        "buttons_nPDyUX": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/products\/healthy-cans",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_DQJLVX",
+        "buttons_nPDyUX"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/blueberrycarousel4_d54a89c6-f09c-4551-a483-2f2bcb37d972.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-9",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
     "main",
     "product_anywhere_R7dMNw",
     "rich_text_r8Kyhi",
-    "comparison_table_hb_83REeM"
+    "comparison_table_hb_83REeM",
+    "hero_hb_atrBem",
+    "image_banner_73kLCB"
   ]
 }
