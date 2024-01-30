@@ -310,6 +310,46 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "review_slideshow_hb_ETrbRB": {
+      "type": "review-slideshow-hb",
+      "blocks": {
+        "slide_NGzMfx": {
+          "type": "slide",
+          "settings": {
+            "review": "<p>Best product ever!<\/p>",
+            "quote": "<p>John Doe<\/p>",
+            "show_text_box": true,
+            "five_star": false,
+            "verified_buyer": false,
+            "box_align": "middle-center",
+            "text_alignment": "center",
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_NGzMfx"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "gradient": "",
+        "corner_radius": 0,
+        "border_width": 0,
+        "review_font_size": 20,
+        "quote_secondary_font": false,
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "mobile_padding_bottom": 0,
+        "image_behavior": "none",
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand",
+        "color_scheme": "scheme-1",
+        "slide_inner_padding": 36
+      }
     }
   },
   "order": [
@@ -318,6 +358,7 @@
     "rich_text_r8Kyhi",
     "comparison_table_hb_83REeM",
     "hero_hb_atrBem",
-    "image_banner_73kLCB"
+    "image_banner_73kLCB",
+    "review_slideshow_hb_ETrbRB"
   ]
 }
