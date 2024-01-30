@@ -2,9 +2,34 @@
   "name": "t:sections.header.name",
   "type": "header",
   "sections": {
+    "announcement_bar_happybeing_YmDyCp": {
+      "type": "announcement-bar-happybeing",
+      "blocks": {
+        "announcement_zaQTCW": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING ON ALL ORDERS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_zaQTCW"
+      ],
+      "settings": {
+        "color_scheme": "scheme-14",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
     "header": {
       "type": "header",
       "settings": {
+        "full_width": false,
         "logo_position": "middle-left",
         "menu": "dawn-main-menu",
         "menu_type_desktop": "dropdown",
@@ -23,6 +48,7 @@
     }
   },
   "order": [
+    "announcement_bar_happybeing_YmDyCp",
     "header"
   ]
 }
