@@ -250,7 +250,7 @@
           "background_gradient": "",
           "text": "#464499",
           "button": "#464499",
-          "button_label": "#464499",
+          "button_label": "#fff",
           "secondary_button_label": "#464499",
           "shadow": ""
         }
