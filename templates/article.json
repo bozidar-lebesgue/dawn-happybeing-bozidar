@@ -230,128 +230,53 @@
         "outer_padding_bottom": 64
       }
     },
-    "hero_hb_atrBem": {
-      "type": "hero-hb",
+    "image_with_text_hb_JDpAUh": {
+      "type": "image-with-text-hb",
       "blocks": {
-        "heading_PDmEjg": {
+        "heading_nggmwJ": {
           "type": "heading",
           "settings": {
             "heading": "The health benefits of 63,000 blueberries and more in every can.",
             "heading_size": "h1",
-            "use_secondary_color": false
+            "margin_bottom": 0
           }
         },
-        "buttons_dHEx7n": {
-          "type": "buttons",
+        "button_nCcVNG": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Learn more",
-            "button_link_1": "",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/healthy-cans",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_PDmEjg",
-        "buttons_dHEx7n"
+        "heading_nggmwJ",
+        "button_nCcVNG"
       ],
       "settings": {
-        "gradient_1": "",
-        "gradient_2": "",
-        "image_height": "adapt",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
+        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-9",
+        "color_scheme": "scheme-15",
         "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "image_banner_73kLCB": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_DQJLVX": {
-          "type": "heading",
-          "settings": {
-            "heading": "The health benefits of 63,000 blueberries and more in every can.",
-            "heading_size": "h1"
-          }
-        },
-        "buttons_nPDyUX": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/products\/healthy-cans",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_DQJLVX",
-        "buttons_nPDyUX"
-      ],
-      "custom_css": [
-        "banner__box content-container content-container--full-width-mobile color-scheme-9 gradient {opacity: .1;}"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/blueberrycarousel4_d54a89c6-f09c-4551-a483-2f2bcb37d972.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-9",
-        "image_behavior": "none",
+        "mobile_title_alignment": "left",
         "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "review_slideshow_hb_ETrbRB": {
-      "type": "review-slideshow-hb",
-      "blocks": {
-        "slide_NGzMfx": {
-          "type": "slide",
-          "settings": {
-            "review": "<p>Best product ever!<\/p>",
-            "quote": "<p>John Doe<\/p>",
-            "show_text_box": true,
-            "five_star": false,
-            "verified_buyer": false,
-            "box_align": "middle-center",
-            "text_alignment": "center",
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_NGzMfx"
-      ],
-      "settings": {
-        "layout": "full_bleed",
-        "gradient": "",
-        "corner_radius": 0,
-        "border_width": 0,
-        "review_font_size": 20,
-        "quote_secondary_font": false,
-        "slide_height": "medium",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "mobile_padding_bottom": 0,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand",
-        "color_scheme": "scheme-1",
-        "slide_inner_padding": 36
+        "textbox_has_padding": false,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
       }
     }
   },
@@ -360,8 +285,6 @@
     "product_anywhere_R7dMNw",
     "rich_text_r8Kyhi",
     "comparison_table_hb_83REeM",
-    "hero_hb_atrBem",
-    "image_banner_73kLCB",
-    "review_slideshow_hb_ETrbRB"
+    "image_with_text_hb_JDpAUh"
   ]
 }
