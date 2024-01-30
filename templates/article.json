@@ -36,9 +36,88 @@
       ],
       "settings": {
       }
+    },
+    "product_anywhere_R7dMNw": {
+      "type": "product-anywhere",
+      "blocks": {
+        "text_zXdkRq": {
+          "type": "text",
+          "settings": {
+            "text": "Free Shipping",
+            "text_style": "uppercase"
+          }
+        },
+        "heading_riJMN6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Inflammation's worst nightmare.",
+            "heading_size": "h1"
+          }
+        },
+        "variant_picker_QHqrGQ": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector_Xn8GkN": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "selling_plan_selector_NLFae3": {
+          "type": "selling_plan_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_CDwhER": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "tabs_HcRdmK": {
+          "type": "tabs",
+          "settings": {
+            "tab1_title": "Tea with benefits",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into a white tea to make a long-lasting impact on your health.<\/p>",
+            "tab2_title": "Ingredients",
+            "tab2_content": "<p><strong>Blueberry Tea:<\/strong> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p><p><strong>Peach Rose Tea:<\/strong> Filtered water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
+            "tab3_title": "How To Use",
+            "tab3_content": "<p>Happy Being is made to be a part of your <strong>daily ritual<\/strong>:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>"
+          }
+        }
+      },
+      "block_order": [
+        "text_zXdkRq",
+        "heading_riJMN6",
+        "variant_picker_QHqrGQ",
+        "quantity_selector_Xn8GkN",
+        "selling_plan_selector_NLFae3",
+        "buy_buttons_CDwhER",
+        "tabs_HcRdmK"
+      ],
+      "settings": {
+        "product_url": "",
+        "enable_sticky_info": true,
+        "color_scheme": "",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail_slider",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 40
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "product_anywhere_R7dMNw"
   ]
 }
