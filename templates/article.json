@@ -297,6 +297,9 @@
         "heading_DQJLVX",
         "buttons_nPDyUX"
       ],
+      "custom_css": [
+        "banner__box content-container content-container--full-width-mobile color-scheme-9 gradient {opacity: .1;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/blueberrycarousel4_d54a89c6-f09c-4551-a483-2f2bcb37d972.png",
         "image_overlay_opacity": 0,
