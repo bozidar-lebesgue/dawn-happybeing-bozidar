@@ -98,8 +98,8 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Pressed_Juice_Ad_2_1_e571aedb-685a-466d-be55-5dbc5a4d8da3.png",
         "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
