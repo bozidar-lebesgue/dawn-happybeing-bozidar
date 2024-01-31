@@ -300,7 +300,29 @@
       ],
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "rich_text_8a8nfL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YRgkb8": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_2_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_YRgkb8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -314,6 +336,7 @@
     "comparison_table_hb_83REeM",
     "image_with_text_hb_JDpAUh",
     "image_with_text_gajkVb",
-    "rich_text_VGbVKj"
+    "rich_text_VGbVKj",
+    "rich_text_8a8nfL"
   ]
 }
