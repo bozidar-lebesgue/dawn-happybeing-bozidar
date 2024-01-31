@@ -32,19 +32,10 @@
             "heading_size": "h1",
             "margin_bottom": 0
           }
-        },
-        "button_nCcVNG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "https:\/\/happybeing.co\/products\/healthy-cans",
-            "button_style_secondary": true
-          }
         }
       },
       "block_order": [
-        "heading_nggmwJ",
-        "button_nCcVNG"
+        "heading_nggmwJ"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
