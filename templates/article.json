@@ -1,5 +1,139 @@
 {
   "sections": {
+    "rich_text_VGbVKj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fRmVKh": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_1_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_fRmVKh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_hb_JDpAUh": {
+      "type": "image-with-text-hb",
+      "blocks": {
+        "heading_nggmwJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "The health benefits of 63,000 blueberries and more in every can.",
+            "heading_size": "h1",
+            "margin_bottom": 0
+          }
+        },
+        "button_nCcVNG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/healthy-cans",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nggmwJ",
+        "button_nCcVNG"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
+        "height": "large",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-9",
+        "color_scheme": "scheme-9",
+        "image_behavior": "none",
+        "mobile_title_alignment": "left",
+        "mobile_content_alignment": "left",
+        "textbox_has_padding": false,
+        "desktop_min_height": 0,
+        "mobile_image_height": 300,
+        "text_size": 1.8,
+        "text_line_height": 30,
+        "padding_horizontal": 2,
+        "padding_top": 36,
+        "padding_bottom": 36,
+        "mobile_padding_top": 0,
+        "mobile_padding_bottom": -1
+      }
+    },
+    "rich_text_8a8nfL": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YRgkb8": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_2_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_YRgkb8"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_gajkVb": {
+      "type": "image-with-text",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pressed_Juice_Ad_2_1_e571aedb-685a-466d-be55-5dbc5a4d8da3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_3gB9yM": {
+      "type": "rich-text",
+      "blocks": {
+        "text_w4RYgg": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_3_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_w4RYgg"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-article",
       "blocks": {
@@ -34,7 +168,103 @@
         "share",
         "content"
       ],
+      "disabled": true,
       "settings": {
+      }
+    },
+    "comparison_table_hb_83REeM": {
+      "type": "comparison-table-hb",
+      "blocks": {
+        "row_WMPqLA": {
+          "type": "row",
+          "settings": {
+            "first_description": "3g sugar",
+            "first_check": true,
+            "second_description": "31g sugar",
+            "second_check": false
+          }
+        },
+        "row_WYY3LT": {
+          "type": "row",
+          "settings": {
+            "first_description": "40 calories",
+            "first_check": true,
+            "second_description": "150 calories",
+            "second_check": false
+          }
+        },
+        "row_Twt6ED": {
+          "type": "row",
+          "settings": {
+            "first_description": "1335mg polyphenols",
+            "first_check": true,
+            "second_description": "5mg polyphenols",
+            "second_check": false
+          }
+        },
+        "row_f9kHDT": {
+          "type": "row",
+          "settings": {
+            "first_description": "$4.00 (on subscription)",
+            "first_check": true,
+            "second_description": "$8.00 (at least)",
+            "second_check": false
+          }
+        },
+        "row_QTnWdt": {
+          "type": "row",
+          "settings": {
+            "first_description": "Crisp, refreshing",
+            "first_check": true,
+            "second_description": "Too sweet",
+            "second_check": false
+          }
+        }
+      },
+      "block_order": [
+        "row_WMPqLA",
+        "row_WYY3LT",
+        "row_Twt6ED",
+        "row_f9kHDT",
+        "row_QTnWdt"
+      ],
+      "settings": {
+        "heading": "",
+        "subheading": "",
+        "first_title": "Happy Being",
+        "second_title": "Pressed juices",
+        "first_image": "shopify:\/\/shop_images\/3.01_-_247x643_-_Happy_Being_-_JTD_-_211467.png",
+        "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
+        "heading_size": 32,
+        "corner_radius": 24,
+        "border_width": 1,
+        "color_scheme": "",
+        "table_color_scheme": "",
+        "inner_padding": 32,
+        "outer_padding_top": 24,
+        "outer_padding_bottom": 64
+      }
+    },
+    "rich_text_ypETgq": {
+      "type": "rich-text",
+      "blocks": {
+        "text_7eytHc": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_4_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_7eytHc"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "product_anywhere_R7dMNw": {
@@ -114,275 +344,17 @@
         "padding_top": 36,
         "padding_bottom": 40
       }
-    },
-    "comparison_table_hb_83REeM": {
-      "type": "comparison-table-hb",
-      "blocks": {
-        "row_WMPqLA": {
-          "type": "row",
-          "settings": {
-            "first_description": "3g sugar",
-            "first_check": true,
-            "second_description": "31g sugar",
-            "second_check": false
-          }
-        },
-        "row_WYY3LT": {
-          "type": "row",
-          "settings": {
-            "first_description": "40 calories",
-            "first_check": true,
-            "second_description": "150 calories",
-            "second_check": false
-          }
-        },
-        "row_Twt6ED": {
-          "type": "row",
-          "settings": {
-            "first_description": "1335mg polyphenols",
-            "first_check": true,
-            "second_description": "5mg polyphenols",
-            "second_check": false
-          }
-        },
-        "row_f9kHDT": {
-          "type": "row",
-          "settings": {
-            "first_description": "$4.00 (on subscription)",
-            "first_check": true,
-            "second_description": "$8.00 (at least)",
-            "second_check": false
-          }
-        },
-        "row_QTnWdt": {
-          "type": "row",
-          "settings": {
-            "first_description": "Crisp, refreshing",
-            "first_check": true,
-            "second_description": "Too sweet",
-            "second_check": false
-          }
-        }
-      },
-      "block_order": [
-        "row_WMPqLA",
-        "row_WYY3LT",
-        "row_Twt6ED",
-        "row_f9kHDT",
-        "row_QTnWdt"
-      ],
-      "settings": {
-        "heading": "",
-        "subheading": "",
-        "first_title": "Happy Being",
-        "second_title": "Pressed juices",
-        "first_image": "shopify:\/\/shop_images\/3.01_-_247x643_-_Happy_Being_-_JTD_-_211467.png",
-        "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
-        "heading_size": 32,
-        "corner_radius": 24,
-        "border_width": 1,
-        "color_scheme": "",
-        "table_color_scheme": "",
-        "inner_padding": 32,
-        "outer_padding_top": 24,
-        "outer_padding_bottom": 64
-      }
-    },
-    "image_with_text_hb_JDpAUh": {
-      "type": "image-with-text-hb",
-      "blocks": {
-        "heading_nggmwJ": {
-          "type": "heading",
-          "settings": {
-            "heading": "The health benefits of 63,000 blueberries and more in every can.",
-            "heading_size": "h1",
-            "margin_bottom": 0
-          }
-        },
-        "button_nCcVNG": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop now",
-            "button_link": "shopify:\/\/products\/healthy-cans",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_nggmwJ",
-        "button_nCcVNG"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
-        "height": "large",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-9",
-        "color_scheme": "scheme-9",
-        "image_behavior": "none",
-        "mobile_title_alignment": "left",
-        "mobile_content_alignment": "left",
-        "textbox_has_padding": false,
-        "desktop_min_height": 0,
-        "mobile_image_height": 300,
-        "text_size": 1.8,
-        "text_line_height": 30,
-        "padding_horizontal": 2,
-        "padding_top": 36,
-        "padding_bottom": 36,
-        "mobile_padding_top": 0,
-        "mobile_padding_bottom": -1
-      }
-    },
-    "image_with_text_gajkVb": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_hQkTw8": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_YtaFbx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_DWAAYj": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_hQkTw8",
-        "text_YtaFbx",
-        "button_DWAAYj"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Pressed_Juice_Ad_2_1_e571aedb-685a-466d-be55-5dbc5a4d8da3.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "image_text_gap": 0,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_VGbVKj": {
-      "type": "rich-text",
-      "blocks": {
-        "text_fRmVKh": {
-          "type": "text",
-          "settings": {
-            "text": "{{ article.metafields.custom.section_1_of_4 | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_fRmVKh"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_8a8nfL": {
-      "type": "rich-text",
-      "blocks": {
-        "text_YRgkb8": {
-          "type": "text",
-          "settings": {
-            "text": "{{ article.metafields.custom.section_2_of_4 | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_YRgkb8"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_3gB9yM": {
-      "type": "rich-text",
-      "blocks": {
-        "text_w4RYgg": {
-          "type": "text",
-          "settings": {
-            "text": "{{ article.metafields.custom.section_3_of_4 | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_w4RYgg"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_ypETgq": {
-      "type": "rich-text",
-      "blocks": {
-        "text_7eytHc": {
-          "type": "text",
-          "settings": {
-            "text": "{{ article.metafields.custom.section_4_of_4 | metafield_tag }}"
-          }
-        }
-      },
-      "block_order": [
-        "text_7eytHc"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
-    "main",
-    "product_anywhere_R7dMNw",
-    "comparison_table_hb_83REeM",
-    "image_with_text_hb_JDpAUh",
-    "image_with_text_gajkVb",
     "rich_text_VGbVKj",
+    "image_with_text_hb_JDpAUh",
     "rich_text_8a8nfL",
+    "image_with_text_gajkVb",
     "rich_text_3gB9yM",
-    "rich_text_ypETgq"
+    "main",
+    "comparison_table_hb_83REeM",
+    "rich_text_ypETgq",
+    "product_anywhere_R7dMNw"
   ]
 }
