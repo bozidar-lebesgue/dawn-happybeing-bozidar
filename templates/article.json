@@ -37,7 +37,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop now",
-            "button_link": "shopify:\/\/products\/healthy-cans",
+            "button_link": "https:\/\/happybeing.co\/products\/healthy-cans",
             "button_style_secondary": false
           }
         }
