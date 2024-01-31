@@ -214,7 +214,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
-        "height": "adapt",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
@@ -236,12 +236,84 @@
         "mobile_padding_top": 0,
         "mobile_padding_bottom": -1
       }
+    },
+    "image_with_text_gajkVb": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hQkTw8": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_YtaFbx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_DWAAYj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_hQkTw8",
+        "text_YtaFbx",
+        "button_DWAAYj"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Pressed_Juice_Ad_2_1_e571aedb-685a-466d-be55-5dbc5a4d8da3.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "image_text_gap": 0,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_VGbVKj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_fRmVKh": {
+          "type": "text",
+          "settings": {
+            "text": "{{ article.metafields.custom.section_1_of_4 | metafield_tag }}"
+          }
+        }
+      },
+      "block_order": [
+        "text_fRmVKh"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "product_anywhere_R7dMNw",
     "comparison_table_hb_83REeM",
-    "image_with_text_hb_JDpAUh"
+    "image_with_text_hb_JDpAUh",
+    "image_with_text_gajkVb",
+    "rich_text_VGbVKj"
   ]
 }
