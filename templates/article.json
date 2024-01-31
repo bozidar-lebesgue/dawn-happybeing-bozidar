@@ -226,14 +226,14 @@
         "second_title": "Pressed juices",
         "first_image": "shopify:\/\/shop_images\/3.01_-_247x643_-_Happy_Being_-_JTD_-_211467.png",
         "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
-        "heading_size": 32,
-        "corner_radius": 24,
+        "heading_size": 26,
+        "corner_radius": 19,
         "border_width": 1,
         "color_scheme": "",
         "table_color_scheme": "",
         "inner_padding": 32,
-        "outer_padding_top": 24,
-        "outer_padding_bottom": 64
+        "outer_padding_top": 0,
+        "outer_padding_bottom": 0
       }
     },
     "rich_text_ypETgq": {
