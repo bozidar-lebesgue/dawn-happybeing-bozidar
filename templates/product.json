@@ -711,7 +711,7 @@
             "indent": 1,
             "item": "Dietary fiber",
             "item_amount": "0 g",
-            "item_percentage": "<b>21%<\/b>",
+            "item_percentage": "<strong>0%<\/strong>",
             "bottom_border_width": 1,
             "vertical_padding": 4
           }
