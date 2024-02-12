@@ -2,6 +2,7 @@
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
 <script type="text/javascript">
+try{squaredanceCart=JSON.parse(decodeURIComponent("{{cart.items|json|url_encode}}"))}catch(e){}
 ;!function(j,u,m,b,l,e){var n="jumbleberry",i="3.2.2",o=function(){o.v==i&&o.e?o.e.apply(o,arguments):o.q.push(arguments)}
 ,a=encodeURIComponent,t=decodeURIComponent,d=j.location;(o.push=o).l=!1,o.q=[],o.v=i,o.duid=function(n){return(
 n=n&&u.cookie.match(RegExp(t("%5Cs*")+n.substr(0,21)+"id=([^;]+)")))?t(n[1].split(".")[0]):""},o.g=function(n,i){return!!(
@@ -18,9 +19,8 @@ n.src=o.d+o.p+"?hid="+a(o.h)+"&uid="+a(o.u)+"&v="+o.v,n.async=!!o.h,o.e=!1,o.q.u
 i.parentNode.insertBefore(n,i))},j[n]=j[n]||o,j[n].d=b}(window,document,"script","https://www.kind-loving-strawberry.com/");
 
 jumbleberry("init", "HJxfXxF0Ep78PyxYyvX2ekyiOFOhTKpgOkLWxHiLrIBi31qiJ23dkhC5A-ilnAzqeG2_dE18aJH79AP7DADYJA~~", jumbleberry.g("sqdid"));
-jumbleberry("track", "Lead");
+jumbleberry("shopify", "enable");
 </script>
-
 
 
 
