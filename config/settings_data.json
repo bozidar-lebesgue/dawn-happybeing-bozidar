@@ -153,6 +153,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "18060503494305189591": {
+        "type": "shopify:\/\/apps\/squaredance\/blocks\/squaredance-pixel\/7f292b5b-a8c2-4f25-b417-27635caf2a12",
+        "disabled": false,
+        "settings": {
+        }
       }
     },
     "color_schemes": {
@@ -250,7 +256,7 @@
           "background_gradient": "",
           "text": "#464499",
           "button": "#464499",
-          "button_label": "#fff",
+          "button_label": "#ffffff",
           "secondary_button_label": "#464499",
           "shadow": ""
         }
