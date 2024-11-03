@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "hero": {
@@ -14,7 +23,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We put the health benefits of 63,000<br\/>blueberries and more into each can.<\/p>",
+            "text": "<p>We put the health benefits of 63,000<br/>blueberries and more into each can.</p>",
             "text_size": "h15",
             "text_style": "body"
           }
@@ -23,7 +32,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Shop Now →",
-            "button_link_1": "shopify:\/\/products\/healthy-cans",
+            "button_link_1": "shopify://products/healthy-cans",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -41,7 +50,7 @@
         "ba6b8365-95f0-4058-be48-1abcd665d991": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/New_Hero_Image.png"
+            "image": "shopify://shop_images/DALL_E_2024-11-03_12.24.56_-_A_close-up_view_of_a_colorful_marble_on_a_simple_white_or_light-colored_surface_shot_with_soft_lighting_and_shadows_to_emphasize_its_rounded_shape_an.webp"
           }
         }
       },
@@ -51,6 +60,9 @@
         "button",
         "five-star-rating",
         "ba6b8365-95f0-4058-be48-1abcd665d991"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "gradient_1": "",
@@ -70,7 +82,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<strong>Delicious tasting white tea with health benefits.<\/strong>",
+        "title": "<strong>Delicious tasting white tea with health benefits.</strong>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 0,
@@ -125,39 +137,39 @@
         "template--16149963669561__benefits-multicolumn-hb-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>Fight inflammation<\/strong>",
+            "title": "<strong>Fight inflammation</strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Reduce chronic inflammation caused by oxidative stress & harmful free radicals that attack your cells.<\/p>",
+            "text": "<p>Reduce chronic inflammation caused by oxidative stress & harmful free radicals that attack your cells.</p>",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/image.png",
+            "icon_image": "shopify://shop_images/image.png",
             "icon": "none"
           }
         },
         "template--16149963669561__benefits-multicolumn-hb-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>Nourish gut health<\/strong>",
+            "title": "<strong>Nourish gut health</strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Feed & fuel the good bacteria in your gut biome while decreasing inflammation in the GI tract.<\/p>",
+            "text": "<p>Feed & fuel the good bacteria in your gut biome while decreasing inflammation in the GI tract.</p>",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/image_1_2c6be0a0-4881-47ea-b144-d4985cb221e3.png",
+            "icon_image": "shopify://shop_images/image_1_2c6be0a0-4881-47ea-b144-d4985cb221e3.png",
             "icon": "none"
           }
         },
         "template--16149963669561__benefits-multicolumn-hb-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Support immunity  <\/strong>",
+            "title": "<strong>Support immunity  </strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>Reinforce your immune system by helping catalyze your body's responses to toxins and infections.<\/p>",
+            "text": "<p>Reinforce your immune system by helping catalyze your body's responses to toxins and infections.</p>",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/image_2_9fdd2440-57fa-492a-a154-02e4a4d54d7a.png",
+            "icon_image": "shopify://shop_images/image_2_9fdd2440-57fa-492a-a154-02e4a4d54d7a.png",
             "icon": "none"
           }
         }
@@ -262,11 +274,11 @@
           "type": "tabs",
           "settings": {
             "tab1_title": "Tea with benefits",
-            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.<\/p><p>Polyphenols are found in plants like blueberries, and they help your cells to fight inflammation & keep you healthy.<\/p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into a white tea to make a long-lasting impact on your health.<\/p>",
+            "tab1_content": "<p>Sure, words like \"polyphenols\" might sound complicated, but they're just active antioxidants that've been protecting human health since forever.</p><p>Polyphenols are found in plants like blueberries, and they help your cells to fight inflammation & keep you healthy.</p><p>We didn't create polyphenols. Nature did. We just figured out how to pack enough of them into a white tea to make a long-lasting impact on your health.</p>",
             "tab2_title": "Ingredients",
-            "tab2_content": "<p><strong>Blueberry Tea:<\/strong> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p><p><strong>Peach Rose Tea:<\/strong> Filtered water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3<\/p>",
+            "tab2_content": "<p><strong>Blueberry Tea:</strong> Filtered Water, Xylitol, Organic Blueberry Juice Concentrate, Natural Blueberry Essence, Organic and Natural Flavors, Natural Raspberry Extract, Organic Fair Trade White Tea Extract, Organic Lemon Juice Concentrate, Turmacin®, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3</p><p><strong>Peach Rose Tea:</strong> Filtered water, Xylitol, Organic Peach Juice Concentrate, Organic and Natural Flavors, Organic Lemon Juice Concentrate, Organic Fair Trade White Tea Extract, Organic Rose Extract, Turmacin, Organic Elderberry Extract, Green Tea Extract, Trans-pTerostilbene, Organic Stevia, Vitamin D3</p>",
             "tab3_title": "How To Use",
-            "tab3_content": "<p>Happy Being is made to be a part of your <strong>daily ritual<\/strong>:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>"
+            "tab3_content": "<p>Happy Being is made to be a part of your <strong>daily ritual</strong>:</p><ol><li>In the <strong>morning</strong> as a replacement of juices which are high in sugar and calories.</li><li>In the <strong>afternoon</strong> as a non-caffeinated midday pick-me-up.  </li><li>In the <strong>evening</strong> as a healthy alternative to alcohol.</li></ol>"
           }
         }
       },
@@ -308,7 +320,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Customer_Service.png",
+            "icon_image": "shopify://shop_images/Customer_Service.png",
             "icon": "none"
           }
         },
@@ -321,7 +333,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/90_day_money_back.png",
+            "icon_image": "shopify://shop_images/90_day_money_back.png",
             "icon": "none"
           }
         },
@@ -334,7 +346,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Free_shipping.png",
+            "icon_image": "shopify://shop_images/Free_shipping.png",
             "icon": "none"
           }
         },
@@ -347,7 +359,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Backed_by_science.png",
+            "icon_image": "shopify://shop_images/Backed_by_science.png",
             "icon": "none"
           }
         },
@@ -360,7 +372,7 @@
             "text": "",
             "link_label": "",
             "link": "",
-            "icon_image": "shopify:\/\/shop_images\/Delicious_i_dont_like.png",
+            "icon_image": "shopify://shop_images/Delicious_i_dont_like.png",
             "icon": "none"
           }
         }
@@ -374,7 +386,7 @@
       ],
       "settings": {
         "full_width": true,
-        "title": "<b>Because we care.<\/b>",
+        "title": "<b>Because we care.</b>",
         "subtitle": "",
         "title_max_width": 500,
         "title_margin_top": 48,
@@ -427,7 +439,7 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<strong>Drink to a healthy life.<\/strong>",
+        "title": "<strong>Drink to a healthy life.</strong>",
         "subtitle": "",
         "title_max_width": 1000,
         "title_margin_top": 24,
@@ -482,8 +494,8 @@
         "template--16149963669561__review-slideshow-hb-slide-0": {
           "type": "slide",
           "settings": {
-            "review": "<p>\"The plant compounds in Happy Being, called polyphenols, help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.\"<\/p>",
-            "quote": "<h3><strong>Gerald Lemole, MD<\/strong><\/h3>",
+            "review": "<p>\"The plant compounds in Happy Being, called polyphenols, help regulate blood flow which subsequently help to maintain a healthy blood pressure. They also protect the inner lining of the heart, regulate insulin and blood sugar and can help lower cholesterol. This is why we based our formulation around polyphenols and plant-protein.\"</p>",
+            "quote": "<h3><strong>Gerald Lemole, MD</strong></h3>",
             "show_text_box": true,
             "five_star": false,
             "verified_buyer": false,
@@ -496,8 +508,8 @@
         "template--16149963669561__review-slideshow-hb-slide-1": {
           "type": "slide",
           "settings": {
-            "review": "<p>\"Polyphenols like the ones in Happy Being are antioxidants found in plants, and they help protect the gut microbiome and other core elements of your health. Polyphenols feed good gut bacteria, helping rebalance dysbiosis. They also combat inflammation and strengthen the gut lining, helping address permeability issues like leaky gut and acid reflux.\"<\/p>",
-            "quote": "<h3><strong>Leo Galland, MD<\/strong><\/h3>",
+            "review": "<p>\"Polyphenols like the ones in Happy Being are antioxidants found in plants, and they help protect the gut microbiome and other core elements of your health. Polyphenols feed good gut bacteria, helping rebalance dysbiosis. They also combat inflammation and strengthen the gut lining, helping address permeability issues like leaky gut and acid reflux.\"</p>",
+            "quote": "<h3><strong>Leo Galland, MD</strong></h3>",
             "show_text_box": true,
             "five_star": false,
             "verified_buyer": false,
@@ -510,8 +522,8 @@
         "template--16149963669561__review-slideshow-hb-slide-2": {
           "type": "slide",
           "settings": {
-            "review": "<p>\"I’ve helped thousands of men and women address inflammatory and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. Our goal at Happy Being was to create not only a refreshment that tastes good, but also is nutrient-dense with the right active ingredients, in the right amounts, and in the best quality forms to make the biggest impact on your health.\"<\/p>",
-            "quote": "<h3><strong>Jacqueline Maganas, MPHN CIMHC<\/strong><\/h3>",
+            "review": "<p>\"I’ve helped thousands of men and women address inflammatory and metabolic health challenges. With the right nutritional intakes you will see positive health outcomes. Our goal at Happy Being was to create not only a refreshment that tastes good, but also is nutrient-dense with the right active ingredients, in the right amounts, and in the best quality forms to make the biggest impact on your health.\"</p>",
+            "quote": "<h3><strong>Jacqueline Maganas, MPHN CIMHC</strong></h3>",
             "show_text_box": true,
             "five_star": false,
             "verified_buyer": false,
@@ -550,8 +562,8 @@
       "type": "multicolumn-hb",
       "settings": {
         "full_width": false,
-        "title": "<strong>How Happy Being is different<\/strong>",
-        "subtitle": "<em>Packed with antioxidants, not sugar.<\/em>",
+        "title": "<strong>How Happy Being is different</strong>",
+        "subtitle": "<em>Packed with antioxidants, not sugar.</em>",
         "title_max_width": 1000,
         "title_margin_top": 24,
         "title_margin_bottom": 24,
@@ -660,8 +672,8 @@
         "subheading": "",
         "first_title": "Happy Being",
         "second_title": "Pressed juices",
-        "first_image": "shopify:\/\/shop_images\/3.01_-_247x643_-_Happy_Being_-_JTD_-_211467.png",
-        "second_image": "shopify:\/\/shop_images\/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
+        "first_image": "shopify://shop_images/3.01_-_247x643_-_Happy_Being_-_JTD_-_211467.png",
+        "second_image": "shopify://shop_images/2.01_-_2000x2000_-_Happy_Being_-_MLG_-_207942_400x400_68a82d4d-64c0-4a9e-a60b-59f105847d84.webp",
         "heading_size": 32,
         "corner_radius": 24,
         "border_width": 1,
@@ -678,7 +690,7 @@
         "template--16149963669561__image-with-text-1-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "<b>You are what you drink, and this drink is really healthy.<\/b>",
+            "heading": "<b>You are what you drink, and this drink is really healthy.</b>",
             "heading_size": "h1",
             "margin_bottom": 0
           }
@@ -686,7 +698,7 @@
         "template--16149963669561__image-with-text-1-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Each serving of <strong>Happy Being<\/strong> contains science-backed antioxidants, called <strong>Polyphenols<\/strong>, which are particularly good at fighting “free radicals” in your body.<br\/><br\/>Free radicals are the <strong>inflammation<\/strong>-<strong>causing<\/strong> chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<br\/><br\/>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy.<\/strong><\/p>",
+            "text": "<p>Each serving of <strong>Happy Being</strong> contains science-backed antioxidants, called <strong>Polyphenols</strong>, which are particularly good at fighting “free radicals” in your body.<br/><br/>Free radicals are the <strong>inflammation</strong>-<strong>causing</strong> chaos agents that attack the machinery of your cells. If left unchecked, these ‘free radicals' ultimately lead to chronic disease.<br/><br/>Polyphenols are an antidote to that inflammation. So drink up, and <strong>live healthy.</strong></p>",
             "text_style": "body"
           }
         }
@@ -696,7 +708,7 @@
         "template--16149963669561__image-with-text-1-text-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
+        "image": "shopify://shop_images/You_are_what_you_drink_fb385be7-2be6-4f40-a44d-dd5df9cffae0.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -726,10 +738,10 @@
         "template--16149963669561__multicolumn-hb-credentials-column-1": {
           "type": "column",
           "settings": {
-            "title": "<strong>Formulated by world class health experts.<\/strong>",
+            "title": "<strong>Formulated by world class health experts.</strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <strong>Happy Being<\/strong> is the healthiest drink ever made.<\/p>",
+            "text": "<p>With the help of experts, like Leo Galland MD and Gerald Lemole MD, who have 100+ years of experience, <strong>Happy Being</strong> is the healthiest drink ever made.</p>",
             "link_label": "",
             "link": "",
             "icon": ""
@@ -738,10 +750,10 @@
         "template--16149963669561__multicolumn-hb-credentials-column-2": {
           "type": "column",
           "settings": {
-            "title": "<strong>Science-backed health results.<\/strong>",
+            "title": "<strong>Science-backed health results.</strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p>With the help of research-backed, highly bioavailable polyphenols in doctor-recommended doses, each serving helps promote real health results when consumed daily.<\/p>",
+            "text": "<p>With the help of research-backed, highly bioavailable polyphenols in doctor-recommended doses, each serving helps promote real health results when consumed daily.</p>",
             "link_label": "",
             "link": "",
             "icon": ""
@@ -750,10 +762,10 @@
         "template--16149963669561__multicolumn-hb-credentials-column-3": {
           "type": "column",
           "settings": {
-            "title": "<strong>Your new, delicious, daily health drink.<\/strong>",
+            "title": "<strong>Your new, delicious, daily health drink.</strong>",
             "subtitle": "",
             "second_subtitle": "",
-            "text": "<p><strong>Happy Being<\/strong> is the world's healthiest one-a-day drink. With that in mind, we make sure each serving tastes delicious so you can sip healthy and happy.<\/p>",
+            "text": "<p><strong>Happy Being</strong> is the world's healthiest one-a-day drink. With that in mind, we make sure each serving tastes delicious so you can sip healthy and happy.</p>",
             "link_label": "",
             "link": "",
             "icon": ""
@@ -851,8 +863,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Where can I find the Nutrition Facts?<\/strong>",
-            "content": "<p><a href=\"https:\/\/happybeing.co\/products\/healthy-cans#NutritionFacts\" title=\"Nutritional facts\">CLICK HERE<\/a> to see Happy Being® white tea Nutrition Facts.<\/p>",
+            "heading": "<strong>Where can I find the Nutrition Facts?</strong>",
+            "content": "<p><a href=\"https://happybeing.co/products/healthy-cans#NutritionFacts\" title=\"Nutritional facts\">CLICK HERE</a> to see Happy Being® white tea Nutrition Facts.</p>",
             "page": ""
           }
         },
@@ -860,8 +872,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 2,
-            "heading": "<strong>What is your return policy?<\/strong>",
-            "content": "<p>We believe you'll love our white teas so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever we can to make things right.<\/p>",
+            "heading": "<strong>What is your return policy?</strong>",
+            "content": "<p>We believe you'll love our white teas so if anything goes wrong in the first 90 days just send an email to hi@happybeing.co and we will be happy to give you a refund or do whatever we can to make things right.</p>",
             "page": ""
           }
         },
@@ -869,8 +881,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "<strong>How often should I drink this?<\/strong>",
-            "content": "<p>To maximize the benefits, we recommend drinking one per day.<\/p>",
+            "heading": "<strong>How often should I drink this?</strong>",
+            "content": "<p>To maximize the benefits, we recommend drinking one per day.</p>",
             "page": ""
           }
         },
@@ -878,8 +890,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>What does the Happy Being taste like?<\/strong>",
-            "content": "<p>Our white tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.<\/p>",
+            "heading": "<strong>What does the Happy Being taste like?</strong>",
+            "content": "<p>Our white tea is light, refreshing and natural tasting. We only use naturally-occurring ingredients, no fake stuff. Best serve chilled.</p>",
             "page": ""
           }
         },
@@ -887,8 +899,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Is there any sugar?<\/strong>",
-            "content": "<p>Happy Being® white teas have a total  of 3 grams of naturally-occurring sugar per serving.  <\/p>",
+            "heading": "<strong>Is there any sugar?</strong>",
+            "content": "<p>Happy Being® white teas have a total  of 3 grams of naturally-occurring sugar per serving.  </p>",
             "page": ""
           }
         },
@@ -896,8 +908,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>How many calories?<\/strong>",
-            "content": "<p>Happy Being® white teas have 40 calories per serving.<\/p>",
+            "heading": "<strong>How many calories?</strong>",
+            "content": "<p>Happy Being® white teas have 40 calories per serving.</p>",
             "page": ""
           }
         },
@@ -905,8 +917,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "<strong>When should I drink?<\/strong>",
-            "content": "<p>Happy Being was made to be a part of your <strong>daily ritual<\/strong>:<\/p><ol><li>In the <strong>morning<\/strong> as a replacement of juices which are high in sugar and calories.<\/li><li>In the <strong>afternoon<\/strong> as a non-caffeinated midday pick-me-up.  <\/li><li>In the <strong>evening<\/strong> as a healthy alternative to alcohol.<\/li><\/ol>",
+            "heading": "<strong>When should I drink?</strong>",
+            "content": "<p>Happy Being was made to be a part of your <strong>daily ritual</strong>:</p><ol><li>In the <strong>morning</strong> as a replacement of juices which are high in sugar and calories.</li><li>In the <strong>afternoon</strong> as a non-caffeinated midday pick-me-up.  </li><li>In the <strong>evening</strong> as a healthy alternative to alcohol.</li></ol>",
             "page": ""
           }
         },
@@ -914,8 +926,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Is there caffeine?<\/strong>",
-            "content": "<p>We use white tea as our base for Happy Being tea, which naturally has .02 mg of caffeine. So no, you won’t feel any jitters or effects of caffeine.<\/p>",
+            "heading": "<strong>Is there caffeine?</strong>",
+            "content": "<p>We use white tea as our base for Happy Being tea, which naturally has .02 mg of caffeine. So no, you won’t feel any jitters or effects of caffeine.</p>",
             "page": ""
           }
         },
@@ -923,8 +935,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Can Happy Being help promote weight loss?<\/strong>",
-            "content": "<p>Yes. Polyphenols like the ones in Happy Being® white tea boost thermogenesis, the body's natural process of burning brown fat, and they help increase the body's metabolic rate.<\/p>",
+            "heading": "<strong>Can Happy Being help promote weight loss?</strong>",
+            "content": "<p>Yes. Polyphenols like the ones in Happy Being® white tea boost thermogenesis, the body's natural process of burning brown fat, and they help increase the body's metabolic rate.</p>",
             "page": ""
           }
         },
@@ -932,8 +944,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 3,
-            "heading": "<strong>Can I drink while pregnant?<\/strong>",
-            "content": "<p>Many pregnant women drink Happy Being® white tea, but always consult a physician if you have questions.  <\/p>",
+            "heading": "<strong>Can I drink while pregnant?</strong>",
+            "content": "<p>Many pregnant women drink Happy Being® white tea, but always consult a physician if you have questions.  </p>",
             "page": ""
           }
         },
@@ -941,8 +953,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 2,
-            "heading": "<strong>Can I cancel my subscription<\/strong>",
-            "content": "<p>Yes, you can cancel by emailing hi@happybeing.co or you can sign into your account portal and cancel anytime. <\/p>",
+            "heading": "<strong>Can I cancel my subscription</strong>",
+            "content": "<p>Yes, you can cancel by emailing hi@happybeing.co or you can sign into your account portal and cancel anytime. </p>",
             "page": ""
           }
         },
@@ -950,8 +962,8 @@
           "type": "collapsible_tab",
           "settings": {
             "tab_number": 1,
-            "heading": "<strong>Is it gluten free, dairy free, soy free, and nut free?<\/strong>",
-            "content": "<p>Yes, Happy Being® white teas are gluten free, dairy free, soy free, and nut free.<\/p>",
+            "heading": "<strong>Is it gluten free, dairy free, soy free, and nut free?</strong>",
+            "content": "<p>Yes, Happy Being® white teas are gluten free, dairy free, soy free, and nut free.</p>",
             "page": ""
           }
         }
